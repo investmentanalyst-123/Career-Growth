@@ -31,6 +31,42 @@
    "relaxed": true
   },
   {
+   "id": "pdmo_tbill",
+   "name": "PDMO — T-Bills",
+   "full_name": "Public Debt Management Office, Treasury Bill notices",
+   "category": "regulatory",
+   "priority": 1,
+   "url": "https://pdmo.gov.np/category/tbill-notice",
+   "rss": null,
+   "selector": null,
+   "relaxed": true,
+   "securities": true
+  },
+  {
+   "id": "pdmo_bonds",
+   "name": "PDMO — Bonds",
+   "full_name": "Public Debt Management Office, Development Bond notices",
+   "category": "regulatory",
+   "priority": 1,
+   "url": "https://pdmo.gov.np/category/db-notices",
+   "rss": null,
+   "selector": null,
+   "relaxed": true,
+   "securities": true
+  },
+  {
+   "id": "pdmo",
+   "name": "PDMO — Notices",
+   "full_name": "Public Debt Management Office, general notices",
+   "category": "regulatory",
+   "priority": 1,
+   "url": "https://pdmo.gov.np/category/notice-information-1",
+   "rss": null,
+   "selector": null,
+   "relaxed": true,
+   "securities": true
+  },
+  {
    "id": "ird",
    "name": "Inland Revenue Dept",
    "full_name": "आन्तरिक राजस्व विभाग / Inland Revenue Department",
@@ -315,7 +351,9 @@
    "priority": 1,
    "url": "https://news.ycombinator.com/",
    "rss": "https://news.ycombinator.com/rss",
-   "selector": null
+   "selector": null,
+   "allow_offsite": true,
+   "_note": "Aggregator - links point to other sites by design"
   },
   {
    "id": "techcrunch",
