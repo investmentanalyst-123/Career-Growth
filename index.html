@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Career Growth — morning briefing</title>
+<meta name="description" content="Daily regulatory, market and professional briefing for chartered accountants in Nepal.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Devanagari:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ---------------------------------------------------------- tokens */
+:root{
+  --ink:#10281E;        /* deep pine, used for text */
+  --pine:#1B4332;       /* primary institutional green */
+  --moss:#2D6A4F;       /* interactive green */
+  --fern:#40916C;       /* lighter green */
+  --sage:#B7E4C7;       /* pale green, badges */
+  --wash:#E8F1E9;       /* tinted surface */
+  --paper:#F6F9F5;      /* page background, green-tinted white */
+  --card:#FFFFFF;
+  --brass:#A47E1B;      /* accent - documents, key items */
+  --brass-pale:#F6EFDC;
+  --clay:#9B2226;       /* urgency only */
+  --clay-pale:#FBEDED;
+  --line:#DCE6DC;
+  --line-soft:#EDF3EC;
+  --muted:#5C6F63;
+  --muted-2:#84958A;
+
+  --sans:'IBM Plex Sans','IBM Plex Sans Devanagari',system-ui,sans-serif;
+  --serif:'Spectral',Georgia,serif;
+
+  --shadow:0 1px 2px rgba(16,40,30,.06), 0 8px 24px -12px rgba(16,40,30,.14);
+  --radius:10px;
+}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:var(--sans); font-size:15px; line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--moss); text-decoration:none}
+a:hover{text-decoration:underline}
+:focus-visible{outline:2.5px solid var(--fern); outline-offset:2px; border-radius:3px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ------------------------------------------------------- masthead */
+.masthead{
+  background:var(--pine); color:#fff;
+  background-image:linear-gradient(160deg,#1B4332 0%,#14362A 60%,#10281E 100%);
+  border-bottom:3px solid var(--brass);
+}
+.masthead-inner{
+  max-width:1240px; margin:0 auto; padding:26px 28px 24px;
+  display:flex; flex-wrap:wrap; gap:24px; align-items:flex-end;
+  justify-content:space-between;
+}
+.brand h1{
+  font-family:var(--serif); font-weight:600; font-size:34px;
+  letter-spacing:-.015em; margin:0; line-height:1.1;
+}
+.brand .tagline{
+  margin:5px 0 0; font-size:13.5px; color:#A7C7B2; font-weight:400;
+}
+.dateblock{text-align:right; font-size:13px; color:#BCD5C4; line-height:1.7}
+.dateblock .bs{
+  font-family:var(--sans); font-size:16px; color:#fff; font-weight:500;
+  display:block;
+}
+.dateblock .ad{display:block}
+
+/* the one animated moment: the morning count arriving */
+.headline-strip{
+  background:#0D2119; color:#D7E7DA;
+  border-bottom:1px solid rgba(255,255,255,.07);
+}
+.headline-inner{
+  max-width:1240px; margin:0 auto; padding:13px 28px;
+  display:flex; flex-wrap:wrap; gap:10px 22px; align-items:center;
+  font-size:14px;
+}
+.headline-inner strong{color:#fff; font-weight:600}
+.count-pop{
+  display:inline-block; animation:pop .55s cubic-bezier(.2,1.4,.4,1) both;
+}
+@keyframes pop{from{opacity:0;transform:translateY(6px) scale(.9)}to{opacity:1;transform:none}}
+.dot{width:5px;height:5px;border-radius:50%;background:#3E6B52;display:inline-block}
+
+/* ---------------------------------------------------------- shell */
+.shell{
+  max-width:1240px; margin:0 auto; padding:26px 28px 70px;
+  display:grid; grid-template-columns:252px 1fr; gap:30px; align-items:start;
+}
+
+/* ------------------------------------------------------- left rail */
+.rail{position:sticky; top:20px; display:flex; flex-direction:column; gap:16px; min-width:0}
+.shell > main{min-width:0}
+.panel{
+  background:var(--card); border:1px solid var(--line);
+  border-radius:var(--radius); padding:15px 16px; box-shadow:var(--shadow);
+}
+.panel h3{
+  font-family:var(--sans); font-size:11.5px; font-weight:600;
+  color:var(--muted); margin:0 0 11px; letter-spacing:.02em;
+}
+.stat-row{
+  display:flex; justify-content:space-between; align-items:baseline;
+  padding:6px 0; border-bottom:1px solid var(--line-soft); font-size:13px;
+}
+.stat-row:last-child{border-bottom:0}
+.stat-row .label{color:var(--muted)}
+.stat-row .value{font-weight:600; font-variant-numeric:tabular-nums}
+.health-bar{height:5px;background:var(--line-soft);border-radius:3px;overflow:hidden;margin-top:9px}
+.health-fill{height:100%;background:var(--fern);border-radius:3px;transition:width .6s ease}
+
+.src-list{max-height:210px; overflow-y:auto; margin:9px -4px 0; padding:0 4px}
+.src-item{
+  display:flex; align-items:center; gap:7px; padding:3.5px 0;
+  font-size:12.2px; color:var(--muted);
+}
+.src-item .pip{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+.pip.ok{background:var(--fern)} .pip.bad{background:#C9AFAF}
+.src-item .n{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.src-item .c{margin-left:auto;font-variant-numeric:tabular-nums;color:var(--muted-2);font-size:11.5px}
+
+/* deadlines */
+.dl{
+  display:flex; gap:10px; align-items:flex-start; padding:9px 0;
+  border-bottom:1px solid var(--line-soft);
+}
+.dl:last-child{border-bottom:0;padding-bottom:2px}
+.dl-days{
+  flex-shrink:0; width:42px; text-align:center; border-radius:6px;
+  padding:4px 0; background:var(--wash); color:var(--pine);
+}
+.dl-days b{display:block;font-size:16px;line-height:1;font-variant-numeric:tabular-nums}
+.dl-days span{font-size:9.5px;color:var(--muted)}
+.dl.soon .dl-days{background:var(--clay-pale);color:var(--clay)}
+.dl.soon .dl-days span{color:var(--clay)}
+.dl-text{font-size:12.6px;line-height:1.4}
+.dl-text .when{color:var(--muted-2);font-size:11.5px;display:block;margin-top:1px}
+
+/* ------------------------------------------------------------ tabs */
+.tabs{
+  display:flex; gap:2px; border-bottom:1.5px solid var(--line);
+  margin-bottom:18px; overflow-x:auto; scrollbar-width:none;
+}
+.tabs::-webkit-scrollbar{display:none}
+.tab{
+  appearance:none; background:none; border:0; cursor:pointer;
+  font-family:var(--sans); font-size:14px; font-weight:500; color:var(--muted);
+  padding:9px 14px; white-space:nowrap; border-bottom:2.5px solid transparent;
+  margin-bottom:-1.5px; border-radius:5px 5px 0 0;
+}
+.tab:hover{color:var(--pine); background:var(--line-soft)}
+.tab[aria-selected="true"]{color:var(--pine); font-weight:600; border-bottom-color:var(--pine)}
+.tab .tcount{
+  font-size:11px; color:var(--muted-2); margin-left:5px;
+  font-variant-numeric:tabular-nums;
+}
+.tab[aria-selected="true"] .tcount{color:var(--fern)}
+
+/* --------------------------------------------------------- toolbar */
+.toolbar{display:flex; flex-wrap:wrap; gap:9px; margin-bottom:16px; align-items:center}
+.search{
+  flex:1; min-width:190px; padding:8.5px 13px; font-family:var(--sans); font-size:14px;
+  border:1px solid var(--line); border-radius:7px; background:var(--card); color:var(--ink);
+}
+.search::placeholder{color:var(--muted-2)}
+.search:focus{border-color:var(--fern); outline:none; box-shadow:0 0 0 3px rgba(64,145,108,.13)}
+.chip{
+  appearance:none; cursor:pointer; font-family:var(--sans); font-size:12.5px;
+  padding:6.5px 12px; border-radius:20px; border:1px solid var(--line);
+  background:var(--card); color:var(--muted);
+}
+.chip:hover{border-color:var(--fern); color:var(--pine)}
+.chip.on{background:var(--pine); color:#fff; border-color:var(--pine)}
+
+/* ----------------------------------------------------------- items */
+.feed{display:flex; flex-direction:column; gap:0}
+.item{
+  background:var(--card); border:1px solid var(--line); border-left:3px solid var(--fern);
+  padding:13px 16px; margin-bottom:8px; border-radius:0 var(--radius) var(--radius) 0;
+  transition:border-color .12s ease;
+}
+.item:hover{border-color:var(--line); border-left-color:var(--pine)}
+.item.cat-regulatory{border-left-color:var(--pine)}
+.item.cat-market{border-left-color:var(--brass)}
+.item.cat-global{border-left-color:#5E7A8C}
+.item.cat-technology{border-left-color:var(--fern)}
+.item.read{opacity:.54}
+.item.read .item-title{font-weight:400}
+.item-title{
+  font-family:var(--serif); font-size:17px; font-weight:500; line-height:1.35;
+  margin:0 0 5px; letter-spacing:-.003em;
+}
+.item-title a{color:var(--ink)}
+.item-title a:hover{color:var(--moss)}
+.item-sum{font-size:13.3px; color:var(--muted); margin:0 0 7px; line-height:1.5}
+.item-meta{display:flex; flex-wrap:wrap; gap:7px; align-items:center; font-size:11.8px; color:var(--muted-2)}
+.src-tag{color:var(--moss); font-weight:600}
+.badge{
+  font-size:10.5px; font-weight:600; padding:2px 7px; border-radius:4px;
+  letter-spacing:.01em;
+}
+.badge.new{background:var(--sage); color:#14432C}
+.badge.key{background:var(--brass-pale); color:#7A5C09}
+.badge.doc{background:var(--wash); color:var(--pine)}
+.mark{
+  margin-left:auto; appearance:none; background:none; border:0; cursor:pointer;
+  font-family:var(--sans); font-size:11.5px; color:var(--muted-2); padding:2px 5px; border-radius:4px;
+}
+.mark:hover{color:var(--pine); background:var(--wash)}
+
+.empty{
+  background:var(--card); border:1px dashed var(--line); border-radius:var(--radius);
+  padding:36px 26px; text-align:center; color:var(--muted);
+}
+.empty h4{font-family:var(--serif); font-size:18px; color:var(--ink); margin:0 0 6px; font-weight:500}
+.empty p{margin:0; font-size:13.5px}
+
+.daybreak{
+  font-size:11.5px; font-weight:600; color:var(--muted); margin:16px 0 8px;
+  display:flex; align-items:center; gap:10px;
+}
+.daybreak:first-child{margin-top:0}
+.daybreak::after{content:""; flex:1; height:1px; background:var(--line)}
+
+/* ---------------------------------------------------------- skills */
+.skill-intro{
+  background:var(--card); border:1px solid var(--line); border-left:3px solid var(--brass);
+  border-radius:0 var(--radius) var(--radius) 0; padding:15px 18px; margin-bottom:18px;
+}
+.skill-intro p{margin:0; font-size:13.8px; color:var(--muted); line-height:1.6}
+.skill-group{margin-bottom:26px}
+.skill-group > h3{
+  font-family:var(--serif); font-size:20px; font-weight:600; color:var(--pine);
+  margin:0 0 3px; letter-spacing:-.01em;
+}
+.skill-group > p.gd{margin:0 0 13px; font-size:13px; color:var(--muted)}
+.skill-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(268px,1fr)); gap:12px}
+.skill{
+  background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+  padding:14px 15px; display:flex; flex-direction:column;
+}
+.skill-head{display:flex; align-items:flex-start; gap:9px; margin-bottom:4px}
+.skill h4{font-family:var(--sans); font-size:14.5px; font-weight:600; margin:0; flex:1}
+.why{font-size:12.4px; color:var(--muted); margin:0 0 11px; line-height:1.5}
+.res{display:flex; flex-direction:column; gap:1px; margin-bottom:11px}
+.res a{
+  display:flex; align-items:baseline; gap:7px; padding:5px 7px; margin:0 -7px;
+  border-radius:5px; font-size:12.8px; color:var(--ink); text-decoration:none;
+}
+.res a:hover{background:var(--wash); text-decoration:none}
+.res .rt{flex:1}
+.res .rk{
+  font-size:10px; font-weight:600; color:var(--muted-2); flex-shrink:0;
+  border:1px solid var(--line); padding:1px 5px; border-radius:3px;
+}
+.track{
+  margin-top:auto; padding-top:10px; border-top:1px solid var(--line-soft);
+  display:flex; gap:5px;
+}
+.tbtn{
+  appearance:none; cursor:pointer; font-family:var(--sans); font-size:11.5px;
+  padding:4.5px 10px; border-radius:5px; border:1px solid var(--line);
+  background:var(--card); color:var(--muted); flex:1;
+}
+.tbtn:hover{border-color:var(--fern); color:var(--pine)}
+.tbtn.on{background:var(--moss); color:#fff; border-color:var(--moss)}
+.skill.done{border-color:var(--fern); background:linear-gradient(0deg,#FAFDFA,#fff)}
+
+/* ---------------------------------------------------------- footer */
+.foot{
+  max-width:1240px; margin:0 auto; padding:22px 28px 40px;
+  border-top:1px solid var(--line); font-size:12.3px; color:var(--muted-2);
+  display:flex; flex-wrap:wrap; gap:8px 20px; justify-content:space-between;
+}
+
+/* -------------------------------------------------------- responsive */
+@media (max-width:940px){
+  .shell{grid-template-columns:1fr; gap:20px; padding:20px 18px 60px}
+  .rail{position:static; flex-direction:row; flex-wrap:wrap}
+  .rail .panel{flex:1; min-width:230px}
+  .masthead-inner{padding:20px 18px; gap:14px}
+  .headline-inner{padding:11px 18px}
+  .brand h1{font-size:28px}
+  .dateblock{text-align:left}
+  .foot{padding:20px 18px 34px}
+}
+@media (max-width:560px){
+  .rail{flex-direction:column}
+  .rail .panel{min-width:0; width:100%; flex:none}
+  .item-title{font-size:16px}
+  .skill-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="brand">
+      <h1>Career Growth</h1>
+      <p class="tagline">Regulatory, market and professional briefing — prepared each morning</p>
+    </div>
+    <div class="dateblock">
+      <span class="bs" id="dateNepali">—</span>
+      <span class="ad" id="dateEnglish">—</span>
+    </div>
+  </div>
+</header>
+
+<div class="headline-strip">
+  <div class="headline-inner" id="headline">
+    <span>Loading this morning's briefing…</span>
+  </div>
+</div>
+
+<div class="shell">
+
+  <!-- ------------------------------------------------ left rail -->
+  <aside class="rail">
+    <section class="panel">
+      <h3>This morning</h3>
+      <div class="stat-row"><span class="label">New items</span><span class="value" id="sNew">—</span></div>
+      <div class="stat-row"><span class="label">In archive</span><span class="value" id="sTotal">—</span></div>
+      <div class="stat-row"><span class="label">Sources responding</span><span class="value" id="sSrc">—</span></div>
+      <div class="health-bar"><div class="health-fill" id="healthFill" style="width:0%"></div></div>
+      <div class="src-list" id="srcList"></div>
+    </section>
+
+    <section class="panel">
+      <h3>Compliance calendar</h3>
+      <div id="deadlines"></div>
+    </section>
+  </aside>
+
+  <!-- ---------------------------------------------------- main -->
+  <main>
+    <div class="tabs" role="tablist" id="tabs"></div>
+
+    <div class="toolbar" id="toolbar">
+      <input class="search" id="search" type="search" placeholder="Search headlines, sources, keywords…" aria-label="Search">
+      <button class="chip" id="chipKey" aria-pressed="false">Key items only</button>
+      <button class="chip" id="chipNew" aria-pressed="false">New today</button>
+      <button class="chip" id="chipUnread" aria-pressed="false">Unread</button>
+    </div>
+
+    <div id="panelFeed" class="feed"></div>
+    <div id="panelSkills" hidden></div>
+  </main>
+</div>
+
+<footer class="foot">
+  <span id="footStamp">—</span>
+  <span>Career Growth · built for daily professional reading · sources listed in sources.json</span>
+</footer>
+
+<script>
+/* =====================================================================
+   Career Growth — front end
+   Reads data/news.json, renders the briefing, remembers what you've read.
+   ===================================================================== */
+
+const state = {
+  data: null,
+  tab: 'today',
+  search: '',
+  keyOnly: false,
+  newOnly: false,
+  unreadOnly: false,
+  read: new Set(),
+  skills: {}
+};
+
+/* ---------- storage (silently degrades if unavailable) ---------- */
+function store(key, val){
+  try{ localStorage.setItem('cg_'+key, JSON.stringify(val)); }catch(e){}
+}
+function recall(key, fallback){
+  try{
+    const v = localStorage.getItem('cg_'+key);
+    return v === null ? fallback : JSON.parse(v);
+  }catch(e){ return fallback; }
+}
+
+/* ---------------------- Nepali (Bikram Sambat) date ----------------------
+   Anchor: 1 Baisakh 2076 BS = 14 April 2019 AD.
+   Table covers 2076-2090 BS. If the displayed date is ever off by a day,
+   the fix is in this table - see README.
+-------------------------------------------------------------------------- */
+const BS_MONTHS = {
+  2076:[31,32,31,32,31,31,30,29,30,29,30,30], 2077:[31,31,32,31,31,31,30,29,30,29,30,30],
+  2078:[31,31,32,31,31,31,30,29,30,29,30,30], 2079:[31,32,31,32,31,30,30,30,29,29,30,30],
+  2080:[31,32,31,32,31,30,30,30,29,29,30,30], 2081:[31,31,32,32,31,30,30,30,29,30,29,31],
+  2082:[30,32,31,32,31,30,30,30,29,30,29,31], 2083:[31,31,32,31,31,30,30,30,29,30,29,31],
+  2084:[31,31,32,31,31,30,30,30,29,30,29,31], 2085:[31,32,31,32,30,31,30,30,29,30,29,31],
+  2086:[30,32,31,32,31,30,30,30,29,30,29,31], 2087:[31,31,32,31,31,31,30,30,29,30,29,31],
+  2088:[30,31,32,32,30,31,30,30,29,30,29,31], 2089:[30,32,31,32,31,30,30,30,29,30,29,31],
+  2090:[30,32,31,32,31,30,30,30,29,30,29,31]
+};
+const BS_MONTH_NAMES = ['बैशाख','जेठ','असार','श्रावण','भदौ','असोज','कार्तिक','मंसिर','पुष','माघ','फाल्गुन','चैत'];
+
+function toBS(date){
+  const anchor = Date.UTC(2019, 3, 14);           // 1 Baisakh 2076
+  const target = Date.UTC(date.getFullYear(), date.getMonth(), date.getDate());
+  let days = Math.floor((target - anchor) / 86400000);
+  if (days < 0) return null;
+  let y = 2076, m = 0;
+  while (true){
+    const table = BS_MONTHS[y];
+    if (!table) return null;
+    const inMonth = table[m];
+    if (days < inMonth) return { y, m, d: days + 1 };
+    days -= inMonth;
+    m++;
+    if (m > 11){ m = 0; y++; }
+  }
+}
+
+function renderDates(){
+  const now = new Date();
+  document.getElementById('dateEnglish').textContent =
+    now.toLocaleDateString('en-GB', { weekday:'long', day:'numeric', month:'long', year:'numeric' });
+  const bs = toBS(now);
+  document.getElementById('dateNepali').textContent =
+    bs ? `${BS_MONTH_NAMES[bs.m]} ${bs.d}, ${bs.y}` : '—';
+}
+
+/* --------------------------- compliance calendar ---------------------------
+   EDIT THIS LIST. Dates are Gregorian so they are never ambiguous.
+   Add your own recurring filings, board dates and audit milestones.
+   'monthly' repeats on that day every month.
+---------------------------------------------------------------------------- */
+const DEADLINES = [
+  { label:'VAT return filing',            note:'for the previous Nepali month', monthly:10 },
+  { label:'TDS deposit and e-TDS filing', note:'for the previous Nepali month', monthly:10 },
+  { label:'Income tax — first instalment', date:'2027-01-13', note:'Poush end' },
+  { label:'Income tax return filing',      date:'2026-10-17', note:'Ashwin end' }
+];
+
+function nextOccurrence(item){
+  const today = new Date(); today.setHours(0,0,0,0);
+  if (item.date){
+    const d = new Date(item.date + 'T00:00:00');
+    return isNaN(d) ? null : d;
+  }
+  if (item.monthly){
+    let d = new Date(today.getFullYear(), today.getMonth(), item.monthly);
+    if (d < today) d = new Date(today.getFullYear(), today.getMonth() + 1, item.monthly);
+    return d;
+  }
+  return null;
+}
+
+function renderDeadlines(){
+  const today = new Date(); today.setHours(0,0,0,0);
+  const rows = DEADLINES.map(item => {
+    const when = nextOccurrence(item);
+    if (!when) return null;
+    const days = Math.round((when - today) / 86400000);
+    return days < 0 ? null : { ...item, when, days };
+  }).filter(Boolean).sort((a,b) => a.days - b.days).slice(0,4);
+
+  const box = document.getElementById('deadlines');
+  if (!rows.length){
+    box.innerHTML = '<p style="font-size:12.5px;color:var(--muted-2);margin:0">'
+      + 'No dates set. Add yours in the DEADLINES list inside index.html.</p>';
+    return;
+  }
+  box.innerHTML = rows.map(r => `
+    <div class="dl ${r.days <= 7 ? 'soon' : ''}">
+      <div class="dl-days">
+        <b>${r.days === 0 ? '·' : r.days}</b>
+        <span>${r.days === 0 ? 'today' : r.days === 1 ? 'day' : 'days'}</span>
+      </div>
+      <div class="dl-text">
+        ${esc(r.label)}
+        <span class="when">${r.when.toLocaleDateString('en-GB',{day:'numeric',month:'short'})}${r.note ? ' · ' + esc(r.note) : ''}</span>
+      </div>
+    </div>`).join('');
+}
+
+/* --------------------------------- helpers -------------------------------- */
+function esc(s){
+  return String(s == null ? '' : s).replace(/[&<>"']/g, c => (
+    {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]
+  ));
+}
+function relDay(iso){
+  if (!iso) return '';
+  const d = new Date(iso + 'T00:00:00');
+  const today = new Date(); today.setHours(0,0,0,0);
+  const diff = Math.round((today - d) / 86400000);
+  if (diff <= 0) return 'Today';
+  if (diff === 1) return 'Yesterday';
+  if (diff < 7) return diff + ' days ago';
+  return d.toLocaleDateString('en-GB', { day:'numeric', month:'short' });
+}
+
+/* ------------------------------- tab config -------------------------------- */
+const TABS = [
+  { id:'today',      label:'Today' },
+  { id:'regulatory', label:'Regulatory' },
+  { id:'market',     label:'Markets' },
+  { id:'global',     label:'Global' },
+  { id:'technology', label:'Technology' },
+  { id:'skills',     label:'Skills' }
+];
+
+function itemsFor(tabId){
+  if (!state.data) return [];
+  const all = state.data.items || [];
+  if (tabId === 'today')  return all.filter(i => i.is_new);
+  return all.filter(i => i.category === tabId);
+}
+
+function renderTabs(){
+  document.getElementById('tabs').innerHTML = TABS.map(t => {
+    const n = t.id === 'skills' ? null : itemsFor(t.id).length;
+    return `<button class="tab" role="tab" data-tab="${t.id}"
+              aria-selected="${state.tab === t.id}">${t.label}${
+              n !== null ? `<span class="tcount">${n}</span>` : ''}</button>`;
+  }).join('');
+  document.querySelectorAll('.tab').forEach(b => {
+    b.onclick = () => { state.tab = b.dataset.tab; store('tab', state.tab); render(); };
+  });
+}
+
+/* -------------------------------- feed render ------------------------------ */
+function renderFeed(){
+  const feed = document.getElementById('panelFeed');
+  let items = itemsFor(state.tab);
+
+  if (state.keyOnly)    items = items.filter(i => i.priority);
+  if (state.newOnly)    items = items.filter(i => i.is_new);
+  if (state.unreadOnly) items = items.filter(i => !state.read.has(i.id));
+  if (state.search){
+    const q = state.search.toLowerCase();
+    items = items.filter(i =>
+      (i.title || '').toLowerCase().includes(q) ||
+      (i.summary || '').toLowerCase().includes(q) ||
+      (i.source_name || '').toLowerCase().includes(q));
+  }
+
+  if (!items.length){
+    feed.innerHTML = emptyMessage();
+    return;
+  }
+
+  // Group by the day the item first appeared.
+  const groups = {};
+  items.forEach(i => {
+    const k = i.first_seen || 'earlier';
+    (groups[k] = groups[k] || []).push(i);
+  });
+
+  feed.innerHTML = Object.keys(groups).sort().reverse().map(day => `
+    <div class="daybreak">${relDay(day)}</div>
+    ${groups[day].map(itemHTML).join('')}
+  `).join('');
+
+  feed.querySelectorAll('.mark').forEach(btn => {
+    btn.onclick = () => {
+      const id = btn.dataset.id;
+      state.read.has(id) ? state.read.delete(id) : state.read.add(id);
+      store('read', [...state.read]);
+      renderFeed();
+    };
+  });
+}
+
+function itemHTML(i){
+  const isRead = state.read.has(i.id);
+  return `
+  <article class="item cat-${esc(i.category)} ${isRead ? 'read' : ''}">
+    <h3 class="item-title">
+      <a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>
+    </h3>
+    ${i.summary ? `<p class="item-sum">${esc(i.summary.slice(0,190))}${i.summary.length > 190 ? '…' : ''}</p>` : ''}
+    <div class="item-meta">
+      <span class="src-tag">${esc(i.source_name)}</span>
+      ${i.is_new ? '<span class="badge new">New</span>' : ''}
+      ${i.priority ? '<span class="badge key">Key</span>' : ''}
+      ${i.is_document ? '<span class="badge doc">Document</span>' : ''}
+      <button class="mark" data-id="${esc(i.id)}">${isRead ? 'Mark unread' : 'Mark read'}</button>
+    </div>
+  </article>`;
+}
+
+function emptyMessage(){
+  if (state.search || state.keyOnly || state.newOnly || state.unreadOnly){
+    return `<div class="empty"><h4>Nothing matches those filters</h4>
+      <p>Clear the search box or switch the filters off to see everything in this tab.</p></div>`;
+  }
+  if (state.tab === 'today'){
+    return `<div class="empty"><h4>Nothing new since yesterday</h4>
+      <p>Quiet morning. Open the other tabs to read back through the archive.</p></div>`;
+  }
+  return `<div class="empty"><h4>No items collected yet</h4>
+    <p>The collector runs every morning at 5:30. If this stays empty,
+       open the Actions tab in your repository to see what the last run reported.</p></div>`;
+}
+
+/* ---------------------------------- skills --------------------------------- */
+function renderSkills(){
+  const box = document.getElementById('panelSkills');
+  box.innerHTML = `
+    <div class="skill-intro">
+      <p>Chosen for a senior finance role rather than for a beginner: the analytics
+      stack that lets you interrogate data yourself, the ledger systems you will be
+      asked to sign off on, and the softer skills that decide whether your analysis
+      actually changes anything in the room. Mark what you start so you can see
+      progress across months.</p>
+    </div>
+    ${SKILLS.map(groupHTML).join('')}`;
+
+  box.querySelectorAll('.tbtn').forEach(btn => {
+    btn.onclick = () => {
+      const { skill, val } = btn.dataset;
+      state.skills[skill] = state.skills[skill] === val ? null : val;
+      store('skills', state.skills);
+      renderSkills();
+    };
+  });
+}
+
+function groupHTML(g){
+  return `
+  <section class="skill-group">
+    <h3>${esc(g.group)}</h3>
+    <p class="gd">${esc(g.note)}</p>
+    <div class="skill-grid">
+      ${g.items.map(s => {
+        const st = state.skills[s.name];
+        return `
+        <div class="skill ${st === 'done' ? 'done' : ''}">
+          <div class="skill-head"><h4>${esc(s.name)}</h4></div>
+          <p class="why">${esc(s.why)}</p>
+          <div class="res">
+            ${s.links.map(l => `
+              <a href="${esc(l.url)}" target="_blank" rel="noopener">
+                <span class="rt">${esc(l.title)}</span>
+                <span class="rk">${esc(l.kind)}</span>
+              </a>`).join('')}
+          </div>
+          <div class="track">
+            <button class="tbtn ${st === 'doing' ? 'on' : ''}" data-skill="${esc(s.name)}" data-val="doing">Learning</button>
+            <button class="tbtn ${st === 'done'  ? 'on' : ''}" data-skill="${esc(s.name)}" data-val="done">Done</button>
+          </div>
+        </div>`;
+      }).join('')}
+    </div>
+  </section>`;
+}
+
+/* --------------------------------- rail ----------------------------------- */
+function renderRail(){
+  const d = state.data;
+  if (!d) return;
+  document.getElementById('sNew').textContent   = d.new_today ?? 0;
+  document.getElementById('sTotal').textContent = d.total_items ?? 0;
+  document.getElementById('sSrc').textContent   = `${d.sources_working ?? 0} / ${d.sources_total ?? 0}`;
+
+  const pct = d.sources_total ? Math.round(100 * d.sources_working / d.sources_total) : 0;
+  document.getElementById('healthFill').style.width = pct + '%';
+
+  const hasSources = (d.sources || []).length > 0;
+  document.querySelector('.health-bar').hidden = !hasSources;
+  if (!hasSources){ document.getElementById('srcList').innerHTML = ''; return; }
+
+  document.getElementById('srcList').innerHTML = (d.sources || [])
+    .slice().sort((a,b) => (b.count || 0) - (a.count || 0))
+    .map(s => `
+      <div class="src-item" title="${esc(s.error || s.method || '')}">
+        <span class="pip ${s.ok ? 'ok' : 'bad'}"></span>
+        <span class="n">${esc(s.name)}</span>
+        <span class="c">${s.ok ? s.count : '—'}</span>
+      </div>`).join('');
+}
+
+function renderHeadline(){
+  const d = state.data;
+  const el = document.getElementById('headline');
+  if (!d){
+    el.innerHTML = `<span>No briefing file found yet. The first collection run will create it.</span>`;
+    return;
+  }
+  if (d.is_sample){
+    el.innerHTML = `<span><strong>Sample data.</strong> Go to the Actions tab in your
+      repository and run "Morning update" once — these placeholders are replaced
+      with live headlines in about two minutes.</span>`;
+    document.getElementById('footStamp').textContent = 'Awaiting first collection run';
+    return;
+  }
+
+  const n = d.new_today ?? 0;
+  const keyCount = (d.items || []).filter(i => i.is_new && i.priority).length;
+  const stamp = d.generated_at
+    ? new Date(d.generated_at).toLocaleString('en-GB',
+        { day:'numeric', month:'short', hour:'2-digit', minute:'2-digit' })
+    : 'unknown';
+
+  el.innerHTML = `
+    <span class="count-pop"><strong>${n}</strong> new ${n === 1 ? 'item' : 'items'} since yesterday</span>
+    <span class="dot"></span>
+    <span><strong>${keyCount}</strong> flagged as key</span>
+    <span class="dot"></span>
+    <span>${d.sources_working} of ${d.sources_total} sources responded</span>
+    <span class="dot"></span>
+    <span>collected ${stamp}</span>`;
+
+  document.getElementById('footStamp').textContent =
+    `Last collection: ${stamp} · archive holds ${d.total_items} items`;
+}
+
+/* --------------------------------- render --------------------------------- */
+function render(){
+  renderTabs();
+  const skills = state.tab === 'skills';
+  document.getElementById('panelFeed').hidden   = skills;
+  document.getElementById('panelSkills').hidden = !skills;
+  document.getElementById('toolbar').style.display = skills ? 'none' : 'flex';
+  skills ? renderSkills() : renderFeed();
+}
+
+/* ---------------------------------- boot ----------------------------------- */
+async function boot(){
+  renderDates();
+  renderDeadlines();
+
+  state.read   = new Set(recall('read', []));
+  state.skills = recall('skills', {});
+  state.tab    = recall('tab', 'today');
+  if (!TABS.some(t => t.id === state.tab)) state.tab = 'today';
+
+  try{
+    const res = await fetch('data/news.json?t=' + Date.now());
+    if (res.ok) state.data = await res.json();
+  }catch(e){
+    console.warn('Could not load data/news.json', e);
+  }
+
+  renderHeadline();
+  renderRail();
+  render();
+
+  const search = document.getElementById('search');
+  let timer;
+  search.oninput = () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => { state.search = search.value.trim(); renderFeed(); }, 160);
+  };
+  [['chipKey','keyOnly'], ['chipNew','newOnly'], ['chipUnread','unreadOnly']]
+    .forEach(([id, key]) => {
+      const btn = document.getElementById(id);
+      btn.onclick = () => {
+        state[key] = !state[key];
+        btn.classList.toggle('on', state[key]);
+        btn.setAttribute('aria-pressed', state[key]);
+        renderFeed();
+      };
+    });
+}
+</script>
+<script src="skills.js"></script>
+<script>boot();</script>
+</body>
+</html>

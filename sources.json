@@ -1,0 +1,336 @@
+{
+  "_comment": "Edit this file to add, remove or fix sources. 'url' is the page to scrape. 'rss' is optional - if you know the exact feed URL put it here and it will be used directly. If 'rss' is null the scraper will try to auto-discover a feed, then fall back to reading article links off the page. 'selector' is an optional CSS selector to narrow HTML scraping to the right part of the page.",
+
+  "categories": {
+    "regulatory": { "label": "Regulatory", "note": "Nepali regulators and standard setters" },
+    "market":     { "label": "Markets & Business", "note": "Nepali financial press and exchange data" },
+    "global":     { "label": "Global", "note": "Multilateral institutions" },
+    "technology": { "label": "Technology", "note": "Tech and productivity" }
+  },
+
+  "sources": [
+    {
+      "id": "ican",
+      "name": "ICAN",
+      "full_name": "Institute of Chartered Accountants of Nepal",
+      "category": "regulatory",
+      "priority": 1,
+      "url": "https://ican.org.np/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "ird",
+      "name": "Inland Revenue Dept",
+      "full_name": "आन्तरिक राजस्व विभाग / Inland Revenue Department",
+      "category": "regulatory",
+      "priority": 1,
+      "url": "https://ird.gov.np/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "nrb",
+      "name": "Nepal Rastra Bank",
+      "full_name": "Nepal Rastra Bank - Central Bank of Nepal",
+      "category": "regulatory",
+      "priority": 1,
+      "url": "https://www.nrb.org.np/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "sebon",
+      "name": "SEBON",
+      "full_name": "Securities Board of Nepal",
+      "category": "regulatory",
+      "priority": 1,
+      "url": "https://www.sebon.gov.np/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "asb",
+      "name": "ASB Nepal",
+      "full_name": "Accounting Standards Board Nepal",
+      "category": "regulatory",
+      "priority": 1,
+      "url": "https://asbnepal.org.np/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "ocr",
+      "name": "Company Registrar",
+      "full_name": "Office of the Company Registrar",
+      "category": "regulatory",
+      "priority": 2,
+      "url": "https://www.ocr.gov.np/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "nia",
+      "name": "Nepal Insurance Authority",
+      "full_name": "Nepal Insurance Authority",
+      "category": "regulatory",
+      "priority": 2,
+      "url": "https://nia.gov.np/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "parliament",
+      "name": "Federal Parliament",
+      "full_name": "संघीय संसद, नेपाल / Federal Parliament of Nepal",
+      "category": "regulatory",
+      "priority": 2,
+      "url": "https://www.parliament.gov.np/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "ncdb",
+      "name": "Cooperative Board",
+      "full_name": "National Cooperative Development Board",
+      "category": "regulatory",
+      "priority": 3,
+      "url": "https://ncdb.gov.np/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "doed",
+      "name": "DoED",
+      "full_name": "Department of Electricity Development",
+      "category": "regulatory",
+      "priority": 3,
+      "url": "https://www.doed.gov.np/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "ippan",
+      "name": "IPPAN",
+      "full_name": "Independent Power Producers' Association, Nepal",
+      "category": "regulatory",
+      "priority": 3,
+      "url": "https://ippan.org.np/",
+      "rss": null,
+      "selector": null
+    },
+
+    {
+      "id": "nepse",
+      "name": "NEPSE",
+      "full_name": "Nepal Stock Exchange",
+      "category": "market",
+      "priority": 1,
+      "url": "https://www.nepalstock.com/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "sharesansar",
+      "name": "ShareSansar",
+      "full_name": "ShareSansar - Nepali financial portal",
+      "category": "market",
+      "priority": 1,
+      "url": "https://www.sharesansar.com/category/latest",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "merolagani",
+      "name": "Merolagani",
+      "full_name": "Merolagani - NEPSE news and analysis",
+      "category": "market",
+      "priority": 1,
+      "url": "https://merolagani.com/NewsList.aspx",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "casarokar",
+      "name": "CA Sarokar",
+      "full_name": "CA Sarokar - news portal for the accounting profession",
+      "category": "market",
+      "priority": 1,
+      "url": "https://casarokar.com/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "arthasarokar",
+      "name": "Artha Sarokar",
+      "full_name": "Artha Sarokar - economic news portal",
+      "category": "market",
+      "priority": 1,
+      "url": "https://arthasarokar.com/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "bizmandu",
+      "name": "Bizmandu",
+      "full_name": "Bizmandu - business news",
+      "category": "market",
+      "priority": 1,
+      "url": "https://bizmandu.com/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "clickmandu",
+      "name": "Clickmandu",
+      "full_name": "Clickmandu - business and economy",
+      "category": "market",
+      "priority": 2,
+      "url": "https://clickmandu.com/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "bankingkhabar",
+      "name": "Banking Khabar",
+      "full_name": "Banking Khabar - banking sector news",
+      "category": "market",
+      "priority": 2,
+      "url": "https://bankingkhabar.com/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "insurancekhabar",
+      "name": "Insurance Khabar",
+      "full_name": "Insurance Khabar - insurance sector news",
+      "category": "market",
+      "priority": 2,
+      "url": "https://insurancekhabar.com/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "nepalipaisa",
+      "name": "Nepali Paisa",
+      "full_name": "Nepali Paisa - market data and news",
+      "category": "market",
+      "priority": 2,
+      "url": "https://www.nepalipaisa.com/",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "onlinekhabar",
+      "name": "Online Khabar",
+      "full_name": "Online Khabar - business section",
+      "category": "market",
+      "priority": 2,
+      "url": "https://www.onlinekhabar.com/content/business",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "ratopati",
+      "name": "Ratopati",
+      "full_name": "Ratopati - economy section",
+      "category": "market",
+      "priority": 3,
+      "url": "https://www.ratopati.com/category/economy",
+      "rss": null,
+      "selector": null
+    },
+    {
+      "id": "setopati",
+      "name": "Setopati",
+      "full_name": "Setopati - economy section",
+      "category": "market",
+      "priority": 3,
+      "url": "https://www.setopati.com/banking",
+      "rss": null,
+      "selector": null
+    },
+
+    {
+      "id": "adb",
+      "name": "Asian Development Bank",
+      "full_name": "ADB - news and press releases",
+      "category": "global",
+      "priority": 1,
+      "url": "https://www.adb.org/news",
+      "rss": "https://www.adb.org/news/rss.xml",
+      "selector": null
+    },
+    {
+      "id": "imf",
+      "name": "IMF",
+      "full_name": "International Monetary Fund",
+      "category": "global",
+      "priority": 1,
+      "url": "https://www.imf.org/en/News",
+      "rss": "https://www.imf.org/en/News/RSS?Language=ENG",
+      "selector": null
+    },
+    {
+      "id": "worldbank",
+      "name": "World Bank",
+      "full_name": "World Bank Group",
+      "category": "global",
+      "priority": 2,
+      "url": "https://www.worldbank.org/en/news/all",
+      "rss": "https://www.worldbank.org/en/news/all/rss",
+      "selector": null
+    },
+
+    {
+      "id": "hackernews",
+      "name": "Hacker News",
+      "full_name": "Hacker News - front page",
+      "category": "technology",
+      "priority": 1,
+      "url": "https://news.ycombinator.com/",
+      "rss": "https://news.ycombinator.com/rss",
+      "selector": null
+    },
+    {
+      "id": "techcrunch",
+      "name": "TechCrunch",
+      "full_name": "TechCrunch",
+      "category": "technology",
+      "priority": 1,
+      "url": "https://techcrunch.com/",
+      "rss": "https://techcrunch.com/feed/",
+      "selector": null
+    },
+    {
+      "id": "arstechnica",
+      "name": "Ars Technica",
+      "full_name": "Ars Technica",
+      "category": "technology",
+      "priority": 2,
+      "url": "https://arstechnica.com/",
+      "rss": "https://feeds.arstechnica.com/arstechnica/index",
+      "selector": null
+    },
+    {
+      "id": "theverge",
+      "name": "The Verge",
+      "full_name": "The Verge",
+      "category": "technology",
+      "priority": 2,
+      "url": "https://www.theverge.com/",
+      "rss": "https://www.theverge.com/rss/index.xml",
+      "selector": null
+    },
+    {
+      "id": "mittech",
+      "name": "MIT Technology Review",
+      "full_name": "MIT Technology Review",
+      "category": "technology",
+      "priority": 2,
+      "url": "https://www.technologyreview.com/",
+      "rss": "https://www.technologyreview.com/feed/",
+      "selector": null
+    }
+  ]
+}
