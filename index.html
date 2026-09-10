@@ -90,6 +90,214 @@ a:hover{text-decoration:underline}
 @keyframes pop{from{opacity:0;transform:translateY(6px) scale(.9)}to{opacity:1;transform:none}}
 .dot{width:5px;height:5px;border-radius:50%;background:#3E6B52;display:inline-block}
 
+/* ------------------------------------------------- brand glow ---- */
+.brand h1{position:relative; display:inline-block}
+.brand h1 .glow-text{
+  background:linear-gradient(100deg,
+    #FFFFFF 0%, #FFFFFF 32%, #F2E3B3 44%, #E8C86A 50%,
+    #F2E3B3 56%, #FFFFFF 68%, #FFFFFF 100%);
+  background-size:280% 100%;
+  -webkit-background-clip:text; background-clip:text;
+  -webkit-text-fill-color:transparent; color:transparent;
+  animation:sheen 7s ease-in-out infinite;
+}
+@keyframes sheen{
+  0%,12%{background-position:120% 0}
+  55%,100%{background-position:-40% 0}
+}
+.brand h1::after{
+  content:""; position:absolute; left:0; right:0; bottom:-5px; height:2px;
+  background:linear-gradient(90deg,transparent,var(--brass),transparent);
+  opacity:.65; animation:underpulse 7s ease-in-out infinite;
+}
+@keyframes underpulse{
+  0%,12%{transform:scaleX(.25); opacity:.25}
+  55%{transform:scaleX(1); opacity:.8}
+  100%{transform:scaleX(.25); opacity:.25}
+}
+@media (prefers-reduced-motion:reduce){
+  .brand h1 .glow-text{animation:none; -webkit-text-fill-color:#fff; color:#fff}
+  .brand h1::after{animation:none; opacity:.5}
+}
+
+/* ------------------------------------------- header date + tools -- */
+.dateblock{display:flex; flex-direction:column; align-items:flex-end; gap:7px}
+.datelink{
+  display:block; text-align:right; text-decoration:none; color:inherit;
+  padding:5px 9px; margin:-5px -9px; border-radius:7px;
+  border:1px solid transparent;
+}
+.datelink:hover{
+  text-decoration:none; background:rgba(255,255,255,.07);
+  border-color:rgba(255,255,255,.16);
+}
+.datelink .hint{
+  display:block; font-size:10.5px; color:#7FA38C; margin-top:2px;
+  opacity:0; transition:opacity .15s;
+}
+.datelink:hover .hint{opacity:1}
+.conv-btn{
+  appearance:none; cursor:pointer; font-family:var(--sans); font-size:11.5px;
+  padding:5px 12px; border-radius:16px; color:#CFE3D5;
+  background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.18);
+}
+.conv-btn:hover{background:rgba(255,255,255,.14); color:#fff}
+
+/* modal */
+.modal-back{
+  position:fixed; inset:0; background:rgba(10,26,20,.55); z-index:60;
+  display:flex; align-items:center; justify-content:center; padding:20px;
+  backdrop-filter:blur(2px);
+}
+.modal-back[hidden]{display:none}
+.modal{
+  background:var(--card); border-radius:12px; width:100%; max-width:410px;
+  box-shadow:0 24px 60px -18px rgba(10,30,20,.5); overflow:hidden;
+}
+.modal-head{
+  display:flex; align-items:center; padding:14px 18px;
+  border-bottom:1px solid var(--line);
+}
+.modal-head h3{font-family:var(--serif); font-size:18px; margin:0; font-weight:600; flex:1}
+.modal-head button{
+  appearance:none; background:none; border:0; cursor:pointer; font-size:20px;
+  color:var(--muted-2); line-height:1; padding:2px 6px; border-radius:5px;
+}
+.modal-head button:hover{background:var(--wash); color:var(--ink)}
+.modal-body{padding:16px 18px 18px}
+.conv-toggle{display:flex; gap:5px; margin-bottom:14px}
+.conv-toggle button{
+  flex:1; appearance:none; cursor:pointer; font-family:var(--sans); font-size:12.5px;
+  padding:7px; border-radius:6px; border:1px solid var(--line);
+  background:var(--card); color:var(--muted);
+}
+.conv-toggle button.on{background:var(--pine); color:#fff; border-color:var(--pine)}
+.conv-row{display:flex; gap:8px; margin-bottom:13px}
+.conv-row input, .conv-row select{
+  flex:1; min-width:0; padding:8px 10px; font-family:var(--sans); font-size:14px;
+  border:1px solid var(--line); border-radius:6px; background:var(--card); color:var(--ink);
+}
+.conv-row input:focus, .conv-row select:focus{
+  border-color:var(--fern); outline:none; box-shadow:0 0 0 3px rgba(64,145,108,.13);
+}
+.conv-out{
+  background:var(--wash); border-radius:8px; padding:14px; text-align:center;
+  border-left:3px solid var(--pine);
+}
+.conv-out .big{font-family:var(--serif); font-size:23px; font-weight:600; color:var(--pine); line-height:1.2}
+.conv-out .sub{font-size:12.5px; color:var(--muted); margin-top:4px}
+.conv-out.bad{border-left-color:var(--clay); background:var(--clay-pale)}
+.conv-out.bad .big{font-size:14px; color:var(--clay); font-family:var(--sans); font-weight:500}
+
+/* ------------------------------------------ securities calendar -- */
+.sec{
+  display:flex; gap:9px; align-items:flex-start; padding:9px 0;
+  border-bottom:1px solid var(--line-soft); text-decoration:none; color:inherit;
+}
+.sec:last-child{border-bottom:0; padding-bottom:2px}
+.sec:hover{text-decoration:none}
+.sec:hover .sec-name{color:var(--moss)}
+.sec-days{
+  flex-shrink:0; width:42px; text-align:center; border-radius:6px; padding:4px 0;
+  background:var(--wash); color:var(--pine);
+}
+.sec-days b{display:block; font-size:15px; line-height:1; font-variant-numeric:tabular-nums}
+.sec-days span{font-size:9.5px; color:var(--muted)}
+.sec.soon .sec-days{background:var(--brass-pale); color:#7A5C09}
+.sec.soon .sec-days span{color:#7A5C09}
+.sec.past .sec-days{background:var(--line-soft); color:var(--muted-2)}
+.sec.past{opacity:.62}
+.sec-body{min-width:0; flex:1}
+.sec-name{font-size:12.8px; font-weight:600; line-height:1.3}
+.sec-meta{font-size:11.3px; color:var(--muted-2); margin-top:2px; line-height:1.4}
+.sec-tag{
+  display:inline-block; font-size:9.5px; font-weight:600; padding:1px 5px;
+  border-radius:3px; margin-right:5px; vertical-align:1px;
+}
+.sec-tag.tb{background:var(--wash); color:var(--pine)}
+.sec-tag.db{background:var(--brass-pale); color:#7A5C09}
+
+/* ------------------------------------------------------- about --- */
+.about-card{
+  background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+  overflow:hidden; margin-bottom:16px;
+}
+.about-top{
+  background:linear-gradient(150deg,#1B4332,#10281E); color:#fff; padding:26px 26px 22px;
+}
+.about-top h2{font-family:var(--serif); font-size:28px; margin:0 0 4px; font-weight:600}
+.about-top .role{font-size:14px; color:#A7C7B2}
+.about-body{padding:20px 26px 24px}
+.about-body h4{
+  font-family:var(--sans); font-size:11.5px; font-weight:600; color:var(--muted);
+  letter-spacing:.03em; margin:0 0 9px;
+}
+.svc{display:flex; flex-wrap:wrap; gap:7px; margin-bottom:20px}
+.svc span{
+  font-size:12.5px; padding:5px 12px; border-radius:16px;
+  background:var(--wash); color:var(--pine); border:1px solid var(--line);
+}
+.about-links{display:flex; flex-wrap:wrap; gap:9px}
+.about-links a{
+  display:inline-flex; align-items:center; gap:7px; font-size:13px; font-weight:500;
+  padding:9px 16px; border-radius:7px; text-decoration:none;
+  border:1px solid var(--line); color:var(--pine); background:var(--card);
+}
+.about-links a:hover{background:var(--pine); color:#fff; border-color:var(--pine); text-decoration:none}
+.about-links a.primary{background:var(--pine); color:#fff; border-color:var(--pine)}
+.about-links a.primary:hover{background:var(--ink)}
+.about-note{
+  margin-top:20px; padding-top:16px; border-top:1px solid var(--line-soft);
+  font-size:12.5px; color:var(--muted); line-height:1.6;
+}
+
+@media (max-width:560px){
+  .about-top{padding:20px} .about-body{padding:16px 20px 20px}
+  .about-top h2{font-size:23px}
+  .masthead-inner{flex-direction:column; align-items:flex-start}
+  .dateblock{align-items:flex-start}
+  .datelink{text-align:left}
+}
+
+/* --------------------------------------------------------- ticker */
+.ticker-wrap{
+  display:flex; align-items:stretch; background:var(--card);
+  border-bottom:1px solid var(--line); overflow:hidden;
+}
+.ticker-label{
+  flex-shrink:0; display:flex; align-items:center; padding:0 14px;
+  background:var(--pine); color:#fff; font-size:11px; font-weight:600;
+  letter-spacing:.04em; text-transform:uppercase; white-space:nowrap;
+}
+.ticker-view{flex:1; overflow:hidden; position:relative; padding:9px 0}
+.ticker-view::after{
+  content:""; position:absolute; right:0; top:0; bottom:0; width:56px;
+  background:linear-gradient(90deg,transparent,var(--card)); pointer-events:none;
+}
+.ticker-track{
+  display:inline-flex; gap:0; white-space:nowrap; will-change:transform;
+  animation:scroll-left var(--ticker-duration,90s) linear infinite;
+}
+.ticker-wrap:hover .ticker-track,
+.ticker-track:focus-within{animation-play-state:paused}
+@keyframes scroll-left{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.ticker-item{
+  display:inline-flex; align-items:center; gap:9px; padding:0 18px;
+  font-size:13.5px; color:var(--ink); text-decoration:none; border-right:1px solid var(--line-soft);
+}
+.ticker-item:hover{color:var(--moss); text-decoration:none}
+.ticker-item .tsrc{
+  font-size:10.5px; font-weight:600; color:var(--brass);
+  text-transform:uppercase; letter-spacing:.03em;
+}
+@media (prefers-reduced-motion:reduce){
+  .ticker-track{animation:none; overflow-x:auto}
+}
+@media (max-width:560px){
+  .ticker-item{font-size:12.5px; padding:0 13px}
+  .ticker-label{padding:0 10px; font-size:10px}
+}
+
 /* ---------------------------------------------------------- shell */
 .shell{
   max-width:1240px; margin:0 auto; padding:26px 28px 70px;
@@ -119,9 +327,29 @@ a:hover{text-decoration:underline}
 
 .src-list{max-height:210px; overflow-y:auto; margin:9px -4px 0; padding:0 4px}
 .src-item{
-  display:flex; align-items:center; gap:7px; padding:3.5px 0;
-  font-size:12.2px; color:var(--muted);
+  display:flex; align-items:center; gap:7px; padding:4px 6px; margin:0 -6px;
+  font-size:12.2px; color:var(--muted); width:calc(100% + 12px);
+  background:none; border:0; font-family:var(--sans); text-align:left;
+  border-radius:5px; cursor:pointer;
 }
+.src-item:hover{background:var(--wash); color:var(--pine)}
+.src-item[disabled]{cursor:default; opacity:.55}
+.src-item[disabled]:hover{background:none; color:var(--muted)}
+.src-item.active{background:var(--pine); color:#fff}
+.src-item.active .c{color:#A7C7B2}
+.src-item.active .pip.ok{background:var(--sage)}
+.filter-note{
+  display:flex; align-items:center; gap:8px; padding:9px 12px; margin-bottom:12px;
+  background:var(--wash); border-left:3px solid var(--pine); border-radius:0 6px 6px 0;
+  font-size:13px; color:var(--pine);
+}
+.filter-note b{font-weight:600}
+.filter-note button{
+  margin-left:auto; appearance:none; background:none; border:1px solid var(--fern);
+  color:var(--pine); font-family:var(--sans); font-size:11.5px; cursor:pointer;
+  padding:3px 10px; border-radius:5px;
+}
+.filter-note button:hover{background:var(--pine); color:#fff; border-color:var(--pine)}
 .src-item .pip{width:6px;height:6px;border-radius:50%;flex-shrink:0}
 .pip.ok{background:var(--fern)} .pip.bad{background:#C9AFAF}
 .src-item .n{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -143,6 +371,10 @@ a:hover{text-decoration:underline}
 .dl.soon .dl-days span{color:var(--clay)}
 .dl-text{font-size:12.6px;line-height:1.4}
 .dl-text .when{color:var(--muted-2);font-size:11.5px;display:block;margin-top:1px}
+.dl-verify{
+  display:inline-block; width:6px; height:6px; border-radius:50%;
+  background:var(--brass); margin-left:5px; vertical-align:middle;
+}
 
 /* ------------------------------------------------------------ tabs */
 .tabs{
@@ -305,12 +537,17 @@ a:hover{text-decoration:underline}
 <header class="masthead">
   <div class="masthead-inner">
     <div class="brand">
-      <h1>Career Growth</h1>
+      <h1><span class="glow-text">Career Growth</span></h1>
       <p class="tagline">Regulatory, market and professional briefing — prepared each morning</p>
     </div>
     <div class="dateblock">
-      <span class="bs" id="dateNepali">—</span>
-      <span class="ad" id="dateEnglish">—</span>
+      <a class="datelink" id="dateLink" href="https://www.hamropatro.com/calendar"
+         target="_blank" rel="noopener">
+        <span class="bs" id="dateNepali">&mdash;</span>
+        <span class="ad" id="dateEnglish">&mdash;</span>
+        <span class="hint">Open Hamro Patro calendar</span>
+      </a>
+      <button class="conv-btn" id="convBtn">Date converter &nbsp;AD &#8646; BS</button>
     </div>
   </div>
 </header>
@@ -319,6 +556,11 @@ a:hover{text-decoration:underline}
   <div class="headline-inner" id="headline">
     <span>Loading this morning's briefing…</span>
   </div>
+</div>
+
+<div class="ticker-wrap" id="tickerWrap" hidden>
+  <span class="ticker-label">Key today</span>
+  <div class="ticker-view"><div class="ticker-track" id="tickerTrack"></div></div>
 </div>
 
 <div class="shell">
@@ -338,6 +580,16 @@ a:hover{text-decoration:underline}
       <h3>Compliance calendar</h3>
       <div id="deadlines"></div>
     </section>
+
+    <section class="panel" id="secPanel" hidden>
+      <h3>Government securities</h3>
+      <div id="securities"></div>
+      <p style="margin:11px 0 0;font-size:11px;color:var(--muted-2);line-height:1.5">
+        Parsed automatically from PDMO auction notices.
+        <a href="https://pdmo.gov.np/category/annualous-loan-schedule" target="_blank"
+           rel="noopener" style="color:var(--moss)">Full issue plan</a>
+      </p>
+    </section>
   </aside>
 
   <!-- ---------------------------------------------------- main -->
@@ -353,7 +605,32 @@ a:hover{text-decoration:underline}
 
     <div id="panelFeed" class="feed"></div>
     <div id="panelSkills" hidden></div>
+    <div id="panelAbout" hidden></div>
   </main>
+</div>
+
+<div class="modal-back" id="convModal" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="convTitle">
+    <div class="modal-head">
+      <h3 id="convTitle">Date converter</h3>
+      <button id="convClose" aria-label="Close">&times;</button>
+    </div>
+    <div class="modal-body">
+      <div class="conv-toggle">
+        <button id="modeAD" class="on">AD &rarr; BS</button>
+        <button id="modeBS">BS &rarr; AD</button>
+      </div>
+      <div class="conv-row">
+        <input type="number" id="convY" placeholder="Year" aria-label="Year">
+        <select id="convM" aria-label="Month"></select>
+        <input type="number" id="convD" placeholder="Day" min="1" max="32" aria-label="Day">
+      </div>
+      <div class="conv-out" id="convOut">
+        <div class="big">&mdash;</div>
+        <div class="sub">Enter a date above</div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <footer class="foot">
@@ -374,6 +651,7 @@ const state = {
   keyOnly: false,
   newOnly: false,
   unreadOnly: false,
+  source: null,      // filter to one source when a rail row is clicked
   read: new Set(),
   skills: {}
 };
@@ -433,39 +711,102 @@ function renderDates(){
 }
 
 /* --------------------------- compliance calendar ---------------------------
-   EDIT THIS LIST. Dates are Gregorian so they are never ambiguous.
-   Add your own recurring filings, board dates and audit milestones.
-   'monthly' repeats on that day every month.
+   Nepali statutory dates fall on Bikram Sambat month-ends, so entries can be
+   written in BS directly and are converted for the countdown.
+
+   How to write an entry:
+     bsMonth 0-11 (0 Baisakh .. 2 Asar .. 5 Ashwin .. 8 Poush .. 11 Chaitra)
+     bsDay        a number, or 'end' for the last day of that Nepali month
+     bsMonthlyDay repeats on that BS day every Nepali month
+     date         a plain Gregorian 'YYYY-MM-DD' if you prefer
+     verify:true  shows an amber dot, meaning "I have not confirmed this date"
+
+   EDIT THESE. Remove what does not apply and add your own client deadlines,
+   board dates and audit milestones.
 ---------------------------------------------------------------------------- */
 const DEADLINES = [
-  { label:'VAT return filing',            note:'for the previous Nepali month', monthly:10 },
-  { label:'TDS deposit and e-TDS filing', note:'for the previous Nepali month', monthly:10 },
-  { label:'Income tax — first instalment', date:'2027-01-13', note:'Poush end' },
-  { label:'Income tax return filing',      date:'2026-10-17', note:'Ashwin end' }
+  { label:'VAT return filing',         note:'previous Nepali month', bsMonthlyDay:25 },
+  { label:'TDS deposit and e-TDS',     note:'previous Nepali month', bsMonthlyDay:25 },
+
+  { label:'Income tax return filing',  note:'Ashwin end',        bsMonth:5,  bsDay:'end' },
+  { label:'Income tax 1st instalment', note:'Poush end, 40%',    bsMonth:8,  bsDay:'end' },
+  { label:'Income tax 2nd instalment', note:'Chaitra end, 70%',  bsMonth:11, bsDay:'end' },
+  { label:'Income tax 3rd instalment', note:'Ashad end, 100%',   bsMonth:2,  bsDay:'end' },
+
+  { label:'OCR annual return',         note:'company compliance', bsMonth:8, bsDay:'end', verify:true },
+  { label:'ICAN membership renewal',   note:'membership and COP', bsMonth:2, bsDay:'end', verify:true },
+  { label:'Excise licence renewal',    note:'annual renewal',     bsMonth:3, bsDay:'end', verify:true },
 ];
+
+/* Convert a Bikram Sambat date to a JavaScript Date. */
+function bsToAD(y, m, d){
+  if (!BS_MONTHS[y]) return null;
+  let days = 0;
+  for (let yy = 2076; yy < y; yy++){
+    if (!BS_MONTHS[yy]) return null;
+    days += BS_MONTHS[yy].reduce(function(a,b){ return a+b; }, 0);
+  }
+  for (let mm = 0; mm < m; mm++) days += BS_MONTHS[y][mm];
+  days += d - 1;
+  return new Date(Date.UTC(2019, 3, 14) + days * 86400000);
+}
+
+function daysInBS(y, m){
+  return BS_MONTHS[y] ? BS_MONTHS[y][m] : null;
+}
 
 function nextOccurrence(item){
   const today = new Date(); today.setHours(0,0,0,0);
+  const bsNow = toBS(today);
+
   if (item.date){
     const d = new Date(item.date + 'T00:00:00');
     return isNaN(d) ? null : d;
   }
+
   if (item.monthly){
     let d = new Date(today.getFullYear(), today.getMonth(), item.monthly);
     if (d < today) d = new Date(today.getFullYear(), today.getMonth() + 1, item.monthly);
     return d;
+  }
+
+  // Repeats on a given day of every Nepali month.
+  if (item.bsMonthlyDay && bsNow){
+    let y = bsNow.y, m = bsNow.m;
+    for (let i = 0; i < 3; i++){
+      const cap = daysInBS(y, m);
+      if (cap){
+        const day = Math.min(item.bsMonthlyDay, cap);
+        const cand = bsToAD(y, m, day);
+        if (cand && cand >= today) return cand;
+      }
+      m++; if (m > 11){ m = 0; y++; }
+    }
+    return null;
+  }
+
+  // Falls in a fixed Nepali month, this BS year or next.
+  if (item.bsMonth !== undefined && bsNow){
+    const years = [bsNow.y, bsNow.y + 1];
+    for (const y of years){
+      const cap = daysInBS(y, item.bsMonth);
+      if (!cap) continue;
+      const day = item.bsDay === 'end' ? cap : Math.min(item.bsDay, cap);
+      const cand = bsToAD(y, item.bsMonth, day);
+      if (cand && cand >= today) return cand;
+    }
   }
   return null;
 }
 
 function renderDeadlines(){
   const today = new Date(); today.setHours(0,0,0,0);
-  const rows = DEADLINES.map(item => {
+  const rows = DEADLINES.map(function(item){
     const when = nextOccurrence(item);
     if (!when) return null;
     const days = Math.round((when - today) / 86400000);
-    return days < 0 ? null : { ...item, when, days };
-  }).filter(Boolean).sort((a,b) => a.days - b.days).slice(0,4);
+    return days < 0 ? null : Object.assign({}, item, { when: when, days: days });
+  }).filter(Boolean).sort(function(a,b){ return a.days - b.days; }).slice(0, 6);
 
   const box = document.getElementById('deadlines');
   if (!rows.length){
@@ -473,17 +814,18 @@ function renderDeadlines(){
       + 'No dates set. Add yours in the DEADLINES list inside index.html.</p>';
     return;
   }
-  box.innerHTML = rows.map(r => `
-    <div class="dl ${r.days <= 7 ? 'soon' : ''}">
-      <div class="dl-days">
-        <b>${r.days === 0 ? '·' : r.days}</b>
-        <span>${r.days === 0 ? 'today' : r.days === 1 ? 'day' : 'days'}</span>
-      </div>
-      <div class="dl-text">
-        ${esc(r.label)}
-        <span class="when">${r.when.toLocaleDateString('en-GB',{day:'numeric',month:'short'})}${r.note ? ' · ' + esc(r.note) : ''}</span>
-      </div>
-    </div>`).join('');
+  box.innerHTML = rows.map(function(r){
+    const bs = toBS(r.when);
+    const bsLabel = bs ? BS_MONTH_NAMES[bs.m] + ' ' + bs.d : '';
+    const dot = r.verify ? '<span class="dl-verify" title="Please confirm this date"></span>' : '';
+    const ad = r.when.toLocaleDateString('en-GB', { day:'numeric', month:'short' });
+    return '<div class="dl ' + (r.days <= 7 ? 'soon' : '') + '">'
+      + '<div class="dl-days"><b>' + (r.days === 0 ? '&middot;' : r.days) + '</b>'
+      + '<span>' + (r.days === 0 ? 'today' : r.days === 1 ? 'day' : 'days') + '</span></div>'
+      + '<div class="dl-text">' + esc(r.label) + dot
+      + '<span class="when">' + (bsLabel ? bsLabel + ' &middot; ' : '') + ad
+      + (r.note ? ' &middot; ' + esc(r.note) : '') + '</span></div></div>';
+  }).join('');
 }
 
 /* --------------------------------- helpers -------------------------------- */
@@ -510,25 +852,48 @@ const TABS = [
   { id:'market',     label:'Markets' },
   { id:'global',     label:'Global' },
   { id:'technology', label:'Technology' },
-  { id:'skills',     label:'Skills' }
+  { id:'skills',     label:'Skills' },
+  { id:'about',      label:'About' }
 ];
 
-function itemsFor(tabId){
+const DEVELOPER = {
+  name: 'Man Bahadur Khatri',
+  role: 'Chartered Accountant',
+  services: [
+    'NFRS & Corporate Advisory',
+    'Tutor',
+    'Business Consultant',
+    'Director, Fiscal Frames Advisory Pvt. Ltd.'
+  ],
+  site: 'https://fiscalframes.com/',
+  linkedin: 'https://www.linkedin.com/in/man-bahadur-khatri'
+};
+
+function itemsFor(tabId, ignoreSource){
   if (!state.data) return [];
   const all = state.data.items || [];
+  // A source filter cuts across categories: show everything from that site.
+  if (state.source && !ignoreSource) return all.filter(i => i.source === state.source);
   if (tabId === 'today')  return all.filter(i => i.is_new);
   return all.filter(i => i.category === tabId);
 }
 
 function renderTabs(){
+  document.getElementById('tabs').style.opacity = state.source ? '.5' : '1';
   document.getElementById('tabs').innerHTML = TABS.map(t => {
-    const n = t.id === 'skills' ? null : itemsFor(t.id).length;
+    const n = (t.id === 'skills' || t.id === 'about') ? null : itemsFor(t.id, true).length;
     return `<button class="tab" role="tab" data-tab="${t.id}"
               aria-selected="${state.tab === t.id}">${t.label}${
               n !== null ? `<span class="tcount">${n}</span>` : ''}</button>`;
   }).join('');
   document.querySelectorAll('.tab').forEach(b => {
-    b.onclick = () => { state.tab = b.dataset.tab; store('tab', state.tab); render(); };
+    b.onclick = () => {
+      state.tab = b.dataset.tab;
+      state.source = null;          // choosing a tab clears a source filter
+      store('tab', state.tab);
+      renderRail();
+      render();
+    };
   });
 }
 
@@ -548,8 +913,19 @@ function renderFeed(){
       (i.source_name || '').toLowerCase().includes(q));
   }
 
+  let banner = '';
+  if (state.source){
+    const meta = (state.data.sources || []).find(x => x.id === state.source);
+    const name = meta ? meta.name : state.source;
+    banner = `<div class="filter-note">
+        Showing <b>${esc(name)}</b> only &mdash; ${items.length} item${items.length === 1 ? '' : 's'}
+        <button id="clearSrc">Show all</button>
+      </div>`;
+  }
+
   if (!items.length){
-    feed.innerHTML = emptyMessage();
+    feed.innerHTML = banner + emptyMessage();
+    wireClear();
     return;
   }
 
@@ -560,10 +936,11 @@ function renderFeed(){
     (groups[k] = groups[k] || []).push(i);
   });
 
-  feed.innerHTML = Object.keys(groups).sort().reverse().map(day => `
+  feed.innerHTML = banner + Object.keys(groups).sort().reverse().map(day => `
     <div class="daybreak">${relDay(day)}</div>
     ${groups[day].map(itemHTML).join('')}
   `).join('');
+  wireClear();
 
   feed.querySelectorAll('.mark').forEach(btn => {
     btn.onclick = () => {
@@ -573,6 +950,11 @@ function renderFeed(){
       renderFeed();
     };
   });
+}
+
+function wireClear(){
+  const btn = document.getElementById('clearSrc');
+  if (btn) btn.onclick = () => { state.source = null; renderRail(); render(); };
 }
 
 function itemHTML(i){
@@ -659,6 +1041,152 @@ function groupHTML(g){
   </section>`;
 }
 
+/* -------------------------------- ticker ---------------------------------- */
+function renderTicker(){
+  const wrap  = document.getElementById('tickerWrap');
+  const track = document.getElementById('tickerTrack');
+  if (!state.data){ wrap.hidden = true; return; }
+
+  // Key items first, then anything else new, capped so the loop stays readable.
+  const all = state.data.items || [];
+  let picks = all.filter(i => i.is_new && i.priority);
+  if (picks.length < 6) picks = picks.concat(all.filter(i => i.is_new && !i.priority));
+  picks = picks.slice(0, 25);
+
+  if (!picks.length){ wrap.hidden = true; return; }
+
+  const html = picks.map(i =>
+    `<a class="ticker-item" href="${esc(i.url)}" target="_blank" rel="noopener">
+       <span class="tsrc">${esc(i.source_name)}</span>
+       <span>${esc(i.title)}</span>
+     </a>`).join('');
+
+  // Duplicated once so the -50% scroll wraps with no visible seam.
+  track.innerHTML = html + html;
+
+  // Roughly constant reading speed regardless of how many items there are.
+  const chars = picks.reduce((n, i) => n + i.title.length + i.source_name.length, 0);
+  track.style.setProperty('--ticker-duration', Math.max(45, Math.round(chars / 7)) + 's');
+  wrap.hidden = false;
+}
+
+/* --------------------------------- about ---------------------------------- */
+function renderAbout(){
+  const d = DEVELOPER;
+  document.getElementById('panelAbout').innerHTML = `
+    <div class="about-card">
+      <div class="about-top">
+        <h2>${esc(d.name)}</h2>
+        <div class="role">${esc(d.role)}</div>
+      </div>
+      <div class="about-body">
+        <h4>Professional services</h4>
+        <div class="svc">${d.services.map(x => `<span>${esc(x)}</span>`).join('')}</div>
+        <h4>Elsewhere</h4>
+        <div class="about-links">
+          <a class="primary" href="${esc(d.site)}" target="_blank" rel="noopener">Fiscal Frames Advisory</a>
+          <a href="${esc(d.linkedin)}" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <p class="about-note">
+          Career Growth is a personal briefing tool: it collects regulatory notices,
+          market coverage and professional reading from Nepali and international
+          sources twice a day, and keeps a rolling fifteen-day archive. It links to
+          original sources rather than reproducing them, so what you read is always
+          the authoritative version.
+        </p>
+      </div>
+    </div>`;
+}
+
+/* --------------------------- government securities -------------------------
+   Two sources feed this panel:
+
+   1. CONFIRMED auctions, parsed automatically from PDMO notices twice a day.
+      Nothing to maintain - they appear as PDMO announces them.
+
+   2. PLANNED issues below, which you type in once a year from the PDMO
+      annual issuance plan (प्रकाशन > बार्षिक ऋण योजना र बोलकबोल तालिका).
+      This gives forward visibility months ahead of the notices. PDMO does
+      revise the plan mid-year, so anything here is indicative until the
+      matching notice appears - the panel marks these "planned".
+
+   Format:
+     { type:'Treasury Bill' | 'Development Bond',
+       tenor:'91 days' | '5 years',
+       bs:'2083-06-15',        Bikram Sambat, the way the plan states it
+       amount:'Rs 5 arba' }    optional
+---------------------------------------------------------------------------- */
+const PLANNED_ISSUES = [
+  // Example of the shape - delete these two and paste your own from the plan:
+  // { type:'Treasury Bill',    tenor:'91 days', bs:'2083-06-15', amount:'Rs 10 arba' },
+  // { type:'Development Bond', tenor:'8 years', bs:'2083-07-10', amount:'Rs 5 arba'  },
+];
+
+function plannedToEntries(){
+  return PLANNED_ISSUES.map(p => {
+    const m = /^(\d{4})-(\d{1,2})-(\d{1,2})$/.exec(p.bs || '');
+    if (!m) return null;
+    const dt = bsToAD(+m[1], +m[2] - 1, +m[3]);
+    if (!dt) return null;
+    return {
+      type: p.type, tenor: p.tenor, isin: null, planned: true,
+      amount: p.amount || null,
+      bs_date: p.bs,
+      issue_date: dt.toISOString().slice(0, 10),
+      url: 'https://pdmo.gov.np/category/annualous-loan-schedule',
+      title: `${p.type} ${p.tenor || ''} (planned)`
+    };
+  }).filter(Boolean);
+}
+
+
+function renderSecurities(){
+  const panel = document.getElementById('secPanel');
+  const parsed  = (state.data && state.data.securities) || [];
+  const planned = plannedToEntries();
+
+  // A planned issue is dropped once the real notice for that date arrives.
+  const confirmedDates = new Set(parsed.map(x => x.issue_date + '|' + x.type));
+  const list = parsed.concat(
+    planned.filter(p => !confirmedDates.has(p.issue_date + '|' + p.type))
+  );
+  if (!list.length){ panel.hidden = true; return; }
+
+  const today = new Date(); today.setHours(0,0,0,0);
+  const rows = list.map(sec => {
+    const when = new Date(sec.issue_date + 'T00:00:00');
+    if (isNaN(when)) return null;
+    return { ...sec, when, days: Math.round((when - today) / 86400000) };
+  }).filter(Boolean);
+
+  // Upcoming first, soonest at the top; then the most recent past auctions.
+  const upcoming = rows.filter(r => r.days >= 0).sort((a,b) => a.days - b.days);
+  const past     = rows.filter(r => r.days <  0).sort((a,b) => b.days - a.days);
+  const show     = upcoming.concat(past).slice(0, 7);
+
+  document.getElementById('securities').innerHTML = show.map(r => {
+    const isTB  = r.type.indexOf('Treasury') === 0;
+    const tag   = isTB ? 'TB' : 'DB';
+    const cls   = r.days < 0 ? 'past' : (r.days <= 7 && !r.planned ? 'soon' : '');
+    const num   = r.days < 0 ? Math.abs(r.days) : (r.days === 0 ? '\u00B7' : r.days);
+    const word  = r.days < 0 ? 'ago' : r.days === 0 ? 'today' : r.days === 1 ? 'day' : 'days';
+    const bs    = r.bs_date ? r.bs_date.split('-') : null;
+    const bsTxt = bs ? `${BS_MONTH_NAMES[+bs[1] - 1]} ${+bs[2]}, ${bs[0]}` : '';
+    const ad    = r.when.toLocaleDateString('en-GB', { day:'numeric', month:'short', year:'2-digit' });
+    return `
+      <a class="sec ${cls}" href="${esc(r.url)}" target="_blank" rel="noopener">
+        <div class="sec-days"><b>${num}</b><span>${word}</span></div>
+        <div class="sec-body">
+          <div class="sec-name">
+            <span class="sec-tag ${isTB ? 'tb' : 'db'}">${tag}</span>${esc(r.tenor || 'Auction')}
+          </div>
+          <div class="sec-meta">${esc(bsTxt)} &middot; ${ad}${r.isin ? ' &middot; ' + esc(r.isin) : ''}${r.amount ? ' &middot; ' + esc(r.amount) : ''}${r.planned ? ' &middot; planned' : ''}</div>
+        </div>
+      </a>`;
+  }).join('');
+  panel.hidden = false;
+}
+
 /* --------------------------------- rail ----------------------------------- */
 function renderRail(){
   const d = state.data;
@@ -677,11 +1205,21 @@ function renderRail(){
   document.getElementById('srcList').innerHTML = (d.sources || [])
     .slice().sort((a,b) => (b.count || 0) - (a.count || 0))
     .map(s => `
-      <div class="src-item" title="${esc(s.error || s.method || '')}">
+      <button class="src-item ${state.source === s.id ? 'active' : ''}"
+              data-src="${esc(s.id)}" ${s.ok ? '' : 'disabled'}
+              title="${esc(s.error || s.method || '')}">
         <span class="pip ${s.ok ? 'ok' : 'bad'}"></span>
         <span class="n">${esc(s.name)}</span>
-        <span class="c">${s.ok ? s.count : '—'}</span>
-      </div>`).join('');
+        <span class="c">${s.ok ? s.count : '\u2014'}</span>
+      </button>`).join('');
+
+  document.querySelectorAll('.src-item[data-src]').forEach(btn => {
+    btn.onclick = () => {
+      state.source = state.source === btn.dataset.src ? null : btn.dataset.src;
+      renderRail();
+      render();
+    };
+  });
 }
 
 function renderHeadline(){
@@ -706,8 +1244,12 @@ function renderHeadline(){
         { day:'numeric', month:'short', hour:'2-digit', minute:'2-digit' })
     : 'unknown';
 
+  const hour = d.generated_at ? new Date(d.generated_at).getHours() : 0;
+  const runName = hour < 11 ? 'morning' : 'afternoon';
+
   el.innerHTML = `
-    <span class="count-pop"><strong>${n}</strong> new ${n === 1 ? 'item' : 'items'} since yesterday</span>
+    <span class="count-pop"><strong>${n}</strong> new ${n === 1 ? 'item' : 'items'} today</span>
+    ${d.added_this_run ? `<span class="dot"></span><span><strong>${d.added_this_run}</strong> in the ${runName} run</span>` : ''}
     <span class="dot"></span>
     <span><strong>${keyCount}</strong> flagged as key</span>
     <span class="dot"></span>
@@ -716,17 +1258,117 @@ function renderHeadline(){
     <span>collected ${stamp}</span>`;
 
   document.getElementById('footStamp').textContent =
-    `Last collection: ${stamp} · archive holds ${d.total_items} items`;
+    `Last collection: ${stamp} · ${d.total_items} items held · rolling 15-day archive`;
 }
 
 /* --------------------------------- render --------------------------------- */
 function render(){
   renderTabs();
   const skills = state.tab === 'skills';
-  document.getElementById('panelFeed').hidden   = skills;
+  const about  = state.tab === 'about';
+  const feed   = !skills && !about;
+
+  document.getElementById('panelFeed').hidden   = !feed;
   document.getElementById('panelSkills').hidden = !skills;
-  document.getElementById('toolbar').style.display = skills ? 'none' : 'flex';
-  skills ? renderSkills() : renderFeed();
+  document.getElementById('panelAbout').hidden  = !about;
+  document.getElementById('toolbar').style.display = feed ? 'flex' : 'none';
+
+  if (skills) renderSkills();
+  else if (about) renderAbout();
+  else renderFeed();
+}
+
+/* ------------------------------ date converter ----------------------------- */
+const AD_MONTHS = ['January','February','March','April','May','June',
+                   'July','August','September','October','November','December'];
+let convMode = 'ad';   // 'ad' means AD -> BS
+
+function setupConverter(){
+  const modal = document.getElementById('convModal');
+  const open  = () => { modal.hidden = false; fillMonths(); prefillToday(); convert(); };
+  const shut  = () => { modal.hidden = true; };
+
+  document.getElementById('convBtn').onclick   = open;
+  document.getElementById('convClose').onclick = shut;
+  modal.onclick = e => { if (e.target === modal) shut(); };
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && !modal.hidden) shut(); });
+
+  document.getElementById('modeAD').onclick = () => switchMode('ad');
+  document.getElementById('modeBS').onclick = () => switchMode('bs');
+  ['convY','convM','convD'].forEach(id => {
+    const el = document.getElementById(id);
+    el.oninput = convert; el.onchange = convert;
+  });
+}
+
+function switchMode(mode){
+  convMode = mode;
+  document.getElementById('modeAD').classList.toggle('on', mode === 'ad');
+  document.getElementById('modeBS').classList.toggle('on', mode === 'bs');
+  fillMonths(); prefillToday(); convert();
+}
+
+function fillMonths(){
+  const sel = document.getElementById('convM');
+  const names = convMode === 'ad' ? AD_MONTHS : BS_MONTH_NAMES;
+  sel.innerHTML = names.map((n, i) => `<option value="${i}">${n}</option>`).join('');
+}
+
+function prefillToday(){
+  const now = new Date();
+  if (convMode === 'ad'){
+    document.getElementById('convY').value = now.getFullYear();
+    document.getElementById('convM').value = now.getMonth();
+    document.getElementById('convD').value = now.getDate();
+  } else {
+    const bs = toBS(now);
+    if (bs){
+      document.getElementById('convY').value = bs.y;
+      document.getElementById('convM').value = bs.m;
+      document.getElementById('convD').value = bs.d;
+    }
+  }
+}
+
+function showResult(big, sub, bad){
+  const box = document.getElementById('convOut');
+  box.classList.toggle('bad', !!bad);
+  box.innerHTML = `<div class="big">${big}</div><div class="sub">${sub}</div>`;
+}
+
+function convert(){
+  const y = parseInt(document.getElementById('convY').value, 10);
+  const m = parseInt(document.getElementById('convM').value, 10);
+  const d = parseInt(document.getElementById('convD').value, 10);
+
+  if (!y || isNaN(m) || !d){
+    showResult('&mdash;', 'Enter a date above'); return;
+  }
+
+  if (convMode === 'ad'){
+    const dt = new Date(y, m, d);
+    if (dt.getFullYear() !== y || dt.getMonth() !== m || dt.getDate() !== d){
+      showResult('Not a real date', `${AD_MONTHS[m]} has no day ${d} in ${y}`, true); return;
+    }
+    const bs = toBS(dt);
+    if (!bs){
+      showResult('Outside the range', 'The table covers 14 April 2019 to 2090 BS', true); return;
+    }
+    showResult(`${BS_MONTH_NAMES[bs.m]} ${bs.d}, ${bs.y}`,
+      dt.toLocaleDateString('en-GB', { weekday:'long', day:'numeric', month:'long', year:'numeric' }));
+  } else {
+    const cap = daysInBS(y, m);
+    if (!cap){
+      showResult('Outside the range', 'The table covers 2076 to 2090 BS', true); return;
+    }
+    if (d > cap){
+      showResult('Not a real date', `${BS_MONTH_NAMES[m]} ${y} has only ${cap} days`, true); return;
+    }
+    const dt = bsToAD(y, m, d);
+    if (!dt){ showResult('Could not convert', 'Check the values', true); return; }
+    showResult(dt.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' }),
+      `${dt.toLocaleDateString('en-GB', { weekday:'long' })} \u00B7 ${BS_MONTH_NAMES[m]} ${d}, ${y} BS`);
+  }
 }
 
 /* ---------------------------------- boot ----------------------------------- */
@@ -747,8 +1389,11 @@ async function boot(){
   }
 
   renderHeadline();
+  renderTicker();
+  renderSecurities();
   renderRail();
   render();
+  setupConverter();
 
   const search = document.getElementById('search');
   let timer;

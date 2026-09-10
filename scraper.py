@@ -30,6 +30,8 @@ from urllib.parse import urljoin, urlparse
 
 import feedparser
 import requests
+
+import securities
 from bs4 import BeautifulSoup
 
 # ---------------------------------------------------------------- constants
@@ -41,7 +43,7 @@ NEWS_FILE = os.path.join(DATA_DIR, "news.json")
 
 NPT = timezone(timedelta(hours=5, minutes=45))   # Nepal Standard Time
 
-ARCHIVE_DAYS = 45            # how long to keep old items
+ARCHIVE_DAYS = 15            # how long to keep old items before they drop off
 MAX_PER_SOURCE = 12          # items kept per source per run
 REQUEST_TIMEOUT = 25
 RETRIES = 2
@@ -81,6 +83,35 @@ BAD_URL_PARTS = (
 
 DOC_EXTENSIONS = (".pdf", ".doc", ".docx", ".xls", ".xlsx", ".zip")
 
+# For general news sites (Ratopati, Setopati, Online Khabar) whose feeds carry
+# the whole paper. An item is kept only if it mentions something economic.
+# This is what stops crime and weather stories reaching your morning briefing.
+FINANCE_TERMS = [
+    "bank", "banking", "tax", "vat", "revenue", "budget", "economy", "economic",
+    "finance", "financial", "fiscal", "monetary", "nepse", "share", "stock",
+    "ipo", "fpo", "dividend", "investment", "investor", "loan", "credit",
+    "interest rate", "inflation", "insurance", "audit", "accounting", "company",
+    "business", "trade", "export", "import", "remittance", "gdp", "capital",
+    "merger", "profit", "loss", "turnover", "microfinance", "cooperative",
+    "nrb", "sebon", "ican", "ird", "customs", "excise", "tariff", "subsidy",
+    # Devanagari. Short words like "कर" (tax) are deliberately excluded -
+    # they appear inside unrelated words such as "स्पष्टीकरण" and would let
+    # general news through. Longer, unambiguous forms are used instead.
+    "बैंक", "बैंकिङ", "आयकर", "करदाता", "कर छुट", "करको", "मूल्य अभिवृद्धि",
+    "राजस्व", "बजेट", "अर्थतन्त्र", "आर्थिक", "वित्त", "वित्तीय", "नेप्से",
+    "सेयर", "शेयर", "आइपीओ", "एफपीओ", "लाभांश", "लगानी", "ऋण", "ब्याजदर",
+    "मुद्रास्फीति", "बीमा", "लेखापरीक्षण", "कम्पनी", "व्यापार", "निर्यात",
+    "आयात", "रेमिट्यान्स", "पुँजी", "नाफा", "लघुवित्त", "सहकारी", "भन्सार",
+    "उद्योग", "बजार", "मुद्रा", "राष्ट्र बैंक", "धितोपत्र", "बोर्ड",
+    "अर्थमन्त्री", "अर्थ मन्त्रालय", "व्यवसाय", "कारोबार", "मर्जर",
+]
+
+
+def is_finance(title, summary=""):
+    blob = f"{title} {summary}".lower()
+    return any(term in blob for term in FINANCE_TERMS)
+
+
 # Words that make an item matter more to a CA. Used for the "Key" flag.
 PRIORITY_TERMS = [
     "circular", "directive", "notification", "notice", "amendment", "amend",
@@ -90,8 +121,9 @@ PRIORITY_TERMS = [
     "compliance", "filing", "return", "licence", "license", "monetary policy",
     "capital adequacy", "provision", "merger", "acquisition", "ipo", "fpo",
     "rights share", "dividend", "agm", "insolvency", "liquidation",
-    "परिपत्र", "निर्देशन", "सूचना", "संशोधन", "ऐन", "नियमावली", "कर", "मूल्य अभिवृद्धि कर",
-    "लेखापरीक्षण", "बजेट", "अन्तिम म्याद", "जरिवाना", "लाभांश", "निर्देशिका",
+    "परिपत्र", "निर्देशन", "सूचना", "संशोधन", "नियमावली", "आयकर", "करदाता",
+    "मूल्य अभिवृद्धि कर", "लेखापरीक्षण", "बजेट", "अन्तिम म्याद", "जरिवाना",
+    "लाभांश", "निर्देशिका", "धितोपत्र", "प्रतिवेदन",
 ]
 
 
@@ -163,6 +195,22 @@ def fetch(url, verbose=False, quick=False):
     return None
 
 
+def registrable(host):
+    """Reduce a hostname to its site-identifying part: www.ird.gov.np -> ird.gov.np"""
+    host = (host or "").lower().lstrip(".")
+    if host.startswith("www."):
+        host = host[4:]
+    parts = host.split(".")
+    # Handle two-level public suffixes such as .gov.np, .com.np, .co.uk
+    if len(parts) >= 3 and parts[-2] in {"gov", "com", "org", "net", "edu", "co", "ac"}:
+        return ".".join(parts[-3:])
+    return ".".join(parts[-2:]) if len(parts) >= 2 else host
+
+
+def same_site(url_a, url_b):
+    return registrable(urlparse(url_a).netloc) == registrable(urlparse(url_b).netloc)
+
+
 def parse_date(entry):
     """Pull a published date out of a feed entry. Returns ISO string or None."""
     for key in ("published_parsed", "updated_parsed", "created_parsed"):
@@ -187,13 +235,32 @@ def items_from_feed(feed_url, source, verbose=False):
     if not parsed.entries:
         return []
 
+    # Attribution guard.
+    #
+    # Several Nepali government sites share one CMS, and a shared /rss/ or
+    # /feed/ path can serve content that does not belong to the site being
+    # read. An item labelled "Inland Revenue Dept" that opens someone else's
+    # article is worse than a missing item, so links that point off the
+    # source's own domain are rejected. Aggregators that link outward by
+    # design set "allow_offsite": true in sources.json.
+    allow_offsite = bool(source.get("allow_offsite"))
+    offsite = 0
+
     items = []
     for entry in parsed.entries[:MAX_PER_SOURCE]:
         title = clean_text(entry.get("title", ""))
         link = entry.get("link", "")
         if not title or not link:
             continue
+
+        if not allow_offsite and not same_site(link, source["url"]):
+            offsite += 1
+            log(f"      dropped offsite link: {urlparse(link).netloc}", True, verbose)
+            continue
+
         summary = clean_text(entry.get("summary", ""))[:400]
+        if source.get("filter") == "finance" and not is_finance(title, summary):
+            continue
         items.append({
             "id": item_id(link, title),
             "title": title,
@@ -206,6 +273,16 @@ def items_from_feed(feed_url, source, verbose=False):
             "is_document": link.lower().endswith(DOC_EXTENSIONS),
             "priority": is_priority(title, summary),
         })
+    # If most of the feed pointed elsewhere, this feed does not belong to this
+    # source. Return nothing so the collector falls back to reading the page.
+    total_seen = len(items) + offsite
+    if offsite and total_seen and offsite > total_seen / 2:
+        log(f"     feed rejected: {offsite}/{total_seen} links belonged to "
+            f"another site, falling back to page scrape")
+        return []
+
+    if offsite:
+        log(f"      {offsite} offsite item(s) dropped", True, verbose)
     if items:
         log(f"      feed gave {len(items)} items", True, verbose)
     return items
@@ -298,19 +375,25 @@ def items_from_html(source, verbose=False):
             continue
 
         # Sentence-like length. Too short is navigation, too long is a blurb.
-        if not (18 <= len(title) <= 220):
+        # Government notice pages often use very terse titles, so sources
+        # marked "relaxed" get a lower floor.
+        floor = 10 if source.get("relaxed") else 18
+        if not (floor <= len(title) <= 240):
             continue
         # A title that is only digits or punctuation is a date stamp.
         if not re.search(r"[A-Za-z\u0900-\u097F]{4,}", title):
             continue
 
         full = urljoin(url, href)
-        if urlparse(full).netloc != base_domain:
+        if not same_site(full, url):
             continue
-        # Must be deeper than the site root.
-        if len(urlparse(full).path.strip("/")) < 4:
+        # Must be deeper than the site root, unless relaxed.
+        min_depth = 1 if source.get("relaxed") else 4
+        if len(urlparse(full).path.strip("/")) < min_depth:
             continue
         if full in seen_urls:
+            continue
+        if source.get("filter") == "finance" and not is_finance(title):
             continue
         seen_urls.add(full)
 
@@ -432,7 +515,15 @@ def merge_with_archive(fresh_items, today_str):
         key=lambda it: (it.get("first_seen", ""), it.get("published") or ""),
         reverse=True,
     )
-    return kept, new_count
+
+    # Two runs a day means the afternoon run must not report only its own
+    # additions - "new today" covers everything first seen today, morning
+    # items included.
+    new_today = sum(1 for it in kept if it.get("first_seen") == today_str)
+    dropped = len(merged) - len(kept)
+    if dropped:
+        log(f"  {dropped} item(s) older than {ARCHIVE_DAYS} days removed")
+    return kept, new_today, new_count
 
 
 # --------------------------------------------------------------------- main
@@ -456,6 +547,12 @@ def main():
     if args.category:
         sources = [s for s in sources if s["category"] == args.category]
 
+    skipped = [s for s in sources if s.get("enabled") is False]
+    sources = [s for s in sources if s.get("enabled") is not False]
+    if skipped and not args.only:
+        print(f"Skipping {len(skipped)} disabled source(s): "
+              + ", ".join(s["name"] for s in skipped))
+
     run_time = now_npt()
     today_str = run_time.strftime("%Y-%m-%d")
 
@@ -471,17 +568,32 @@ def main():
         all_items.extend(items)
         statuses.append(status)
 
-    items, new_count = merge_with_archive(all_items, today_str)
+    items, new_today, added_now = merge_with_archive(all_items, today_str)
+
+    # Build the government securities calendar from PDMO auction notices.
+    sec_ids = {s["id"] for s in config["sources"] if s.get("securities")}
+    sec_items = [i for i in items if i.get("source") in sec_ids]
+    try:
+        secs = securities.extract(sec_items)
+        print(f"\n  {len(secs)} government security auction(s) parsed from "
+              f"{len(sec_items)} PDMO notice(s)")
+        for e in secs[:5]:
+            print(f"    {e['type']:<18} {e['bs_date']}  {e['tenor'] or '-'}")
+    except Exception as e:
+        print(f"  securities parsing failed: {e}")
+        secs = []
 
     working = sum(1 for s in statuses if s["ok"])
     payload = {
         "generated_at": run_time.isoformat(),
         "generated_date": today_str,
-        "new_today": new_count,
+        "new_today": new_today,
+        "added_this_run": added_now,
         "total_items": len(items),
         "sources_working": working,
         "sources_total": len(statuses),
         "sources": statuses,
+        "securities": secs,
         "items": items,
     }
 
@@ -491,7 +603,8 @@ def main():
 
     print(f"\n{'-' * 52}")
     print(f"  {working} of {len(statuses)} sources responded")
-    print(f"  {new_count} new items, {len(items)} in archive")
+    print(f"  {added_now} added this run, {new_today} new today, "
+          f"{len(items)} in archive (last {ARCHIVE_DAYS} days)")
     print(f"  written to {NEWS_FILE}")
 
     broken = [s for s in statuses if not s["ok"]]
@@ -517,4 +630,3 @@ if __name__ == "__main__":
     except Exception:
         pass
     sys.exit(main())
-
