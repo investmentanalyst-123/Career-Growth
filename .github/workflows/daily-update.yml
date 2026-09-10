@@ -1,0 +1,43 @@
+name: Morning update
+
+on:
+  schedule:
+    - cron: "45 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect the news
+        run: python scraper.py
+        continue-on-error: true
+
+      - name: Save the results
+        run: |
+          git config user.name  "Career Growth bot"
+          git config user.email "actions@github.com"
+          git add data/news.json
+          if git diff --staged --quiet; then
+            echo "Nothing changed today."
+          else
+            git commit -m "News update $(TZ=Asia/Kathmandu date '+%Y-%m-%d %H:%M')"
+            git push
+          fi
