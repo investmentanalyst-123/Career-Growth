@@ -152,6 +152,73 @@ def dedupe(entries):
     return out
 
 
+# Treasury bill tenors are always one of these. Development bonds are quoted
+# in years and are never this long. So a row can be classified from the number
+# alone, without reading the Nepali word for "days" - which is what the PDF's
+# embedded font mangles.
+TBILL_DAYS = {28, 35, 42, 56, 63, 77, 91, 182, 273, 364}
+BOND_YEARS = set(range(1, 31))
+
+LOOSE = re.compile(
+    r"(\d{1,3})\s*[^\d/]{0,40}?"
+    r"(\d{1,2})\s*[/\-.।]\s*(\d{1,2})\s*[/\-.।]\s*(20\d\d)"
+    r"\s*[^\d]{0,6}"
+    r"(\d{1,2})\s*[/\-.।]\s*(\d{1,2})\s*[/\-.।]\s*(20\d\d)"
+    r"\s*([\d,\.]*)"
+)
+
+
+def parse_loose(text):
+    """
+    Last-resort reader that ignores the instrument wording entirely.
+
+    A schedule row is: a tenor number, then two Bikram Sambat dates, then an
+    amount. That shape survives any font problem. The tenor number alone says
+    which instrument it is - 91 or 182 or 364 is a treasury bill, 5 or 12 is
+    a bond - so nothing depends on reading mangled Devanagari.
+    """
+    out = []
+    for raw in join_wrapped(text).splitlines():
+        if any(m in raw for m in SAVINGS_MARKERS):
+            continue
+        line = to_ascii(raw)
+        m = LOOSE.search(line)
+        if not m:
+            continue
+
+        n = int(m.group(1))
+        if n in TBILL_DAYS:
+            is_days = True
+        elif n in BOND_YEARS:
+            is_days = False
+        else:
+            continue
+
+        a_iso = bs_to_ad(int(m.group(4)), int(m.group(2)), int(m.group(3)))
+        i_iso = bs_to_ad(int(m.group(7)), int(m.group(5)), int(m.group(6)))
+        if not i_iso:
+            continue
+
+        amount = None
+        raw_amt = (m.group(8) or "").replace(",", "").split(".")[0]
+        if raw_amt.isdigit() and 10 <= int(raw_amt) <= 100000:
+            amount = f"Rs {int(raw_amt):,} crore"
+
+        out.append({
+            "type": "Treasury Bill" if is_days else "Development Bond",
+            "tenor": f"{n} days" if is_days else (f"{n} year" if n == 1 else f"{n} years"),
+            "tenor_days": n if is_days else n * 365,
+            "auction_date": a_iso,
+            "issue_date": i_iso,
+            "bs_date": f"{m.group(7)}-{int(m.group(5)):02d}-{int(m.group(6)):02d}",
+            "bs_auction": f"{m.group(4)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}" if a_iso else None,
+            "amount": amount,
+            "planned": True,
+            "isin": None,
+        })
+    return out
+
+
 def pick_latest(rows):
     """
     Choose which published plan to use.
@@ -340,16 +407,25 @@ def collect(fetch, log=print):
         # Table extraction first, text parsing as a safety net. Whichever
         # recovers more rows wins, so a layout change degrades instead of
         # silently dropping half the calendar.
+        raw_text = pdf_to_text(doc.content)
         by_table = dedupe(parse_tables(pdf_to_tables(doc.content)))
-        by_text  = dedupe(parse_text(pdf_to_text(doc.content)))
+        by_text  = dedupe(parse_text(raw_text))
+        by_loose = dedupe(parse_loose(raw_text))
 
-        tb_t = sum(1 for e in by_table if e["type"] == "Treasury Bill")
-        tb_x = sum(1 for e in by_text  if e["type"] == "Treasury Bill")
-        log(f"  annual plan: table read {len(by_table)} rows ({tb_t} T-bills), "
-            f"text read {len(by_text)} rows ({tb_x} T-bills)")
+        def tb(x): return sum(1 for e in x if e["type"] == "Treasury Bill")
+        log(f"  annual plan: table {len(by_table)} rows ({tb(by_table)} TB), "
+            f"text {len(by_text)} rows ({tb(by_text)} TB), "
+            f"loose {len(by_loose)} rows ({tb(by_loose)} TB)")
 
-        # Merge both, so a row either method found is kept.
-        entries = dedupe(by_table + by_text)
+        # Three independent readings, merged. A row any one of them recovers
+        # is kept, so no single extraction quirk can empty the calendar.
+        entries = dedupe(by_table + by_text + by_loose)
+
+        if not entries and raw_text:
+            log("  annual plan: nothing matched. First lines of the PDF text, "
+                "so the pattern can be checked:")
+            for ln in [l for l in raw_text.splitlines() if l.strip()][:12]:
+                log(f"      | {ln[:110]}")
         tb = sum(1 for e in entries if e["type"] == "Treasury Bill")
         db = len(entries) - tb
         log(f"  annual plan: {len(entries)} scheduled auction(s) "
