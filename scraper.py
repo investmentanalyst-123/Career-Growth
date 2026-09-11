@@ -31,6 +31,7 @@ from urllib.parse import urljoin, urlparse
 import feedparser
 import requests
 
+import plan
 import securities
 from bs4 import BeautifulSoup
 
@@ -583,6 +584,43 @@ def main():
         print(f"  securities parsing failed: {e}")
         secs = []
 
+    # Read the published annual issuance plan. This gives forward visibility
+    # months ahead of the individual auction notices, and picks up next
+    # year's plan automatically when PDMO publishes it around Shrawan.
+    planned, plan_title = plan.collect(fetch)
+
+    # Match announced auctions to their planned row. A notice states the
+    # auction date; the plan states both the auction and the issue date. So
+    # the plan row is kept (it carries the issue date and the amount) and is
+    # marked as announced, with the notice's link and ISIN attached.
+    by_auction = {}
+    for e in secs:
+        by_auction.setdefault((e["type"], e.get("auction_date")), e)
+
+    matched = set()
+    for row in planned:
+        key = (row["type"], row.get("auction_date"))
+        hit = by_auction.get(key)
+        if hit:
+            row["confirmed"] = True
+            row["url"] = hit.get("url") or row.get("url")
+            row["isin"] = hit.get("isin") or row.get("isin")
+            row["title"] = hit.get("title", "")
+            matched.add(id(hit))
+
+    # Anything announced that is not in the plan still belongs in the tracker.
+    extras = [e for e in secs if id(e) not in matched]
+    for e in extras:
+        e["confirmed"] = True
+        e["planned"] = False
+
+    combined = planned + extras
+    print(f"  matched {len(matched)} announced auction(s) to the published plan")
+    combined.sort(key=lambda x: x["issue_date"])
+    n_conf = sum(1 for e in combined if e.get("confirmed"))
+    print(f"  securities tracker: {len(combined)} entries "
+          f"({n_conf} announced, {len(combined) - n_conf} scheduled)")
+
     working = sum(1 for s in statuses if s["ok"])
     payload = {
         "generated_at": run_time.isoformat(),
@@ -593,7 +631,8 @@ def main():
         "sources_working": working,
         "sources_total": len(statuses),
         "sources": statuses,
-        "securities": secs,
+        "securities": combined,
+        "plan_title": plan_title,
         "items": items,
     }
 

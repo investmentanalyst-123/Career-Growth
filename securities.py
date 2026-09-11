@@ -170,7 +170,12 @@ def extract(items):
 
         out.append({
             "type": kind,
+            # A notice announces the auction date. The issue date is the
+            # following day throughout PDMO's published calendar, but it is
+            # the plan that states it, so it is not invented here.
+            "auction_date": iso,
             "issue_date": iso,
+            "bs_auction": f"{bs[0]}-{bs[1]:02d}-{bs[2]:02d}",
             "bs_date": f"{bs[0]}-{bs[1]:02d}-{bs[2]:02d}",
             "tenor": label,
             "tenor_days": days,
