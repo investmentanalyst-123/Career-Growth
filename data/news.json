@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-10T21:43:12.198583+05:45",
- "generated_date": "2026-09-10",
- "new_today": 399,
- "added_this_run": 85,
- "total_items": 400,
+ "generated_at": "2026-09-11T05:36:23.516343+05:45",
+ "generated_date": "2026-09-11",
+ "new_today": 43,
+ "added_this_run": 43,
+ "total_items": 443,
  "sources_working": 26,
  "sources_total": 35,
  "sources": [
@@ -13,7 +13,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 32.8,
+   "seconds": 39.4,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -23,7 +23,7 @@
    "ok": true,
    "count": 4,
    "method": "page scrape",
-   "seconds": 10.6,
+   "seconds": 11.1,
    "error": null,
    "discovered_rss": null
   },
@@ -33,7 +33,7 @@
    "ok": true,
    "count": 4,
    "method": "page scrape",
-   "seconds": 9.4,
+   "seconds": 8.7,
    "error": null,
    "discovered_rss": null
   },
@@ -43,7 +43,7 @@
    "ok": true,
    "count": 4,
    "method": "page scrape",
-   "seconds": 10.9,
+   "seconds": 7.8,
    "error": null,
    "discovered_rss": null
   },
@@ -53,7 +53,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 9.2,
+   "seconds": 9.8,
    "error": null,
    "discovered_rss": null
   },
@@ -63,7 +63,7 @@
    "ok": true,
    "count": 5,
    "method": "configured feed",
-   "seconds": 3.5,
+   "seconds": 2.8,
    "error": null,
    "discovered_rss": null
   },
@@ -73,7 +73,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 9.8,
+   "seconds": 10.1,
    "error": null,
    "discovered_rss": null
   },
@@ -83,7 +83,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 10.3,
+   "seconds": 10.5,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -93,7 +93,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 223.1,
+   "seconds": 222.6,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -103,7 +103,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 31.7,
+   "seconds": 33.5,
    "error": null,
    "discovered_rss": null
   },
@@ -113,7 +113,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 22.3,
+   "seconds": 21.1,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -123,7 +123,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 39.4,
+   "seconds": 39.7,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -133,7 +133,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 9.8,
+   "seconds": 9.1,
    "error": null,
    "discovered_rss": null
   },
@@ -143,7 +143,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 11.8,
+   "seconds": 9.9,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -153,7 +153,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 17.3,
+   "seconds": 18.6,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -163,7 +163,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 2.4,
+   "seconds": 3.8,
    "error": null,
    "discovered_rss": null
   },
@@ -173,7 +173,7 @@
    "ok": true,
    "count": 10,
    "method": "page scrape",
-   "seconds": 20.5,
+   "seconds": 15.6,
    "error": null,
    "discovered_rss": null
   },
@@ -183,7 +183,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 1.0,
+   "seconds": 1.1,
    "error": null,
    "discovered_rss": null
   },
@@ -193,7 +193,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 0.7,
+   "seconds": 1.3,
    "error": null,
    "discovered_rss": null
   },
@@ -203,7 +203,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 0.9,
+   "seconds": 1.8,
    "error": null,
    "discovered_rss": null
   },
@@ -213,7 +213,7 @@
    "ok": true,
    "count": 9,
    "method": "configured feed",
-   "seconds": 6.8,
+   "seconds": 0.8,
    "error": null,
    "discovered_rss": null
   },
@@ -223,7 +223,7 @@
    "ok": true,
    "count": 10,
    "method": "configured feed",
-   "seconds": 1.2,
+   "seconds": 1.1,
    "error": null,
    "discovered_rss": null
   },
@@ -233,7 +233,7 @@
    "ok": true,
    "count": 10,
    "method": "configured feed",
-   "seconds": 1.5,
+   "seconds": 0.4,
    "error": null,
    "discovered_rss": null
   },
@@ -243,7 +243,7 @@
    "ok": true,
    "count": 2,
    "method": "page scrape",
-   "seconds": 22.2,
+   "seconds": 13.8,
    "error": null,
    "discovered_rss": null
   },
@@ -251,7 +251,7 @@
    "id": "onlinekhabar",
    "name": "Online Khabar",
    "ok": true,
-   "count": 6,
+   "count": 3,
    "method": "configured feed",
    "seconds": 0.2,
    "error": null,
@@ -261,9 +261,9 @@
    "id": "ratopati",
    "name": "Ratopati",
    "ok": true,
-   "count": 3,
+   "count": 5,
    "method": "configured feed",
-   "seconds": 0.2,
+   "seconds": 0.4,
    "error": null,
    "discovered_rss": null
   },
@@ -273,7 +273,7 @@
    "ok": true,
    "count": 1,
    "method": "configured feed",
-   "seconds": 0.6,
+   "seconds": 0.5,
    "error": null,
    "discovered_rss": null
   },
@@ -283,7 +283,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 14.7,
+   "seconds": 14.6,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -303,7 +303,7 @@
    "ok": true,
    "count": 3,
    "method": "page scrape",
-   "seconds": 6.4,
+   "seconds": 7.3,
    "error": null,
    "discovered_rss": null
   },
@@ -333,7 +333,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 0.2,
+   "seconds": 0.1,
    "error": null,
    "discovered_rss": null
   },
@@ -382,6 +382,636 @@
  ],
  "items": [
   {
+   "id": "9b87c2de80c5496c",
+   "title": "आजका लागि तोकियो विदेशी मुद्राको विनिमय दर",
+   "url": "https://www.ratopati.com/story/591365/foreign-currency-exchange-rates-set-for-today",
+   "summary": "काठमाडौँ । नेपाल राष्ट्र बैंकले आजका लागि विदेशी मुद्राको विनिमय दर निर्धारण गरेको छ । राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५२ रुपैयाँ ४१ पैसा र बिक्रीदर १५३ रुपैयाँ ०१ पैसा निर्धारण गरिएको छ",
+   "published": "2026-09-10T23:45:00+00:00",
+   "source": "ratopati",
+   "source_name": "Ratopati",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "e989a8af203c5ac6",
+   "title": "यस्तो छ आज विदेशी मुद्राको विनिमयदर",
+   "url": "https://www.onlinekhabar.com/2026/09/2014803/this-is-the-foreign-exchange-rate-today-88",
+   "summary": "राष्ट्र बैङ्कले यो विनिमयदरलाई आवश्यकतानुसार जुनसुकै समयमा पनि संशोधन गर्न सकिने जनाएको छ ।",
+   "published": "2026-09-10T23:15:18+00:00",
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "d0bf29982c0a7281",
+   "title": "विदेशबाट फर्किएका युवा भेडापालनमा",
+   "url": "https://www.ratopati.com/story/591363/young-people-returning-from-abroad-are-involved-in-sheep-farming",
+   "summary": "म्याग्दी । रोजगारीका लागि विदेश जाने युवाको सङ्ख्या बढिरहेका बेला म्याग्दीको अन्नपूर्ण गाउँपालिका–५ पाउद्धारका केही युवाले भने विदेशमा सिकेको सीप र कमाएको पुँजी गाउँमै लगानी गरेर भेडापालन व्यवसाय सुरु गरेका छन् । पाउद्धारका ३८ वर्षीय मनिराम",
+   "published": "2026-09-10T23:15:00+00:00",
+   "source": "ratopati",
+   "source_name": "Ratopati",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "5ad3f4416832b2c3",
+   "title": "Thrive Capital led VCs into pro sports ownership; Collaborative Fund just upped that play",
+   "url": "https://techcrunch.com/2026/09/10/thrive-capital-showed-vcs-the-way-into-pro-sports-ownership-collaborative-fund-is-now-trying-its-own-version-of-the-same-play/",
+   "summary": "Collaborative Fund just bought into D.C. United and its stadium, with firm founder Craig Shapiro pitching it as a way to showcase for the firm's startups.",
+   "published": "2026-09-10T22:30:00+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "b7495d17a1b584e9",
+   "title": "Boy developed \"toasted skin\" condition from using a laptop every day",
+   "url": "https://arstechnica.com/health/2026/09/boy-developed-toasted-skin-condition-from-using-a-laptop-every-day/",
+   "summary": "Laptops don't usually get hot enough to burn—but they can still be harmful.",
+   "published": "2026-09-10T22:16:05+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "d2c8efe8baa7b2a4",
+   "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
+   "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+   "summary": "Nvidia has its finger in every pie, and sees another year of plenty in its future, Jensen Huang says. But, he insists, its deals are not circular.",
+   "published": "2026-09-10T21:51:59+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "2995f8f9843c1df6",
+   "title": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his",
+   "url": "https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/",
+   "summary": "Mark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entrepreneurship, healthcare, wellness and building businesses.",
+   "published": "2026-09-10T21:35:00+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "8a28d3ed17ca7695",
+   "title": "Slack can now vibe-code interactive charts and reports inside chats",
+   "url": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
+   "summary": "A new feature coming to Slack will allow you to build interactive reports, polls, dashboards, presentations, microsites, and other tools directly inside a chat. With Slackforce Surfaces, you can describe to Slackbot what you need, and it will use AI to gather information from relevant conversations and connected apps, like Google Drive or Salesforce, to […]",
+   "published": "2026-09-10T21:25:21+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "270d0d9c42ed67a7",
+   "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+   "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
+   "summary": "The company said Pro subscriptions put the most strain on its systems, so it's pausing sign-ups while adding more capacity.",
+   "published": "2026-09-10T20:59:51+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "50c992200b0947af",
+   "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+   "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+   "summary": "A new report released Thursday by Anthropic alleges persistent distillation attacks by China-based AI companies, which have escalated in recent months as competition in the space has intensified.",
+   "published": "2026-09-10T20:57:30+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "b328f1e121f655c2",
+   "title": "LinkedIn beats \"BrowserGate\" lawsuits over scanning users' Chrome extensions",
+   "url": "https://arstechnica.com/tech-policy/2026/09/linkedin-beats-browsergate-lawsuits-over-scanning-users-chrome-extensions/",
+   "summary": "Judge tosses lawsuits, says plaintiffs didn't allege any real privacy violation.",
+   "published": "2026-09-10T20:55:29+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "c83b80e65a757aeb",
+   "title": "Furo’s founders left Silicon Valley — and it’s paying off",
+   "url": "https://techcrunch.com/2026/09/10/furos-founders-left-silicon-valley-and-its-paying-off/",
+   "summary": "The three 28-year-old founders behind energy startup Furo moved from Silicon Valley and back to Germany, and yet secured $4 million in funding from mostly U.S. backers.",
+   "published": "2026-09-10T20:48:00+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "0da3f8f5f98f210c",
+   "title": "Bodily Oddities",
+   "url": "https://vester.si/bodily-oddities/",
+   "summary": "Comments",
+   "published": "2026-09-10T20:33:11+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "7bc012bc973553dc",
+   "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+   "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+   "summary": "Meta's newest app Muse is off to a slower start than the company's other apps, like Meta AI or Threads.",
+   "published": "2026-09-10T19:50:04+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "7e30f8019d184ba8",
+   "title": "Schools are catching on to Big Tech’s playbook",
+   "url": "https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids",
+   "summary": "It's the hot new thing in tech, and it's where all the jobs are. Students who don't learn to use it fall behind. And to help them catch up in time, its creators are graciously providing the resources and curriculum for learning it, often pro bono. That's the narrative AI companies are pitching schools on […]",
+   "published": "2026-09-10T19:44:20+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "250760852b146509",
+   "title": "Proof of Capture: Apple Reference Image, but open source and using steganography",
+   "url": "https://merybenavente.me/blog/proof-of-capture",
+   "summary": "Comments",
+   "published": "2026-09-10T19:44:15+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "8149604adc09f4ae",
+   "title": "OpenAI Agents API",
+   "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+   "summary": "Comments",
+   "published": "2026-09-10T19:43:22+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "c0c3c370b6fcd796",
+   "title": "The Deathray: A simple way for an untrusted site to freeze a Mac",
+   "url": "https://auberon.xyz/blog/posts/deathray/",
+   "summary": "Comments",
+   "published": "2026-09-10T19:34:20+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "7ed4ae5ce420e6f6",
+   "title": "वैदेशिक लगानीकर्ताको आकर्षण सूचना प्रविधिका परियोजनामा",
+   "url": "https://www.ratopati.com/story/591358/foreign-investors-attraction-to-information-technology-projects",
+   "summary": "काठमाडौँ । पछिल्लो समय सूचना प्रविधिका क्षेत्रमा वैदेशिक लगानीकर्ताको आकर्षण बढेको पाइएको छ । आर्थिक वर्ष २०८२/८३ मा प्राप्त भएका एक हजार ११६ परियोजनामध्ये सूचना प्रविधिका मात्रै ७२७ छन् । प्रतिबद्धता आएका लगानी क्षेत्रहरूमध्ये उत्पादन ६३,",
+   "published": "2026-09-10T19:34:18+00:00",
+   "source": "ratopati",
+   "source_name": "Ratopati",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "0d9e3d69ee872f10",
+   "title": "Europe will go it alone on Venus mission after NASA yanks radar instrument",
+   "url": "https://arstechnica.com/space/2026/09/europe-will-go-it-alone-on-venus-mission-after-nasa-yanks-radar-instrument/",
+   "summary": "Europe is looking inward, and perhaps to China, as the White House tries to cancel some NASA partnerships.",
+   "published": "2026-09-10T19:09:29+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "2f0fbedb03569e47",
+   "title": "पराशर मार्गको काम कछुवा गतिमा",
+   "url": "https://www.ratopati.com/story/591356/work-on-parashar-marg-at-a-snails-pace",
+   "summary": "तनहुँ । विश्व बैंकको सहयोगमा स्तरोन्नति सुरु भएको व्यास नगरपालिकास्थित चार वडा जोड्ने सडकको काम सुस्त हुँदा सर्वसाधारणले सास्ती खेपेका छन् । विसं २०८१ जेठदेखि सुरु भएको उक्त सडकको हालसम्म ४७ प्रतिशत भौतिक प्रगति भएको",
+   "published": "2026-09-10T18:48:06+00:00",
+   "source": "ratopati",
+   "source_name": "Ratopati",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "8b66b0c9af6534f3",
+   "title": "Android can now securely migrate your logins between password managers",
+   "url": "https://arstechnica.com/gadgets/2026/09/android-can-now-securely-migrate-your-logins-between-password-managers/",
+   "summary": "App support is slim right now, but Google says more are coming.",
+   "published": "2026-09-10T18:41:09+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "a7f6a3b3d6fa5696",
+   "title": "Proxima Fusion bets €140M on a critical fusion ingredient dominated by Asian suppliers",
+   "url": "https://techcrunch.com/2026/09/10/proxima-fusion-bets-e140m-on-a-critical-fusion-ingredient-dominated-by-asian-suppliers/",
+   "summary": "Proxima Fusion said Wednesday it plans to build a €140 million ($162.6 million) factory to produce fusion-grade high-temperature superconducting (HTS) tape, which will provide the startup with key component to its reactor design.",
+   "published": "2026-09-10T18:38:00+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "fd3d93c22e4be75b",
+   "title": "१२ बजे १२ समाचार : यस्ता छन् आजका प्रमुख समाचार",
+   "url": "https://www.ratopati.com/story/591355/12-news-at-12-these-are-todays-top-news-stories",
+   "summary": "काठमाडौँ । रातोपाटी डटकमको नियमित प्रस्तुति ‘१२ बजे १२ समाचार’मा प्रस्तुत गरेका छौँ। १. मन्त्रिपरिषद् बैठक प्रधानमन्त्री बालेन शाहको अमेरिका भ्रमण स्वीकृत भएको छ । २. मन्त्रिपरिषद् पुनर्गठन उद्योग, वाणिज्य तथा आपूर्तिमन्त्रीमा दीपक कुमार साह नियुक्त भएका छन् ।",
+   "published": "2026-09-10T18:16:32+00:00",
+   "source": "ratopati",
+   "source_name": "Ratopati",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "a423d4829351c17f",
+   "title": "Panic builds over bankrupt Spirit’s looming data sale to Google",
+   "url": "https://arstechnica.com/tech-policy/2026/09/panic-builds-over-bankrupt-spirits-looming-data-sale-to-google/",
+   "summary": "\"Bankruptcy cannot become the new land grab for AI.”",
+   "published": "2026-09-10T18:14:14+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "878d3f4c03809ea0",
+   "title": "Amazon makes it easier to buy what you see on Prime Video",
+   "url": "https://techcrunch.com/2026/09/10/amazon-makes-it-easier-to-buy-what-you-see-on-prime-video/",
+   "summary": "Amazon is expanding shopping integrations across Prime Video, letting viewers discover products tied to thousands of shows, movies, and live sports through X-Ray, its shopping app, and a new Lens-powered “Shop the Scene” feature.",
+   "published": "2026-09-10T18:10:36+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "63c6a570aa53118e",
+   "title": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
+   "url": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
+   "summary": "Come inside the mind of a bot trying to convince the internet it's human.",
+   "published": "2026-09-10T17:54:44+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "f4ad9af262da5733",
+   "title": "Physicist does the math on Star Trek’s “Picard maneuver”",
+   "url": "https://arstechnica.com/science/2026/09/physicist-does-the-math-on-star-treks-picard-maneuver/",
+   "summary": "The trick from Next Generation would be even more effective in real life.",
+   "published": "2026-09-10T17:54:33+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "a8b2f4fbf4f64085",
+   "title": "India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content",
+   "url": "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/",
+   "summary": "Pocket FM uses AI to produce 99% of its new content, helping make content production about 80 times cheaper.",
+   "published": "2026-09-10T17:45:00+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "e50699a6e71eaf65",
+   "title": "Kimmel's ABC show won't air interview with Democrat because of Trump FCC threats",
+   "url": "https://arstechnica.com/tech-policy/2026/09/kimmels-abc-show-wont-air-interview-with-democrat-because-of-trump-fcc-threats/",
+   "summary": "Talarico talk to be on YouTube to save ABC stations the hassle of dealing with FCC.",
+   "published": "2026-09-10T17:30:09+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "1742f24389f36868",
+   "title": "शंकर पोखरेलाई काउन्टर दिँदै बादलको प्रतिवेदन, ७५ प्रतिशत मतबाट निर्वाचित ओलीलाई हटाउनु व्यर्थ",
+   "url": "https://bizmandu.com/content/20260910225948.html",
+   "summary": "काठमाडौं। नेकपा (एमाले) का उपाध्यक्ष रामबहादुर थापा बादलले महासचिव शंकर पोखरेलले तयार पारेको प्रतिवेदनविरुद्ध अर्को प्रतिवेदन अघि सारेका छन्। बादल नेतृत्वको निर्वाचन समीक्षा तथा पार्टी पुनर्गठन कार्यदलले अध्यक्ष केपी शर्मा ओलीलाई हटाउन सुझावसहित प्रतिवेदन तयार पारेको थियो। प्रतिवेदन लेखनको जिम्मेवारी पाएका पोखरेलले महाधिवेशन प्रतिनिधि परिषद् बैठक बोलाएर त्यसलाई विशेष महाधिवेशनमा रूपान्तरण गर्दै ओल",
+   "published": "2026-09-10T17:14:48+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "5123e1dac7199c8e",
+   "title": "Music Theory for the 21st-Century Classroom",
+   "url": "https://musictheory.pugetsound.edu/mt21c/MusicTheory.html",
+   "summary": "Comments",
+   "published": "2026-09-10T17:14:12+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "0aa30b132d0240e4",
+   "title": "Amazon’s Fire TV Stick 4K is over half off at under $20",
+   "url": "https://www.theverge.com/gadgets/993455/fire-tv-stick-4k-resident-evil-requiem-deal-sale",
+   "summary": "Looking to take full advantage of your 4K television, but your current streaming stick doesn’t have the right features? Through September 13th, you can grab an Amazon Fire TV Stick 4K from Woot for just $16.09 when you use the coupon code FIRE30 at checkout. With support for Wi-Fi 6 and 2GB of memory, it’s […]",
+   "published": "2026-09-10T16:58:44+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "5f07e4eeb19d1a8f",
+   "title": "China’s drone supremacy shows in airlifting bodies and food after Nepal flood disaster",
+   "url": "https://arstechnica.com/gadgets/2026/09/drones-deliver-food-and-remove-bodies-after-nepals-flood-disaster/",
+   "summary": "DJI drones that already supply Mount Everest camps assist Nepal’s flood relief.",
+   "published": "2026-09-10T16:53:52+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "789966e91f4c3d2d",
+   "title": "भैरहवाको कालिङ्गा क्यासिनोमा जुवा खेल्ने ५ नेपालीसहित ६ जना पक्राउ, म्यानेजर पनि नियन्त्रणमा",
+   "url": "https://bizmandu.com/content/20260910223640.html",
+   "summary": "काठमाडौं। भैरहवाको कालिङ्गा क्यासिनोमा जुवा खेलिरहेका ६ जनालाई प्रहरीले नियन्त्रणमा लिएको छ। लुम्बिनी प्रदेश प्रहरी कार्यालयबाट खटिएको विशेष प्रहरी टोलीले सिद्धार्थनगर नगरपालिका १० स्थित कालिङ्गा क्यासिनोमा नेपाली नागरिक प्रवेश गराई जुवा खेलाइएको सूचनाका आधारमा उनीहरूलाई नियन्त्रणमा लिइएको हो। पक्राउ पर्नेमा म्याग्दीको बेनी नगरपालिका ७ का नारायण घर्ती, कास्कीको पोखरा महानगरपालिका १५ का रोशन केसी छ",
+   "published": "2026-09-10T16:51:40+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "9e377e27a584fe7c",
+   "title": "Instagram’s latest feature lets you add tagged posts to your profile grid",
+   "url": "https://techcrunch.com/2026/09/10/instagrams-latest-feature-lets-you-add-tagged-posts-to-your-profile-grid/",
+   "summary": "Instagram's newest feature lets users take posts from the Tagged tab and move it to their main profile grid instead.",
+   "published": "2026-09-10T16:31:25+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "b543e1102e205d67",
+   "title": "Forgejo <=16.0.3 Critical RCE",
+   "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
+   "summary": "Comments",
+   "published": "2026-09-10T15:57:40+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "818d1bb876acf6a3",
+   "title": "Neki – Sharded Postgres",
+   "url": "https://planetscale.com/blog/introducing-neki",
+   "summary": "Comments",
+   "published": "2026-09-10T15:43:49+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "0f9025580c952fe3",
+   "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+   "url": "https://cognition.com/blog/swe-2",
+   "summary": "Comments",
+   "published": "2026-09-10T15:29:47+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "4dddfb01fe810c7b",
+   "title": "Technique for Manipulating Satellite Photos Now Reveals Ancient Images (2025)",
+   "url": "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images",
+   "summary": "Comments",
+   "published": "2026-09-10T15:29:30+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "b755cd99659ea1a3",
+   "title": "Don't let anyone take away your big box of cables",
+   "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
+   "summary": "Comments",
+   "published": "2026-09-10T15:27:22+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "186f637c6fe23ef7",
+   "title": "Shopify is moving from React Native back to Swift and Kotlin",
+   "url": "https://shopify.engineering/back-to-native",
+   "summary": "Comments",
+   "published": "2026-09-10T14:09:31+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "e510b95d946f17a7",
+   "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+   "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+   "summary": "Comments",
+   "published": "2026-09-10T06:49:43+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-11",
+   "is_new": true
+  },
+  {
+   "id": "ef4417cf5d161a09",
+   "title": "मलेसियाको रोजगारी : सिन्डिकेट कायम राख्दै २५ को सूचीमा थपिए २५० म्यानपावर",
+   "url": "https://www.onlinekhabar.com/2026/09/2014565/malaysias-employment-syndicate-grows-even-bigger-250-manpower-added-to-list-of-25",
+   "summary": "२५ भदौ, काठमाडौं । मलेसियाले नेपालबाट श्रमिक लैजान २५ वटा म्यानपावर कम्पनीलाई मात्रै अनुमति दिनेगरी सार्वजनिक गरेको सूची विवादमा परेका बेला थप २५० वटा म्यानपावर कम्पनीलाई सबएजेन्टका रुपमा आफ्नो प्रणालीमा सूचीकृत गरेको छ । मलेसियाको फरेन वर्कर सेन्ट्रल म्यानेजमेन्ट सिस्टम (एफडब्लूसीएमएस) मा यसअघि २५ वटा म्यानपावर कम्पनीलाई मात्रै मुख्य कन्ट्र्याक्टरका रूपमा देखाइएको थियो । त्यसको […]",
+   "published": "2026-09-10T16:28:47+00:00",
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
+   "id": "63fe0cca7266aa0b",
+   "title": "दल खोल्दै र छोड्दै रास्वपा पुगेका दीपक साह बने उद्योगमन्त्री",
+   "url": "https://www.onlinekhabar.com/2026/09/2014584/deepak-sah-who-joined-the-rashtriya-swayamsevak-sangh-rss-after-forming-and-leaving-the-party-becomes-the-minister-of-industry",
+   "summary": "जनमत पार्टीबाट राजनीतिक यात्रा सुरु गरेका दीपककुमार साह पछि त्यही दलबाट साधारण सदस्यसमेत नरहने गरी पदमुक्त भए । त्यसपछि जनस्वराज र सर्वोदय दल गठन गरे । सर्वोदय दललाई रास्वपामा विलय गराएर सांसद बनेका साह अहिले उद्योगमन्त्री नियुक्त भए ।",
+   "published": "2026-09-10T16:25:44+00:00",
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-10",
+   "is_new": false
+  },
+  {
    "id": "ea69728850ca4797",
    "title": "एमालेका पूर्वसांसद तामाङलाई सहकारी ठगीमा साढे पाँच वर्ष कैद, ५० हजार रुपैयाँ जरिवाना",
    "url": "https://bizmandu.com/content/20260910214541.html",
@@ -393,7 +1023,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4b90a384af3b54d2",
@@ -407,7 +1037,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ba755b7f5c9d72f7",
@@ -421,7 +1051,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f7a036cfb15dcd37",
@@ -435,7 +1065,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dc55eb740bdafdd9",
@@ -449,7 +1079,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8ead8a97313403c8",
@@ -463,35 +1093,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
-  },
-  {
-   "id": "ef4417cf5d161a09",
-   "title": "मलेसियाको रोजगारी : सिन्डिकेट कायम राख्दै २५ को सूचीमा थपिए २५० म्यानपावर",
-   "url": "https://www.onlinekhabar.com/2026/09/2014565/malaysias-employment-syndicate-grows-even-bigger-250-manpower-added-to-list-of-25",
-   "summary": "२५ भदौ, काठमाडौं । मलेसियाले नेपालबाट श्रमिक लैजान २५ वटा म्यानपावर कम्पनीलाई मात्रै अनुमति दिनेगरी सार्वजनिक गरेको सूची विवादमा परेका बेला थप २५० वटा म्यानपावर कम्पनीलाई सबएजेन्टका रुपमा आफ्नो प्रणालीमा सूचीकृत गरेको छ । मलेसियाको फरेन वर्कर सेन्ट्रल म्यानेजमेन्ट सिस्टम (एफडब्लूसीएमएस) मा यसअघि २५ वटा म्यानपावर कम्पनीलाई मात्रै मुख्य कन्ट्र्याक्टरका रूपमा देखाइएको थियो । त्यसको […]",
-   "published": "2026-09-10T15:46:47+00:00",
-   "source": "onlinekhabar",
-   "source_name": "Online Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-09-10",
-   "is_new": true
-  },
-  {
-   "id": "63fe0cca7266aa0b",
-   "title": "दल खोल्दै र छोड्दै रास्वपा पुगेका दीपक साह बने उद्योगमन्त्री",
-   "url": "https://www.onlinekhabar.com/2026/09/2014584/deepak-sah-who-joined-the-rashtriya-swayamsevak-sangh-rss-after-forming-and-leaving-the-party-becomes-the-minister-of-industry",
-   "summary": "जनमत पार्टीबाट राजनीतिक यात्रा सुरु गरेका दीपककुमार साह पछि त्यही दलबाट साधारण सदस्यसमेत नरहने गरी पदमुक्त भए । त्यसपछि जनस्वराज र सर्वोदय दल गठन गरे । सर्वोदय दललाई रास्वपामा विलय गराएर सांसद बनेका साह अहिले उद्योगमन्त्री नियुक्त भए ।",
-   "published": "2026-09-10T15:43:44+00:00",
-   "source": "onlinekhabar",
-   "source_name": "Online Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b7807e8a287f26ec",
@@ -505,7 +1107,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "de11fe9728ced2a3",
@@ -519,7 +1121,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a5172228178659d3",
@@ -533,7 +1135,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "db23c58a04c29237",
@@ -547,7 +1149,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b0c706e635477200",
@@ -561,7 +1163,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b2cacd555a65b8bd",
@@ -575,7 +1177,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9979c1b3d7b0a0c6",
@@ -589,7 +1191,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3a75f069ee9d21f3",
@@ -603,7 +1205,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ce66f0c984350e40",
@@ -617,7 +1219,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5a0225a836e18aba",
@@ -631,7 +1233,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "156b613fac000054",
@@ -645,7 +1247,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8be0e105c20361d5",
@@ -659,7 +1261,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "994adea5579bb7f7",
@@ -673,7 +1275,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "95d74590a41a189d",
@@ -687,7 +1289,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7eec206484e198e9",
@@ -701,7 +1303,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "fb19c5179c9ae68e",
@@ -715,7 +1317,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3bd9c955b8873cc0",
@@ -729,7 +1331,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b1cc1a53d05914b0",
@@ -743,7 +1345,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a90458a3581b6134",
@@ -757,7 +1359,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "31bea4d9ad00bbc6",
@@ -771,7 +1373,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f8306f28ddda843d",
@@ -785,7 +1387,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "02197ca3cc8beead",
@@ -799,7 +1401,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2e1b5962b76cc298",
@@ -813,7 +1415,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9f0638fb9e264025",
@@ -827,7 +1429,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "657c911cae29c44d",
@@ -841,7 +1443,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a2d5923622bc001f",
@@ -855,7 +1457,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "fc3399187be22bd2",
@@ -869,7 +1471,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "fedc5d2b84a2060a",
@@ -883,7 +1485,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f444d9e504b5e1ee",
@@ -897,7 +1499,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "33a3e6e391ddc2a9",
@@ -911,7 +1513,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "086de2290af7ea95",
@@ -925,7 +1527,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7e3c4c09baa26e2c",
@@ -939,7 +1541,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1ecfec22577f1857",
@@ -953,7 +1555,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2da4bf2779623ee3",
@@ -967,7 +1569,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d0bd0f3f4a7ad9b4",
@@ -981,7 +1583,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4db23ca08b9570e4",
@@ -995,7 +1597,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "396559c6c494139a",
@@ -1009,7 +1611,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "57374d5bd65b9298",
@@ -1023,7 +1625,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "eacd16bb43b5f540",
@@ -1037,7 +1639,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0486a1fef7b3e1da",
@@ -1051,7 +1653,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "69e752d89fbb7890",
@@ -1065,7 +1667,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "26354c0273fd45e9",
@@ -1079,7 +1681,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e5e78d115c1e66b9",
@@ -1093,7 +1695,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f0fa9922d1dc1565",
@@ -1107,7 +1709,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "31e0e83dc8da3af4",
@@ -1121,7 +1723,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2010585d73accf85",
@@ -1135,7 +1737,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ae912b5b97e6c9bc",
@@ -1149,7 +1751,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "98be906e3c895a55",
@@ -1163,7 +1765,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e2fa29ce083e4e2e",
@@ -1177,7 +1779,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "33f40c7e094ec9a3",
@@ -1191,7 +1793,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5b31c94b7d358a59",
@@ -1205,7 +1807,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "548550116310b088",
@@ -1219,7 +1821,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1de475f444ac8da3",
@@ -1233,7 +1835,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "55f6202aec01ca6c",
@@ -1247,7 +1849,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b00bd325f458bf52",
@@ -1261,7 +1863,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3c9e509cf596b752",
@@ -1275,7 +1877,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "456553ab8a43f026",
@@ -1289,7 +1891,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ff6325c9343a45ac",
@@ -1303,7 +1905,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8ee114291b5daeef",
@@ -1317,7 +1919,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "42f474c2ba9a1403",
@@ -1331,7 +1933,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d255071ebfbcee74",
@@ -1345,7 +1947,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "497ff4111b813d4d",
@@ -1359,7 +1961,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "fcd2e2debe31c457",
@@ -1373,7 +1975,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7e31b0994d24b01d",
@@ -1387,7 +1989,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "327a4656c32ec515",
@@ -1401,7 +2003,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9e6e11f3760cc989",
@@ -1415,7 +2017,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d1b6fbd1e277d129",
@@ -1429,7 +2031,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a3488a826b1dfa1e",
@@ -1443,7 +2045,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c6b53879bb0d19ec",
@@ -1457,7 +2059,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0be6034d2e0d2fdd",
@@ -1471,7 +2073,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4f26c1e8ab7c970e",
@@ -1485,7 +2087,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dacf751e0f815d19",
@@ -1499,7 +2101,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ed4bac1c06e0c9ca",
@@ -1513,7 +2115,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a74eff74bee509d4",
@@ -1527,7 +2129,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1d444d1626450b90",
@@ -1541,7 +2143,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c4b6cfb54108fa89",
@@ -1555,7 +2157,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b8d781159fc71390",
@@ -1569,7 +2171,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1a8468981444f520",
@@ -1583,7 +2185,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4d42e14c90cc77d7",
@@ -1597,7 +2199,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8fddad5633d7c05c",
@@ -1611,7 +2213,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4a5d506455e8669d",
@@ -1625,7 +2227,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8450ddc27908ed6d",
@@ -1639,7 +2241,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "25c2f7d5b552bbc8",
@@ -1653,7 +2255,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ea162b7fc7910a39",
@@ -1667,7 +2269,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "294405d722d9d174",
@@ -1681,7 +2283,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "47768a8097792ac3",
@@ -1695,7 +2297,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0f5781773d8d47d5",
@@ -1709,7 +2311,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0bd316bacdbcd575",
@@ -1723,7 +2325,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0512e1418173d892",
@@ -1737,7 +2339,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "85d55045a2384ea1",
@@ -1751,7 +2353,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "63b3e96ce1862fdb",
@@ -1765,7 +2367,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a66ddcd9812b4f66",
@@ -1779,7 +2381,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0760ff5420e9e2db",
@@ -1793,7 +2395,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c55f541101bb1134",
@@ -1807,7 +2409,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0d93f9ae24906643",
@@ -1821,7 +2423,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "fb408de53e832ce5",
@@ -1835,7 +2437,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "30a4d8d80fb9acf2",
@@ -1849,7 +2451,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "20fc48119f594106",
@@ -1863,7 +2465,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7cc2a3a741a496bc",
@@ -1877,7 +2479,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bd669f110ceb6e76",
@@ -1891,7 +2493,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "121652a8379f43c4",
@@ -1905,7 +2507,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3c6bffa057e2c189",
@@ -1919,7 +2521,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2d1d46c7d885699f",
@@ -1933,7 +2535,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4ce01fa0cd5b28a0",
@@ -1947,7 +2549,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "964d44e32b2016c7",
@@ -1961,7 +2563,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d12bd86f5dcd9656",
@@ -1975,7 +2577,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "54f28a1288691361",
@@ -1989,7 +2591,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7d224763ca4a21c1",
@@ -2003,7 +2605,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0f254a9504698158",
@@ -2017,7 +2619,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "621557f7d25118fa",
@@ -2031,7 +2633,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8e0a5157cf0f2277",
@@ -2045,7 +2647,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f59eddb1d4a16699",
@@ -2059,7 +2661,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dde503850f3ec283",
@@ -2073,7 +2675,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "48fbec20b34a9ec2",
@@ -2087,7 +2689,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7fffdb2a2361e558",
@@ -2101,7 +2703,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1c6179c2341075a4",
@@ -2115,7 +2717,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "aef6de2527c9dfbf",
@@ -2129,7 +2731,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7264068dbc20a48a",
@@ -2143,7 +2745,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "17b6424d4d9532c6",
@@ -2157,7 +2759,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c328d238183db4c2",
@@ -2171,7 +2773,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "87f729f00a4867af",
@@ -2185,7 +2787,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d153165bbf481402",
@@ -2199,7 +2801,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4672371c0339277a",
@@ -2213,7 +2815,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4fc06c792760b476",
@@ -2227,7 +2829,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "eb49d7100374ca6a",
@@ -2241,7 +2843,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2e3127b1643cfc23",
@@ -2255,7 +2857,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4001be978cb227a1",
@@ -2269,7 +2871,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "868c56391442f282",
@@ -2283,7 +2885,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bcdc292e6cf4e6d5",
@@ -2297,7 +2899,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0a83c970323f8db3",
@@ -2311,7 +2913,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ab2a28a4b54b5c74",
@@ -2325,7 +2927,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c536f63f4e1b693f",
@@ -2339,7 +2941,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7a6c528340e29e90",
@@ -2353,7 +2955,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7f4533333009246b",
@@ -2367,7 +2969,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6786ee5a724a3942",
@@ -2381,7 +2983,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b245117ed8872fff",
@@ -2395,7 +2997,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2dcb2046f1390420",
@@ -2409,7 +3011,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d7c92192f57ae467",
@@ -2423,7 +3025,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "056ea96063714ae3",
@@ -2437,7 +3039,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c5b73504ac93de2d",
@@ -2451,7 +3053,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e4ebc33cc4af6862",
@@ -2465,7 +3067,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d202838e2181cb86",
@@ -2479,7 +3081,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "be6ab459d6b8b235",
@@ -2493,7 +3095,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "82576ab7ccbc30ac",
@@ -2507,7 +3109,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4ad8d04302c5a5a6",
@@ -2521,7 +3123,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "66b6c7c53dac3fc2",
@@ -2535,7 +3137,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "38b9ec31d844f6aa",
@@ -2549,7 +3151,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3f4ae2c464538619",
@@ -2563,7 +3165,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b587c46fad8ff812",
@@ -2577,7 +3179,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6d724a4e360dbd1a",
@@ -2591,7 +3193,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ef400fb78e940531",
@@ -2605,7 +3207,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dbe8f7bac0a78bd3",
@@ -2619,7 +3221,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c2c7d8230af0de6e",
@@ -2633,7 +3235,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8bbd236cc85c9d70",
@@ -2647,7 +3249,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5df304ddcd6559e3",
@@ -2661,7 +3263,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5b97e261829a2fb5",
@@ -2675,7 +3277,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bf5db2b4da74723c",
@@ -2689,7 +3291,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "663ccf1082485601",
@@ -2703,7 +3305,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4297895c79bf9944",
@@ -2717,7 +3319,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "053a6949c262c0c0",
@@ -2731,7 +3333,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a0dd5efd04d5d5f9",
@@ -2745,7 +3347,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d39fe5882ad67f98",
@@ -2759,7 +3361,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "06e95fc049ed41a0",
@@ -2773,7 +3375,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1d68617963cdadd8",
@@ -2787,7 +3389,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "58f824f3dd9486b8",
@@ -2801,7 +3403,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "37db6a29bee9689f",
@@ -2815,7 +3417,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b62989334d255b06",
@@ -2829,7 +3431,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "00139c10349a93e4",
@@ -2843,7 +3445,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7b6d1489f88c975b",
@@ -2857,7 +3459,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "49a19d394861c655",
@@ -2871,7 +3473,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ca113272a3191adb",
@@ -2885,7 +3487,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "177476e2465a7ea4",
@@ -2899,7 +3501,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b4398485f7b7c3fe",
@@ -2913,7 +3515,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "235d792a15a838ba",
@@ -2927,7 +3529,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a25d401b2be44064",
@@ -2941,7 +3543,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e9e799c1fef8ee03",
@@ -2955,7 +3557,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6de2d444b0abc61a",
@@ -2969,7 +3571,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "27621481c8312108",
@@ -2983,7 +3585,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f75fae63246ef0c8",
@@ -2997,7 +3599,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "20876167ea1e0e97",
@@ -3011,7 +3613,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b9c509d54049f018",
@@ -3025,7 +3627,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bbe312102d05ef27",
@@ -3039,7 +3641,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "36ea4f9c41f02d33",
@@ -3053,7 +3655,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "78190c9a1f582c09",
@@ -3067,7 +3669,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8e32875f6040069b",
@@ -3081,7 +3683,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f75065a4ab165eb8",
@@ -3095,7 +3697,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "fe8abc1924e63680",
@@ -3109,7 +3711,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "42619d60320278d2",
@@ -3123,7 +3725,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2b91259c97b5120f",
@@ -3137,7 +3739,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "aaff52564020ea4d",
@@ -3151,7 +3753,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f6299d631af8851c",
@@ -3165,7 +3767,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "db6d158782c2db85",
@@ -3179,7 +3781,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4d0d98a4482dacd4",
@@ -3193,7 +3795,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "490807b8fb0d7f8c",
@@ -3207,7 +3809,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5f82cc19aa862097",
@@ -3221,7 +3823,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "83db6ced24a0d1f6",
@@ -3235,7 +3837,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2a49e7918b67ad91",
@@ -3249,7 +3851,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e83326d1a375c04e",
@@ -3263,7 +3865,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d150756bb7937cd2",
@@ -3277,7 +3879,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "34215dc0de4c48f3",
@@ -3291,7 +3893,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ce04601d461b355b",
@@ -3305,7 +3907,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "eeaef192d2b05575",
@@ -3319,7 +3921,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b6186c821c4979c1",
@@ -3333,7 +3935,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b42a1ff465e424d5",
@@ -3347,7 +3949,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "846479049c86a293",
@@ -3361,7 +3963,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5081f3547c0b9dfb",
@@ -3375,7 +3977,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "02a6e0e6e8b7c323",
@@ -3389,7 +3991,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9b66bdb33d6ccefc",
@@ -3403,7 +4005,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "aa87e9b31baec9e1",
@@ -3417,7 +4019,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4ac61cfce4df0ae3",
@@ -3431,7 +4033,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a71397ccdb8dcd13",
@@ -3445,7 +4047,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9ceea1dab3b02e99",
@@ -3459,7 +4061,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "710b0799cd065227",
@@ -3473,7 +4075,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8945b09e1a32b12d",
@@ -3487,7 +4089,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3306eb402722f519",
@@ -3501,7 +4103,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2bbeefdb13ca1673",
@@ -3515,7 +4117,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b6752290d6e3d0a6",
@@ -3529,7 +4131,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1a8f2302611ad59f",
@@ -3543,7 +4145,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c849bc7fee9ad15f",
@@ -3557,7 +4159,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3d0955651c15e9b7",
@@ -3571,7 +4173,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "39aa5e9fc89e4ac0",
@@ -3585,7 +4187,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b7db7d042b804cf5",
@@ -3599,7 +4201,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6a33dd00fd7690f9",
@@ -3613,7 +4215,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "361e29dbe3aa7f58",
@@ -3627,7 +4229,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "58b82cdced9f049d",
@@ -3641,7 +4243,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1f316729587ba232",
@@ -3655,7 +4257,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bce9bb236bddaf97",
@@ -3669,7 +4271,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e6cef0ed636fc4cc",
@@ -3683,7 +4285,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "599a7e7823442996",
@@ -3697,7 +4299,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "800ffc1f19688c49",
@@ -3711,7 +4313,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c29c165621a2a0a2",
@@ -3725,7 +4327,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c8da135ce773660f",
@@ -3739,7 +4341,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9702812316364059",
@@ -3753,7 +4355,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0bdcc2e924748943",
@@ -3767,7 +4369,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1aaca01ad2a7b96a",
@@ -3781,7 +4383,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "551c7c19e246d0e4",
@@ -3795,7 +4397,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a66da786853c2fa3",
@@ -3809,7 +4411,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e0ef32eabdd4c3c2",
@@ -3823,7 +4425,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "904f8be3f706bc4c",
@@ -3837,7 +4439,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9e292017ac7a2886",
@@ -3851,7 +4453,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2811b3bb1de82550",
@@ -3865,7 +4467,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ede2ea571ec6c951",
@@ -3879,7 +4481,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "189714f099ad25aa",
@@ -3893,7 +4495,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "36c0d5fa8e35e53f",
@@ -3907,7 +4509,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "28e8d382c57544a7",
@@ -3921,7 +4523,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c02456a97d56be6c",
@@ -3935,7 +4537,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "155e52eeff814044",
@@ -3949,7 +4551,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "776d3a319049f7a5",
@@ -3963,7 +4565,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e7eb9575ce76f117",
@@ -3977,7 +4579,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9919f0ae5903f619",
@@ -3991,7 +4593,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e6b09d72632fe429",
@@ -4005,7 +4607,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7f79d933b4561932",
@@ -4019,7 +4621,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b1c832c046251a56",
@@ -4033,7 +4635,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c1dd34b75c0d5db8",
@@ -4047,7 +4649,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "24869f663981aaaf",
@@ -4061,7 +4663,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e4969a8b3f05e2cf",
@@ -4075,7 +4677,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "208fd6ea9ece124a",
@@ -4089,7 +4691,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dfb72cba9453f7d1",
@@ -4103,7 +4705,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "38bb8be7eb38eae0",
@@ -4117,7 +4719,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2d414ff522dce6e4",
@@ -4131,7 +4733,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "679c043b4ba631b7",
@@ -4145,7 +4747,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "025152e631c728d3",
@@ -4159,7 +4761,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6b0f39aad5b91e46",
@@ -4173,7 +4775,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "518765405a2a3a2d",
@@ -4187,7 +4789,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f44ab9dfd6dbb04f",
@@ -4201,7 +4803,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4b7f92df301e45ea",
@@ -4215,7 +4817,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5850f64843fc977f",
@@ -4229,7 +4831,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ef4b8366abbe0c6d",
@@ -4243,7 +4845,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e684999068cdc05a",
@@ -4257,7 +4859,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "28c8b7451063cdbd",
@@ -4271,7 +4873,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ddacc642e1c8bb41",
@@ -4285,7 +4887,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "09fc74d011477950",
@@ -4299,7 +4901,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c4927af0916c9dd4",
@@ -4313,7 +4915,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "521d7d381473527e",
@@ -4327,7 +4929,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9338a39386301fbc",
@@ -4341,7 +4943,7 @@
    "is_document": true,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3de67136c56356a9",
@@ -4355,7 +4957,7 @@
    "is_document": true,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "be1dbfd862e12379",
@@ -4369,7 +4971,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "109d618356d95b11",
@@ -4383,7 +4985,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bbcbcc3bd90d2038",
@@ -4397,7 +4999,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "50b59728c1abcca5",
@@ -4411,7 +5013,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7bc67e19a1b24693",
@@ -4425,7 +5027,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bbcf3755fb7fcd9e",
@@ -4439,7 +5041,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "69661540f35e2d27",
@@ -4453,7 +5055,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "31c017ef1fd460ea",
@@ -4467,7 +5069,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "aa711cb589bef140",
@@ -4481,7 +5083,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e685e780ef87cf62",
@@ -4495,7 +5097,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5b78edf6d021777a",
@@ -4509,7 +5111,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0e1139890aaf9e1d",
@@ -4523,7 +5125,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "906701bbe2f342eb",
@@ -4537,7 +5139,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "48597e2e7a443211",
@@ -4551,7 +5153,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6dfabb77e53a2bb9",
@@ -4565,7 +5167,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8a6724a1000dd679",
@@ -4579,7 +5181,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3ad3ce696209fed7",
@@ -4593,7 +5195,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9d9573b8366b9836",
@@ -4607,7 +5209,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b6f22651f9518f9b",
@@ -4621,7 +5223,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d7ed331b06109c00",
@@ -4635,7 +5237,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4404b9da4064e948",
@@ -4649,7 +5251,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "06a27d6c2fe83078",
@@ -4663,7 +5265,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5d706ee31f13a276",
@@ -4677,7 +5279,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0a8d574f2346f281",
@@ -4691,7 +5293,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "71e3d5fdbbf09482",
@@ -4705,7 +5307,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "418daef2fb854d57",
@@ -4719,7 +5321,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a835028f18ca6c74",
@@ -4733,7 +5335,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8f99d491d797d2f6",
@@ -4747,7 +5349,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2d2c7b0a0c0c50b7",
@@ -4761,7 +5363,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6322d5bd7d926edd",
@@ -4775,7 +5377,7 @@
    "is_document": true,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3b87d40f013cc126",
@@ -4789,7 +5391,7 @@
    "is_document": true,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "328fd405466335ad",
@@ -4803,7 +5405,7 @@
    "is_document": true,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5a40e150fabd47d0",
@@ -4817,7 +5419,7 @@
    "is_document": true,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b89e8cef4592dd2d",
@@ -4831,7 +5433,7 @@
    "is_document": true,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5b5a0374ab5aab91",
@@ -4845,7 +5447,7 @@
    "is_document": true,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "99ac8dd3a9a1ec37",
@@ -4859,7 +5461,7 @@
    "is_document": true,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f6efa6e03e10b0d0",
@@ -4873,7 +5475,7 @@
    "is_document": true,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5db8986d9f0faecd",
@@ -4887,7 +5489,7 @@
    "is_document": true,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0e989839e850886a",
@@ -4901,7 +5503,7 @@
    "is_document": true,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dfaf050a74f4f025",
@@ -4915,7 +5517,7 @@
    "is_document": true,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "419be1a2bc8e47b2",
@@ -4929,7 +5531,7 @@
    "is_document": true,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "19986293c47d6620",
@@ -4943,7 +5545,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8d02577d5673d4e4",
@@ -4957,7 +5559,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5fe73b13a75fc5af",
@@ -4971,7 +5573,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a73d32e80f1a9eaa",
@@ -4985,7 +5587,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0e2f8fdf57f309f4",
@@ -4999,7 +5601,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e2ce9785feea214c",
@@ -5013,7 +5615,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9f5202fca14acc4d",
@@ -5027,7 +5629,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f899b1469ad3dec5",
@@ -5041,7 +5643,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7410a5be2dbf5611",
@@ -5055,7 +5657,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "42526e527012855e",
@@ -5069,7 +5671,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c1507616c1007f9a",
@@ -5083,7 +5685,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8e5bbe2e9d964054",
@@ -5097,7 +5699,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "648b5a6dfaa6bf22",
@@ -5111,7 +5713,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "38049ffc0b822a6c",
@@ -5125,7 +5727,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6a13cc7b17bc0c99",
@@ -5139,7 +5741,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7ed92f7209c43ebe",
@@ -5153,7 +5755,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dc5b837b23cd97c4",
@@ -5167,7 +5769,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "22d53bdeb0864de9",
@@ -5181,7 +5783,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6287ca3c5507c5f8",
@@ -5195,7 +5797,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5905336d46af49a0",
@@ -5209,7 +5811,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "deb03e92f079801e",
@@ -5223,7 +5825,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7fc55e692f805927",
@@ -5237,7 +5839,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "066aafc0b52a54cd",
@@ -5251,7 +5853,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ecf2fb926bbb9f79",
@@ -5265,7 +5867,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "299bc13b969dce78",
@@ -5279,7 +5881,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0f3279fadc7c9739",
@@ -5293,7 +5895,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2616c261fc5f9480",
@@ -5307,7 +5909,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ea159d050ef6a6c3",
@@ -5321,7 +5923,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a0d03db78b1d882a",
@@ -5335,7 +5937,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3d27a6a6815fdc3c",
@@ -5349,7 +5951,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "cc2d29266b0d3612",
@@ -5363,7 +5965,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "77aee31deafa2630",
@@ -5377,7 +5979,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6f3377bfeee1d373",
@@ -5391,7 +5993,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "68497e1d959e1ae0",
@@ -5405,7 +6007,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7c51a3045bd8af33",
@@ -5419,7 +6021,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8ad4eebca4c87bed",
@@ -5433,7 +6035,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3e7c1109371b020c",
@@ -5447,7 +6049,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "129b9f1a3f35f031",
@@ -5461,7 +6063,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8ffe2b80ad234397",
@@ -5475,7 +6077,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "65fa2f443e32f391",
@@ -5489,7 +6091,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5f15a54a4d338505",
@@ -5503,7 +6105,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "84494ad75c91b8ee",
@@ -5517,7 +6119,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dc87f8b119c1fe97",
@@ -5531,7 +6133,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c8027dea135094a9",
@@ -5545,7 +6147,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a87675de0139bfcf",
@@ -5559,7 +6161,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2e702144a66ec60a",
@@ -5573,7 +6175,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "683a9eff734ecc70",
@@ -5587,7 +6189,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "12af203c6ae8d44f",
@@ -5601,7 +6203,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a5afebc67f0a830a",
@@ -5615,7 +6217,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d1ad5f0ff78ce0e9",
@@ -5629,7 +6231,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c34278462cd9eed1",
@@ -5643,7 +6245,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5d8c27042a787d5f",
@@ -5657,7 +6259,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "11a4a290d56c0a52",
@@ -5671,7 +6273,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f839df6fd9f7077b",
@@ -5685,7 +6287,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b134e41c74fb289d",
@@ -5699,7 +6301,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b37170daff593af9",
@@ -5713,7 +6315,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "95fe3af3d8ff7cff",
@@ -5727,7 +6329,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "eb4db39ab2c260b8",
@@ -5741,7 +6343,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "49d923dc532c693f",
@@ -5755,7 +6357,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8ed5673b8bcd1e7b",
@@ -5769,7 +6371,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4024ba49dd083f88",
@@ -5783,7 +6385,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7ab4a9e9a9547db8",
@@ -5797,7 +6399,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4711d1e45b8875f8",
@@ -5811,7 +6413,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7d62e24f01d1a92f",
@@ -5825,7 +6427,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1e5eaa1104c3d58b",
@@ -5839,7 +6441,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e4de87982a8d1e4c",
@@ -5853,7 +6455,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f2ac8e6e6e467a04",
@@ -5867,7 +6469,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7a6535306912694c",
@@ -5881,7 +6483,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2524d218f59fca24",
@@ -5895,7 +6497,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "59a3e7e616124e73",
@@ -5909,7 +6511,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2d00e7b9a45fc532",
@@ -5923,7 +6525,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d5dd132d6705d8e2",
@@ -5937,7 +6539,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2e1765679ed6e386",
@@ -5951,7 +6553,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d927a8e3561df40b",
@@ -5965,7 +6567,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-10",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f49b65f72ca39fb0",
