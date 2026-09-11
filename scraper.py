@@ -478,17 +478,49 @@ def collect(source, verbose=False):
 
 # -------------------------------------------------------------------- merge
 
-def merge_with_archive(fresh_items, today_str):
-    """Keep history. Tag anything seen for the first time today as new."""
+def merge_with_archive(fresh_items, today_str, source_urls=None):
+    """
+    Keep history. Tag anything seen for the first time today as new.
+
+    The archive is also cleaned on every run. Items collected before the
+    attribution guard existed can still be sitting in history pointing at
+    another site, and an item labelled "Inland Revenue Dept" that opens
+    somebody else's article is worse than no item at all. Anything whose
+    link does not belong to its own source is dropped here, so bad history
+    is repaired rather than waiting fifteen days to expire.
+    """
+    source_urls = source_urls or {}
     existing = {}
+    dropped_bad = 0
+    dropped_seed = 0
+
     if os.path.exists(NEWS_FILE):
         try:
             with open(NEWS_FILE, encoding="utf-8") as f:
                 old = json.load(f)
             for it in old.get("items", []):
+                # Placeholder rows from the very first install.
+                if str(it.get("title", "")).startswith("Sample \u2014") or it.get("url") == "#":
+                    dropped_seed += 1
+                    continue
+
+                home = source_urls.get(it.get("source"))
+                allow = source_urls.get("__offsite__", set())
+                if (home and it.get("url")
+                        and it.get("source") not in allow
+                        and not same_site(it["url"], home)):
+                    dropped_bad += 1
+                    continue
+
                 existing[it["id"]] = it
         except Exception as e:
             log(f"  (could not read previous news.json: {e})")
+
+    if dropped_seed:
+        log(f"  removed {dropped_seed} placeholder item(s) from the archive")
+    if dropped_bad:
+        log(f"  removed {dropped_bad} archived item(s) whose link belonged to "
+            f"another site")
 
     merged = dict(existing)
     new_count = 0
@@ -511,6 +543,25 @@ def merge_with_archive(fresh_items, today_str):
 
     cutoff = (now_npt() - timedelta(days=ARCHIVE_DAYS)).strftime("%Y-%m-%d")
     kept = [it for it in merged.values() if it.get("first_seen", today_str) >= cutoff]
+
+    # One notice often appears under several URLs on the same site, which
+    # would otherwise list it four or five times. Keep the earliest copy.
+    def title_key(it):
+        t = re.sub(r"[^\w\u0900-\u097F]+", "", (it.get("title") or "").lower())
+        return (it.get("source"), t[:90])
+
+    kept.sort(key=lambda it: it.get("first_seen", ""))
+    seen_titles, deduped = set(), []
+    for it in kept:
+        k = title_key(it)
+        if k[1] and k in seen_titles:
+            continue
+        seen_titles.add(k)
+        deduped.append(it)
+    if len(deduped) != len(kept):
+        log(f"  merged {len(kept) - len(deduped)} duplicate item(s) "
+            f"published under more than one link")
+    kept = deduped
 
     kept.sort(
         key=lambda it: (it.get("first_seen", ""), it.get("published") or ""),
@@ -569,7 +620,10 @@ def main():
         all_items.extend(items)
         statuses.append(status)
 
-    items, new_today, added_now = merge_with_archive(all_items, today_str)
+    source_urls = {s["id"]: s["url"] for s in config["sources"]}
+    source_urls["__offsite__"] = {s["id"] for s in config["sources"]
+                                  if s.get("allow_offsite")}
+    items, new_today, added_now = merge_with_archive(all_items, today_str, source_urls)
 
     # Build the government securities calendar from PDMO auction notices.
     sec_ids = {s["id"] for s in config["sources"] if s.get("securities")}
