@@ -140,6 +140,18 @@ def parse_text(text):
     return uniq
 
 
+def dedupe(entries):
+    """Same instrument, tenor and issue date is the same auction."""
+    seen, out = set(), []
+    for e in sorted(entries, key=lambda x: x["issue_date"]):
+        k = (e["type"], e["tenor"], e["issue_date"])
+        if k in seen:
+            continue
+        seen.add(k)
+        out.append(e)
+    return out
+
+
 def pick_latest(rows):
     """
     Choose which published plan to use.
@@ -196,6 +208,90 @@ def links_from_page(html, base=SCHEDULE_PAGE):
     return rows
 
 
+def pdf_to_tables(data):
+    """
+    Pull the schedule out as real table rows.
+
+    The plan is a bordered table, so reading the cells directly is far more
+    reliable than parsing flowed text: a row never gets split across lines
+    and a column never runs into its neighbour. Text parsing stays as a
+    fallback for the day the layout changes.
+    """
+    rows = []
+    try:
+        import io, pdfplumber
+        with pdfplumber.open(io.BytesIO(data)) as doc:
+            for page in doc.pages:
+                for table in (page.extract_tables() or []):
+                    for row in table:
+                        cells = [(c or "").replace("\n", " ").strip() for c in row]
+                        if any(cells):
+                            rows.append(cells)
+    except Exception:
+        return []
+    return rows
+
+
+DATE_CELL = re.compile(r"^\s*(\d{1,2})\s*[/\-.।]\s*(\d{1,2})\s*[/\-.।]\s*(20\d\d)\s*$")
+TENOR_CELL = re.compile(r"(\d{1,3})\s*(ददने|दिने|दद ने|र्षे|वर्षे|वषे|बर्षे)")
+
+
+def parse_tables(rows):
+    """Read auction rows out of extracted table cells."""
+    out = []
+    for cells in rows:
+        ascii_cells = [to_ascii(c) for c in cells]
+
+        # Savings certificates sit in the same table but are not auctions.
+        if any(m in " ".join(cells) for m in SAVINGS_MARKERS):
+            continue
+
+        tenor = None
+        for c in ascii_cells:
+            m = TENOR_CELL.search(c)
+            if m:
+                tenor = (int(m.group(1)), m.group(2))
+                break
+        if not tenor:
+            continue
+
+        dates = []
+        for c in ascii_cells:
+            m = DATE_CELL.match(c)
+            if m:
+                dates.append((int(m.group(3)), int(m.group(1)), int(m.group(2))))
+        if len(dates) < 2:
+            continue
+
+        n, unit = tenor
+        is_days = unit in DAY_UNITS
+        a_iso = bs_to_ad(*dates[0])
+        i_iso = bs_to_ad(*dates[1])
+        if not i_iso:
+            continue
+
+        amount = None
+        for c in reversed(ascii_cells):
+            raw = c.replace(",", "").split(".")[0].strip()
+            if raw.isdigit() and 10 <= int(raw) <= 100000:
+                amount = f"Rs {int(raw):,} crore"
+                break
+
+        out.append({
+            "type": "Treasury Bill" if is_days else "Development Bond",
+            "tenor": f"{n} days" if is_days else (f"{n} year" if n == 1 else f"{n} years"),
+            "tenor_days": n if is_days else n * 365,
+            "auction_date": a_iso,
+            "issue_date": i_iso,
+            "bs_date": f"{dates[1][0]}-{dates[1][1]:02d}-{dates[1][2]:02d}",
+            "bs_auction": f"{dates[0][0]}-{dates[0][1]:02d}-{dates[0][2]:02d}" if a_iso else None,
+            "amount": amount,
+            "planned": True,
+            "isin": None,
+        })
+    return out
+
+
 def pdf_to_text(data):
     """Extract text from PDF bytes. Tries pdfplumber, then pypdf."""
     try:
@@ -241,8 +337,23 @@ def collect(fetch, log=print):
             log("  annual plan: PDF download failed")
             return [], None
 
-        entries = parse_text(pdf_to_text(doc.content))
-        log(f"  annual plan: {len(entries)} scheduled auction(s) read")
+        # Table extraction first, text parsing as a safety net. Whichever
+        # recovers more rows wins, so a layout change degrades instead of
+        # silently dropping half the calendar.
+        by_table = dedupe(parse_tables(pdf_to_tables(doc.content)))
+        by_text  = dedupe(parse_text(pdf_to_text(doc.content)))
+
+        tb_t = sum(1 for e in by_table if e["type"] == "Treasury Bill")
+        tb_x = sum(1 for e in by_text  if e["type"] == "Treasury Bill")
+        log(f"  annual plan: table read {len(by_table)} rows ({tb_t} T-bills), "
+            f"text read {len(by_text)} rows ({tb_x} T-bills)")
+
+        # Merge both, so a row either method found is kept.
+        entries = dedupe(by_table + by_text)
+        tb = sum(1 for e in entries if e["type"] == "Treasury Bill")
+        db = len(entries) - tb
+        log(f"  annual plan: {len(entries)} scheduled auction(s) "
+            f"({tb} treasury bills, {db} development bonds)")
         return entries, title
     except Exception as e:
         log(f"  annual plan failed: {type(e).__name__}: {e}")

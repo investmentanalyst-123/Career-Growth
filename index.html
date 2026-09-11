@@ -1492,11 +1492,39 @@ const COMPANY_PROVIDERS = [
     links:[ { label:'Open company page', url:'https://www.sharesansar.com/company/{S}', main:true } ] },
   { name:'Merolagani', note:'Detail, announcements, news, price history, floorsheet',
     links:[ { label:'Company detail', url:'https://merolagani.com/CompanyDetail.aspx?symbol={S}', main:true } ] },
+  { name:'Company\u2019s own website', note:'Annual reports, board and governance disclosures, product information',
+    links:[] },   // filled per symbol in showCompany
   { name:'Other portals', note:'Useful for cross-checking a figure',
     links:[ { label:'Nepali Paisa', url:'https://nepalipaisa.com/company/{S}' },
             { label:'NepseAlpha',   url:'https://nepsealpha.com/stocks/{S}/info' },
             { label:'ShareHub',     url:'https://sharehubnepal.com/company/{S}' } ] }
 ];
+
+/* Official company websites.
+   Kept deliberately short: only domains worth standing behind. Nepali banks
+   and insurers merge often - Nepal Investment + Mega became NIMB, Laxmi +
+   Sunrise became Laxmi Sunrise - and a stale entry silently points somewhere
+   wrong, which is worse than no entry. Anything not listed falls back to a
+   search, which always resolves.
+
+   To add one: open the company's real site, copy the address, add a line.
+   To correct one: overwrite it. That is the whole maintenance burden. */
+const COMPANY_SITES = {
+  // Commercial banks
+  NABIL:'https://www.nabilbank.com/',      NIMB:'https://www.nimb.com.np/',
+  NICA:'https://www.nicasiabank.com/',     EBL:'https://www.everestbankltd.com/',
+  HBL:'https://www.himalayanbank.com/',    GBIME:'https://www.globalimebank.com/',
+  PRVU:'https://www.prabhubank.com/',      SANIMA:'https://www.sanimabank.com/',
+  KBL:'https://www.kumaribank.com/',       MBL:'https://www.machbank.com/',
+  SBI:'https://www.nepalsbi.com.np/',      NBL:'https://www.nepalbank.com.np/',
+  ADBL:'https://www.adbl.gov.np/',         NMB:'https://www.nmb.com.np/',
+  SBL:'https://www.siddharthabank.com/',   PCBL:'https://www.primebank.com.np/',
+  // Telecom, manufacturing, hydro
+  NTC:'https://www.ntc.net.np/',           UNL:'https://www.unilevernepal.com/',
+  SHIVM:'https://www.shivamcements.com/',  CHCL:'https://www.chilime.com.np/',
+  // Insurance
+  NLIC:'https://www.nepallife.com.np/'
+};
 
 const QUICK_SYMBOLS = ['NABIL','NICA','SCB','EBL','HBL','GBIME','PRVU','SANIMA','NIMB','PCBL',
                        'NLIC','LICN','NICL','HGI','UNL','NTC','SHIVM','API','UPPER','NHPC'];
@@ -1584,19 +1612,45 @@ function renderCapital(){
 function showCompany(sym){
   const safe = sym.replace(/[^A-Z0-9]/g, '');
   if (!safe) return;
+
+  const blocks = COMPANY_PROVIDERS.map(p => {
+    let links = p.links;
+
+    // The company's own site is resolved per symbol, three ways.
+    if (p.links.length === 0){
+      const known = COMPANY_SITES[safe];
+      links = [];
+      if (known){
+        links.push({ label:'Official website', url:known, main:true });
+      }
+      // Always offered: a search resolves even after a merger or rebrand.
+      links.push({
+        label: known ? 'Search, if that link is out of date' : 'Find official website',
+        url:'https://duckduckgo.com/?q=' + encodeURIComponent(safe + ' Nepal NEPSE listed company official website')
+      });
+      // ShareSansar carries the company's website field on its own page.
+      links.push({ label:'Website field on ShareSansar',
+                   url:'https://www.sharesansar.com/company/' + safe });
+    }
+
+    return `
+      <div class="cm-provider">
+        <h4>${esc(p.name)} &middot; ${esc(p.note)}</h4>
+        <div class="cm-links">
+          ${links.map(l => `<a class="${l.main ? 'main' : ''}"
+              href="${esc(l.url.replace('{S}', safe))}" target="_blank"
+              rel="noopener">${esc(l.label)}</a>`).join('')}
+        </div>
+      </div>`;
+  }).join('');
+
+  const known = COMPANY_SITES[safe];
   document.getElementById('cmResult').innerHTML = `
     <div class="cm-result">
       <h3>${esc(safe)}</h3>
-      <div class="sub">Opens on the portal in a new tab</div>
-      ${COMPANY_PROVIDERS.map(p => `
-        <div class="cm-provider">
-          <h4>${esc(p.name)} &middot; ${esc(p.note)}</h4>
-          <div class="cm-links">
-            ${p.links.map(l => `<a class="${l.main ? 'main' : ''}"
-                href="${esc(l.url.replace('{S}', safe))}" target="_blank"
-                rel="noopener">${esc(l.label)}</a>`).join('')}
-          </div>
-        </div>`).join('')}
+      <div class="sub">Opens in a new tab${known ? '' :
+        ' &middot; no website on file for this symbol, so a search is offered instead'}</div>
+      ${blocks}
     </div>`;
 }
 
