@@ -620,7 +620,24 @@ table.gs tr.soon td{background:var(--gold-pale)}
 }
 
 /* ------------------------------------------------------- left rail */
-.rail{position:sticky; top:20px; display:flex; flex-direction:column; gap:16px; min-width:0}
+/* Sticky sidebar, but only as tall as the screen. Without the height cap
+   anything past the fold is unreachable: the page scroll moves the feed and
+   the pinned rail never moves with it. With it, the rail gets its own scroll
+   and everything in it can be read. */
+.rail{
+  position:sticky; top:20px; min-width:0;
+  display:flex; flex-direction:column; gap:16px;
+  max-height:calc(100vh - 40px); overflow-y:auto; overscroll-behavior:contain;
+  padding-right:6px; margin-right:-6px;
+  scrollbar-width:thin; scrollbar-color:var(--line) transparent;
+}
+.rail::-webkit-scrollbar{width:7px}
+.rail::-webkit-scrollbar-thumb{background:var(--line); border-radius:4px}
+.rail::-webkit-scrollbar-thumb:hover{background:var(--muted-2)}
+.rail::-webkit-scrollbar-track{background:transparent}
+/* Panels must keep their natural height inside the rail, or you end up with
+   a scrollbar inside a scrollbar. */
+.rail .panel{flex:0 0 auto}
 .shell > main{min-width:0}
 .panel{
   background:linear-gradient(180deg,#fff,#FCFEFD);
@@ -649,18 +666,17 @@ table.gs tr.soon td{background:var(--gold-pale)}
 .health-bar{height:5px;background:var(--line-soft);border-radius:3px;overflow:hidden;margin-top:9px}
 .health-fill{height:100%;background:var(--fern);border-radius:3px;transition:width .6s ease}
 
-.src-list{max-height:210px; overflow-y:auto; margin:9px -4px 0; padding:0 4px}
+.src-list{
+  max-height:188px; overflow-y:auto; margin:9px -4px 0; padding:0 4px;
+  scrollbar-width:thin; scrollbar-color:var(--line) transparent;
+}
+.src-list::-webkit-scrollbar{width:6px}
+.src-list::-webkit-scrollbar-thumb{background:var(--line); border-radius:3px}
 
 /* Panels that hold more than fits scroll, with a fade hinting at more. */
-.scroll-list{
-  max-height:296px; overflow-y:auto; margin:0 -4px; padding:0 4px;
-  scrollbar-width:thin; scrollbar-color:var(--line) transparent;
-  -webkit-mask-image:linear-gradient(180deg,#000 0,#000 calc(100% - 22px),transparent 100%);
-  mask-image:linear-gradient(180deg,#000 0,#000 calc(100% - 22px),transparent 100%);
-}
-.scroll-list::-webkit-scrollbar{width:6px}
-.scroll-list::-webkit-scrollbar-thumb{background:var(--line); border-radius:3px}
-.scroll-list::-webkit-scrollbar-track{background:transparent}
+/* The rail scrolls as one column now, so panels expand to their full height
+   rather than each holding its own little scrollbar. */
+.scroll-list{max-height:none; overflow:visible}
 .src-item{
   display:flex; align-items:center; gap:7px; padding:4px 6px; margin:0 -6px;
   font-size:12.2px; color:var(--muted); width:calc(100% + 12px);
@@ -730,13 +746,36 @@ table.gs tr.soon td{background:var(--gold-pale)}
 }
 .tabs::-webkit-scrollbar{display:none}
 .tabs-wrap{position:relative}
-.tabs-wrap::after{
-  content:""; position:absolute; right:0; top:0; bottom:0; width:46px;
-  pointer-events:none; opacity:0; transition:opacity .25s var(--ease);
-  background:linear-gradient(90deg,transparent,var(--paper) 72%);
-  border-radius:0 18px 18px 0;
+.tabs-wrap::after, .tabs-wrap::before{
+  content:""; position:absolute; top:0; bottom:0; width:54px;
+  pointer-events:none; opacity:0; transition:opacity .25s var(--ease); z-index:1;
 }
-.tabs-wrap.more::after{opacity:1}
+.tabs-wrap::after{right:0; background:linear-gradient(90deg,transparent,var(--paper) 72%);
+  border-radius:0 18px 18px 0}
+.tabs-wrap::before{left:0; background:linear-gradient(270deg,transparent,var(--paper) 72%);
+  border-radius:18px 0 0 18px}
+.tabs-wrap.more-right::after{opacity:1}
+.tabs-wrap.more-left::before{opacity:1}
+
+/* Arrows. Scrolling a horizontal strip with a mouse is otherwise guesswork -
+   there is no horizontal wheel on most mice and no visible scrollbar. */
+.tnav{
+  position:absolute; top:50%; transform:translateY(-50%); z-index:2;
+  width:32px; height:32px; border-radius:50%; cursor:pointer;
+  display:none; align-items:center; justify-content:center;
+  font-size:20px; line-height:1; padding-bottom:2px;
+  font-family:var(--sans); color:var(--forest);
+  background:linear-gradient(180deg,#fff,#F2F8F4);
+  border:1px solid var(--line); box-shadow:var(--e2);
+  transition:transform .14s var(--ease), box-shadow .18s var(--ease);
+}
+.tnav:hover{box-shadow:var(--e3); transform:translateY(-50%) scale(1.08)}
+.tnav:active{transform:translateY(-50%) scale(.94)}
+.tnav.prev{left:5px}
+.tnav.next{right:5px}
+.tabs-wrap.more-left .tnav.prev{display:flex}
+.tabs-wrap.more-right .tnav.next{display:flex}
+@media (max-width:700px){ .tnav{display:none!important} }
 .tab{
   appearance:none; background:transparent; border:0; cursor:pointer;
   font-family:var(--sans); font-size:13.8px; font-weight:600; color:var(--muted);
@@ -917,7 +956,8 @@ table.gs tr.soon td{background:var(--gold-pale)}
 /* -------------------------------------------------------- responsive */
 @media (max-width:940px){
   .shell{grid-template-columns:1fr; gap:20px; padding:20px 18px 60px}
-  .rail{position:static; flex-direction:row; flex-wrap:wrap}
+  .rail{position:static; flex-direction:row; flex-wrap:wrap;
+        max-height:none; overflow:visible; padding-right:0; margin-right:0}
   .rail .panel{flex:1; min-width:230px}
   .masthead-inner{padding:20px 18px; gap:14px}
   .headline-inner{padding:11px 18px}
@@ -996,7 +1036,9 @@ table.gs tr.soon td{background:var(--gold-pale)}
   <!-- ---------------------------------------------------- main -->
   <main>
     <div class="tabs-wrap" id="tabsWrap">
+      <button class="tnav prev" id="tabPrev" aria-label="Scroll tabs left">&#8249;</button>
       <div class="tabs" role="tablist" id="tabs"></div>
+      <button class="tnav next" id="tabNext" aria-label="Scroll tabs right">&#8250;</button>
     </div>
 
     <div class="toolbar" id="toolbar">
@@ -1322,13 +1364,39 @@ function renderTabs(){
   }).join('');
   const bar = document.getElementById('tabs');
   const wrap = document.getElementById('tabsWrap');
-  const flag = () => wrap.classList.toggle('more',
-      bar.scrollWidth - bar.clientWidth - bar.scrollLeft > 6);
-  bar.onscroll = flag; setTimeout(flag, 0); window.addEventListener('resize', flag);
-  // Keep the selected tab in view when the bar scrolls.
+
+  const flag = () => {
+    const max = bar.scrollWidth - bar.clientWidth;
+    wrap.classList.toggle('more-right', max - bar.scrollLeft > 6);
+    wrap.classList.toggle('more-left', bar.scrollLeft > 6);
+  };
+  bar.onscroll = flag;
+  setTimeout(flag, 0);
+  if (!wrap.dataset.wired){
+    wrap.dataset.wired = '1';
+    window.addEventListener('resize', flag);
+
+    const nudge = dir => bar.scrollBy({ left: dir * Math.max(180, bar.clientWidth * .6),
+                                        behavior:'smooth' });
+    document.getElementById('tabPrev').onclick = () => nudge(-1);
+    document.getElementById('tabNext').onclick = () => nudge(1);
+
+    // A plain wheel over the strip should move it sideways; almost no mouse
+    // has a horizontal wheel, so without this the far tabs are unreachable.
+    bar.addEventListener('wheel', e => {
+      if (Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;
+      const max = bar.scrollWidth - bar.clientWidth;
+      if (max <= 0) return;
+      const next = bar.scrollLeft + e.deltaY;
+      if (next > 0 && next < max) e.preventDefault();
+      bar.scrollLeft = next;
+    }, { passive:false });
+  }
+
+  // Keep the selected tab in view.
   const active = bar.querySelector('[aria-selected="true"]');
   if (active && active.scrollIntoView) {
-    active.scrollIntoView({ block:'nearest', inline:'nearest' });
+    active.scrollIntoView({ block:'nearest', inline:'nearest', behavior:'smooth' });
   }
 
   document.querySelectorAll('.tab').forEach(b => {
@@ -2289,7 +2357,7 @@ function renderSecurities(){
   // Upcoming first, soonest at the top; then the most recent past auctions.
   const upcoming = rows.filter(r => r.days >= 0).sort((a,b) => a.days - b.days);
   const past     = rows.filter(r => r.days <  0).sort((a,b) => b.days - a.days);
-  const show     = upcoming.concat(past).slice(0, 12);
+  const show     = upcoming.concat(past).slice(0, 20);
 
   const secBox = document.getElementById('securities');
   secBox.className = show.length > 5 ? 'scroll-list' : '';

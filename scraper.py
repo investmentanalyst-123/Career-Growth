@@ -152,6 +152,27 @@ def item_id(url, title):
     return hashlib.sha1(f"{url}|{title}".encode("utf-8", "ignore")).hexdigest()[:16]
 
 
+URLISH = re.compile(r"^\s*(https?://|www\.)", re.I)
+
+
+def looks_like_url(title):
+    """
+    A headline that is just a web address is not a headline.
+
+    Some sites use the address itself as the link text, or leave it in an
+    alt attribute. Those slip past the length check and end up on the page
+    reading "https://www.worldbank.org/ext/en/home", which is worse than
+    having nothing from that source.
+    """
+    t = (title or "").strip()
+    if URLISH.match(t):
+        return True
+    # "worldbank.org/en/news/all" with no spaces is an address too.
+    if " " not in t and "/" in t and "." in t:
+        return True
+    return False
+
+
 def is_priority(title, summary=""):
     blob = f"{title} {summary}".lower()
     return any(term in blob for term in PRIORITY_TERMS)
@@ -252,6 +273,9 @@ def items_from_feed(feed_url, source, verbose=False):
         title = clean_text(entry.get("title", ""))
         link = entry.get("link", "")
         if not title or not link:
+            continue
+
+        if looks_like_url(title):
             continue
 
         if not allow_offsite and not same_site(link, source["url"]):
@@ -371,6 +395,8 @@ def items_from_html(source, verbose=False):
         if not href or not title:
             continue
         if title.lower() in NAV_WORDS or title in NAV_WORDS:
+            continue
+        if looks_like_url(title):
             continue
         if any(bad in href.lower() for bad in BAD_URL_PARTS):
             continue
@@ -499,8 +525,11 @@ def merge_with_archive(fresh_items, today_str, source_urls=None):
             with open(NEWS_FILE, encoding="utf-8") as f:
                 old = json.load(f)
             for it in old.get("items", []):
-                # Placeholder rows from the very first install.
-                if str(it.get("title", "")).startswith("Sample \u2014") or it.get("url") == "#":
+                # Placeholder rows from the very first install, and any item
+                # whose headline is just a web address.
+                if (str(it.get("title", "")).startswith("Sample \u2014")
+                        or it.get("url") == "#"
+                        or looks_like_url(it.get("title"))):
                     dropped_seed += 1
                     continue
 
@@ -723,4 +752,3 @@ if __name__ == "__main__":
     except Exception:
         pass
     sys.exit(main())
-
