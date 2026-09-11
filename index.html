@@ -151,6 +151,39 @@ h1,h2,h3,h4{font-family:var(--display); font-optical-sizing:auto}
   font-variation-settings:'SOFT' 0,'WONK' 1; letter-spacing:-.024em;
   margin:0; line-height:1; position:relative; display:inline-block;
 }
+/* Gold sweeping across the wordmark, with a matching underline that widens
+   as it passes. Slow enough to read as light on a surface rather than a
+   flashing animation. */
+.brand h1 .glow-text{
+  background:linear-gradient(100deg,
+    #FFFFFF 0%, #FFFFFF 30%, var(--gold-lt) 42%, #FFF3CF 50%,
+    var(--gold-lt) 58%, #FFFFFF 70%, #FFFFFF 100%);
+  background-size:300% 100%;
+  -webkit-background-clip:text; background-clip:text;
+  -webkit-text-fill-color:transparent; color:transparent;
+  animation:sheen 8s ease-in-out infinite;
+  filter:drop-shadow(0 2px 18px rgba(201,153,46,.22));
+}
+@keyframes sheen{
+  0%,10%{background-position:130% 0}
+  58%,100%{background-position:-46% 0}
+}
+.brand h1::after{
+  content:""; position:absolute; left:0; right:0; bottom:-7px; height:2px;
+  border-radius:2px;
+  background:linear-gradient(90deg,transparent,var(--gold),var(--gold-lt),var(--gold),transparent);
+  animation:underpulse 8s ease-in-out infinite;
+}
+@keyframes underpulse{
+  0%,10%{transform:scaleX(.18); opacity:.28}
+  58%{transform:scaleX(1); opacity:.9}
+  100%{transform:scaleX(.18); opacity:.28}
+}
+@media (prefers-reduced-motion:reduce){
+  .brand h1 .glow-text{animation:none; -webkit-text-fill-color:#fff; color:#fff}
+  .brand h1::after{animation:none; opacity:.6; transform:none}
+}
+
 .brand .tagline{
   margin:11px 0 0; font-size:14px; color:#9FC9B2; font-weight:400; letter-spacing:.006em;
 }
@@ -2505,6 +2538,8 @@ let convMode = 'ad';   // 'ad' means AD -> BS
 
 function setupConverter(){
   const modal = document.getElementById('convModal');
+  if (!modal || modal.dataset.wired) return;
+  modal.dataset.wired = '1';
   const open  = () => { modal.hidden = false; fillMonths(); prefillToday(); convert(); };
   const shut  = () => { modal.hidden = true; };
 
@@ -2669,14 +2704,27 @@ function polish(root){
 }
 
 /* ---------------------------------- boot ----------------------------------- */
-async function boot(){
-  renderDates();
-  renderDeadlines();
+/* Never let one broken piece take the rest of the page down with it. */
+function safely(name, fn){
+  try{ fn(); }
+  catch(e){ console.error('Career Growth: ' + name + ' failed', e); }
+}
 
+async function boot(){
   state.read   = new Set(recall('read', []));
   state.skills = recall('skills', {});
   state.tab    = recall('tab', 'today');
   if (!TABS.some(t => t.id === state.tab)) state.tab = 'today';
+
+  /* Anything a person can click has to be wired before the news file is
+     fetched, not after. Fetching is instant on a local copy but a real
+     network round trip on the live site, and during that gap the buttons
+     exist while doing nothing - which just reads as broken. */
+  safely('dates',     renderDates);
+  safely('deadlines', renderDeadlines);
+  safely('converter', setupConverter);
+  safely('tabs',      renderTabs);
+  safely('filters',   wireFilters);
 
   try{
     const res = await fetch('data/news.json?t=' + Date.now());
@@ -2685,14 +2733,16 @@ async function boot(){
     console.warn('Could not load data/news.json', e);
   }
 
-  renderHeadline();
-  renderTicker();
-  renderSecurities();
-  renderRail();
-  render();
-  setupConverter();
-  polish(document);
+  safely('headline',   renderHeadline);
+  safely('ticker',     renderTicker);
+  safely('securities', renderSecurities);
+  safely('rail',       renderRail);
+  safely('render',     render);
+  safely('polish',     () => polish(document));
 
+}
+
+function wireFilters(){
   const search = document.getElementById('search');
   let timer;
   search.oninput = () => {
@@ -2702,6 +2752,7 @@ async function boot(){
   [['chipKey','keyOnly'], ['chipNew','newOnly'], ['chipUnread','unreadOnly']]
     .forEach(([id, key]) => {
       const btn = document.getElementById(id);
+      if (!btn) return;
       btn.onclick = () => {
         state[key] = !state[key];
         btn.classList.toggle('on', state[key]);
