@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-22T14:36:17.187715+05:45",
- "generated_date": "2026-09-22",
- "new_today": 178,
- "added_this_run": 74,
- "total_items": 2247,
+ "generated_at": "2026-09-23T05:36:22.075003+05:45",
+ "generated_date": "2026-09-23",
+ "new_today": 96,
+ "added_this_run": 104,
+ "total_items": 2343,
  "sources_working": 25,
  "sources_total": 35,
  "sources": [
@@ -13,7 +13,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 32.6,
+   "seconds": 27.1,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -23,7 +23,7 @@
    "ok": true,
    "count": 4,
    "method": "page scrape",
-   "seconds": 10.8,
+   "seconds": 10.0,
    "error": null,
    "discovered_rss": null
   },
@@ -33,7 +33,7 @@
    "ok": true,
    "count": 4,
    "method": "page scrape",
-   "seconds": 12.0,
+   "seconds": 7.1,
    "error": null,
    "discovered_rss": null
   },
@@ -43,7 +43,7 @@
    "ok": true,
    "count": 4,
    "method": "page scrape",
-   "seconds": 7.8,
+   "seconds": 9.1,
    "error": null,
    "discovered_rss": null
   },
@@ -53,7 +53,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 12.7,
+   "seconds": 11.1,
    "error": null,
    "discovered_rss": null
   },
@@ -63,7 +63,7 @@
    "ok": true,
    "count": 5,
    "method": "configured feed",
-   "seconds": 2.7,
+   "seconds": 2.8,
    "error": null,
    "discovered_rss": null
   },
@@ -73,7 +73,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 10.1,
+   "seconds": 11.0,
    "error": null,
    "discovered_rss": null
   },
@@ -83,7 +83,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 9.3,
+   "seconds": 9.6,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -93,7 +93,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 221.4,
+   "seconds": 223.5,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -103,7 +103,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 29.7,
+   "seconds": 35.2,
    "error": null,
    "discovered_rss": null
   },
@@ -113,7 +113,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 21.1,
+   "seconds": 22.1,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -123,7 +123,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 44.1,
+   "seconds": 37.7,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -133,7 +133,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 9.4,
+   "seconds": 9.7,
    "error": null,
    "discovered_rss": null
   },
@@ -143,7 +143,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 10.4,
+   "seconds": 9.7,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -153,7 +153,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 16.9,
+   "seconds": 17.9,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -163,7 +163,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 6.3,
+   "seconds": 7.9,
    "error": null,
    "discovered_rss": null
   },
@@ -173,7 +173,7 @@
    "ok": true,
    "count": 10,
    "method": "page scrape",
-   "seconds": 21.7,
+   "seconds": 19.5,
    "error": null,
    "discovered_rss": null
   },
@@ -183,7 +183,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 1.0,
+   "seconds": 0.9,
    "error": null,
    "discovered_rss": null
   },
@@ -193,7 +193,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 0.7,
+   "seconds": 1.2,
    "error": null,
    "discovered_rss": null
   },
@@ -211,7 +211,7 @@
    "id": "clickmandu",
    "name": "Clickmandu",
    "ok": true,
-   "count": 5,
+   "count": 4,
    "method": "configured feed",
    "seconds": 0.9,
    "error": null,
@@ -223,7 +223,7 @@
    "ok": true,
    "count": 10,
    "method": "configured feed",
-   "seconds": 1.3,
+   "seconds": 0.8,
    "error": null,
    "discovered_rss": null
   },
@@ -233,7 +233,7 @@
    "ok": true,
    "count": 10,
    "method": "configured feed",
-   "seconds": 0.9,
+   "seconds": 0.4,
    "error": null,
    "discovered_rss": null
   },
@@ -243,7 +243,7 @@
    "ok": true,
    "count": 2,
    "method": "page scrape",
-   "seconds": 8.8,
+   "seconds": 6.9,
    "error": null,
    "discovered_rss": null
   },
@@ -251,9 +251,9 @@
    "id": "onlinekhabar",
    "name": "Online Khabar",
    "ok": true,
-   "count": 1,
+   "count": 6,
    "method": "configured feed",
-   "seconds": 3.6,
+   "seconds": 0.3,
    "error": null,
    "discovered_rss": null
   },
@@ -261,9 +261,9 @@
    "id": "ratopati",
    "name": "Ratopati",
    "ok": true,
-   "count": 4,
-   "method": "page scrape",
-   "seconds": 1.4,
+   "count": 2,
+   "method": "configured feed",
+   "seconds": 0.1,
    "error": null,
    "discovered_rss": null
   },
@@ -273,7 +273,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 2.6,
+   "seconds": 1.9,
    "error": null,
    "discovered_rss": null
   },
@@ -283,7 +283,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 15.3,
+   "seconds": 14.5,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -293,7 +293,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 15.6,
+   "seconds": 14.3,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -303,7 +303,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 8.0,
+   "seconds": 7.5,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -313,7 +313,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 0.2,
+   "seconds": 0.1,
    "error": null,
    "discovered_rss": null
   },
@@ -333,7 +333,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 0.2,
+   "seconds": 0.1,
    "error": null,
    "discovered_rss": null
   },
@@ -343,7 +343,7 @@
    "ok": true,
    "count": 10,
    "method": "configured feed",
-   "seconds": 0.2,
+   "seconds": 0.1,
    "error": null,
    "discovered_rss": null
   },
@@ -988,6 +988,1350 @@
  "plan_title": "आन्तरिक ऋण निष्कासन तथा बोलकबोल तालिका (आ.व.२०८३/८४)",
  "items": [
   {
+   "id": "7715dfa50af673ff",
+   "title": "निर्माण ढिलाइले अलपत्र बन्दै लमजुङको निर्वाचन क्षेत्र रणनीतिक सडक",
+   "url": "https://www.ratopati.com/story/594067/lamjung-constituency-strategic-road-stalled-due-to-construction-delays",
+   "summary": "लमजुङ । निर्माण व्यवसायीले समयमा काम नगर्दा बिचौर–भुम्लीचोक–फुलाङ्गिरी–जोर्ने–गौडाभञ्ज्याङ सडकको करिब आठ किलोमिटर खण्ड अलपत्र परेको छ । निर्माण सुरु भएको तीन वर्ष बितिसक्दा पनि उक्त सडकखण्डको भौतिक प्रगति करिब ४७ प्रतिशत मात्र भएको सडक डिभिजन कार्यालय",
+   "published": "2026-09-22T23:34:08+00:00",
+   "source": "ratopati",
+   "source_name": "Ratopati",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "1b0641247d5f6db3",
+   "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
+   "url": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
+   "summary": "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.",
+   "published": "2026-09-22T23:21:49+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "41753839e4bce000",
+   "title": "Paramount will need to release way more movies to make this merger work",
+   "url": "https://www.theverge.com/entertainment/999056/paramount-warner-bros-discovery-merger-annual-film-quota-guardrails",
+   "summary": "Now that Paramount has reached a settlement with the 12 states that were suing to block its $110 billion merger with Warner Bros. Discovery (WBD), the studio is even closer to becoming one of the world's biggest production houses. In addition to spending at least $300 million more on film and TV projects produced in […]",
+   "published": "2026-09-22T22:26:07+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "7d5b31187cf5b2b8",
+   "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+   "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+   "summary": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
+   "published": "2026-09-22T21:56:43+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "97f8fae7384a9bf8",
+   "title": "Woman's brain worm infection confirmed after eggs grow tails in lab test",
+   "url": "https://arstechnica.com/health/2026/09/womans-brain-worm-infection-confirmed-after-eggs-grow-tails-in-lab-test/",
+   "summary": "There is no single definitive test for these worms, but the tail is fairly convincing.",
+   "published": "2026-09-22T21:42:14+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "9c31aabe56a02ef6",
+   "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
+   "url": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
+   "summary": "The frontier AI model race has entered its comparison shopping phase.",
+   "published": "2026-09-22T21:25:18+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "f228980d53e0a31d",
+   "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+   "url": "https://foxscript.org/",
+   "summary": "Comments",
+   "published": "2026-09-22T21:00:30+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "9872a0fd37f0d13c",
+   "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
+   "summary": "Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says its new OS3 \"agentic operating system\" runs in the cloud but operates locally across Windows, Mac, and Linux devices. According to Rabbit, you can […]",
+   "published": "2026-09-22T20:52:40+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "bc6ace60d916712c",
+   "title": "Cities across US oppose Trump FCC plan to preempt local broadband rules",
+   "url": "https://arstechnica.com/tech-policy/2026/09/cities-across-us-oppose-trump-fcc-plan-to-preempt-local-broadband-rules/",
+   "summary": "Cities defend permit requirements, say ISPs aren't building networks fast enough.",
+   "published": "2026-09-22T20:38:30+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "3a264ed6c5de484c",
+   "title": "उद्योग कार्यालयका सेवा अब ‘अनलाइन’मा",
+   "url": "https://www.ratopati.com/story/594058/industry-office-services-now-online",
+   "summary": "चितवन । बागमती प्रदेश मातहतको उद्योग, वाणिज्य तथा पर्यटन कार्यालय भरतपुरले उद्योग प्रशासनसम्बन्धी आफ्ना सेवा अनलाइन प्रणालीमार्फत प्रवाह गर्ने भएको छ । कार्यालयका प्रमुख उद्योग अधिकृत विनोद पौडेलका अनुसार मङ्गलबारदेखि उद्योग दर्ता प्रक्रिया ‘अनलाइन’बाट सुरु गरिएको",
+   "published": "2026-09-22T20:20:53+00:00",
+   "source": "ratopati",
+   "source_name": "Ratopati",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "d0a7ee7cca63a760",
+   "title": "Saudi Arabia’s new Exobot EVs make the Cybertruck look normal",
+   "url": "https://www.theverge.com/transportation/998791/ceer-ev-saudi-arabia-foxconn-exobot",
+   "summary": "The Kingdom of Saudi Arabia is mostly known for its global dominance over petroleum production and oil reserves - not necessarily cars and auto manufacturing, and certainly not electric vehicle production. So it was a little surprising on Monday when a Saudi startup called Ceer unveiled a pair of hyper-angular, spaceship-like EVs, with plans to […]",
+   "published": "2026-09-22T20:14:54+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "1f879123601f977a",
+   "title": "Qualcomm launches two new smartphone chips with emphasis on AI",
+   "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
+   "summary": "Qualcomm said that its new top chip can run 30B mixture-of-expert model locally.",
+   "published": "2026-09-22T20:00:00+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "c351aafda77ed38e",
+   "title": "Qualcomm’s Snapdragon 8 Elite Gen 6 comes in an Extreme version too",
+   "url": "https://www.theverge.com/gadgets/998842/qualcomm-snapdragon-8-elite-extreme-gen-6",
+   "summary": "Qualcomm has announced the Snapdragon 8 Elite Gen 6, this year joined by the 8 Elite Extreme Gen 6 too. The company describes both new phone chips as flagships, and the spec differences are relatively minor, mostly limited to improved AI processing, video capture, and gaming performance on the Extreme model. Both Gen 6 chips […]",
+   "published": "2026-09-22T20:00:00+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "c02d074ad0bc77c0",
+   "title": "Motorola’s wild-looking Signature 27 runs Qualcomm’s new Extreme chipset",
+   "url": "https://www.theverge.com/tech/998844/motorola-signature-27-specs-snapdragon-8-elite-extreme-gen-6",
+   "summary": "Motorola is the first company to announce a phone running Qualcomm's top-end Snapdragon 8 Elite Extreme Gen 6 chip. The Signature 27 looks set to be Motorola's most advanced flagship in some years, though we're still waiting for the full specs, price, and release date. Any prospective buyers will first have to get over the […]",
+   "published": "2026-09-22T20:00:00+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "08cb814402d20d4a",
+   "title": "Apple clarifies that Texture and Grain controls are exclusive to the latest iPhones’ cameras",
+   "url": "https://www.theverge.com/tech/998874/apple-iphone-18-pro-ios-27-camera-texture-grain-photographic-style",
+   "summary": "Apple's new texture and grain controls for stylizing photos will be more limited on older phones than initially expected. A confusingly worded press release from Apple indicated that the new features, announced alongside the iPhone 18 and 18 Pro earlier this month, would be \"available\" on older devices like the iPhone 16 and iPhone Air […]",
+   "published": "2026-09-22T19:48:08+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "a86d173f65f9dfee",
+   "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+   "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+   "summary": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
+   "published": "2026-09-22T19:45:47+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "fce1e301e772bc8b",
+   "title": "Native apps written in TypeScript and CSS",
+   "url": "https://github.com/geastack/examples",
+   "summary": "Comments",
+   "published": "2026-09-22T19:42:20+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "02720fa35b977cc4",
+   "title": "Score free Pixel Buds 2A when you preorder a Googlebook at Best Buy",
+   "url": "https://www.theverge.com/gadgets/998932/googlebook-preorder-pixel-buds-2a-deal-sale",
+   "summary": "The Android-powered Googlebooks are coming soon, with familiar brands and specs that rival Windows Copilot machines. For anyone eager to get their hands on any the new laptops, there’s a preorder perk you may want to know about lasting until October 25th, 2026. When you add a Googlebook to your cart at Best Buy, a […]",
+   "published": "2026-09-22T19:28:55+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "93ad4f430dbd7376",
+   "title": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting",
+   "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
+   "summary": "British Columbia sues OpenAI, demands Tumbler Ridge shooter’s ChatGPT logs.",
+   "published": "2026-09-22T19:28:23+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "8a098d05dfcb4a23",
+   "title": "Apple could take on Whoop with a new fitness tracker, report says",
+   "url": "https://techcrunch.com/2026/09/22/apple-could-take-on-whoop-with-a-new-fitness-tracker-report-says/",
+   "summary": "Apple may be developing a new fitness tracker as part of its new generation of hardware devices.",
+   "published": "2026-09-22T19:27:57+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "4cd6f9b84ccb8aab",
+   "title": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
+   "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+   "summary": "Meta says Muse was built from scratch, but acknowledges the AI assistant was \"heavily inspired\" by OpenClaw — down to some of its workspace filenames and content.",
+   "published": "2026-09-22T19:09:11+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "84036e81477ff510",
+   "title": "Adobe Premiere finally brings powerful video editing to Android, and it's free",
+   "url": "https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free/",
+   "summary": "You don't even need a Creative Cloud login to edit clips, but AI features cost extra.",
+   "published": "2026-09-22T19:08:58+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "64fde0a5042545f5",
+   "title": "SAML: A fractal of bad design",
+   "url": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+   "summary": "Comments",
+   "published": "2026-09-22T18:57:17+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "0f7591f0eed903f1",
+   "title": "Hacking group ShinyHunters claims it breached the FBI, stole agents’ and applicants’ data",
+   "url": "https://techcrunch.com/2026/09/22/hacking-group-shinyhunters-claims-it-breached-the-fbi-stole-agents-and-applicants-data/",
+   "summary": "The theft of agents' personal information could present a major counterintelligence threat, where agents and their families are extorted into cooperating with a foreign government.",
+   "published": "2026-09-22T18:40:30+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "ebfb484feb714f86",
+   "title": "a16z is challenging Silicon Valley’s love for drop-outs by launching a school",
+   "url": "https://techcrunch.com/2026/09/22/a16z-is-challenging-silicon-valleys-love-for-drop-outs-by-launching-a-school/",
+   "summary": "This academy for promising high school grads is somewhere between a trade school, Y Combinator, and Peter Thiel's Fellowship Program.",
+   "published": "2026-09-22T18:24:34+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "a2e529df9c623f2a",
+   "title": "Unreal Agent",
+   "url": "https://unreallabs.ai/blog/unreal-agent/",
+   "summary": "Comments",
+   "published": "2026-09-22T18:15:53+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "fbb8f49c86401126",
+   "title": "Save $30 on Apple’s Magic Keyboard with Touch ID and a numpad",
+   "url": "https://www.theverge.com/gadgets/998824/apple-magic-keyboard-touch-interstellar-4k-blu-ray-deal-sale",
+   "summary": "Until the end of the day on September 22nd, 2026, Best Buy and Amazon have the black Apple Magic Keyboard on sale for $169.99, a $30 discount from the usual price. This is the souped-up version of Apple’s full-size, wireless keyboard, with a Touch ID button, numerical pad, arrow keys, plus additional function keys. The […]",
+   "published": "2026-09-22T18:10:57+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "4361e633de234ce0",
+   "title": "GPT-6 Sol and Luna",
+   "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+   "summary": "Comments",
+   "published": "2026-09-22T18:00:34+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "33617f8750d87b68",
+   "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+   "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+   "summary": "OpenAI is launching two new models, which it says are cut from the same cloth as Astra.",
+   "published": "2026-09-22T18:00:00+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "a1bdbf957c36fbbe",
+   "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
+   "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+   "summary": "Comments",
+   "published": "2026-09-22T17:46:02+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "b1a5eedddca069af",
+   "title": "San Francisco sues Trump Media for selling early access to Trump posts",
+   "url": "https://www.theverge.com/tech/998914/trump-truth-social-api-lawsuit-san-francisco",
+   "summary": "San Francisco is suing the Trump Media & Technology Group, the parent company behind Truth Social, for selling early access to President Donald Trump's posts on the social media site. The lawsuit, filed today in California state court, alleges that the Truth API feed is a \"corrupt business scheme\" that violates both California's Unfair Competition […]",
+   "published": "2026-09-22T17:43:50+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "1082e7acbaaf6add",
+   "title": "Waymo’s latest expansion strategy: teenagers",
+   "url": "https://techcrunch.com/2026/09/22/waymos-latest-expansion-strategy-teenagers/",
+   "summary": "Waymo is opening its robotaxi service to teenagers aged 13 to 17 in Nashville, its second city to offer rides to minors.",
+   "published": "2026-09-22T17:36:06+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "25a866677550d192",
+   "title": "Review: Resident Evil might just be the best gaming adaptation yet",
+   "url": "https://arstechnica.com/culture/2026/09/review-resident-evil-is-the-fresh-take-this-flagging-franchise-really-needed/",
+   "summary": "Director Zach Cregger's clever reboot strikes perfect balance between horror, humor, and over-the-top gore.",
+   "published": "2026-09-22T17:30:07+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "623b70d9e0d67263",
+   "title": "Toyota orders workers to train humanoid robots but says humans won't be replaced",
+   "url": "https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/",
+   "summary": "Toyota's push comes as automakers race to develop and deploy humanoid robots.",
+   "published": "2026-09-22T17:06:16+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "1d94d5abee72f5ca",
+   "title": "Apple is reportedly working on a Whoop-like fitness tracker",
+   "url": "https://www.theverge.com/gadgets/998902/apple-whoop-fitness-tracker",
+   "summary": "Apple is working on a new fitness tracker with a screenless design, similar to the one made by Whoop, according to a report from Bloomberg. A prototype of the device reportedly has \"a thin fabric band with a sensor-equipped computing module.\" The device is in an early stage of development and likely wouldn't arrive before […]",
+   "published": "2026-09-22T17:04:52+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "23fe2f029fc096db",
+   "title": "IT mistake erases 11 years of viewing history for hospitals’ maternity records",
+   "url": "https://arstechnica.com/information-technology/2026/09/it-mistake-erases-11-years-of-viewing-history-for-hospitals-maternity-records/",
+   "summary": "The English hospitals recovered patient care data only.",
+   "published": "2026-09-22T16:55:40+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "51da4c1b518d1b3c",
+   "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+   "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+   "summary": "Comments",
+   "published": "2026-09-22T16:51:31+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "bd4278a4d93e585b",
+   "title": "मानसरोवर–कैलाश यात्रा : हिल्सा ‘ट्रान्जिट हब’ बन्दै",
+   "url": "https://www.onlinekhabar.com/2026/09/2022617/mansarovar-kailash-yatra-hilsa-becomes-transit-hub",
+   "summary": "हिल्सालाई आकस्मिक वैकल्पिक मार्ग मात्र नभई भविष्यमा मानसरोवर–कैलाश यात्राको नियमित प्रवेश तथा आवागमनको 'ट्रान्जिट हब' बनाउन सकिने सम्भावना देखाएको पर्यटन व्यवसायीहरू बताउँछन्।",
+   "published": "2026-09-22T16:39:03+00:00",
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "a0861273af154ef9",
+   "title": "कृत्रिम हातखुट्टा जोड्न भारत जाँदै तीन जेनजी घाइते",
+   "url": "https://www.onlinekhabar.com/2026/09/2023378/three-injured-in-india-for-prosthetic-limbs-at-government-expense",
+   "summary": "नेपालमा सम्भव नहुने उपचारका लागि मेडिकल बोर्डबाट सिफारिस लिर्नुपर्ने हुन्छ । वीर अस्पतालको निर्देशक अध्यक्ष रहने मेडिकल बोर्डले तीनै जनालाई ४ भदौ २०८३ मा विदेशमा जान सिफारिस गरेको छ ।",
+   "published": "2026-09-22T16:37:10+00:00",
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "5464a8de4340668e",
+   "title": "र्‍यान्समवेयर आक्रमणपछि कसरी सञ्चालनमा आउन सम्भव भयो सेयर बजार ?",
+   "url": "https://www.onlinekhabar.com/2026/09/2022984/how-was-it-possible-for-the-stock-market-to-resume-operations-after-the-ransomware-attack",
+   "summary": "'र्‍यान्समवेयरमा फिरौती माग्ने म्यासेज प्राय छाडिन्छन् । तर यसपटक हाम्रोमा त्यस्तो भएन । डेटा इन्क्रिप्ट गरेर केही पनि नचल्नेगरी राखिएको थियो,' डेटा हबका एक अधिकारीले भने ।",
+   "published": "2026-09-22T16:35:01+00:00",
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "3921274ffacae2a2",
+   "title": "WordPress: Unauthenticated path traversal leading to conditional RCE",
+   "url": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp",
+   "summary": "Comments",
+   "published": "2026-09-22T16:33:45+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "6bdbb001eeb88b46",
+   "title": "आफ्नो प्रशंसा नगर्नेलाई ओलीको ‘हप्किदप्की’, मनाउन अनेक कसरत, शंकर र विष्णु एकाएक सफ्ट",
+   "url": "https://bizmandu.com/content/20260922221656.html",
+   "summary": "काठमाडौं। नेकपा (एमाले) का अध्यक्ष केपी शर्मा ओलीले आफ्नो पक्षमा नबोल्ने नेताहरूलाई हप्काउन थालेका छन्। ललितपुरमा सोमबारदेखि सुरु भएको बैठकमा सहभागी नेताहरूका अनुसार ओली आफ्नो पक्षमा नबोल्ने तथा राजीनामा माग्ने नेताहरूप्रति कडा रूपमा प्रस्तुत भएका हुन्। ओलीले यसअघिका बैठकहरूमा भन्दा यस पटक आफूलाई कठोर रूपमा प्रस्तुत गरिरहेका छन्। अरु बेला महासचिव शंकर पोखरेललाई बैठक सञ्चालनको जिम्मा […] The post आ",
+   "published": "2026-09-22T16:31:56+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "82fae4259a23c9eb",
+   "title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance",
+   "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+   "summary": "Anthropic called it \"the strongest-performing model we've tested to date.\"",
+   "published": "2026-09-22T16:30:07+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "a5991bed50ddcb95",
+   "title": "Claude Opus 5.5",
+   "url": "https://www.anthropic.com/claude-opus-5-5",
+   "summary": "Comments",
+   "published": "2026-09-22T16:29:05+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "1cd0d8b9ec0eb569",
+   "title": "अमेरिका प्रस्थानअघि प्रधानमन्त्रीलाई अर्थमन्त्रीले दिएको पुस्तकमा के छ ?",
+   "url": "https://www.onlinekhabar.com/2026/09/2023486/what-is-in-the-book-given-to-the-prime-minister-by-the-finance-minister-before-his-departure-for-the-us",
+   "summary": "प्रधानमन्त्री बालेनलाई बिदाइ गर्दा अर्थमन्त्री वाग्लेले एक पुस्तक उपहार दिएका छन् । उक्त पुस्तक पल केनेडीद्वारा लिखित ‘द राइज एन्ड फल अफ ग्रेट पावर्स’ हो ।",
+   "published": "2026-09-22T16:27:38+00:00",
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "2b3af4a2382fd735",
+   "title": "Effort begins to fill the void left by terminated US climate report",
+   "url": "https://arstechnica.com/science/2026/09/effort-begins-to-fill-the-void-left-by-terminated-us-climate-report/",
+   "summary": "First paper added to community collection is a roadmap for research.",
+   "published": "2026-09-22T16:26:30+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "2d4f3be56c9b0cef",
+   "title": "पुनर्बहाली माग गरेर हितेन्द्रदेवले गरे सर्वोच्चमा रिट दर्ता, बुधबारका लागि तोकियो पेसी",
+   "url": "https://bizmandu.com/content/20260922215348.html",
+   "summary": "काठमाडौं। पूर्ववत् पदमा पुनर्बहालीको मागसहित नेपाल विद्युत् प्राधिकरणका निवर्तमान कार्यकारी निर्देशक हितेन्द्रदेव शाक्यले अदालत रिट दर्ता गरेका छन्। सर्वोच्च प्रशासनले दरपीठ गरेको रिट दर्ताको आदेश भएसँगै शाक्यले मंगलबार रिट दर्ता गरेका हुन्। सर्वोच्च प्रशासनले रिटको पेसी बुधबारका लागि तोकेको छ। प्रशासनले दरपीठ गरेको रिट शुक्रबार न्यायाधीश नृपध्वज निरौलाको इजलासले दर्ताको आदेश गरेको थियो। रिटमा शाक",
+   "published": "2026-09-22T16:08:48+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "e012fcfd5f5127be",
+   "title": "८० वर्षपछि आफैंप्रतिको विश्वास फर्काउन बहस गर्दैछ राष्ट्रसंघ",
+   "url": "https://www.onlinekhabar.com/2026/09/2023370/the-united-nations-is-debating-to-restore-trust-in-itself-after-80-years",
+   "summary": "नेपालजस्तो सैन्यशक्ति, राजनीतिक शक्ति र अर्थतन्त्र सबैमा कमजोर मुलुकहरुका प्रभावमा आधारित होइन,‘नियम’मा आधारित विश्वव्यवस्थाले लाभ दिने गर्छ । यस्ता देशका लागि संयुक्त राष्ट्र संघ नै यस्तो संस्था हो, जहाँ एउटा भोट एउटै मूल्यको मानिन्छ र आफ्नो आवाज ठूला राष्ट्रकै बराबर सुनाउन सकिन्छ ।",
+   "published": "2026-09-22T16:03:33+00:00",
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "6ec2d0b697fcf79c",
+   "title": "सेबोनको नयाँ आईपीओ मापदण्डको प्रस्तावमा इप्पानको आपत्ति, जलविद्युतलाई छुट्टै व्यवस्था गर्न माग",
+   "url": "https://bizmandu.com/content/20260922213705.html",
+   "summary": "काठमाडौं। स्वतन्त्र ऊर्जा उत्पादकहरूको संस्था, नेपाल (इप्पान) ले नेपाल धितोपत्र बोर्ड (सेबोन) ले प्रस्ताव गरेको ‘सार्वजनिक निष्कासनको सामान्य योग्यतासम्बन्धी निर्देशिकाको मस्यौदा जलविद्युत् क्षेत्रको प्रकृति र पूँजी आवश्यकतालाई ध्यानमा राखी पुनरवलोकन गर्न माग गरेको छ। इप्पानले प्रस्तावित व्यवस्थाले जलविद्युत् आयोजनाको पूँजी व्यवस्थापन, सार्वजनिक निष्कासनको प्रक्रिया र लगानीको निरन्तरतामा असर पार्न",
+   "published": "2026-09-22T15:52:05+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "ee6a737f30d20e3b",
+   "title": "Stolen passwords are exposing America’s water providers to hackers",
+   "url": "https://techcrunch.com/2026/09/22/stolen-passwords-are-exposing-americas-water-providers-to-hackers/",
+   "summary": "Researchers say another looming threat hangs over some of America's most important critical infrastructure.",
+   "published": "2026-09-22T15:50:58+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "a55b13ae6ee4aec2",
+   "title": "कार्यकाल सकेर फर्किन लागेका राजदूत नवीन श्रीवास्तवलाई निक्कीले गर्‍यो बिदाइ",
+   "url": "https://bizmandu.com/content/20260922212507.html",
+   "summary": "काठमाडौं। नेपाल भारत उद्योग वाणिज्य संघ (निक्की) ले नेपालका लागि भारतका राजदूत तथा निक्कीका संरक्षक नवीन श्रीवास्तवको बिदाइ गरेको छ। कार्यकाल पूरा गरी स्वदेश फर्किनुअघि निक्कीले श्रीवास्तवको बिदाइ गरेको हो। कार्यक्रममा दूतावासका निवर्तमान प्रथम सचिव (वाणिज्य) सुमन शेखरको पनि बिदाइ गरिएको छ। शेखरको स्थानमा आएका ऋषभ देवको पनि निक्कीले स्वागत गरेको छ। निक्कीका अध्यक्ष सुनिल […] The post कार्यकाल सकेर",
+   "published": "2026-09-22T15:40:07+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "f46b8999e45f6a5a",
+   "title": "Shuffling the deck chairs: Xbox continues its \"reset\" with dramatic restructuring",
+   "url": "https://arstechnica.com/gaming/2026/09/shuffling-the-deck-chairs-xbox-continues-its-reset-with-dramatic-restructuring/",
+   "summary": "Activision gets Halo , Obsidian becomes part of Bethesda, and more internal shake-ups.",
+   "published": "2026-09-22T15:30:53+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "18d3f9987003ff9b",
+   "title": "बाढीले ध्वस्त गल्छी-बेत्रावती सडक खोल्न धमाधम काम, स्याफ्रुबेसी-रसुवागढी खण्डमा चीनको भर",
+   "url": "https://bizmandu.com/content/20260922210705.html",
+   "summary": "काठमाडौं। भोटेकोशी नदीको बाढीले ध्वस्त बनाएको गल्छी-बेत्रावती सडक केही दिनमा खुल्ने भएको छ। गल्छी-त्रिशुली-मैलुङ-स्याफ्रुबेसी-रसुवागढी सडक योजनाका अनुसार सडक अस्थायीरुपमा केही दिनमा नै खुलाउने तयारी गरिएको छ। बाढीका कारण क्षतिग्रस्त गल्छीदेखि बेत्रावतीसम्मको सडकमा ट्र्याक खोल्ने काम धमाधम भइरहेको छ। उत्तरगया बोर्डिङ स्कुल नजिक ढुंगासहितको पहिरो हटाउने काम जारी छ। नेपाली सेनाले ब्लास्टिङ गरी पहिरो ",
+   "published": "2026-09-22T15:22:05+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "0b46398cd5df7d34",
+   "title": "त्रिपुरासुन्दरी नगरपालिकाका तत्कालीन निमित्त प्रशासकीय अधिकृत पोखरेलसहित आठ जनाविरुद्ध मुद्दा दायर",
+   "url": "https://bizmandu.com/content/20260922205751.html",
+   "summary": "त्रिपुरासुन्दरी नगरपालिकाका तत्कालीन निमित्त प्रशासकीय अधिकृत पोखरेलसहित आठ जनाविरुद्ध मुद्दा दायर काठमाडौं। अख्तियार दुरुपयोग अनुसन्धान आयोगले डोल्पाको त्रिपुरासुन्दरी नगरपालिकाका तत्कालीन निमित्त प्रमुख प्रशासकीय अधिकृत लालप्रसाद पोखरेलसहित आठ जनाविरुद्ध विशेष अदालतमा मुद्दा दायर गरेको छ। त्रिपुरासुन्दरी नगरपालिका ६ स्थित हरियापानी पालुङ्ग माझफाल हुँदै रूकुमसम्म जोड्ने मोटरबाटो निर्माणमा अनियमित",
+   "published": "2026-09-22T15:12:51+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "423087796b9ec7c0",
+   "title": "उत्कृष्टताको सम्मान, उपलब्धिको उत्सव:सूर्यज्योति लाइफको एजेन्सी अवार्ड नाइट–२०८३ सम्पन्न",
+   "url": "https://insurancekhabar.com/surya-jyoti-lifes-agency-award-night-2083-held/",
+   "summary": "काठमाडौं । सूर्यज्योति लाइफ इन्स्योरेन्स लिमिटेडको ‘एजेन्सी अवार्ड नाइट–२०८३’ ग्वार्कोस्थित होटल रोयल ट्युलिपमा भव्य समारोहबीच सम्पन्न भएको छ। कार्यक्रममा देशभरबाट छनोट भएका करिब ३०० जना चिफ एजेन्सी म्यानेजर, स्टार एजेन्सी म्यानेजर, इन्स्योरेन्स एडभाइजर तथा अभिकर्ताहरूको सहभागिता रहेको थियो। कार्यक्रममा सहभागीहरूलाई कम्पनीका Agency Training and Development Head उत्तम प्रसाद आचार्यले स्वागत मन्तव्य",
+   "published": "2026-09-22T15:07:57+00:00",
+   "source": "insurancekhabar",
+   "source_name": "Insurance Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "ce46f4a90368af3b",
+   "title": "Noble Carbon will show how it’s making EV charger installs painless at TechCrunch Disrupt",
+   "url": "https://techcrunch.com/2026/09/22/noble-carbon-will-show-how-its-making-ev-charger-installs-painless-at-techcrunch-disrupt/",
+   "summary": "Noble Carbon has developed a smart circuit breaker that allows households to electrify without the pain of a main panel upgrade.",
+   "published": "2026-09-22T15:00:00+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "7d82d0d568da6154",
+   "title": "Protests for Germany’s car industry as job losses loom",
+   "url": "https://arstechnica.com/cars/2026/09/protests-for-germanys-car-industry-as-job-losses-loom/",
+   "summary": "A combination of Chinese competition and US tariffs is causing problems in Germany.",
+   "published": "2026-09-22T14:40:47+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "c52039af99f181dd",
+   "title": "रासायनिक मल किन्न अर्थ मन्त्रालयले दियो १० अर्बको स्रोत सहमति, टेण्डर आह्वान चाँडै",
+   "url": "https://bizmandu.com/content/20260922201023.html",
+   "summary": "काठमाडौं। रासायनिक मल खरिदका लागि अर्थ मन्त्रालयले १० अर्ब रुपैयाँको स्रोत सहमति दिएको छ। कृषिमन्त्री गीता चौधरीको सचिवालयले आगामी यामका लागि आवश्यक रासायनिक मल खरिद गर्न अर्थ मन्त्रालयबाट १० अर्ब रुपैयाँ बराबरको स्रोत सहमति प्राप्त भएको जनाएको छ। अर्थबाट स्रोत सहमति प्राप्त भएसँगै मल खरिदका लागि टेण्डर आह्वान गर्ने प्रक्रिया अघि बढाउने तयारी गरिएको छ। The post रासायनिक मल किन्न अर्थ मन्त्रालयले द",
+   "published": "2026-09-22T14:25:23+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "80eb618f2750bfb0",
+   "title": "चीनले नेपाललाई दियो ‘माजु-नेपाल’ एआई मौसम पूर्वसूचना प्रणाली, विपद व्यवस्थापनमा सहयोग पुग्ने",
+   "url": "https://bizmandu.com/content/20260922200016.html",
+   "summary": "काठमाडौं। चीनले नेपाललाई आर्टिफिसियल इन्टेलिजेन्स (एआई) प्रयोग गरेर मौसमबारे पूर्वसूचना दिने प्रणाली उपलब्ध गराएको छ। चीनको मौसम विज्ञान प्रशासन (सीएमए)ले मंगलबार सिन्जियाङस्थित उरुम्छीमा आयोजित दोस्रो चीन-मध्य एसिया मौसम विज्ञान सहयोग मञ्चका क्रममा मौसम विज्ञान विभागलाई अत्याधुनिक ‘माजु-नेपाल’ प्रणाली हस्तान्तरण गरेको छ। गत भदौ १० गते भोटेकोशी नदीमा आएको विनाशकारी बाढीपछि सीएमएले नेपाललाई निरन्तर",
+   "published": "2026-09-22T14:15:16+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "1cd8de9dff6f854f",
+   "title": "सहकारीको सञ्चालक र सिइओ बन्न नयाँ मापदण्ड : के के छन् व्यबस्था ?",
+   "url": "https://bankingkhabar.com/archives/168645",
+   "summary": "बैंकिङ खबर । बचत तथा ऋणको मुख्य कारोबार गर्ने सहकारी संस्थाका सञ्चालक, पदाधिकारी तथा प्रमुख कार्यकारी अधिकृत (व्यवस्थापक) का लागि न्यूनतम शैक्षिक योग्यता र अनुभव तोकिएको छ । राष्ट्रिय सहकारी नियमन प्राधिकरणले ‘बचत तथा ऋणको मुख्य कारोबार गर्ने सहकारी संस्थाहरूको दर्ता अभिलेखीकरण (सातौं संशोधन) मापदण्ड, २०८३’ स्वीकृत गर्दै सञ्चालक तथा व्यवस्थापकको योग्यता निर्धारण गरेको हो […] The post सहकारीको सञ्च",
+   "published": "2026-09-22T14:11:36+00:00",
+   "source": "bankingkhabar",
+   "source_name": "Banking Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "44c72c8a58aa8195",
+   "title": "नेपाल झस्काउने जापानको प्रदर्शन, एसियन गेम्सअघि भारतलाई कडा टक्कर दिँदै २ रनले पराजित",
+   "url": "https://bizmandu.com/content/20260922194513.html",
+   "summary": "काठमाडौं। एसियन गेम्समा क्रिकेट खेल्न नेपाली टोली जापानमा छ। नेपालले आउँदो शुक्रबार अफगानिस्तान र शनिबार जापानसँग खेल्नेछ। अन्य खेलमा एकपछि अर्को निराशाजनक प्रदर्शन गरिरहेको नेपालको आशा क्रिकेटमा बाँकी नै छ। क्रिकेटमा नेपालले सहज मानेको प्रतिद्वन्दी हो जापान। आफूभन्दा निकै पछिको वरीयतामा रहेको जापानमाथि नेपालले प्रभावशाली जित निकाल्छ भन्ने विश्वास पनि थियो। तर, आजको खेलले स्थिति […] The post नेपाल",
+   "published": "2026-09-22T14:00:13+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "d0a6e2764ffcebbf",
+   "title": "सेबोनको नयाँ आईपीओ मापदण्डको प्रस्तावमा इप्पानको आपत्ति, जलविद्युतलाई छुट्टै व्यवस्था गर्न माग",
+   "url": "https://clickmandu.com/2026/09/493695.html",
+   "summary": "काठमाडौं । स्वतन्त्र ऊर्जा उत्पादकहरूको संस्था, नेपाल (इप्पान) ले नेपाल धितोपत्र बोर्ड (सेबोन) ले प्रस्ताव गरेको ‘सार्वजनिक निष्कासनको सामान्य योग्यता सम्बन्धी निर्देशिका, २०८३’ को मस्यौदा जलविद्युत् क्षेत्रको प्रकृति र पुँजी आवश्यकतालाई ध्यानमा राखी पुनरावलोकन गर्न माग गरेको छ । इप्पानले प्रस्तावित व्यवस्थाले जलविद्युत् आयोजनाको पुँजी व्यवस्थापन, सार्वजनिक निष्कासनको प्रक्रिया र लगानीको निरन्तरता",
+   "published": "2026-09-22T13:58:44+00:00",
+   "source": "clickmandu",
+   "source_name": "Clickmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "87f993ea2bd8856c",
+   "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+   "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+   "summary": "Comments",
+   "published": "2026-09-22T13:52:15+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "e9e81b7a0f079bf7",
+   "title": "प्रधानमन्त्री बालेन अमेरिका प्रस्थान, बिदाइका नाममा मन्त्री र सचिवको लस्कर लगाउने परम्परा तोडे",
+   "url": "https://bizmandu.com/content/20260922192904.html",
+   "summary": "काठमाडौं। प्रधानमन्त्री बालेन्द्र शाह संयुक्त राष्ट्रसंघको महासभामा भाग लिनका लागि अमेरिका प्रस्थान गरेका छन्। उनी राष्ट्र संघको ८१औं महासभामा भाग लिन मंगलबार राति कतार एयरवेजको जहाजमा अमेरिका प्रस्थान गरेका हुन्। अमेरिका प्रस्थान गर्नुअघि विमानस्थलमा बिदाइ कार्यक्रम भएन। यसअघि प्रधानमन्त्रीको विदेश भ्रमणका क्रममा बिदाइका लागि विमानस्थलमा मन्त्री, संवैधानिक निकायका पदाधिकारी र सचिवहरुको लस्कर लगाउ",
+   "published": "2026-09-22T13:44:04+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "f5c278089ee42c42",
+   "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+   "url": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+   "summary": "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people who moved through areas watched by these towers…",
+   "published": "2026-09-22T13:42:05+00:00",
+   "source": "mittech",
+   "source_name": "MIT Technology Review",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "3699015c4142e174",
+   "title": "अति भारी वर्षाबारे विभागको ब्रिफिङपछि गृहमन्त्री सुधनले भने- पूर्वतयारी गरिसकेका छौं",
+   "url": "https://bizmandu.com/content/20260922190732.html",
+   "summary": "काठमाडौं। ऊर्जा, जलस्रोत तथा सिँचाइमन्त्री विराजभक्त श्रेष्ठ र गृहमन्त्री सुधन गुरुङले असोज ९ देखि ११ गतेसम्म अति भारी वर्षा हुने पूर्वानुमानबारे जल तथा मौसम विज्ञान विभाग पुगेर ब्रिफिङ लिएका छन्। उनीहरुले मंगलबार विभागकी महानिर्देशक डा. अर्चना श्रेष्ठलगायतबाट सम्भावित जोखिमबारे ब्रिफिङ लिएका हुन्। विभागले पश्चिमी न्यून चापीय प्रणालीका कारण ९ देखि ११ गतेसम्म पश्चिमी नेपालको गण्डकी, […] The post अत",
+   "published": "2026-09-22T13:22:32+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "2b54abe92efba616",
+   "title": "पासपोर्ट प्रकरण: सर्वोच्चबाट ठेक्का सदर भए पनि विशेष अदालतको भ्रष्टाचार मुद्दा के होला ?",
+   "url": "https://clickmandu.com/2026/09/493650.html",
+   "summary": "काठमाडौं । सर्वोच्च अदालतले नेपाली ई-पासपोर्ट (विद्युतीय राहदानी) छपाइ तथा प्रणाली स्थापनाको ठेक्का जर्मन कम्पनीहरूलाई दिने राहदानी विभागको निर्णयलाई सदर गरिदिएसँगै पासपोर्ट छपाइले निरन्तरता पाउने भएको छ । उक्त खरिद प्रक्रियाविरुद्ध फ्रान्सेली कम्पनी आइडिमिया (आईएन ग्रुप) ले दायर गरेका चारवटै रिट निवेदनलाई सर्वोच्च अदालतले खारेज गरिदिएको हो । सर्वोच्च अदालतका न्यायाधीशद्वय कुमार रेग्मी र श्रीकान्त",
+   "published": "2026-09-22T12:25:13+00:00",
+   "source": "clickmandu",
+   "source_name": "Clickmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "c7c2d653f79245c4",
+   "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
+   "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of linguistics at the University of…",
+   "published": "2026-09-22T12:10:00+00:00",
+   "source": "mittech",
+   "source_name": "MIT Technology Review",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "80e46a2eb2233d03",
+   "title": "सभामुख डीपी अर्यालले सांसदहरुको ध्यानाकर्षण गराएको नियम २० को ‘ट’मा के छ?",
+   "url": "https://bizmandu.com/content/20260922175401.html",
+   "summary": "काठमाडौं। सभामुख डीपी अर्यालले सांसदहरुलाई बैठक कक्षमा मर्यादित हुन निर्देशन दिएका छन्। उनले मंगलबार प्रतिनिधि सभाको बैठकको अन्तिममा सभालाई मर्यादित बनाउन सांसदहरूलाई निर्देशन दिएका हुन्। ‘हरेक दिनको सभालाई बैठकलाई मर्यादित र उत्कृष्ट बनाउने हामी सबैको कर्तव्य हो। दायित्व हो। सबै सदस्यहरूको पहलबाटै प्रतिनिधि सभा नियमावली २०८० लागू गरेको हो,’ उनले भने, ‘यसै अन्तर्गत हामीले सभा […] The post सभामुख ड",
+   "published": "2026-09-22T12:09:01+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "d38e55d420372cd5",
+   "title": "मुक्तिनाथ क्यापिटलको बदमासीः लगानीकर्तालाई ‘उल्लु’ बनाएर म्युचुअल फण्डलाई साधारण सेयर भन्दै बेच्दै !",
+   "url": "https://arthasarokar.com/2026/09/muktinath-capitals-mischief-selling-mutual-funds-as-ordinary-shares-by-making-investors-owls.html",
+   "summary": "काठमाडौँ । मुक्तिनाथ क्यापिटलले लगानीकर्ता झुक्याएर ठगी गरिरहेको पाइएको छ । म्युचअल फण्डको इकाईलाई साधारण सेयर भन्दै क्यापिटलले लगानीकर्ता झुक्याएर ठगी गरेको पाइएको हो । कम्पनीले गत असोज १ गतेदेखि ‘मुक्तिनाथ म्युचुअल फण्ड २’ जारी गरेको थियो । तर, उक्त म्युचुअल फण्डलाई कम्पनीले साधारण सेयर भन्दै लगानीकर्ता झुक्याएको थियो । मेरो सेयरबाट आवेदन दिँदा उक्त Continue reading \"मुक्तिनाथ क्यापिटलको बदमासीः",
+   "published": "2026-09-22T11:11:56+00:00",
+   "source": "arthasarokar",
+   "source_name": "Artha Sarokar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "d1e64723a6501acf",
+   "title": "यो दशैंमा पनि खाद्य कम्पनीले खसी, बोका र च्याङ्ग्रा नबेच्ने",
+   "url": "https://clickmandu.com/2026/09/493654.html",
+   "summary": "काठमाडौं । खाद्य व्यवस्था तथा व्यापार कम्पनीले गत वर्षजस्तै यो वर्ष पनि दसैँलाई लक्षित गरी खसी, बोका तथा च्याङ्ग्रा खरिद–बिक्री नगर्ने भएको छ । गत वर्षदेखि नै रोकिएको यो कार्यक्रम यो पटक पनि सञ्चालन नगर्ने मनस्थितिमा कम्पनी पुगेको हो । कम्पनीका निमित्त प्रमुख कार्यकारी अधिकृत शर्मिला न्योपाने सुवेदीले यो वर्ष खसी–बोका खरिद–बिक्रीका लागि कुनै पनि […]",
+   "published": "2026-09-22T11:11:09+00:00",
+   "source": "clickmandu",
+   "source_name": "Clickmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "ca0c464366193eaa",
+   "title": "विश्वव्यापी बीमकहरु आर्थिक रुपमा स्थिर, भूराजनीतिक तनाव र साइबर जोखिम चिन्ताको विषय",
+   "url": "https://insurancekhabar.com/insurers-globally-financially-stable-geopolitical-tensions-and-cyber-risks-a-concern/",
+   "summary": "काठमाडौं । विश्वव्यापी बीमा कम्पनीहरु आर्थिक रुपमा स्थिर रहेका छन्। तर, भूराजनीतिक तनाव, आर्थिक दबाब र साइबर जोखिमहरु बीमा क्षेत्रका लागि प्रमुख चिन्ताको विषय बन्दै गइरहेका छन्। इन्टरनेसनल एसोसिएसन अफ इन्स्योरेन्स सुपरभाइजर (आईएआईएस)को सन् २०२६ को ग्लोबल मोनिटरिङ एक्सरसाइजका प्रारम्भिक नतिजाहरुले सन् २०२५ को अन्त्यमा बीमा कम्पनीहरुको स्थायित्व र नाफा स्थिर रहेको संकेत गरेको छ। […]",
+   "published": "2026-09-22T11:10:37+00:00",
+   "source": "insurancekhabar",
+   "source_name": "Insurance Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "49349b0c9c11fec9",
+   "title": "चाडपर्वमा सडक अवरुद्ध हुन नदिन र कालोबजारी रोक्न सचिव बैठकको निर्देशन",
+   "url": "https://clickmandu.com/2026/09/493651.html",
+   "summary": "काठमाडौं । नेपाल सरकारका सचिवहरूको बैठकले चाडपर्वका बेला देशभर सडक यातायात अवरुद्ध हुन नदिन र बजारमा हुन सक्ने कालोबजारी नियन्त्रण गर्नेसहित विभिन्न सातवटा महत्त्वपूर्ण निर्णय गरेको छ । मुख्य सचिव गोविन्दबहादुर कार्कीको अध्यक्षतामा आज बसेको बैठकले नागरिकसँग प्रत्यक्ष जोडिएका सार्वजनिक सेवा चुस्त राख्ने र सरकारी निर्णयहरूको कार्यान्वयनमा निगरानी बढाउने निर्णय गरेको हो। बैठकले आगामी दशैं, […]",
+   "published": "2026-09-22T11:07:01+00:00",
+   "source": "clickmandu",
+   "source_name": "Clickmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "999ea96bc358d3e0",
+   "title": "Don’t be fooled by this summer of AI hype",
+   "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+   "summary": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed…",
+   "published": "2026-09-22T11:04:51+00:00",
+   "source": "mittech",
+   "source_name": "MIT Technology Review",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "b6dfec5cf86ece18",
+   "title": "जीवन विकास लघुवित्तले गर्यो १६० स्थानमा सामाजिक काम",
+   "url": "https://insurancekhabar.com/jeevan-bikas-laghubitta-has-done-social-work-in-160-places/",
+   "summary": "काठमाडौं । जीवन विकास लघुवित्त वित्तीय संस्थाले १६० स्थानमा सामाजिक कार्य गरी स्वयंसेवक दिवस मनाएको छ । लघुवित्तको मातृ संस्था जीवन विकास समाजको स्थापना दिवसको अवसर पारेर असोज ५ गते सोमबार जीवन विकासको आह्वान देश विकासमा श्रमदान भन्ने मूल नाराका साथ ‘जीवन विकास स्वयंसेवक दिवस’मनाएको हो । कोशी, मधेश र बागमती प्रदेशका ३१ जिल्लामा घरदैलोमा […]",
+   "published": "2026-09-22T11:02:48+00:00",
+   "source": "insurancekhabar",
+   "source_name": "Insurance Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "16ee83ca5204bbe1",
+   "title": "नेपाल इन्जिनियरिङ कलेजमा नवप्रवेशीलाई स्वागत तथा शैक्षिक अभिमुखीकरण",
+   "url": "https://insurancekhabar.com/welcome-and-academic-orientation-for-newcomers-to-nepal-engineering-college/",
+   "summary": "काठमाडौं । नेपाल इन्जिनियरिङ कलेजमा शैक्षिक सत्र २०८३ का लागि भर्ना भएका नवप्रवेशी विद्यार्थीलाई स्वागत गर्दै शैक्षिक अभिमुखीकरण कार्यक्रम आयोजना गरिएको छ । सोमबार कलेज परिसरमा आयोजित कार्यक्रममा कलेजका प्राचार्य इ. दुर्गाप्रसाद भण्डारीले जेन–जी पुस्ताका विद्यार्थीलाई स्वागत गर्दै इन्जिनियरिङ शिक्षाका विभिन्न पक्ष, यसको सम्भावना तथा समाज र राष्ट्र निर्माणमा इन्जिनियरिङ क्षेत्रको भूमिकाबारे जानकारी",
+   "published": "2026-09-22T10:34:53+00:00",
+   "source": "insurancekhabar",
+   "source_name": "Insurance Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "26b639d499ec6ad0",
+   "title": "धनगढीमा एभरेष्ट बैंकको आफ्नै भवन, शाखा संख्या १३४ पुग्यो",
+   "url": "https://bankingkhabar.com/archives/168636",
+   "summary": "बैंकिङ खबर / एभरेष्ट बैंकले आफ्नो शाखा सञ्जाल विस्तार गर्दै धनगढीमा नयाँ शाखा सञ्चालनमा ल्याएको छ । बैंकले कैलालीको धनगढी उपमहानगरपालिका–८, क्याम्पस चोकमा आफ्नै भवनबाट १३४औँ शाखा सञ्चालनमा ल्याएको हो । बैंकले असोज ५ गते नयाँ शाखासँगै सुदूरपश्चिम प्रदेशमा निर्माण गरेको नयाँ भवनको समेत उद्घाटन गरेको जनाएको छ । नयाँ भवनबाट बैंकको सुदूरपश्चिम प्रदेश प्रादेशिक […] The post धनगढीमा एभरेष्ट बैंकको आफ्नै ",
+   "published": "2026-09-22T10:16:13+00:00",
+   "source": "bankingkhabar",
+   "source_name": "Banking Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "bb316002445d66e8",
+   "title": "पोखरा फाइनान्सका ग्राहकलाई अल्फा केयरमा १५ प्रतिशतसम्म छुट",
+   "url": "https://insurancekhabar.com/pokhara-finances-customers-get-up-to-15-discount-on-alpha-care/",
+   "summary": "काठमाडौं । पोखरा फाइनान्स लिमिटेडका ग्राहकले न्यु बानेश्वर–१०, काठमाडौंस्थित अल्फा हेल्थ केयर एन्ड डायग्नोस्टिक सेन्टर (अल्फा बेटा कम्प्लेक्स) मा विभिन्न स्वास्थ्य तथा अन्य सेवामा १५ प्रतिशतसम्म छुट पाउने भएका छन्। पोखरा फाइनान्सका खातावालाले अल्फा केयरका सम्बन्धित सेवाको बिल पोखरा फाइनान्सको डेबिट कार्ड वा मोबाइल बैंकिङमार्फत भुक्तानी गर्दा उक्त छुट प्राप्त गर्न सक्नेछन्। सम्झौताअनुसार इन–हाउस ल्",
+   "published": "2026-09-22T10:11:50+00:00",
+   "source": "insurancekhabar",
+   "source_name": "Insurance Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "f1dc7b75bbb321e8",
+   "title": "सब्स्क्रिप्सन मोडलमा पठाओ, अब राइडरले कमिसन तिर्नुनपर्ने !",
+   "url": "https://arthasarokar.com/2026/09/send-in-the-subscription-model-now-the-rider-will-not-have-to-pay-a-commission.html",
+   "summary": "काठमाडौँ । राइड सेयरिङ एप पठाओले राइडर तथा क्याप्टेनहरुका लागि सब्स्क्रिप्सन मोडल लागू गर्ने घोषणा गरेको छ । पठाओले कमिसनमा आधारित आम्दानी प्रणालीलाई परिवर्तन गर्दै सब्स्क्रिप्सनमा आधारित प्रणाली लागू गर्ने घोषणा गरेको हो । नयाँ व्यवस्थाअनुसार पठाओ क्याप्टेनले प्रत्येक राइडको आम्दानीबाट प्रतिशतका आधारमा कमिसन बुझाउनुपर्ने छैन । पठाओका अनुसार कमिसनको सट्टा अब राइडर तथा पठाओ Continue reading \"सब्स्क",
+   "published": "2026-09-22T10:01:28+00:00",
+   "source": "arthasarokar",
+   "source_name": "Artha Sarokar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "ddd7cf4cc0439cab",
+   "title": "जीवन बीमालेख समर्पणबाट एक महिनामा बाहिरियो रु. १.३० अर्ब, व्यतितको उठ्न बाँकी कति ?",
+   "url": "https://insurancekhabar.com/in-a-month-rs-1-30-billion-was-left-from-the-surrender-of-the-life-insurance-policy-1-30-billion-how-much-is-left-to-be-spent/",
+   "summary": "काठमाडौं । चालु आर्थिक वर्ष २०८३।८४ को पहिलो महिना साउनमा जीवन बीमा कम्पनीहरुले बीमालेख समर्पणबापत १ अर्ब ३० करोड रुपैयाँ बढी बीमितलाई भुक्तानी गरेका छन्। नेपाल बीमा प्राधिकरणले सार्वजनिक गरेको तथ्यांकअनुसार जीवन बीमकहरुले साउनमा बीमालेख समर्पणबापत बीमितलाई १ अर्ब ३० करोड ८३ लाख रुपैयाँ भुक्तानी गरेका हुन्। यो रकम ७ हजार ४११ वटा बीमालेख समर्पणबापत […]",
+   "published": "2026-09-22T09:53:22+00:00",
+   "source": "insurancekhabar",
+   "source_name": "Insurance Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "72017e088e9c7cac",
+   "title": "मंगलबार ७.०६ अंकले बढ्यो नेप्से परिसूचक, बजार २६५४.२८ बिन्दुमा",
+   "url": "https://arthasarokar.com/2026/09/nepal-stock-exchange-nepse-index-increased-by-7-06-points-to-close-at-2654-28-points-on-tuesday.html",
+   "summary": "काठमाडौँ । साताको कारोबारको दोश्रो दिन मंगलबार सेयर बजार मापक नेप्से परिसूचक बढेको छ । मंगलबार नेप्से परिसूचक ७.०६ अंकले बढेर २६५४.२८ बिन्दुमा पुगेको हो । नेप्सेमा कुल ३५६ कम्पनीको २ करोड १५ लाख ८९ हजार ७६१ कित्ता सेयर खरिद बिक्री हुँदा रू. ७ अर्ब ५ करोडमाथिको सेयर कारोबार भएको छ । आज सबैभन्दा धेरै Continue reading \"मंगलबार ७.०६ अंकले बढ्यो नेप्से परिसूचक, बजार २६५४.२८ बिन्दुमा\"",
+   "published": "2026-09-22T09:34:15+00:00",
+   "source": "arthasarokar",
+   "source_name": "Artha Sarokar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "f86cc403fc693af4",
+   "title": "पेट्रोल र डिजेलको मूल्य नबढे दशैँमा गाडी भाडा पनि नबढ्ने !",
+   "url": "https://arthasarokar.com/2026/09/if-the-price-of-petrol-and-diesel-does-not-increase-then-the-fare-will-not-increase-in-dashain.html",
+   "summary": "काठमाडौँ । दशैँमा गाडी भाडा नबढ्ने भएको छ । पेट्रोलियम पदार्थको मूल्य नबढे दशैँ तिहारमा सार्वजनिक यातायातको भाडा पनि नबढ्ने नेपाल यातायात व्यवसायी राष्ट्रिय महासंघले जनाएको छ । चाडपर्वलाई लक्षित गर्दै यातायात व्यवस्था विभागले आयोजना गरेको छलफलमा बोल्दै महासंघका अध्यक्ष पुण्यप्रसाद सिटौलाले सरकारले पेट्रोलियम पदार्थको मूल्य वृद्धि नगरे यातायातको भाडा पनि नबढाइने बताएका छन् । Continue reading \"पेट्र",
+   "published": "2026-09-22T09:26:45+00:00",
+   "source": "arthasarokar",
+   "source_name": "Artha Sarokar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "51c96889874f6b2d",
+   "title": "नेप्से र कारोबार रकम दुवै बढ्यो",
+   "url": "https://insurancekhabar.com/both-nepse-and-transaction-amount-increased/",
+   "summary": "काठमाडौं । आज शेयर बजार बढेर बन्द भएको छ । आज नेप्से परिसूचक ७ दशमलव ०६ अंकले बढेर २,६५४ को विन्दुमा कायम भएको छ । आज १३७ कम्पनीको शेयर मूल्य बढेको छ भने १३१ कम्पनीको शेयर मूल्य घटेको छ । आज दिनभरिमा ३५६ कम्पनीको २ करोड १५ लाख ८९ हजार कित्ता शेयर किनबेच हुँदा ७ […]",
+   "published": "2026-09-22T09:23:33+00:00",
+   "source": "insurancekhabar",
+   "source_name": "Insurance Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "45baf175884b8e58",
+   "title": "एल निनो इतिहासकै उच्चतम तापमानमा, विश्वमा आउन सक्छ महाविपत्ति !",
+   "url": "https://insurancekhabar.com/el-nino-is-at-its-highest-temperature-in-history-it-could-be-a-catastrophe-in-the-world/",
+   "summary": "काठमाडौं । एल निनोले प्रशान्त महासागरमा नयाँ ऐतिहासिक रेकर्ड कायम गरेको छ। निनो ३.४ भनेर चिनिने क्षेत्रमा समुद्री सतहको औसत तापक्रम सामान्यभन्दा ३.०५ डिग्री सेल्सियस माथि पुगेको छ। यो सन् १९९१–२०२० को औसतको तुलनामा अहिलेसम्मकै उच्चतम दैनिक तापक्रम हो। अघिल्लो रेकर्ड नोभेम्बर २०१५ मा लगभग ३.०२ डिग्री सेल्सियस थियो। यसपटक यो स्तर सेप्टेम्बरमा सामान्यभन्दा दुई […]",
+   "published": "2026-09-22T09:09:30+00:00",
+   "source": "insurancekhabar",
+   "source_name": "Insurance Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "f18f17be8f02cd63",
+   "title": "ReBarUEFI: Resizable BAR for almost any UEFI system",
+   "url": "https://github.com/xCuri0/ReBarUEFI",
+   "summary": "Comments",
+   "published": "2026-09-21T01:07:46+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "1bf620c376bf4027",
+   "title": "How did AMD Ryzen get 50% faster in two years?",
+   "url": "https://lemire.me/blog/2026/09/18/how-did-amd-ryzen-get-50-faster-in-two-years/",
+   "summary": "Comments",
+   "published": "2026-09-18T19:01:03+00:00",
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "e94e059c588c86bd",
+   "title": "सेबोनको नयाँ आईपीओ मापदण्डको प्रस्तावमा इप्पानको आपत्ति, जलविद्युतलाई छुट्टै व्यवस्था गर्न माग",
+   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131088",
+   "summary": "",
+   "published": null,
+   "source": "merolagani",
+   "source_name": "Merolagani",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "e8a1e1fd510b0f77",
+   "title": "'ग्यास र चिनीको कालोबजारी रोक्न सरकार निर्मम हुनुपर्छ'",
+   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131087",
+   "summary": "",
+   "published": null,
+   "source": "merolagani",
+   "source_name": "Merolagani",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "3695e7effe89e97a",
+   "title": "भोटेकोशी–त्रिशूली बाढीबाट पर्यटन क्षेत्रमा ५२ अर्ब ६७ करोडको क्षति भएको प्रतिवेदन पेश",
+   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131085",
+   "summary": "",
+   "published": null,
+   "source": "merolagani",
+   "source_name": "Merolagani",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "84f47d51054d8f35",
+   "title": "पर्यटन बोर्डको सीईओ दौडमा ४० भन्दा बढी, आफ्नै कर्मचारीदेखि पूर्वमन्त्रीसम्म मैदानमा",
+   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131084",
+   "summary": "",
+   "published": null,
+   "source": "merolagani",
+   "source_name": "Merolagani",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "a9e0f63aec29106d",
+   "title": "'लगानीकर्ता उत्सुक हुनुहुन्छ'",
+   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131083",
+   "summary": "",
+   "published": null,
+   "source": "merolagani",
+   "source_name": "Merolagani",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "b07a896494bf56fa",
+   "title": "निरन्तर तेस्रो कारोबार दिन बढ्यो नेप्से, कारोबार रकममा पनि वृद्धि",
+   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131081",
+   "summary": "",
+   "published": null,
+   "source": "merolagani",
+   "source_name": "Merolagani",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "5786f1a5d3e02062",
+   "title": "चालक आत्मदाह प्रकरणमा न्यायिक छानबिन समिति गठन गर्न यातायात क्षेत्रको माग",
+   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131078",
+   "summary": "",
+   "published": null,
+   "source": "merolagani",
+   "source_name": "Merolagani",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "5fd5eb4dadaebbe6",
+   "title": "कीर्तिपुर बर्न अस्पताल बाहिर यातयात व्यवसायीको प्रदर्शन",
+   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131080",
+   "summary": "",
+   "published": null,
+   "source": "merolagani",
+   "source_name": "Merolagani",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "2f8f6871364ece46",
+   "title": "बैंक/बिमा/स्टक ७२ ब्रोकरको एउटै डेटा सेन्टरमा साइबर आक्रमण, प्रणालीगत सुरक्षामा प्रश्न",
+   "url": "https://www.setopati.com/kinmel/banking/398968",
+   "summary": "",
+   "published": null,
+   "source": "setopati",
+   "source_name": "Setopati",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
+   "id": "46a4ae1a44877eb0",
+   "title": "बैंक/बिमा/स्टक नेप्सेसँगै बढ्यो कारोबार रकम",
+   "url": "https://www.setopati.com/kinmel/banking/398964",
+   "summary": "",
+   "published": null,
+   "source": "setopati",
+   "source_name": "Setopati",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-09-23",
+   "is_new": true
+  },
+  {
    "id": "950400701ad485da",
    "title": "बाढी प्रभावित अटो व्यवसायीसँग नाडाले माग्यो क्षतिको विवरण",
    "url": "https://insurancekhabar.com/nada-seeks-details-of-damages-from-flood-hit-auto-entrepreneurs/",
@@ -999,7 +2343,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "db87693db65540da",
@@ -1013,7 +2357,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "15016b540b0a6c5e",
@@ -1027,7 +2371,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "df2fc58310b6cb83",
@@ -1041,7 +2385,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5ed5796b2607d79b",
@@ -1055,7 +2399,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "90a4572d72a632b8",
@@ -1069,7 +2413,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "244d6181c5083cbe",
@@ -1083,7 +2427,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e64ec3aca677286d",
@@ -1097,7 +2441,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9263642b42a73144",
@@ -1111,7 +2455,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "63d1804a4c398f1b",
@@ -1125,7 +2469,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a77622155f6f8c70",
@@ -1139,7 +2483,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6a4f995f6ba0eb18",
@@ -1153,7 +2497,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "11ee2f7d5acfe8c7",
@@ -1167,7 +2511,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6c5e05a09060951f",
@@ -1181,7 +2525,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "cebc815e35be4b91",
@@ -1195,7 +2539,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e5ae9b42db990949",
@@ -1209,7 +2553,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3e30fd8377939261",
@@ -1223,7 +2567,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "75e4b5ea877ffcf9",
@@ -1237,7 +2581,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5a11b114fe8443cd",
@@ -1251,7 +2595,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e9f766979d364da9",
@@ -1265,7 +2609,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f2ebda6554112f0a",
@@ -1279,7 +2623,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "541bb5f51a808273",
@@ -1293,7 +2637,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2a8997ee872edb13",
@@ -1307,7 +2651,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "37e763c99cb6378c",
@@ -1321,7 +2665,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "84f2ff9548d61c75",
@@ -1335,7 +2679,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3001edab07a70932",
@@ -1349,7 +2693,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d6d4d138ea8a241b",
@@ -1363,7 +2707,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "270a1a90adb752a6",
@@ -1377,7 +2721,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d3d1b47b7b8011b3",
@@ -1391,7 +2735,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "32da67fa7027c1b4",
@@ -1405,7 +2749,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8014ada1c082bd94",
@@ -1419,7 +2763,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bddc999fadfb5494",
@@ -1433,7 +2777,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "95cce3d22cca10cd",
@@ -1447,7 +2791,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "84cbebaca2fb68e3",
@@ -1461,7 +2805,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c4ec23a506232fb9",
@@ -1475,7 +2819,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c4846ac41b2e77e5",
@@ -1489,7 +2833,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bd34d949c04c515b",
@@ -1503,7 +2847,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e2869521019ebbbd",
@@ -1517,7 +2861,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9b961fe61d2c8f5d",
@@ -1531,7 +2875,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "85c71bf6d0238bf1",
@@ -1545,7 +2889,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "24e63e726a460917",
@@ -1559,7 +2903,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3739fae5f9ce2a14",
@@ -1573,7 +2917,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b4157963564db70e",
@@ -1587,7 +2931,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d5e9f592ead5f294",
@@ -1601,7 +2945,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "063b8b46eb405ae5",
@@ -1615,7 +2959,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5712b292288bebb1",
@@ -1629,7 +2973,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c41d27ad85c7e72f",
@@ -1643,7 +2987,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b7dd752181052432",
@@ -1657,7 +3001,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "184150aacf73fc03",
@@ -1671,7 +3015,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c635f5b1093c2187",
@@ -1685,7 +3029,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b23aa86e8c2a0cca",
@@ -1699,7 +3043,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0555e0adcf7b3a82",
@@ -1713,7 +3057,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "47b5e677db6d38a7",
@@ -1727,7 +3071,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c7d5e6ba811d0d02",
@@ -1741,7 +3085,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "344346b21cb1d30f",
@@ -1755,7 +3099,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f1b428b94c22995e",
@@ -1769,7 +3113,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bfb0b186f54298e6",
@@ -1783,7 +3127,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7268e487eab646ed",
@@ -1797,7 +3141,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5bd7ae309a41ea02",
@@ -1811,7 +3155,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "166c70f2c9e29903",
@@ -1825,7 +3169,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0b8028c6ed95e777",
@@ -1839,7 +3183,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "daa883c3e3aae8df",
@@ -1853,7 +3197,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c632ec475558ce96",
@@ -1867,7 +3211,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8c336f96a3a891f6",
@@ -1881,7 +3225,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9be3004fc008247c",
@@ -1895,7 +3239,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "270d33ad18dbfb06",
@@ -1909,7 +3253,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3ca9c693e25effab",
@@ -1923,7 +3267,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "07f0396219d6f687",
@@ -1937,7 +3281,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e7f1ce0a32dca567",
@@ -1951,7 +3295,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "97fe8f55a1530ce5",
@@ -1965,7 +3309,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "33c5d9d9807658e1",
@@ -1979,7 +3323,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "90dc76b5dd06d0af",
@@ -1993,7 +3337,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0d1b863c097db6a5",
@@ -2007,7 +3351,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9903a73155551187",
@@ -2021,7 +3365,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7779d0298bc1c02c",
@@ -2035,7 +3379,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c12e8473985325af",
@@ -2049,7 +3393,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "95f9ddcab7b5c167",
@@ -2063,7 +3407,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8d0433b5116372aa",
@@ -2077,7 +3421,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1f50fe38560ddef3",
@@ -2091,7 +3435,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "af770099e0cbd0c4",
@@ -2105,7 +3449,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "fa8d7bedc535d427",
@@ -2119,7 +3463,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3e2b321a0a1ba5ad",
@@ -2133,7 +3477,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "11b74f770b0c5340",
@@ -2147,7 +3491,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7978912770a618ca",
@@ -2161,7 +3505,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "fcd6487f0d72db22",
@@ -2175,7 +3519,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f89d8c4f78f27afa",
@@ -2189,7 +3533,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2782b35319b1a72f",
@@ -2203,7 +3547,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4e99d1a4b3be0371",
@@ -2217,7 +3561,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ce13d7ffafc67e71",
@@ -2231,7 +3575,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7839e517ea3753fa",
@@ -2245,7 +3589,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0c63ffd5087187a0",
@@ -2259,7 +3603,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8312974ba64c7722",
@@ -2273,7 +3617,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9927f0ad02732f73",
@@ -2287,7 +3631,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "28c5691155614cbb",
@@ -2301,7 +3645,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2b739c845ebc2421",
@@ -2315,7 +3659,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c451dd499e57a0a3",
@@ -2329,7 +3673,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "52cb0a08e2214d95",
@@ -2343,7 +3687,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2eb915d0787b97fd",
@@ -2357,7 +3701,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c3592ecd45e29de8",
@@ -2371,7 +3715,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "73ce1f8529800fe0",
@@ -2385,7 +3729,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7c2aa16f03385904",
@@ -2399,7 +3743,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6420c9666507ff29",
@@ -2413,7 +3757,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "89568fe980364518",
@@ -2427,7 +3771,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9e1c09cdbdf3100d",
@@ -2441,7 +3785,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7dec76b39a554496",
@@ -2455,7 +3799,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "443bd27756ea17d8",
@@ -2469,7 +3813,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "88f408e69f1cc8ac",
@@ -2483,7 +3827,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "46a83ec799b05461",
@@ -2497,7 +3841,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4a1faa0697967529",
@@ -2511,7 +3855,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "038543ea94c41d4e",
@@ -2525,7 +3869,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9949f9e40ec0ae4b",
@@ -2539,7 +3883,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4914f0bb560f87f6",
@@ -2553,7 +3897,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "faddae2fd57ec868",
@@ -2567,7 +3911,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a5bd24f665d52a6d",
@@ -2581,7 +3925,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "cb11f09b815af902",
@@ -2595,7 +3939,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "51a69710ac1c3e1b",
@@ -2609,7 +3953,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4ff75c4b771d8473",
@@ -2623,7 +3967,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b52f4c3da44bbf14",
@@ -2637,7 +3981,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "47f8c874f3e4cd79",
@@ -2651,7 +3995,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1d00e46f47afcfda",
@@ -2665,7 +4009,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "61dc7adfa6ebe3f3",
@@ -2679,7 +4023,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a22ae3ffd6a28605",
@@ -2693,7 +4037,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2755f6afeb4ad55a",
@@ -2707,7 +4051,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "13eb2641aec3a954",
@@ -2721,7 +4065,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "47a7f86bbb315c8a",
@@ -2735,7 +4079,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c480c6c568df9b43",
@@ -2749,7 +4093,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2f3697fce449c721",
@@ -2763,7 +4107,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1568a917a9c4dcc4",
@@ -2777,7 +4121,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c80b3a8ecab2469b",
@@ -2791,7 +4135,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7d2683f612847f77",
@@ -2805,7 +4149,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "78de1770f2d779a6",
@@ -2819,7 +4163,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0169b5cfd7b7e7e8",
@@ -2833,7 +4177,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "cccd85989020ef79",
@@ -2847,7 +4191,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "229e0bd2302c34ae",
@@ -2861,7 +4205,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b6eabda7b80c2291",
@@ -2875,7 +4219,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6e6d2726e89b1bef",
@@ -2889,7 +4233,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "35a7af6c5f570979",
@@ -2903,7 +4247,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "74552fc6b514f32b",
@@ -2917,7 +4261,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "21fb5edaaa41a016",
@@ -2931,7 +4275,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "679aa69cbce90ccf",
@@ -2945,7 +4289,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d390dcb86ba63c30",
@@ -2959,7 +4303,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4078b776d4f1b6d0",
@@ -2973,7 +4317,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "db03034751c1a2e0",
@@ -2987,7 +4331,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b8b734e8779104b3",
@@ -3001,7 +4345,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ca2f06f9adfda6d0",
@@ -3015,7 +4359,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1fe4bf4b86cd8d9e",
@@ -3029,7 +4373,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ea6267f9bd4b140a",
@@ -3043,7 +4387,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1064dd950ae87373",
@@ -3057,7 +4401,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8b527d06144bd05b",
@@ -3071,7 +4415,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e55913970e40708d",
@@ -3085,7 +4429,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "253926eebeb9fe71",
@@ -3099,7 +4443,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4af2a693b6ad9b50",
@@ -3113,7 +4457,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b3e3cd8fef29cf66",
@@ -3127,7 +4471,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "21ed079d0789a2c0",
@@ -3141,7 +4485,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "62d1a1bad81aaf91",
@@ -3155,7 +4499,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "054a125dbdc71911",
@@ -3169,7 +4513,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "82b94cdfae70d9c5",
@@ -3183,7 +4527,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "86c81703eb54a581",
@@ -3197,7 +4541,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9618db417d7eeca7",
@@ -3211,7 +4555,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "49d00b5f39003615",
@@ -3225,7 +4569,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d43ef04fecf62d3a",
@@ -3239,7 +4583,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dfeeef1a60201698",
@@ -3253,7 +4597,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1900ccda1d3eaa28",
@@ -3267,7 +4611,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "11c502c4207e9958",
@@ -3281,7 +4625,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0e523c48b6bd5bfc",
@@ -3295,7 +4639,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9e6d034220684568",
@@ -3309,7 +4653,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3eefa4038f202f6b",
@@ -3323,7 +4667,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6fd077f785325fc1",
@@ -3337,7 +4681,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a9105c747f3b33ae",
@@ -3351,7 +4695,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2019e8f3e2e2d7df",
@@ -3365,7 +4709,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bfb2d4ad21fea494",
@@ -3379,7 +4723,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4831791ac9ac653e",
@@ -3393,7 +4737,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "af43bb5eb2817718",
@@ -3407,7 +4751,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "eabf59179b6f8e79",
@@ -3421,7 +4765,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3cfc4b4b65f80d29",
@@ -3435,7 +4779,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1fa946360f9c3bb1",
@@ -3449,7 +4793,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "677aa986a676150b",
@@ -3463,7 +4807,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "14f994d91ce3b2ab",
@@ -3477,7 +4821,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-09-22",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5d0f5e1b4f656c7d",
