@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-29T21:17:01.037865+05:45",
- "generated_date": "2026-10-29",
- "new_today": 157,
- "added_this_run": 103,
- "total_items": 1701,
+ "generated_at": "2026-10-30T08:43:35.246496+05:45",
+ "generated_date": "2026-10-30",
+ "new_today": 56,
+ "added_this_run": 62,
+ "total_items": 1608,
  "sources_working": 25,
  "sources_total": 35,
  "sources": [
@@ -13,7 +13,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 36.0,
+   "seconds": 42.0,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -23,7 +23,7 @@
    "ok": true,
    "count": 4,
    "method": "page scrape",
-   "seconds": 8.6,
+   "seconds": 8.7,
    "error": null,
    "discovered_rss": null
   },
@@ -33,7 +33,7 @@
    "ok": true,
    "count": 4,
    "method": "page scrape",
-   "seconds": 6.7,
+   "seconds": 7.6,
    "error": null,
    "discovered_rss": null
   },
@@ -43,7 +43,7 @@
    "ok": true,
    "count": 4,
    "method": "page scrape",
-   "seconds": 7.5,
+   "seconds": 8.0,
    "error": null,
    "discovered_rss": null
   },
@@ -53,7 +53,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 9.0,
+   "seconds": 9.2,
    "error": null,
    "discovered_rss": null
   },
@@ -73,7 +73,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 11.8,
+   "seconds": 12.0,
    "error": null,
    "discovered_rss": null
   },
@@ -83,7 +83,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 10.1,
+   "seconds": 9.4,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -93,7 +93,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 223.2,
+   "seconds": 223.3,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -103,7 +103,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 30.8,
+   "seconds": 31.0,
    "error": null,
    "discovered_rss": null
   },
@@ -113,7 +113,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 20.2,
+   "seconds": 20.5,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -123,7 +123,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 36.1,
+   "seconds": 38.2,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -133,7 +133,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 8.3,
+   "seconds": 8.6,
    "error": null,
    "discovered_rss": null
   },
@@ -143,7 +143,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 10.9,
+   "seconds": 10.6,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -153,7 +153,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 17.3,
+   "seconds": 18.2,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -163,7 +163,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 5.1,
+   "seconds": 4.9,
    "error": null,
    "discovered_rss": null
   },
@@ -173,7 +173,7 @@
    "ok": true,
    "count": 10,
    "method": "page scrape",
-   "seconds": 21.2,
+   "seconds": 17.7,
    "error": null,
    "discovered_rss": null
   },
@@ -183,7 +183,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 1.0,
+   "seconds": 1.1,
    "error": null,
    "discovered_rss": null
   },
@@ -193,7 +193,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 1.5,
+   "seconds": 1.4,
    "error": null,
    "discovered_rss": null
   },
@@ -203,7 +203,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 1.8,
+   "seconds": 1.9,
    "error": null,
    "discovered_rss": null
   },
@@ -211,9 +211,9 @@
    "id": "clickmandu",
    "name": "Clickmandu",
    "ok": true,
-   "count": 5,
+   "count": 2,
    "method": "configured feed",
-   "seconds": 0.8,
+   "seconds": 0.4,
    "error": null,
    "discovered_rss": null
   },
@@ -223,7 +223,7 @@
    "ok": true,
    "count": 10,
    "method": "configured feed",
-   "seconds": 1.0,
+   "seconds": 1.1,
    "error": null,
    "discovered_rss": null
   },
@@ -233,7 +233,7 @@
    "ok": true,
    "count": 10,
    "method": "configured feed",
-   "seconds": 1.0,
+   "seconds": 1.1,
    "error": null,
    "discovered_rss": null
   },
@@ -243,7 +243,7 @@
    "ok": true,
    "count": 2,
    "method": "page scrape",
-   "seconds": 13.0,
+   "seconds": 12.1,
    "error": null,
    "discovered_rss": null
   },
@@ -251,9 +251,9 @@
    "id": "onlinekhabar",
    "name": "Online Khabar",
    "ok": true,
-   "count": 1,
+   "count": 3,
    "method": "configured feed",
-   "seconds": 0.5,
+   "seconds": 0.2,
    "error": null,
    "discovered_rss": null
   },
@@ -263,7 +263,7 @@
    "ok": true,
    "count": 1,
    "method": "configured feed",
-   "seconds": 0.4,
+   "seconds": 0.3,
    "error": null,
    "discovered_rss": null
   },
@@ -271,9 +271,9 @@
    "id": "setopati",
    "name": "Setopati",
    "ok": true,
-   "count": 12,
-   "method": "page scrape",
-   "seconds": 2.9,
+   "count": 1,
+   "method": "configured feed",
+   "seconds": 0.5,
    "error": null,
    "discovered_rss": null
   },
@@ -283,7 +283,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 15.2,
+   "seconds": 14.9,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -293,7 +293,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 15.4,
+   "seconds": 15.6,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -303,7 +303,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 7.1,
+   "seconds": 6.3,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -311,7 +311,7 @@
    "id": "hackernews",
    "name": "Hacker News",
    "ok": true,
-   "count": 6,
+   "count": 9,
    "method": "page scrape",
    "seconds": 11.0,
    "error": null,
@@ -333,7 +333,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 0.2,
+   "seconds": 0.1,
    "error": null,
    "discovered_rss": null
   },
@@ -343,7 +343,7 @@
    "ok": true,
    "count": 10,
    "method": "configured feed",
-   "seconds": 0.2,
+   "seconds": 0.1,
    "error": null,
    "discovered_rss": null
   },
@@ -353,7 +353,7 @@
    "ok": true,
    "count": 10,
    "method": "configured feed",
-   "seconds": 0.2,
+   "seconds": 0.1,
    "error": null,
    "discovered_rss": null
   }
@@ -957,6 +957,790 @@
  "plan_title": "आन्तरिक ऋण निष्कासन तथा बोलकबोल तालिका (आ.व.२०८३/८४)",
  "items": [
   {
+   "id": "ba40cb178ac63f8c",
+   "title": "सिंगापुरमा साइबर आक्रमणले ६ बीमा कम्पनीका ग्राहकको डाटा जोखिममा",
+   "url": "https://insurancekhabar.com/cyber-attack-puts-customers-data-of-6-insurance-companies-at-risk-in-singapore/",
+   "summary": "काठमाडौं । सिंगापुर स्वास्थ्य सेवा कम्पनी एलायन्स मेडिनेटको डाटाबेसमा भएको साइबर आक्रमणले ६ बीमा कम्पनीका ग्राहकसहित लगभग १ लाख १० हजार व्यक्तिको व्यक्तिगत जानकारी चोरी गरेको छ। यद्यपि, बीमा कम्पनीहरुको आफ्नै कम्प्युटर प्रणालीमा आक्रमण भएको कुनै प्रमाण फेला परेको छैन। एलायन्स हेल्थकेयर ग्रुपले अक्टोबर २४ मा सिंगापुर स्टक एक्सचेन्जमा फाइलिङमा यो जानकारी खुलासा गरेको थियो। […]",
+   "published": "2026-10-30T02:56:10+00:00",
+   "source": "insurancekhabar",
+   "source_name": "Insurance Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "00f557ebb1e92ce3",
+   "title": "लगातार दुई खेलमा हारपछि सन्दीपले भने- ‘हाम्रो सबैभन्दा ठूलो कमजोरी फिल्डिङ रह्यो’",
+   "url": "https://arthasarokar.com/2026/10/after-losing-two-consecutive-matches-sandeep-said-our-biggest-weakness-was-fielding.html",
+   "summary": "काठमाडौँ । नेपाल प्रिमियर लिग (एनपीएल) मा विराटनगर किङ्सले लगातार दोस्रो हार बेहोरेपछि कप्तान सन्दीप लामिछानेले टोलीको कमजोर फिल्डिङ र धैर्यताको कमीलाई हारको मुख्य कारण बताएका छन् । कर्णाली याक्ससँग पराजित भएपछि आयोजित पोस्टम्याच प्रेस मिटमा कप्तान सन्दीपले ब्याटिङ र बलिङमा टोलीले राम्रो सुरुवात गरे पनि त्यसलाई अन्तिमसम्म कायम राख्न नसकेको बताए । उनले खेलको Continue reading \"लगातार दुई खेलमा हारपछ",
+   "published": "2026-10-30T02:46:48+00:00",
+   "source": "arthasarokar",
+   "source_name": "Artha Sarokar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "224f8a86a248f646",
+   "title": "समस्याग्रस्त कर्णाली डेभलपमेन्ट बैंकका ३५ जना शेयरधनीको शेयरपुँजी घटाउँदै राष्ट्र बैंक",
+   "url": "https://insurancekhabar.com/nepal-rastra-bank-nrb-has-reduced-the-share-capital-of-35-shareholders-of-karnali-development-bank/",
+   "summary": "काठमाडौं । नेपाल राष्ट्र बैंकले समस्याग्रस्त कर्णाली डेभलपमेन्ट बैंकका ३५ जना शेयरधनीको शेयरपुँजी घटाउने भएको छ। केन्द्रीय बैंकले कर्णाली डेभलपमेन्ट बैंकको चुक्तापुँजी क्षय भएको र दायित्व सम्पत्तिले नखाम्ने देखिएकोले ती शेयरधनीहरुको शेयरपुँजी घटाउने भएको हो। ती शेयरधनीहरुबाट चुक्ता हुनुपर्ने शेयरपुँजीबापतको रकम अवैधानिक रुपमा चुक्ता भएको देखिएको हुँदा बैंकको पुनर्संरचना गर्ने क्रममा शेयरधनीहरुको श",
+   "published": "2026-10-30T02:36:48+00:00",
+   "source": "insurancekhabar",
+   "source_name": "Insurance Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "d79189d6d7984950",
+   "title": "मोरङमा प्रहरीले गोली हानेर नियन्त्रणमा लियो लागुऔषध कारोबारी",
+   "url": "https://www.setopati.com/social/401578",
+   "summary": "प्रहरीले आठ राउन्ड गोली प्रहार गरेको थियो। गोली लागेर दुवै भारतीय नागरिकको घुँडामुनि चोट लागेको छ ।",
+   "published": "2026-10-30T02:33:48+00:00",
+   "source": "setopati",
+   "source_name": "Setopati",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "ba9a5b825dd17c03",
+   "title": "चाडपर्व मनाउन सस्तो दरमा धान बेच्दै किसान !",
+   "url": "https://arthasarokar.com/2026/10/farmers-selling-paddy-at-cheaper-rates-to-celebrate-festivals.html",
+   "summary": "काठमाडौँ । नजिकिँदो तिहारलगायतका चाडपर्व मनाउन यहाँका किसानले व्यापारीलाई सस्तो दरमा धान बेच्न बाध्य भएका छन् । खाद्य व्यवस्था तथा व्यापार कम्पनी लिमिटेडले यस वर्ष मोटा धानको मूल्य प्रतिक्विन्टल रु तीन हजार ६६० र मध्यमको रु तीन हजार ८६० निर्धारण गरेको छ । तर, व्यापारीले कम्पनीले निर्धारण गरेको मूल्यभन्दा रु पाँच सय देखि एक हजारसम्म Continue reading \"चाडपर्व मनाउन सस्तो दरमा धान बेच्दै किसान !\"",
+   "published": "2026-10-30T02:23:39+00:00",
+   "source": "arthasarokar",
+   "source_name": "Artha Sarokar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "f9b1057a0929bb45",
+   "title": "लागुऔषध कारोबारीविरुद्ध मोरङ प्रहरीले ८ राउण्ड गोली चलायो, २ घाइते, ३ पक्राउ",
+   "url": "https://www.onlinekhabar.com/2026/10/2047039/morang-police-fired-8-rounds-against-drug-trafficker-2-injured-3-arrested",
+   "summary": "१३ असोज, विराटनगर । मोरङको रतुवामाईमा लागुऔषध कारोबारीलाई नियन्त्रणमा लिन प्रहरीले आठ राउन्ड गोली चलाएको छ । नेपाल–भारत सीमावर्ती क्षेत्र नजिकै प्रहरीले चलाएको गोली लागेर दुई जना घाइते भएका छन् । पेस्तोल र करिब आधा किलो ब्राउन सुगरसहित तीन जना पक्राउ परेका छन् । मोरङ प्रहरीका प्रवक्ता तथा सूचना अधिकारी डीएसपी मकेन्द्रकुमार मिश्रका अनुसार प्रहरीको […]",
+   "published": "2026-10-30T02:10:22+00:00",
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "3ef66048543ad1cf",
+   "title": "आजसम्म शेयर किन्नेले भिजन लुम्बिनी उर्जाको प्रस्तावित लाभांश पाउने",
+   "url": "https://insurancekhabar.com/those-who-buy-shares-till-date-will-get-proposed-dividend-of-vision-lumbini-energy/",
+   "summary": "काठमाडौं । भिजन लुम्बिनी उर्जा कम्पनी लिमिटेडको लाभांश सुरक्षित गर्ने आज कात्तिक १३ गते शुक्रबार, अन्तिम दिन रहेको छ । साधारण सभा तथा लाभांश वितरण प्रयोजनार्थ कम्पनीले कात्तिक १६ गते एक दिनका लागि बुकक्लोज गर्दैछ। यस अनुसार आजसम्म नेप्सेमा कारोबार भइ कायम शेयरधनीहरुले कम्पनीको साधारण सभामा सहभागिता जनाउन तथा कम्पनीले वितरण गर्ने लाभांश प्राप्त गर्न […]",
+   "published": "2026-10-30T01:52:10+00:00",
+   "source": "insurancekhabar",
+   "source_name": "Insurance Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "fb7e904aac3b288b",
+   "title": "नेपालको जीवन बीमा कम्पनीहरूमा किन बढ्दैछ निष्कृय बीमा र बीमालेख समर्पण ?",
+   "url": "https://insurancekhabar.com/why-is-the-number-of-inactive-insurance-and-insurance-policies-increasing-in-life-insurance-companies-in-nepal/",
+   "summary": "काठमाडौं । नेपाल बीमा प्राधिकरणले सार्वजनिक गरेको जीवन बीमा क्षेत्रको अध्ययन प्रतिवेदन अनुसार नेपालको बीमा बजारमा बीमालेखहरू समयमै नवीकरण नभई निष्कृय हुनु र अवधि नपुग्दै रद्द गरी पैसा झिकाउनु एउटा गम्भीर चुनौतीको रूपमा देखा परेको छ। प्रतिवेदनले देखाए अनुसार आर्थिक वर्ष २०८०।८१ मा मात्रै ३४ अर्ब ३७ करोड रुपैयाँभन्दा बढी मूल्यका ११ लाख ५८ हजारभन्दा […]",
+   "published": "2026-10-30T01:30:20+00:00",
+   "source": "insurancekhabar",
+   "source_name": "Insurance Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "04fffb7074d79ef9",
+   "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+   "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+   "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+   "published": "2026-10-30T01:20:48+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "c99e8f87d415f801",
+   "title": "एआईको प्रभावले गुगलको बजार मूल्यमा ५०० अर्ब डलरभन्दा बढीको गिरावट",
+   "url": "https://www.onlinekhabar.com/2026/10/2047003/the-impact-of-ai-has-caused-googles-market-value-to-fall-by-more-than-500-billion",
+   "summary": "एआईसम्बन्धी चिन्ताले वालस्ट्रिटमा हलचल पैदा भएको छ । गुगलको सेयर मूल्य ६ महिनायताकै न्यून विन्दुमा झरेको छ ।",
+   "published": "2026-10-30T01:01:40+00:00",
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "b7d9a03a26c806f6",
+   "title": "कृषि जेटिएको फूलखेती, परम्परागत खेतीभन्दा दुई गुणा बढी आम्दानी",
+   "url": "https://www.ratopati.com/story/602163/agricultural-jetty-floriculture-income-twice-as-high-as-traditional-farming",
+   "summary": "कञ्चनपुर । फूलखेतीमा सम्भावना देखेपछि कञ्चनपुरको भीमदत्त नगरपालिका–१५ का मेघा रावल पुष्प व्यवसायमा लागेकी छिन् । आफ्नै चार कट्ठा जग्गामा उनले सयपत्रीका दुई हजार ४०० बोट फूल रोपेकी हुन् । कृषि जेटिए अध्ययनपछि उनले फूलखेतीमा राम्रो",
+   "published": "2026-10-30T00:50:29+00:00",
+   "source": "ratopati",
+   "source_name": "Ratopati",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "4ba69c0079b9e60a",
+   "title": "जुम्लाको स्याउ स्याङ्जाका उपभोक्ताको घरदैलोमा",
+   "url": "https://www.onlinekhabar.com/2026/10/2046998/jumla-apples-reach-syangja-consumers-doorsteps",
+   "summary": "'जुम्लामा उत्पादन भएको स्याउ बजारसम्म पुर्याउन नसक्दा त्यसै कुहिएर जाने समस्या थियो,' उनले भने, 'स्वदेशी उत्पादनको बजारीकरणसाथै यसको प्रचारप्रसार गर्दै बजार विस्तार गर्ने क्रममा उपभोक्ताको घरदैलोमा पुर्याउन थालेका हौँ ।'",
+   "published": "2026-10-30T00:43:00+00:00",
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "9ec01f833079d91e",
+   "title": "रातभरि कोशी र बागमतीमा भयो हल्का वर्षा, आज मौसमा कस्तो रहला ‘अर्नब’को प्रभाव ?",
+   "url": "https://bizmandu.com/content/20261030062736.html",
+   "summary": "काठमाडौं । आज देशको विभिन्न भागमा पश्चिमी वायुको आंशिक प्रभावसँगै बङ्गालको खाडीमा विकसित चक्रवात ‘अर्नब’को प्रभाव भागमा परेको छ। मौसम पूर्वानुमान महाशाखाका अनुसार आज देशभर साधारणतया बादल लागेको छ। कोशी र बागमती प्रदेशका पहाडी तथा तराई तथा मधेस प्रदेशका केही स्थानमा हल्का वर्षा भइरहेको छ। आज दिउँसो अधिकांश स्थानमा बादल लाग्ने तथा कोशी, मधेस, बागमती, […] The post रातभरि कोशी र बागमतीमा भयो हल्का वर्",
+   "published": "2026-10-30T00:42:36+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "7680c1f4998b21a1",
+   "title": "आज पाउण्डको बिक्री मूल्य २०३.३२ रुपैयाँ, अन्य विदेशी मुद्राको विनिमय दर कति?",
+   "url": "https://bizmandu.com/content/20261030061545.html",
+   "summary": "काठमाडौं । अमेरिकी डलरको विनिमय दरमा आज वृद्धि भएको छ। डलरको बिक्री दर १५२.७२ रुपैयाँ पुगेको छ। त्यस्तै, युरो र पाउण्डको मूल्य पनि आज बढेको छ। आज पाउण्डको बिक्री दर २०३.३२ रुपैयाँ पुगेको छ। चिनियाँ युआनको बिक्री दर २२.९० रुपैयाँबाट आज २२.९३ रुपैयाँ पुगेको छ। कुन विदेशी मुद्राको विनिमय दर कति? The post आज पाउण्डको बिक्री मूल्य २०३.३२ रुपैयाँ, अन्य विदेशी मुद्राको विनिमय दर कति? appeared first on BI",
+   "published": "2026-10-30T00:30:45+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "a7bcdaafac01ef6d",
+   "title": "रसियाको अरबात स्ट्रिटमा रिब्रान्डेड भएको स्टार्स कफी, कसरी चलिरहेको छ अर्थतन्त्र?",
+   "url": "https://bizmandu.com/content/20261030060757.html",
+   "summary": "मस्कोको ‘रेड स्क्वायर’ भन्दा ६०० मिटर दुरीमा छ अरबात स्ट्रिट। त्यहीँ छ स्टार्स कफीको आउटलेट। टाढाबाट हेर्दा स्टारबक्स देखिए पनि नजिकै पुगेपछि लोगोमा थोरैमात्र फरक देखिन्छ। बाँकी सबै हुबहु। चार वर्ष अघि स्टार कफीको यो आउटलेट स्टारबक्सकै ब्रान्डिङमै चल्थ्यो। युक्रेन-रुस युद्धका कारण रसियाबाट विदेशी ब्रान्ड बाहिरिनेक्रममा स्टारबक्स पनि समेटियो। रुसी व्यवसायी एन्टन पिन्स्की र चर्चित […] The post रसिया",
+   "published": "2026-10-30T00:22:57+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "a83664b23725871e",
+   "title": "The director of Obsession put a new horror short on YouTube",
+   "url": "https://www.theverge.com/streaming/1022934/curry-barker-obsession-horror-short-youtube-mama-bear",
+   "summary": "Curry Barker, the director behind the hit horror film Obsession, just published a new horror short on YouTube. The short, titled \"Mama Bear,\" is nearly five minutes long. The video is pretty unnerving, and fair warning that it gets a little graphic, but it's a fun one to watch if you're looking for something scary […]",
+   "published": "2026-10-29T23:57:18+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "e56d88f8adc60a4f",
+   "title": "Andy Jassy says Prime Video is on track to earn ‘tens of billions of dollars’",
+   "url": "https://techcrunch.com/2026/10/29/andy-jassy-says-prime-video-is-on-track-to-earn-tens-of-billions-of-dollars/",
+   "summary": "The success of blockbuster hits like Project Hail Mary and Verity is only part of the story, Amazon's CEO says.",
+   "published": "2026-10-29T23:44:56+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "5d1db20a777433a7",
+   "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+   "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+   "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+   "published": "2026-10-29T23:42:22+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "a1897366940ca016",
+   "title": "Intel says it’s selling every affordable laptop chip it can make",
+   "url": "https://www.theverge.com/tech/1022911/intel-wildcat-lake-sold-out-ram-shortage",
+   "summary": "During Intel's latest earnings call, CEO Lip-Bu Tan said that demand for its budget-focused Wildcat Lake chips \"is outstripping supply.\" According to CFO David Zinsner, the chips are now sold out. Zinsner said Intel has \"seen significant growth in Wildcat Lake. It's coming exactly at the right time because it's cost-optimized and we're seeing a […]",
+   "published": "2026-10-29T23:42:21+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "33277ca62716554c",
+   "title": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto",
+   "url": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
+   "summary": "Some estimates say hackers stole billions in crypto from Binance, the world's largest cryptocurrency exchange, during a cyberattack on Thursday.",
+   "published": "2026-10-29T22:27:23+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "768768fd4f10e095",
+   "title": "Reddit’s CEO says Google’s AI Mode ‘does not drive traffic’",
+   "url": "https://www.theverge.com/tech/1022848/reddit-ceo-google-ai-mode-traffic",
+   "summary": "Reddit CEO Steve Huffman said in an earnings call today that Google's AI-powered search modes do not help with traffic to the platform, echoing problems facing other websites and publishers. As part of its Q3 2026 earnings, Reddit revealed that search traffic in October has \"dropped by more than 1 million referrals on average per […]",
+   "published": "2026-10-29T22:19:32+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "d1085d670d064b9f",
+   "title": "Elon Musk is ‘truly a genius,’ says Vladimir Putin",
+   "url": "https://techcrunch.com/2026/10/29/elon-musk-is-truly-a-genius-says-vladimir-putin/",
+   "summary": "Putin said that he and Musk are in \"close contact\" about Rassvet, Russia's Starlink-like satellite connectivity project.",
+   "published": "2026-10-29T21:51:29+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "bd2d98968929cd46",
+   "title": "Reddit is moving to “a logged-in-only experience,” CEO says",
+   "url": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/",
+   "summary": "Reddit's search traffic \"was down meaningfully\" last quarter.",
+   "published": "2026-10-29T21:47:57+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "d6575eeddbdc834d",
+   "title": "Amazon reported booming cloud revenue but otherwise missed expectations",
+   "url": "https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/",
+   "summary": "The biggest ouch of the report was its negative free cash flow of $2.4 billion.",
+   "published": "2026-10-29T21:20:47+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "f12ba461375821b3",
+   "title": "GM reaches $220M settlement over selling drivers’ private data",
+   "url": "https://techcrunch.com/2026/10/29/gm-reaches-220m-settlement-over-selling-drivers-private-data/",
+   "summary": "As part of the settlement, GM must get drivers’ express consent before it collects or shares their driving and location data.",
+   "published": "2026-10-29T21:01:04+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "a64fa4f68a9e0bc5",
+   "title": "Fan-fiction site Archive of Our Own (AO3) could be offline for up to 4 weeks after security incident",
+   "url": "https://techcrunch.com/2026/10/29/fan-fiction-site-archive-of-our-own-could-be-offline-for-up-to-4-weeks/",
+   "summary": "The site has such a passionate user base that, within two hours of the announcement, its status page's posts had garnered millions of views (and much panicked commentary) across social media.",
+   "published": "2026-10-29T20:43:56+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "9814b2710416d9cc",
+   "title": "Microsoft fixes a Windows 11 annoyance as PC revenue declines",
+   "url": "https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/",
+   "summary": "The latest update also brings a cloud recovery option for PCs that won't boot.",
+   "published": "2026-10-29T20:18:49+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "1465a7304d576bbf",
+   "title": "Patrick Stewart has died at age 86",
+   "url": "https://www.theverge.com/news/1022626/patrick-stewart-star-trek-death",
+   "summary": "Patrick Stewart, best known for his roles in Star Trek and X-Men, has died at age 86. A message posted to Stewart's Instagram account says the actor died in his Los Angeles home on Wednesday \"following a brief and poignant journey with Alzheimer's Disease and Lewy Body Dementia.\" Born in 1940 in Mirfield, Yorkshire, England, […]",
+   "published": "2026-10-29T20:10:02+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "426159ea8a1ab209",
+   "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+   "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+   "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+   "published": "2026-10-29T20:08:31+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "1184938a9d26ecba",
+   "title": "Pentagon IG refuses to investigate Starlink/Starshield slowdown in Ukraine",
+   "url": "https://arstechnica.com/tech-policy/2026/10/pentagon-ig-refuses-to-investigate-starlink-starshield-slowdown-in-ukraine/",
+   "summary": "Inspector general rejected request from Democratic and Republican senators.",
+   "published": "2026-10-29T20:08:10+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "649ba97030193a96",
+   "title": "Reddit will force everyone to log in",
+   "url": "https://www.theverge.com/tech/1022571/reddit-login-requirement-q3-2026-earnings",
+   "summary": "Reddit is announcing a huge shift: It's going to start requiring users to log in. Right now, you can browse Reddit without having an account, and the site is generally a great resource for crowdsourced information on a whole range of topics. I know I'm not the only person who appends \"reddit\" to a lot […]",
+   "published": "2026-10-29T20:07:00+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "26c2c9fb2c77cbc5",
+   "title": "Rivian expands joint venture with VW to include AI assistant",
+   "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+   "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
+   "published": "2026-10-29T20:05:47+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "a3812410b0e5b7a9",
+   "title": "The R2 SUV is already Rivian’s best-selling vehicle",
+   "url": "https://techcrunch.com/2026/10/29/the-r2-suv-is-already-rivians-best-selling-vehicle/",
+   "summary": "Rivian is seeing strong enough sales of the new EV that it improved its guidance to Wall Street for the second time this year.",
+   "published": "2026-10-29T20:02:03+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "f0c873fb563dcfb3",
+   "title": "Rivian’s R2 is officially its best-selling vehicle",
+   "url": "https://www.theverge.com/transportation/1022420/rivian-q3-earnings-r2-sales-volkswagen-software",
+   "summary": "Rivian reported its third quarter earnings of 2026, providing us a closer look at the company's financial health as it ramps up production of its all-important R2 electric vehicle - which is now, for the first time, outselling all of Rivian's other EVs. Rivian said it brought in $2.155 billion in revenue, a 38 percent […]",
+   "published": "2026-10-29T20:02:00+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "977e0ca740325cb2",
+   "title": "OpenAI-backed Thrive Holdings acquires ADT",
+   "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+   "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
+   "published": "2026-10-29T19:56:19+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "bf4a7f127f4ceb3b",
+   "title": "GM to pay $220 million to resolve claims it sold driving habits data",
+   "url": "https://www.theverge.com/transportation/1022555/gm-data-privacy-attorneys-general-lawsuit",
+   "summary": "General Motors has agreed to pay $220 million to settle claims that it illegally sold driver and location information to data brokers, as reported earlier by Reuters. The agreement, which resolves a complaint from a coalition of 36 US attorneys general, requires GM to limit the driving data it collects and obtain \"express consent\" from […]",
+   "published": "2026-10-29T19:19:28+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "2a02527ce5934ccb",
+   "title": "Trump declares robot imports a national security threat",
+   "url": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/",
+   "summary": "President orders trade talks on foreign-made factory robots, threatens tariffs.",
+   "published": "2026-10-29T19:07:53+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "14b8d3f07e8140fd",
+   "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+   "summary": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in […]",
+   "published": "2026-10-29T18:45:31+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "acd5c19895a3fc72",
+   "title": "Trump ignored intel on China’s Nvidia spy to protect company’s stock, report says",
+   "url": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/",
+   "summary": "Spy accused of exploiting Trump ties to Huang, funneling secrets to China.",
+   "published": "2026-10-29T18:29:12+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "bfc44467f0848c57",
+   "title": "Ikea’s colorful donut-shaped smart lamp is $20 off",
+   "url": "https://www.theverge.com/gadgets/1022440/ikea-varmblixt-smart-lamp-deal-sale",
+   "summary": "With its playful design, versatility, and relatively affordable price, the Ikea Varmblixt quickly became one of my colleague Jennifer Pattison Tuohy’s new favorite smart light products when she tested it in April. Now, the donut-shaped lamp is on sale for $79.99 ($20 off) through November 11th at Ikea. Don’t let us tell you where you […]",
+   "published": "2026-10-29T18:18:36+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "84c62680bb281e8e",
+   "title": "Turning a solar power system into its own backup",
+   "url": "https://arstechnica.com/science/2026/10/turning-a-solar-power-system-into-its-own-backup/",
+   "summary": "Plant design allows it to run on either stored solar heat or combustion.",
+   "published": "2026-10-29T18:02:26+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "bef309c9ed176886",
+   "title": "Apple’s new laptop supports one of the coolest features for color pros",
+   "url": "https://www.theverge.com/1022347/apple-macbook-supports-new-cmf",
+   "summary": "The new MacBook Pro brings with it a bunch of firsts for Apple laptops, the two flashiest being an OLED display and touchscreen functionality. But as an image-accuracy enthusiast, trained calibrator, and resident display expert, what excites me most about the MacBook Pro with PROLED XDR Display is the technology it uses to display an […]",
+   "published": "2026-10-29T17:48:09+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "d1fb501106ccad94",
+   "title": "Kalshi and its co-founders face felony charges for violating Utah gambling laws",
+   "url": "https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling/",
+   "summary": "Charges filed as Trump admin tries to save Kalshi from Utah's total ban on gambling.",
+   "published": "2026-10-29T17:21:33+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "63e221981ae0d90d",
+   "title": "Google admits AI search makes less money, but it's fixing that with more ads",
+   "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+   "summary": "Google's negative cash flow balloons to -$9.06 billion, and stock price tumbles following Q3 earnings.",
+   "published": "2026-10-29T16:24:55+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "2820f1ef66d79878",
+   "title": "अमेरिका र इजरायलको निर्वाचन परिणामले कसरी तय हुनेछ तेलदेखि सुनको भविष्य?",
+   "url": "https://bizmandu.com/content/20261029213920.html",
+   "summary": "काठमाडौं । खाडीमा बढ्दै गएको स्ट्रेट अफ हर्मुजको सुरक्षा चुनौती र प्रमुख शक्ति राष्ट्रहरूको राजनीतिक अनिश्चितताका कारण अन्तर्राष्ट्रिय बजारमा कच्चा तेल र बहुमूल्य धातुहरूको मूल्यमा ठूलो उछाल आउने प्रक्षेपण गरिएको छ। विश्लेषकहरूका अनुसार आगामी दिनमा कच्चा तेलको मूल्य प्रति ब्यारेल ११० अमेरिकी डलरदेखि माथि पुग्न सक्छ। साथै, सुनको मूल्य पनि प्रति औंस ४ हजार ६०० […] The post अमेरिका र इजरायलको निर्वाच",
+   "published": "2026-10-29T15:57:40+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "85811c65a14e229b",
+   "title": "विचौलियासँग प्रधानन्यायाधीश र न्यायाधीशको नाम जोडिएपछि शर्माले बोलाए फूलकोर्ट",
+   "url": "https://bizmandu.com/content/20261029214052.html",
+   "summary": "काठमाडौं। प्रधानन्यायाधीश मनोजकुमार शर्माले शुक्रबार फूलकोर्ट (पूर्ण बैठक) बोलाएका छन्। शुक्रबार बिहान ९ बजे फूलकोर्ट बोलाइएको एक न्यायाधीशले बताए। समसामयिक विषयमा छलफलका लागि शर्मा बैठक बोलाएका हुन्। विचौलिया इनम सापकोटासँग प्रधानन्यायाधीश शर्मा र अर्का न्यायाधीश हरिप्रसाद फुयालको सम्पर्क रहेको विवरण बाहिरिएपछि शर्माले सवै न्यायाधीशलाई छलफलका लागि बोलाएका हुन्। विचौलिया सापकोटासँगको भेट र चिनजानल",
+   "published": "2026-10-29T15:55:52+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "74ce19e698d1cd1d",
+   "title": "भिजन लुम्बिनी उर्जाको लाभांश सुरक्षित गर्ने आज अन्तिम दिन",
+   "url": "https://merolagani.com/NewsDetail.aspx?newsID=132146",
+   "summary": "",
+   "published": null,
+   "source": "merolagani",
+   "source_name": "Merolagani",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "199aa836d9b2e729",
+   "title": "प्राविधिक ‘ब्रेकआउट’सँगै नेप्से २,७०० को संघारमा : डेढ महिनायताकै उच्च कारोबार, सामाजिक सञ्जालमा उर्लियो ‘बुल’ को तरंग",
+   "url": "https://merolagani.com/NewsDetail.aspx?newsID=132141",
+   "summary": "",
+   "published": null,
+   "source": "merolagani",
+   "source_name": "Merolagani",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "9d133fc32aa60ea6",
+   "title": "We ran AI agent swarms in Minecraft and Mindustry",
+   "url": "https://labs.ycombinator.com/projects/games/index.html",
+   "summary": "",
+   "published": null,
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "66d9a0097b748ee0",
+   "title": "labs.ycombinator.com",
+   "url": "https://news.ycombinator.com/from?site=labs.ycombinator.com",
+   "summary": "",
+   "published": null,
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "6817414668210a3b",
+   "title": "animationstudies.org",
+   "url": "https://news.ycombinator.com/from?site=animationstudies.org",
+   "summary": "",
+   "published": null,
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "d378ce849b96a5fe",
+   "title": "claremontreviewofbooks.com",
+   "url": "https://news.ycombinator.com/from?site=claremontreviewofbooks.com",
+   "summary": "",
+   "published": null,
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "031f91b220fa9187",
+   "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+   "url": "https://news.ycombinator.com/item?id=50291116",
+   "summary": "",
+   "published": null,
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "5976a7b6e9c1b882",
+   "title": "chengela.substack.com",
+   "url": "https://news.ycombinator.com/from?site=chengela.substack.com",
+   "summary": "",
+   "published": null,
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "c37942fdf99e7dc5",
+   "title": "nealstephenson.substack.com",
+   "url": "https://news.ycombinator.com/from?site=nealstephenson.substack.com",
+   "summary": "",
+   "published": null,
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
+   "id": "9372336e3e98e1d9",
+   "title": "adcochrane.wordpress.com",
+   "url": "https://news.ycombinator.com/from?site=adcochrane.wordpress.com",
+   "summary": "",
+   "published": null,
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-10-30",
+   "is_new": true
+  },
+  {
    "id": "a86cf3ae15231ed4",
    "title": "तिहारलाई डेढ अर्बको काजु र बदाम, अरू कति ?",
    "url": "https://www.onlinekhabar.com/2026/10/2046000/cashews-and-almonds-worth-one-and-a-half-billion-for-tihar-how-much-more",
@@ -968,7 +1752,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c9b1f3fc4f02c137",
@@ -982,7 +1766,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "cdf8989ccf1635c9",
@@ -996,7 +1780,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "00d49b29ad42a221",
@@ -1010,7 +1794,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0cab95ab39887b9a",
@@ -1024,7 +1808,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "07efd9ce934fba67",
@@ -1038,7 +1822,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9ac6805b65aaeb6f",
@@ -1052,7 +1836,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7c2b58cadaf818ca",
@@ -1066,7 +1850,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "362ffea589c7c636",
@@ -1080,7 +1864,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9ea7ac0714e5d122",
@@ -1094,7 +1878,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "cb1659c0b93d8a5b",
@@ -1108,7 +1892,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9ba97510e0df1ffe",
@@ -1122,7 +1906,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "99c22d1d0d48e906",
@@ -1136,7 +1920,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0f0cbfb865cf721c",
@@ -1150,7 +1934,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "564c6dd6d11ce242",
@@ -1164,7 +1948,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a70ec2407b3cf55c",
@@ -1178,7 +1962,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "86e4bcd529dd52f3",
@@ -1192,7 +1976,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0c995b2f3ee2720a",
@@ -1206,7 +1990,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1153f1e18082d3f3",
@@ -1220,7 +2004,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1aee8ed3e51d2f36",
@@ -1234,7 +2018,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0e32c808999fb4c8",
@@ -1248,7 +2032,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a7efb7d2dea936c7",
@@ -1262,7 +2046,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8072897ec9fa5a7a",
@@ -1276,7 +2060,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5dca5a48c08cd05e",
@@ -1290,7 +2074,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "08778b8612f4fd38",
@@ -1304,7 +2088,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d5bb66e3929123a0",
@@ -1318,7 +2102,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d5eaaa965ce76653",
@@ -1332,7 +2116,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4f12faa6349fd36f",
@@ -1346,7 +2130,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "368016542ebc3346",
@@ -1360,7 +2144,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e0fb59b3bd06c1fe",
@@ -1374,7 +2158,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b378f2f125d6abd8",
@@ -1388,7 +2172,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "cf7d2f3b84f9da4f",
@@ -1402,7 +2186,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e80eac525df72ff1",
@@ -1416,7 +2200,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e7306a5b08c02e60",
@@ -1430,7 +2214,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9878b3236dc6cf3c",
@@ -1444,7 +2228,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c0a253da63163fff",
@@ -1458,7 +2242,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4011f76d219b7f13",
@@ -1472,7 +2256,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0a1a9aeae49e5675",
@@ -1486,7 +2270,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "15c813d3daeb3d81",
@@ -1500,7 +2284,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1d7127c8d53ab258",
@@ -1514,7 +2298,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "64585cd984b0f7ff",
@@ -1528,7 +2312,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c0898a248b4c456c",
@@ -1542,7 +2326,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "800fdba1622e2646",
@@ -1556,7 +2340,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b49a4385cf78ee75",
@@ -1570,7 +2354,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "acd6d2d5bfb3463d",
@@ -1584,7 +2368,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f06a8f68af34620f",
@@ -1598,7 +2382,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a8db4f381d34bbc7",
@@ -1612,7 +2396,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "cd06165852900614",
@@ -1626,7 +2410,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2c6c3c7445d29520",
@@ -1640,7 +2424,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7d0e8af5b8148d68",
@@ -1654,7 +2438,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b6a1655d5bcfc70b",
@@ -1668,7 +2452,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "38ffe56d6de44b2c",
@@ -1682,7 +2466,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "cee40f471c68c4e4",
@@ -1696,7 +2480,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b7253ede4653272b",
@@ -1710,7 +2494,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9d29b76e2cef19fc",
@@ -1724,7 +2508,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bb4e202c4b413262",
@@ -1738,7 +2522,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "89fbf634524eb4c0",
@@ -1752,7 +2536,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "21e350895392e0b0",
@@ -1766,7 +2550,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "099e58716b9550c9",
@@ -1780,7 +2564,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "737c1886f0d2dc7a",
@@ -1794,7 +2578,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "fdb60bea7184d0f5",
@@ -1808,7 +2592,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a9823de8d8dd012c",
@@ -1822,7 +2606,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a3019f5286f8d807",
@@ -1836,7 +2620,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "38037f26666cd028",
@@ -1850,7 +2634,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "35587af84174b416",
@@ -1864,7 +2648,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2bf67a8cde135824",
@@ -1878,7 +2662,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e2b13c07fedad8dd",
@@ -1892,7 +2676,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "26fcfc98637ff724",
@@ -1906,7 +2690,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "cb86a237b511eb06",
@@ -1920,7 +2704,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0778562f7f2d8f98",
@@ -1934,7 +2718,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2699d656f220124e",
@@ -1948,7 +2732,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a637b0a4352919c9",
@@ -1962,7 +2746,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "19c14a526719b04e",
@@ -1976,7 +2760,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3bcca56cb47d1a2e",
@@ -1990,7 +2774,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b15da0071bd8a6a0",
@@ -2004,7 +2788,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a0d35022640656c5",
@@ -2018,7 +2802,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "fcdb9dc7af22414b",
@@ -2032,7 +2816,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "faaa9358965d3a2b",
@@ -2046,7 +2830,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a932137bb6ef89f6",
@@ -2060,7 +2844,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "90196dcca228610c",
@@ -2074,7 +2858,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "80aaa56d4e903774",
@@ -2088,7 +2872,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "61c1b3ea8bd9bc83",
@@ -2102,7 +2886,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8e95e734161ec831",
@@ -2116,7 +2900,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dd97b9c8bb31911b",
@@ -2130,7 +2914,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ccee53275f9cb1d7",
@@ -2144,7 +2928,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0fc9c0eacf70b997",
@@ -2158,7 +2942,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "39df0624985c0df0",
@@ -2172,7 +2956,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5dfaf37539c1738b",
@@ -2186,7 +2970,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bbceef27a498ae3b",
@@ -2200,7 +2984,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6ec8c03c8f5ba2a5",
@@ -2214,7 +2998,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "cabc04f4e0897e7b",
@@ -2228,7 +3012,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f859a4825afce138",
@@ -2242,7 +3026,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4df23156b1db2801",
@@ -2256,7 +3040,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2b560b4f285129c0",
@@ -2270,7 +3054,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0ed955893cc6db60",
@@ -2284,7 +3068,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "31132cf92fc2c4d7",
@@ -2298,7 +3082,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d3183de2c6fcd350",
@@ -2312,7 +3096,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "fff3359b8d0704d7",
@@ -2326,7 +3110,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f765f2cb7caf4521",
@@ -2340,7 +3124,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5afb490b0c5d6de6",
@@ -2354,7 +3138,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "55f2816aa07517e8",
@@ -2368,7 +3152,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "28ecc21919a277b2",
@@ -2382,7 +3166,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3aff358fefb66cd5",
@@ -2396,7 +3180,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "84453b9b0bd1399a",
@@ -2410,7 +3194,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "736f67577452dda5",
@@ -2424,7 +3208,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f114901cdc64a167",
@@ -2438,7 +3222,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8553e25fa44dc023",
@@ -2452,7 +3236,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f52939ac20ef1109",
@@ -2466,7 +3250,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "fb48f0b76c13a917",
@@ -2480,7 +3264,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e601a2528f09218b",
@@ -2494,7 +3278,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0d6a691534173b1a",
@@ -2508,7 +3292,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "530d0123a2e3243b",
@@ -2522,7 +3306,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4d4a5e535f3d23a6",
@@ -2536,7 +3320,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "263d957b102545f0",
@@ -2550,7 +3334,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "14e0a659be9da6ec",
@@ -2564,7 +3348,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c7e17493d7b3b44a",
@@ -2578,7 +3362,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2d260fb6576270d3",
@@ -2592,7 +3376,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c10be22da0366458",
@@ -2606,7 +3390,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dbc6aadc5aaf6458",
@@ -2620,7 +3404,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9d3d62cbb039775b",
@@ -2634,7 +3418,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "578688d09bd7a824",
@@ -2648,7 +3432,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "874aa60a353bfa25",
@@ -2662,7 +3446,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5003e19680a93040",
@@ -2676,7 +3460,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "55a6c1ea092c3993",
@@ -2690,7 +3474,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5bad73c806bdf8dd",
@@ -2704,7 +3488,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "89cf1eccc75e2fad",
@@ -2718,7 +3502,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1e5b2c44c7b8dbf4",
@@ -2732,7 +3516,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1ec13cbae7a575ab",
@@ -2746,7 +3530,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "553cf4d256615c83",
@@ -2760,7 +3544,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ea5faeba9c19e84e",
@@ -2774,7 +3558,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6828011e3808e084",
@@ -2788,7 +3572,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1cd2ec9068e34d86",
@@ -2802,7 +3586,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "df20adb9e537be47",
@@ -2816,7 +3600,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "82b8fc40e689d87e",
@@ -2830,7 +3614,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e4114dda4c05c70f",
@@ -2844,7 +3628,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3c7e821c40f8562f",
@@ -2858,7 +3642,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6cfbede08f21e511",
@@ -2872,7 +3656,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "215d168c5630b0fd",
@@ -2886,7 +3670,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b1eecb04e78fd5d0",
@@ -2900,7 +3684,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7f977641233f4a40",
@@ -2914,7 +3698,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4a032ce29c9a2c5e",
@@ -2928,7 +3712,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "efdb435c659bce2b",
@@ -2942,7 +3726,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "559de9c7ec84f63a",
@@ -2956,7 +3740,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5d08773a6a3feaed",
@@ -2970,7 +3754,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bb0c2991ecc0f6bb",
@@ -2984,7 +3768,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e5e8b3ba8c9745df",
@@ -2998,7 +3782,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d2e05c3c324ff8ed",
@@ -3012,7 +3796,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e32fb9c8e636d5a4",
@@ -3026,7 +3810,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6ea298758e2ba167",
@@ -3040,7 +3824,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a99ce6ea142a4e5a",
@@ -3054,7 +3838,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7619e43b40ef0215",
@@ -3068,7 +3852,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "206919b628716b3b",
@@ -3082,7 +3866,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0350baf5d87e02c2",
@@ -3096,7 +3880,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "fe84fc4c9d117f22",
@@ -3110,7 +3894,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "16a69eedd92cb5d6",
@@ -3124,7 +3908,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9a7a5762e55af6c6",
@@ -3138,7 +3922,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ceefcba7ae202508",
@@ -3152,7 +3936,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-29",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "be97ea0f16bf0326",
@@ -22682,2092 +23466,6 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-10-15",
-   "is_new": false
-  },
-  {
-   "id": "36393c5e472ad573",
-   "title": "NTangible bets it can predict how athletes will perform under pressure",
-   "url": "https://techcrunch.com/2026/10/14/ntangible-bets-it-can-predict-how-athletes-will-perform-under-pressure/",
-   "summary": "NTangible is building an analytics platform for collegiate sports organizations and other clubs to measure an athlete's \"clutch\" factor.",
-   "published": "2026-10-14T14:00:00+00:00",
-   "source": "techcrunch",
-   "source_name": "TechCrunch",
-   "category": "technology",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "fc7a6caa4696051a",
-   "title": "Halo’s co-creator wrote a novel about AI taking over the world",
-   "url": "https://www.theverge.com/entertainment/1010433/jason-jones-ai-novel-halo-destiny",
-   "summary": "Back in 2019, author Margaret Stohl was handed a manuscript written by Jason Jones, who's best known as the co-creator of sci-fi gaming series Halo and Destiny. The two had worked together at Bungie, and Jones wanted Stohl's opinion on a book he was writing about AI taking over the world. It was an oral […]",
-   "published": "2026-10-14T14:00:00+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "a977c8a36c0991b3",
-   "title": "Epic’s new games launcher is ‘vibe coded’",
-   "url": "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux",
-   "summary": "Epic Games is announcing a big refresh of its PC games launcher today in preview, saying that the new version is \"way faster\" and now supports Linux. But the company, which has been publicly making a big push into AI-assisted development, also notes that the refresh was \"vibe coded.\" \"Programming is hard,\" Epic says in […]",
-   "published": "2026-10-14T13:55:02+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "778733fb8c5003a9",
-   "title": "Epic is bringing Fortnite to Linux",
-   "url": "https://www.theverge.com/games/1010808/epic-fortnite-linux-anti-cheat",
-   "summary": "Epic is working on bringing Fortnite to Linux through its Epic Games Launcher. The new launcher is releasing in preview today, and for the first time on Linux, and while Fortnite isn't available there just yet, Epic wants to make that a reality. So far, part of the reason Fortnite hasn't been available on Linux […]",
-   "published": "2026-10-14T13:54:58+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "5e8921594879f9bf",
-   "title": "मुलुकमा पैसा र ऊर्जाको कमी छैन, नीतिगत स्थिरता र लगानीको वातावरण चाहियो : अञ्जन श्रेष्ठ",
-   "url": "https://www.ratopati.com/story/599677/there-is-no-shortage-of-money-and-energy-in-the-country-what-is-needed-is-policy-stability-and-an-investment-environment-anjan-shrestha",
-   "summary": "काठमाडौँ। नेपाल उद्योग वाणिज्य महासङ्घका अध्यक्ष अञ्जन श्रेष्ठले नेपालमा लगानीका लागि पुँजी, ऊर्जा र उद्यमीको कुनै कमी नरहेको तर नीतिगत अस्थिरता र लगानीमैत्री वातावरणको अभावले अर्थतन्त्र सुस्त बनेको बताएका छन् । बुधबार ललितपुरमा महासङ्घले आयोजना गरेको",
-   "published": "2026-10-14T13:46:28+00:00",
-   "source": "ratopati",
-   "source_name": "Ratopati",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "14c267e5ac89b443",
-   "title": "Fujifilm’s new square format instant camera adds analog color filters",
-   "url": "https://www.theverge.com/tech/1010990/fujifilm-instax-square-2-analog-instant-film-camera-filters",
-   "summary": "Continuing the analog approach of the Instax Square SQ6 that launched in 2018 and follow-ups like the Square SQ1 and SQ40, the new Fujifilm Instax Square 2 skips digital functionality while still introducing the ability to customize the look and feel of instant photos. A new mood filter switch slides one of two colored filters […]",
-   "published": "2026-10-14T13:43:36+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "9a74582c96f0d413",
-   "title": "We might not have to wait 13 years for the next GTA",
-   "url": "https://www.theverge.com/games/1011028/next-gta-faster-development",
-   "summary": "Rockstar Games might not keep fans waiting as long for the next installment of Grand Theft Auto. As part of Bloomberg's expansive report on the making of GTA VI, Rockstar technical lead Phil Hooker said that the \"engine, the tools and the team we've built during this project will allow us to do things more […]",
-   "published": "2026-10-14T13:42:29+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "3bbcb04d38727989",
-   "title": "टेलिकमको सिमकार्ड अब चाहेकै स्थानमा, अनलाइन फारम भरेपछि हुलाकले घरघरमै पुर्‍याइदिने",
-   "url": "https://bizmandu.com/content/20261014192344.html",
-   "summary": "काठमाडौं। सरकारले अबदेखि नागरिकले चाहेकै स्थानमा नेपाल टेलिकमको सिमकार्ड उपलब्ध गराउने व्यवस्था मिलाएको छ। सूचना तथा सञ्चारमन्त्री डा. बिक्रम तिमिल्सिनाले बुधबार ‘हुलाक-सिम सेवा’ शुभारम्भ गरेका छन्। अब नागरिकले टेलिकमको सिमकार्ड लिन टेलिकम कार्यालय पुग्नुपर्दैन। ग्राहकले अनलाइनमा आवेदन दिई आफ्नो नयाँ प्रिपेड ‘फिजिकल’ सिमकार्ड हुलाकमार्फत घरदैलोमा प्राप्त गर्न सक्नेछन्। सेवाग्राहीले esim.ntc.net.np",
-   "published": "2026-10-14T13:38:44+00:00",
-   "source": "bizmandu",
-   "source_name": "Bizmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "6205f86bba1ca9d0",
-   "title": "मलेसियाका लागि प्रस्तावित राजदूतको नाम संसदीय सुनुवाइ समितिबाट अस्वीकृत",
-   "url": "https://www.onlinekhabar.com/2026/10/2039330/proposed-ambassador-to-malaysia-name-rejected-by-parliamentary-hearing-committee",
-   "summary": "२८ असोज, काठमाडौं । मलेसियाका लागि प्रस्तावित नेपाली राजदूत चूडामणि खरेलको नाम अस्वीकृत भएको छ । संघीय संसद्को संसदीय सुनुवाइ समितिबाट उनको नाम अनुमोदनका लागि अस्वीकृत भएको छ । स्वार्थको द्वन्द्व, आर्थिक लेनदेन, स्थानीय तहसँग अनुदान मिलाइदिने भन्दै रकम लिएको लगायतका विषय उनीमाथि सुनुवाइका क्रममा उठेका थिए । यसअघि आजै साउदी अरबका लागि प्रस्तावित नेपाली […]",
-   "published": "2026-10-14T13:29:58+00:00",
-   "source": "onlinekhabar",
-   "source_name": "Online Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "4e2d2104a574570e",
-   "title": "कर्णालीका करोडपति अर्थमन्त्री : ७० तोला सुनचाँदी, ३१ ठाउँमा जग्गाजमिन",
-   "url": "https://www.ratopati.com/story/599672/karnalis-millionaire-finance-minister-70-tolas-of-gold-and-silver-land-in-31-places",
-   "summary": "सुर्खेत । गरिब प्रदेशका रूपमा चिनिएको कर्णालीका आर्थिक मामिला तथा योजनामन्त्री टेकराज पछाईसँग भने करोडौँको सम्पत्ति रहेको पाइएको छ। उनीसँग ७० तोला सुनचाँदी र जुम्लादेखि बर्दियासम्म ३१ ठाउँमा जग्गाजमिन छ भने २८ वटा विभिन्न लघुवित्त तथा",
-   "published": "2026-10-14T13:20:44+00:00",
-   "source": "ratopati",
-   "source_name": "Ratopati",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "1a6f89bc0804b91a",
-   "title": "आईसीएफसीको नाफाले जोगियो फाइनान्स क्षेत्र, ६ कम्पनी घाटामा",
-   "url": "https://bankingkhabar.com/archives/169465",
-   "summary": "बैंकिङ खबर / चालु आर्थिक वर्ष २०८३/८४ को पहिलो दुई महिनामा फाइनान्स कम्पनीहरूको समग्र नाफा उल्लेख्य रूपमा घटेको छ । नेपाल राष्ट्र बैंकको तथ्यांकअनुसार भदौ मसान्तसम्म सञ्चालनमा रहेका फाइनान्स कम्पनीहरूले ५ करोड ७४ लाख रुपैयाँ खुद नाफा कमाएका छन् । गत आर्थिक वर्षको सोही अवधिमा यस्तो नाफा ११ करोड ११ लाख रुपैयाँ थियो । गत वर्षको […] The post आईसीएफसीको नाफाले जोगियो फाइनान्स क्षेत्र, ६ कम्पनी घाटामा a",
-   "published": "2026-10-14T13:15:04+00:00",
-   "source": "bankingkhabar",
-   "source_name": "Banking Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "e7c55d7a2109c587",
-   "title": "महंगीको मारमा दसैँ बजार : ‘भाउ नबढेको सामान कुन छ र ?’ (भिडियो रिपोर्ट)",
-   "url": "https://www.ratopati.com/story/599657/dashain-bazaar-hit-by-inflation-which-items-have-not-increased-in-price-video-report",
-   "summary": "काठमाडौँ । कालीमाटी बजारमा दसैँ नजिकिँदै गर्दा खुट्टा राख्ने ठाउँ हुँदैनथ्यो । सडकमा गाडीको जाम र पसलहरुमा सामान किन्ने ग्राहकको तँछाडमछाड हुन्थ्यो । तर बुधबार हामी कालीमाटी वरपरका खाद्यान्न तथा ग्रोसरी पसलहरुमा बजारको चहलपहल र",
-   "published": "2026-10-14T13:15:00+00:00",
-   "source": "ratopati",
-   "source_name": "Ratopati",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "5160febf579f7a29",
-   "title": "संसदीय समितिले सुनारलाई गर्‍यो अस्वीकृत, १० देशका प्रस्तावित राजदूत सर्वसम्मत रुपमा अनुमोदन",
-   "url": "https://bizmandu.com/content/20261014185548.html",
-   "summary": "काठमाडौं। संसदीय सुनुवाइ समितिले विभिन्न १० देशमा राजदूत नियुक्तिका लागि अनुमति दिएको छ। समितिले प्रस्तावित राजदूतहरुलाई बोलाएर सवालजवाफ गरेपछि विभिन्न १० देशमा प्रस्तावित राजदूतको नाम सर्वसम्मतरुपमा अनुमोदन गरेको छ। समितिले भारतमा डा. निश्चलनाथ पाण्डे, चीनमा डा. कल्याणराज शर्मा, अमेरिकामा चीरनजंग थापा, बेलायतमा गौरब शमशेर जबरा, जर्मनीमा सरु जोशी, इजरायलमा सुरेशकुमार कर्ण, ओमानमा पद्माक्षी राणा, द",
-   "published": "2026-10-14T13:10:48+00:00",
-   "source": "bizmandu",
-   "source_name": "Bizmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "7bf3f74abe124f6c",
-   "title": "बर्दिया र रौतहटका उखु किसानलाई १० करोड ४३ लाख अनुदान निकासा",
-   "url": "https://www.onlinekhabar.com/2026/10/2039314/104-3-million-rupees-subsidy-released-to-sugarcane-farmers-of-bardiya-and-rautahat",
-   "summary": "कोलेनिका मार्फत उक्त अनुदान रकम सिधै किसानका बैंक खातामा जम्मा हुने व्यवस्था मिलाइएको छ ।",
-   "published": "2026-10-14T13:06:00+00:00",
-   "source": "onlinekhabar",
-   "source_name": "Online Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "ce1d1839c5960f8a",
-   "title": "राष्ट्रिय वाणिज्य बैंकको ३ अर्ब बराबरको डिबेन्चर सर्वसाधारणका लागि बिक्री खुला",
-   "url": "https://www.ratopati.com/story/599667/rastriya-banijya-banks-debentures-worth-rs-3-billion-open-for-sale-to-the-public",
-   "summary": "काठमाडौँ। राष्ट्रिय वाणिज्य बैंक लिमिटेडले वार्षिक ६ प्रतिशत ब्याजदरमा ३ अर्ब रुपैयाँ बराबरको '६ प्रतिशत आरबीबीएल डिबेन्चर २०८९' असोज २९ गतेदेखि सर्वसाधारणका लागि बिक्री खुला गर्ने भएको छ। अङ्कित मूल्य प्रतिइकाइ १ हजार रुपैयाँका दरले कुल",
-   "published": "2026-10-14T13:01:14+00:00",
-   "source": "ratopati",
-   "source_name": "Ratopati",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "1c38193d1d3304ec",
-   "title": "The Ocarina of Time remake feels remarkably modern — and surprisingly terrifying",
-   "url": "https://www.theverge.com/games/1010101/zelda-ocarina-of-time-remake-switch-2-preview-hands-on",
-   "summary": "With its upcoming remake for the Switch 2, Nintendo might have nailed the best thing about The Legend of Zelda: Ocarina of Time: its timelessness. The 1998 3D action adventure game for the Nintendo 64 that pioneered so much - 3D graphics, movement, exploration, openness - has been reengineered with changes that make it feel […]",
-   "published": "2026-10-14T13:00:00+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "cd10c7a0583be0b5",
-   "title": "The Alexa Tablet 12 Pro is almost the Android tablet we needed",
-   "url": "https://www.theverge.com/tech/1010780/alexa-tablet-12-pro-review",
-   "summary": "We have to talk about this screen. It's the first thing you notice, and maybe the only thing that matters, about the Alexa Tablet 12 Pro. It's a 12-inch, 2800 x 1840 panel with a new technology Amazon calls \"Nanomatte\" that is meant to decrease glare and increase the feeling that you can reach out […]",
-   "published": "2026-10-14T13:00:00+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "5490ed6c04e52cae",
-   "title": "Anthropic warns small AI models could self-replicate through IoT devices",
-   "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
-   "summary": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
-   "published": "2026-10-14T12:55:06+00:00",
-   "source": "arstechnica",
-   "source_name": "Ars Technica",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "33e29cdd256ecd15",
-   "title": "आदिवासी जनजातितर्फबाट सहमहामन्त्रीमा बहादुरसिंह निर्वाचित, केन्द्रीय सदस्यमा क-कसले जिते?",
-   "url": "https://bizmandu.com/content/20261014182833.html",
-   "summary": "काठमाडौं। नेपाली कांग्रेसको आदिवासी जनजातितर्फको सहमहामन्त्रीमा बहादुरसिंह लामा निर्वाचित भएका छन्। लामा ३ हजार २०६ मतसहित निर्वाचित भएका हुन्। सहमहामन्त्रीमा लामासँग तारामान गुरुङ, दिलमान पाख्रिन, प्रशान्तमान सिंह मास्के र ओमबहादुर घर्तीमगरले प्रतिस्पर्धा गरेका थिए। ओमबहादुरले १ हजार ४७० मत ल्याए। तारामानले ८७७ मतमा चित्त बुझाए। आदिवासी जनजातिबाट खुलातर्फ कर्माछिरिङ शेर्पा, गेल्जे लामा, अनुप श्रे",
-   "published": "2026-10-14T12:43:33+00:00",
-   "source": "bizmandu",
-   "source_name": "Bizmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "2e47ee498699a916",
-   "title": "अब नागरिकले चाहेकै स्थानमा टेलिकमको सिमकार्ड, अनलाइन फारम भरेपछि हुलाकले घरघरमै पुर्याइदिने !",
-   "url": "https://arthasarokar.com/2026/10/now-after-filling-the-online-form-of-the-telecoms-sim-card-at-the-place-where-the-citizen-wants-the-post-office-will-deliver-it-to-the-doorstep.html",
-   "summary": "काठमाडौँ । सरकारी सेवालाई डिजिटल र नागरिकमैत्री बनाउने उद्देश्य राखेको सरकारले अबदेखि नागरिकले चाहेकै स्थानमा नेपाल दूरसञ्चार कम्पनी (नेपाल टेलिकम) को सिमकार्ड उपलब्ध गराउने व्यवस्था मिलाएको छ । सूचना तथा सञ्चारमन्त्री डा. बिक्रम तिमिल्सिनाले आज मन्त्रालयबाट ‘हुलाक-सिम सेवा’ को शुभारम्भ गरे । सो सेवा सञ्चालनमा आएसँगै नागरिकले टेलिकमको सिमकार्ड लिन दूरसञ्चार कार्यालय पुगी राख्नुपर्ने छैन Continue r",
-   "published": "2026-10-14T12:22:54+00:00",
-   "source": "arthasarokar",
-   "source_name": "Artha Sarokar",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "c279ca625fa93eec",
-   "title": "कुमारी बैंकको २६औँ साधारणसभा सम्पन्न, सेयरधनीलाई ५५ करोड नगद लाभांश",
-   "url": "https://bankingkhabar.com/archives/169473",
-   "summary": "बैंकिङ खबर / कुमारी बैंक लिमिटेडको २६औँ वार्षिक साधारणसभा सम्पन्न भएको छ । सभाले आर्थिक वर्ष २०८२/८३ का लागि सेयरधनीलाई नगद लाभांश वितरण गर्ने प्रस्ताव पारित गर्नुका साथै बैंकको वार्षिक प्रतिवेदन, लेखापरीक्षकको प्रतिवेदन र सहायक कम्पनीहरूको वित्तीय विवरणसम्बन्धी प्रस्तावलाई स्वीकृति दिएको छ । बुधबार, असोज २८ गते काठमाडौंको सुवर्णशमशेर सडकस्थित सिल्भर ओक ब्याङ्क्वेट एन्ड इभेन्ट्समा […] The post कुम",
-   "published": "2026-10-14T12:21:57+00:00",
-   "source": "bankingkhabar",
-   "source_name": "Banking Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "dd243621ed94dbc7",
-   "title": "सुधन गुरुङले भारतमा उठाए उद्योगीका मुद्दा, ‘गुणस्तर चिह्न पाएका वस्तु निकासीमा अवरोध नहोस्’",
-   "url": "https://bizmandu.com/content/20261014180029.html",
-   "summary": "काठमाडौं। गृहमन्त्री सुधन गुरुङले भारतमा नेपाली वस्तुको निर्यातमा हुँदै आएको अवरोध हटाउन ‘इनिसिएसन’ लिएका छन्। उनले नेपाल गुणस्तर चिह्न (एनएस) पाएका वस्तु निर्वाध निकासीका लागि सहयोग गर्न भारतलाई आग्रह गरेका छन्। सुधनले भारतीय गृहमन्त्री अमित शाहसँगको भेटमा नेपाली वस्तुको निकासीमा कुनै किसिमिको अवरोध हुन नदिन आग्रह गरेका हुन्। ‘एनएस र भारतीय गुणस्तर चिह्न (बीआईएस)को एक्रिडिएसन […] The post सुधन गु",
-   "published": "2026-10-14T12:15:29+00:00",
-   "source": "bizmandu",
-   "source_name": "Bizmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "a896da1fad52797d",
-   "title": "The Download: faking blood and the future of batteries",
-   "url": "https://www.technologyreview.com/2026/10/14/1146452/the-download-military-fake-blood-future-batteries/",
-   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The US military’s race to make fake blood In February 2007, a US military helicopter carrying blood to a field hospital was shot down in Iraq, killing all seven crew members.…",
-   "published": "2026-10-14T12:10:00+00:00",
-   "source": "mittech",
-   "source_name": "MIT Technology Review",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "57a7b13ef0082961",
-   "title": "यात्रुलाई दुःख दिएको आरोपमा तीन जना पक्राउ",
-   "url": "https://arthasarokar.com/2026/10/three-arrested-for-harassing-passengers.html",
-   "summary": "काठमाडौँ । यात्रुलाई दुःख दिएको आरोपमा तीन जना पक्राउ परेका छन् । पक्राउ पर्नेमा रौतहटको गौर नगरपालिका-१ का ४३ वर्षीय विशाल कुमार जैसवाल, भारतीय नागरिक ४२ वर्षीय रन्जन कुमार र सिरहाका ५१ वर्षीय राम कलेवर यादव रहेका छन् । उनीहरुलाई सार्वजनिक यातायातका यात्रुलाई दुःख दिएको आरोपमा प्रहरीले पक्राउ गरेको हो । पक्राउ परेका तीनै जनालाई Continue reading \"यात्रुलाई दुःख दिएको आरोपमा तीन जना पक्राउ\"",
-   "published": "2026-10-14T11:59:13+00:00",
-   "source": "arthasarokar",
-   "source_name": "Artha Sarokar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "4006703077bdd445",
-   "title": "कुमारी बैंकको वार्षिक साधारण सभा सम्पन्न, लाभांश प्रस्ताव पारित",
-   "url": "https://arthasarokar.com/2026/10/kumari-banks-annual-general-meeting-concludes.html",
-   "summary": "काठमाडौँ । कुमारी बैंक लिमिटेडको २६औँ वार्षिक साधारणसभा सम्पन्न भएको छ । सभा असोज २८ गते बुधबार काठमाडौँको सुवर्ण सम्शेर सडक स्थीत सिल्भर ओक ब्यान्क्वेट एण्ड इभेन्ट्समा सम्पन्न भएको हो । सो सभाले सामान्य प्रस्तावको रुपमा पेश गरिएको आर्थिक वर्ष २०८२/८३ को सञ्चालक समितिको वार्षिक प्रतिवेदन, लेखा परीक्षण प्रतिवेदन सहित आर्थिक वर्ष २०८२/८३ आषाढ मसान्त Continue reading \"कुमारी बैंकको वार्षिक साधारण सभा",
-   "published": "2026-10-14T11:41:58+00:00",
-   "source": "arthasarokar",
-   "source_name": "Artha Sarokar",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "12c7ece52e854f42",
-   "title": "उपेन्द्र महतोले नेको इन्स्योरेन्समा छोरीको नाममा रहेको १२ लाख कित्ता संस्थापक सेयर बेचे, मूल्य कति?",
-   "url": "https://bizmandu.com/content/20261014171724.html",
-   "summary": "काठमाडौं। व्यवसायी उपेन्द्र महतोले नेको इन्स्योरेन्समा छोरी कृति कुमारी महतोको नाममा रहेको १२ लाख कित्ता सेयर बेचेका छन्। कृतिको नाममा रहेको सेयर नागरिक लगानी कोषले प्रति कित्ता २३२ रुपैयाँका दरले २७ करोड ८४ लाख रुपैयाँमा किनेको हो। कृतिको नामको सेयर नागरिक लगानी कोषको नाममा नामसारीका लागि समन्वय गर्न नेको इन्स्योरेन्सले बुधबार नेपाल स्टक एक्सचेन्जलाई पत्र […] The post उपेन्द्र महतोले नेको इन्स्यो",
-   "published": "2026-10-14T11:32:29+00:00",
-   "source": "bizmandu",
-   "source_name": "Bizmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "22fb7825972b97c4",
-   "title": "धितोपत्र बोर्डको पाइपलाइनमा थपियो ५ कम्पनीको आइपीओ, कुनको कति कित्ता ?",
-   "url": "https://insurancekhabar.com/securities-board-of-india-sebon-has-added-5-ipos-to-the-pipeline/",
-   "summary": "काठमाडौं । नेपाल धितोपत्र बोर्डको पाइपलाइनमा ५ वटा कम्पनीको आइपीओ थपिएको छ। धितोपत्र बोर्डमा आइपीओ अनुमति माग्दै होटल सिराइचुली, सहास इन्जिनियरिङ हाइड्रोपावर, पिस इनर्जी कम्पनी, युनिटेक हाइड्रोपावर कम्पनी र मुनलाइट हाइड्रोपावर कम्पनीले निवेदन दिएका हुन्। धितोपत्र बोर्डले अनुमति दिएपछि यी कम्पनीले आइपीओ जारी गर्नेछन्। कसको कति कित्ता ? होटल सिराइचुलीले कुल १५ करोड रुपैयाँबराबरको आइपीओ […]",
-   "published": "2026-10-14T11:31:49+00:00",
-   "source": "insurancekhabar",
-   "source_name": "Insurance Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "faf0ae82395032d9",
-   "title": "राष्ट्रिय वाणिज्य बैंकको ३ अर्बको ऋणपत्र सर्वसाधारणका लागि खुला",
-   "url": "https://bankingkhabar.com/archives/169468",
-   "summary": "बैंकिङ खबर / राष्ट्रिय वाणिज्य बैंक लिमिटेडले ३ अर्ब रुपैयाँ बराबरको ‘६५ आरबिबिएल डिबेन्चर २०८९’ ऋणपत्र सर्वसाधारणका लागि खुला गरेको छ । वार्षिक ६ प्रतिशत ब्याजदर रहेको उक्त ऋणपत्रमा असोज २९ गतेदेखि आवेदन दिन सकिने बैंकले जनाएको छ । बैंकले प्रतिइकाई १ हजार रुपैयाँ अंकित मूल्यका ३० लाख इकाई ऋणपत्र निष्कासन गरेको हो । कुल […] The post राष्ट्रिय वाणिज्य बैंकको ३ अर्बको ऋणपत्र सर्वसाधारणका लागि खुला a",
-   "published": "2026-10-14T11:17:31+00:00",
-   "source": "bankingkhabar",
-   "source_name": "Banking Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "31c2a75581f30095",
-   "title": "The Internet’s undersea backbone is slipping into the danger zone",
-   "url": "https://arstechnica.com/gadgets/2026/10/the-internets-undersea-backbone-is-slipping-into-to-the-danger-zone/",
-   "summary": "Elisabeth Braw’s book Undersea War on rising risks for undersea infrastructure.",
-   "published": "2026-10-14T11:15:24+00:00",
-   "source": "arstechnica",
-   "source_name": "Ars Technica",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "159515c85e3f448a",
-   "title": "दशैं–तिहारमा यती एयरलाइन्सबाट यात्रा गर्दा पुजो ज्याङ्गो स्कुटर जित्ने मौका",
-   "url": "https://insurancekhabar.com/yeti-airlines-rides-chance-to-win-puzo-django-scooter/",
-   "summary": "काठमाडौं । दशैं, तिहार र छठको उमङ्गलाई थप रोमाञ्चक बनाउँदै यती एअरलाइन्सले आफ्ना यात्रुहरूका लागि ‘यतीले उडाउँछ, भाग्यले गुडाउँछ’ विशेष चाडपर्व अभियान सञ्चालन गरेको छ । यस अभियानअन्तर्गत यात्रुहरूले बम्पर उपहारमा आकर्षक पुजो ज्याङ्गो स्कुटर जित्ने अवसर पाउनेछन् । अग्नि मोटो इन्कको प्रायोजनमा सञ्चालन भइरहेको अभियानमा साप्ताहिक उपहारका रूपमा माउन्टेन फ्लाइटसमेत राखिएको छ । चाडपर्वको […]",
-   "published": "2026-10-14T11:00:48+00:00",
-   "source": "insurancekhabar",
-   "source_name": "Insurance Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "e65601e756d2f378",
-   "title": "OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say",
-   "url": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
-   "summary": "Attack method exposes flaws in OpenAI, Google safeguards against AI nudes.",
-   "published": "2026-10-14T11:00:30+00:00",
-   "source": "arstechnica",
-   "source_name": "Ars Technica",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "33c96c2a8ab4dab4",
-   "title": "चेम्बर अध्यक्ष र दक्षिण अफ्रिकी राजदूतबीच व्यापारदेखि जलवायु अनुकूल पूर्वाधारबारे छलफल",
-   "url": "https://bizmandu.com/content/20261014164526.html",
-   "summary": "काठमाडौं । नेपाल चेम्बर अफ कमर्सका अध्यक्ष कमलेश कुमार अग्रवाल र नेपालका लागि दक्षिण अफ्रिकाका राजदूत अनिल सुुकलालबीच आज भेटवार्ता भएको छ। उनीहरुबीच द्विपक्षीय व्यापार, लगानी तथा निजी क्षेत्रको सहकार्य विस्तार गर्ने विषयमा छलफल भएको छ। चेम्बर भवनमा भएको भेटमा पूर्वाधार विकास, खानी तथा खनिज, ऊर्जा, कृषि प्रशोधन, सूचना प्रविधि र पर्यटनलगायतका क्षेत्रमा सहकार्यका सम्भावनाबारे […] The post चेम्बर अध्य",
-   "published": "2026-10-14T11:00:26+00:00",
-   "source": "bizmandu",
-   "source_name": "Bizmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "cc948f775b0c371e",
-   "title": "Scimplify raises $25M to challenge China’s grip on critical materials with AI",
-   "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
-   "summary": "Scimplify's annualized revenue run rate has tripled to $200 million as it eyes U.S. expansion.",
-   "published": "2026-10-14T11:00:00+00:00",
-   "source": "techcrunch",
-   "source_name": "TechCrunch",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "055a7a67c7dd1ae0",
-   "title": "The Tesla Roadster could have stayed vaporware",
-   "url": "https://www.theverge.com/transportation/1010694/tesla-roadster-reveal-vaporware-spacex-elon-musk",
-   "summary": "For a car that's supposed to be one of the fastest ever made, the new Tesla Roadster certainly took its sweet-ass time getting here. It's been nearly a decade since Elon Musk made the surprise announcement about plans to build a next-gen Roadster. Now, the Tesla Roadster is finally making its production-ready debut at an […]",
-   "published": "2026-10-14T11:00:00+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "59b58eefc9fca72b",
-   "title": "Fairphone’s latest repairable earbuds are smaller, lighter, and longer-lasting",
-   "url": "https://www.theverge.com/tech/1010906/fairphone-fairbuds-2-price-release-audio-repairability",
-   "summary": "Repairable, ethical phone brand Fairphone has released its second pair of earbuds. The Fairbuds 2 are just as repairable as the first generation, but deliver improved audio and almost twice the battery life. The Fairbuds 2 are out now in the UK and Europe from £99 / €119, and a US launch at $119 will […]",
-   "published": "2026-10-14T11:00:00+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "59ea476d45423a19",
-   "title": "नेपाल क्लियरिङ्ग हाउसको पन्ध्रौँ वार्षिक साधारण सभा सम्पन्न",
-   "url": "https://insurancekhabar.com/fifteenth-annual-general-meeting-of-nepal-clearing-house-held/",
-   "summary": "काठमाडौं । नेपाल क्लियरिङ्ग हाउस लिमिटेडले आ.व. २०८२/८३ को आफ्नो पन्ध्रौँ वार्षिक साधारण सभा काठमाडौंमा सम्पन्न गरेको छ । बैठकले लेखापरीक्षण प्रतिवेदन सहितको २०८३ आषाढ मसान्तसम्मको वासलात, नाफा नोक्सान हिसाब तथा नगद–प्रवाह विवरण स्वीकृत गर्नुका साथै १५% बोनस शेयर र कर प्रयोजनका लागि ०.७८९४७४% नगद लाभांश वितरण गर्ने प्रस्ताव पारित गरेको छ । यस पश्चात् […]",
-   "published": "2026-10-14T10:57:02+00:00",
-   "source": "insurancekhabar",
-   "source_name": "Insurance Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "6b3ff28e286a07f5",
-   "title": "महालक्ष्मी विकास बैंकका ग्राहकहरुलाई केटीएम सिटीमा विशेष छुट",
-   "url": "https://insurancekhabar.com/mahalaxmi-bikas-bank-customers-get-special-discount-at-ktm-city/",
-   "summary": "काठमाडौं । गुणस्तरीय वित्तीय सेवा प्रदान गर्दै आएको यस महालक्ष्मी विकास बैंक लिमिटेडले स्वास्थ्य क्षेत्र, रेष्टुरेन्ट, सेवा क्षेत्र लगायतका संस्थाहरुसँग समन्वय गरी अगाडि बढ्ने अभिप्रायका साथ नेपालको प्रतिष्ठित फेसन तथा लाईफस्टाइल कम्पनी के.टी.एम. सिटीमा महालक्ष्मी विकास बैंकका ग्राहकहरुले विशेष छुट पाउने गरी सम्झौता पत्रमा हस्ताक्षर भएको छ । सम्झौता अन्तर्गत महालक्ष्मी विकास बैंकका डेबिट कार्ड, […",
-   "published": "2026-10-14T10:52:37+00:00",
-   "source": "insurancekhabar",
-   "source_name": "Insurance Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "975046812a7ce6ab",
-   "title": "एनसीएचएलले वित्तीय क्षेत्रका लागि सफ्टवेयर बनाउने, सहायक कम्पनी खोल्न अख्तियारी",
-   "url": "https://bizmandu.com/content/20261014163546.html",
-   "summary": "काठमाडौं। नेपाल क्लियरिङ हाउस लिमिटेड (एनसीएचएल)ले सहायक कम्पनी खोल्ने भएको छ। एनसीएचएलले बैंकिङ/वित्तीय तथा भुक्तानी सम्बन्धी प्रविधिमा अनुसन्धान लगायत प्रविधि र सफ्टवेयरको विकास, जडान एवम् सोसँग सम्बन्धित आवश्यक कार्यसमेत गर्ने उद्देश्यसहित सहायक कम्पनी खोल्ने भएको हो। एनसीएचएलको बुधबार काठमाडौंमा भएको १५औं वार्षिक साधारण सभाले कम्पनीको सहायक वा सम्बद्ध कम्पनीको रुपमा छुट्टै पब्लिक लिमिटेड कम्पन",
-   "published": "2026-10-14T10:50:46+00:00",
-   "source": "bizmandu",
-   "source_name": "Bizmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "8587b45f64d16764",
-   "title": "माछापुच्छ्रे बैंकको ६% लाभांश पारित, संचालक समिति अध्यक्षमा दोहोरिए रोशन केसी",
-   "url": "https://bizmandu.com/content/20261014162854.html",
-   "summary": "काठमाडौं। माछापुच्छ्रे बैंकको २८औं वार्षिक साधारण सभा पोखरामा सम्पन्न भएको छ। साधारण सभाले बैंकको संस्थापक सेयरधनीका तर्फबाट संचालक समितिमा रोशन केसी, मुकुन्द महत र कृति महतोलाई निर्विरोध निर्वाचित गरेको छ। सर्वसाधारण सेयरधनीका तर्फबाट विश्वप्रकाश गौतमलाई निर्विरोध निर्वाचित भएका छन्। बैंक संचालक समितिको बुधबार नै बसेको बैठकले अध्यक्षमा आगामी ४ वर्षका लागि पुन: रोशन केसीलाई नै […] The post माछापुच",
-   "published": "2026-10-14T10:43:54+00:00",
-   "source": "bizmandu",
-   "source_name": "Bizmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "2076d0be5b341c29",
-   "title": "एनसीएचएलको साधारण सभाबाट १५% बोनस सेयरको प्रस्ताव पारित, चुक्ता पुँजी १.६७ अर्ब पुग्यो",
-   "url": "https://bizmandu.com/content/20261014162847.html",
-   "summary": "काठमाडौं। नेपाल क्लियरिङ हाउस लिमिटेड (एनसीएचएल)को चुक्ता पुँजी १ अर्ब ६७ करोड भन्दा बढी पुगेको छ। एनसीएचएलको बुधबार भएको १५औं वार्षिक साधारण सभाले १५ प्रतिशत बोनस सेयर वितरणको प्रस्ताव पारित गरेसँगै कम्पनीको चुक्ता पुँजी १ अर्ब ६७ करोड ७२ लाख ८८ हजार रुपैयाँ पुगेको हो। साधारण सभाले १५% बोनस सेयर र त्यसको कर प्रयोजनका लागि […] The post एनसीएचएलको साधारण सभाबाट १५% बोनस सेयरको प्रस्ताव पारित, चुक्त",
-   "published": "2026-10-14T10:43:47+00:00",
-   "source": "bizmandu",
-   "source_name": "Bizmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "6bbc5a781a9aa627",
-   "title": "महङ्गीले खर्चिलो बन्दैछ दशैँ",
-   "url": "https://arthasarokar.com/2026/10/inflation-is-making-dashain-expensive.html",
-   "summary": "काठमाडौँ । काठमाडौँ उपत्यकाभित्रका प्रायः सबै मुख्य बजारमा अहिले किनमेल गर्ने सर्वसाधारणको भीड लागेको छ । दशैँ नजिकिँदै गर्दा खासगरी सहरी क्षेत्रका भोटाहिटी, ठमेल, असन, इन्द्रचोक, जमल, विशालबजार, सुन्धरा, खिचापोखरी, नयाँसडक, बागबजार, डिल्लीबजार, बानेश्वर, पुतली सडकलगायतका क्षेत्रमा लुगाफाटा र आवश्यक सरसामान खरिद गर्नेको चहलपहल बाक्लो रुपमा रहेको पाइएको छ । गत भदौ १० गते भोटेकोशी Continue reading \"",
-   "published": "2026-10-14T10:41:05+00:00",
-   "source": "arthasarokar",
-   "source_name": "Artha Sarokar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "42099f1863db3c07",
-   "title": "जीवन बीमालेख समर्पणबाट दुई महिनामा बाहिरियो साढे २ अर्ब बढी, व्यतितको उठ्न बाँकी कति ?",
-   "url": "https://insurancekhabar.com/more-than-rs-2-5-billion-exited-in-two-months-from-life-insurance-policy-how-much-is-left-to-be-paid/",
-   "summary": "काठमाडौं । चालु आर्थिक वर्ष २०८३।८४ को दोस्रो महिना भदौसम्म जीवन बीमा कम्पनीहरुले बीमालेख समर्पणबापत साढे २ अर्ब रुपैयाँ बढी बीमितलाई भुक्तानी गरेका छन्। नेपाल बीमा प्राधिकरणले सार्वजनिक गरेको तथ्यांकअनुसार जीवन बीमकहरुले भदौसम्म बीमालेख समर्पणबापत बीमितलाई २ अर्ब ५७ करोड ४३ लाख रुपैयाँ भुक्तानी गरेका हुन्। यो रकम १४ हजार ९९६ वटा बीमालेख समर्पणबापत भुक्तानी […]",
-   "published": "2026-10-14T10:26:08+00:00",
-   "source": "insurancekhabar",
-   "source_name": "Insurance Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "db40c61832383071",
-   "title": "चक्रपथ आसपास कम्तीमा तीन रोपनी जग्गाको खोजीमा रास्वपा, किन्नका लागि माग्यो प्रस्ताव",
-   "url": "https://bizmandu.com/content/20261014160536.html",
-   "summary": "काठमाडौं। सत्तारुढ राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) घरजग्गाको खोजीमा लागेको छ। रास्वपाले काठमाडौंको चक्रपथ भित्र वा चक्रपथबाट नजिकको दूरीमा कम्तीमा ३ रोपनी जग्गासहितको घर वा जग्गा किन्न खोजेको हो। घर जग्गा खरिदका लागि रास्वपाले बुधबार प्रस्ताव आह्वान गरेको छ। इच्छुक घरधनी/जग्गाधनीलाई प्रस्ताव पेस गर्न २१ दिनको समय दिइएको छ। ‘पार्टीको बढ्दो सांगठनिक आवश्यकता र दीर्घकालीन संस्थागत […] The post च",
-   "published": "2026-10-14T10:20:36+00:00",
-   "source": "bizmandu",
-   "source_name": "Bizmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "498633868acb5f75",
-   "title": "सानिमा रिलायन्स लाइफद्वारा विद्यालयलाई शैक्षिक सामग्री सहयोग",
-   "url": "https://bankingkhabar.com/archives/169442",
-   "summary": "बैंकिङ खबर / सानिमा रिलायन्स लाइफ इन्स्योरेन्स लिमिटेडले संस्थागत सामाजिक उत्तरदायित्व (सीएसआर) अन्तर्गत काठमाडौंको शंखरापुर नगरपालिका–५, पालुबारीस्थित श्री क्षितिज जनजागृत विद्यालयलाई शैक्षिक सामग्री सहयोग गरेको छ । कम्पनीले विद्यालयका विद्यार्थीहरूको पठनपाठनमा सहयोग पुर्‍याउने उद्देश्यले कापी तथा पेन्सिल वितरण गरेको हो । शैक्षिक सामग्रीको उपलब्धतालाई सहज बनाउने र विद्यार्थीको अध्ययन प्रक्रियामा ",
-   "published": "2026-10-14T10:09:09+00:00",
-   "source": "bankingkhabar",
-   "source_name": "Banking Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "c8cf42e9a7a7ee8e",
-   "title": "‘हामीले अन्तर्राष्ट्रिय लगानीकर्ता ल्याएर एनपीएल अगाडि बढाउन सक्छौं, सरकारले लगानी गर्नुपर्दैन’",
-   "url": "https://bizmandu.com/content/20261014155334.html",
-   "summary": "हरि बहादुर जीसीले सन् १९८५ देखि कपडा उद्योगबाट आफ्नो व्यवसाय सुरु गरे। कपडाबाट सुरु भएको उनको व्यापार अन्य क्षेत्रमा पनि हुन थाल्यो। त्यही व्यवसायिक विरासतलाई अगाडि बढाए उनका छोरा ईश्वर जीसीले। उनले विरासतलाई विस्तार गर्ने क्रममा पुन: ब्रान्डिङ गरेर परिवारको नाममा जीसी ग्रुप बनाए। यो ग्रुप अहिले हस्पिटालिटी, एफएमसीजी, कृषि, जलविद्युत, सूचना प्रविधिदेखि मेडिकल डिभाइस […] The post ‘हामीले अन्तर्राष्",
-   "published": "2026-10-14T10:08:34+00:00",
-   "source": "bizmandu",
-   "source_name": "Bizmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "1c32c3ebaca67aa7",
-   "title": "गुगलको जेमिनी ४ आर्गन सार्वजनिकः सफ्टवेयर, रोबोटिक्स र वैज्ञानिक अनुसन्धानमा नयाँ आयाम",
-   "url": "https://clickmandu.com/2026/10/499975.html",
-   "summary": "एजेन्सी । अल्फाबेटको गुगलले जेमिनी ४ आर्गनलाई विश्वव्यापी रूपमा सार्वजनिक गर्दै आफ्नो कृत्रिम बुद्धिमत्ता (एआई) पोर्टफोलियो विस्तार गरेको छ । यो सफ्टवेयर विकास, वैज्ञानिक अनुसन्धान, रोबोटिक्स र व्यावसायिक सञ्चालनहरूमा जटिल कार्यहरू सम्पादन गर्न डिजाइन गरिएको मोडल हो । यो एआई मोडल गुगलको जेमिनी एप्लिकेसन प्रोग्रामिङ इन्टरफेस (एपीआई) मार्फत विकासकर्ता (डेभलपर) र व्यवसायहरूका लागि उपलब्ध छ […]",
-   "published": "2026-10-14T10:05:39+00:00",
-   "source": "clickmandu",
-   "source_name": "Clickmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "a427316e3fa7a682",
-   "title": "महालक्ष्मी विकास बैंकका ग्राहकले केटीएम सिटीमा कपडा किन्दा १० प्रतिशत छुट पाउने",
-   "url": "https://bizmandu.com/content/20261014154435.html",
-   "summary": "काठमाडौं। महालक्ष्मी विकास बैंकका ग्राहकले केटीएम सिटीमा छुट पाउने भएका छन्। बैंकका ग्राहकले केटीएम सिटीका १७ वटे आउटलेटमा कपडा खरिद गर्दा १० प्रतिशत छुट पाउने भएका हुन्। यस सम्बन्धमा बैंक र केटीएम सिटीबीच सम्झौता भएको छ। सम्झौता अनुसार बैंकका डेबिट कार्ड, क्रेडिट कार्ड तथा मोबाइल बैंकिङ प्रयोग गर्ने ग्राहकले छुट सुविधा पाउनेछन्। The post महालक्ष्मी विकास बैंकका ग्राहकले केटीएम सिटीमा कपडा किन्दा ",
-   "published": "2026-10-14T09:59:35+00:00",
-   "source": "bizmandu",
-   "source_name": "Bizmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "8deffbad23a2a5fc",
-   "title": "महालक्ष्मी विकास बैंकका ग्राहकलाई के.टी.एम. सिटीमा १० प्रतिशतसम्म छुट",
-   "url": "https://bankingkhabar.com/archives/169439",
-   "summary": "बैंकिङ खबर / महालक्ष्मी विकास बैंकका ग्राहकले अब के.टी.एम. सिटीका १७ वटै आउटलेटबाट कपडा तथा पहिरन खरिद गर्दा १० प्रतिशतसम्म छुट पाउने भएका छन् । बैंकले आफ्ना ग्राहकलाई दैनिक उपभोग तथा जीवनशैलीसँग जोडिएका सेवामा समेत लाभ पुर्‍याउने उद्देश्यले फेसन तथा लाइफस्टाइल ब्रान्ड के.टी.एम. सिटीसँग सहकार्य गरेको हो । बैंक र के.टी.एम. सिटीबीच भएको सम्झौताअनुसार बैंकका […] The post महालक्ष्मी विकास बैंकका ग्राह",
-   "published": "2026-10-14T09:47:57+00:00",
-   "source": "bankingkhabar",
-   "source_name": "Banking Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "bcb30147883f4176",
-   "title": "बुधबार २१.३२ अंकले बढ्यो नेप्से परिसूचक, बजार २६२१.२६ बिन्दुमा",
-   "url": "https://arthasarokar.com/2026/10/nepse-index-surged-by-21-32-points-to-close-at-2621-26-points-on-wednesday.html",
-   "summary": "काठमाडौँ । साताको कारोबारको तेश्रो दिन बुधबार सेयर बजार मापक नेप्से परिसूचक बढेको छ । बुधबार नेप्से परिसूचक २१.३२ अंकले बढेर २६२१.२६ बिन्दुमा पुगेको हो । नेप्सेमा कुल ३५४ कम्पनीको १ करोड १६ लाख ७४ हजार २०९ कित्ता सेयर खरिद बिक्री हुँदा रू. ४ अर्ब १३ करोडमाथिको सेयर कारोबार भएको छ । आज सबैभन्दा धेरै Continue reading \"बुधबार २१.३२ अंकले बढ्यो नेप्से परिसूचक, बजार २६२१.२६ बिन्दुमा\"",
-   "published": "2026-10-14T09:38:50+00:00",
-   "source": "arthasarokar",
-   "source_name": "Artha Sarokar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "1438bb8944dcc01f",
-   "title": "स्वास्थ्य बीमाः नियमित औषधि सेवन गरिरहेका बीमितलाई एकैपटक ३ महिनाका लागि औषधि दिन निर्देशन",
-   "url": "https://insurancekhabar.com/health-insurance-insured-people-who-are-taking-regular-medicines-are-instructed-to-take-medicines-for-3-months-at-a-time/",
-   "summary": "काठमाडौं । स्वास्थ्य बीमा बोर्डले नियमित औषधि सेवन गरिरहेका बीमितलाई एकैपटक ३ महिनाका लागि पुग्ने औषधि दिन निर्देशन दिएको छ। बीमा बोर्डले स्वास्थ्य सेवा प्रदायक संस्थाका नाममा परिपत्र जारी गर्दै स्वास्थ्य बीमा सेवा प्रभावकारी बनाउनका लागि यस्तो निर्देशन दिएको हो। ‘२०८० कात्तिक २७ गते बसेको स्वास्थ्य बीमा बोर्डको बोर्ड बैठकबाट नियमित औषधि सेवन गरिरहेका स्वास्थ्य […]",
-   "published": "2026-10-14T09:33:49+00:00",
-   "source": "insurancekhabar",
-   "source_name": "Insurance Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "98716edc2d59354c",
-   "title": "बाढीले पुल बगाएपछि दशैँमा घर फर्किन तुइनको सहारा… (तस्वीरहरु)",
-   "url": "https://arthasarokar.com/2026/10/after-the-flood-swept-away-the-bridge-tuin-had-to-return-home-in-dashain-photos.html",
-   "summary": "काठमाडौँ । बाढीले पुल नै बगाएपछि नुवाकोटका नागरिकलाई दशैँमा घर फर्किन पनि तुइनको सहारा लिनुपर्ने बाध्यता आइपरेको छ । नुवाकोटको सिमुटारबाट गुम्बाडाँडासम्म जान नागरिक तुइनको सहारा लिनुपरेको हो । उक्त क्षेत्रमा रहेको पुल बाढीले बगाएपछि हाल आवतजावतका लागि तुइन जोडिएको छ । सो क्षेत्रमा बेलिब्रिज निर्माण हुँदैछ । बाँकी तस्वीरमा हेर्नुहोस्ः",
-   "published": "2026-10-14T09:33:48+00:00",
-   "source": "arthasarokar",
-   "source_name": "Artha Sarokar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "c9d86888b3d22db2",
-   "title": "एनआईएमबी एस क्यापिटलको २० करोड नगद लाभांश प्रस्ताव",
-   "url": "https://bankingkhabar.com/archives/169436",
-   "summary": "बैंकिङ खबर / एनआईएमबी एस क्यापिटल लिमिटेडले आर्थिक वर्ष २०८२/८३ को मुनाफाबाट सेयरधनीलाई २० करोड रुपैयाँ नगद लाभांश वितरण गर्ने प्रस्ताव गरेको छ । कम्पनीले चुक्ता पुँजीको २० प्रतिशतका दरले करसहित नगद लाभांश वितरण गर्न लागेको हो । कम्पनीको असोज २७ गते बसेको सञ्चालक समितिको १५७औँ बैठकले लाभांश प्रस्तावसहित चौथो वार्षिक साधारणसभा आयोजना गर्ने निर्णय […] The post एनआईएमबी एस क्यापिटलको २० करोड नगद लाभा",
-   "published": "2026-10-14T09:27:47+00:00",
-   "source": "bankingkhabar",
-   "source_name": "Banking Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "80b5727e80b740d5",
-   "title": "नेप्सेमा २१ अंकको वृद्धि, कारोबार रकम पनि बढ्यो",
-   "url": "https://insurancekhabar.com/nepse-index-surges-by-21-points/",
-   "summary": "काठमाडौं । आज शेयर बजार दोहोरो अंकले बढेर बन्द भएको छ । आज नेप्से परिसूचक २१ दशमलव ३२ अंकले बढेर २,६२१ को विन्दुमा कायम भएको छ । आज १८८ कम्पनीको शेयर मूल्य बढेको छ भने ८० कम्पनीको शेयर मूल्य घटेको छ । आज दिनभरिमा ३५४ कम्पनीको १ करोड १६ लाख ७४ हजार कित्ता शेयर किनबेच […]",
-   "published": "2026-10-14T09:22:42+00:00",
-   "source": "insurancekhabar",
-   "source_name": "Insurance Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "484728f8c87e8c9e",
-   "title": "शेयर बजारमा आज उच्च कारोबार भएका १० कम्पनी कुन-कुन ?",
-   "url": "https://insurancekhabar.com/which-are-the-top-10-companies-in-the-stock-market-today-128/",
-   "summary": "काठमाडौं । शेयर बजार बुधबार दोहोरो अंकले बढेको छ। नेप्से परिसूचक २१.३२ अंकले बढेर २६२१.२६ को विन्दुमा बन्द भएको हो। बजार बढ्दा नेप्से उपसमूहमा रहेका सबै १३ वटै समूह बढेका छन्। सर्वाधिक वृद्धि बैंकिङ समूहमा १.४५ प्रतिशतको देखिएको छ। बजारमा आज १८८ कम्पनीको शेयरभाउ बढेको छ भने ८० कम्पनीको घटेको छ। यो दिन ९ कम्पनीको […]",
-   "published": "2026-10-14T09:21:03+00:00",
-   "source": "insurancekhabar",
-   "source_name": "Insurance Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "7eae4bbbb389006a",
-   "title": "महंगीले खर्चिलो बन्दै दसैं",
-   "url": "https://clickmandu.com/2026/10/499967.html",
-   "summary": "काठमाडौं । काठमाडौं उपत्यकाभित्रका प्रायः सबै मुख्य बजारमा अहिले किनमेल गर्ने सर्वसाधारणको भीड लागेको छ । दसैं नजिकिँदै गर्दा खासगरी सहरी क्षेत्रका भोटाहिटी, ठमेल, असन, इन्द्रचोक, जमल, विशालबजार, सुन्धरा, खिचापोखरी, नयाँसडक, बागबजार, डिल्लीबजार, बानेश्वर, पुतली सडकलगायतका क्षेत्रमा लुगाफाटा र आवश्यक सरसामान खरिद गर्नेको चहलपहल बाक्लो रुपमा रहेको पाइएको छ । गत भदौ १० गते भोटेकोशी […]",
-   "published": "2026-10-14T09:17:53+00:00",
-   "source": "clickmandu",
-   "source_name": "Clickmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "8788cd4ca285020b",
-   "title": "बाढी प्रभावित ऋणीलाई राष्ट्र बैंकको राहत, कर्जाको किस्ता तिर्न पुससम्मको समय",
-   "url": "https://bankingkhabar.com/archives/169429",
-   "summary": "बैंकिङ खबर / नेपाल राष्ट्र बैंकले बाढीबाट प्रभावित व्यवसायी तथा ऋणीलाई कर्जा भुक्तानीमा सहजीकरण गर्ने उद्देश्यले साँवा तथा ब्याजको किस्ता तिर्ने अवधि थप गर्न सकिने व्यवस्था गरेको छ। भोटेकोशी तथा बूढीगण्डकी नदीमा आएको बाढीबाट प्रभावित उद्यम, परियोजना तथा व्यवसायका साथै रसुवा भन्सार नाकामा आधारित आयात–निर्यात कारोबार गर्ने ऋणीलाई लक्षित गर्दै केन्द्रीय बैंकले यस्तो व्यवस्था गरेको […] The post बाढी प",
-   "published": "2026-10-14T09:14:12+00:00",
-   "source": "bankingkhabar",
-   "source_name": "Banking Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "ab60774490a6db88",
-   "title": "The US military’s race to make fake blood",
-   "url": "https://www.technologyreview.com/2026/10/14/1145807/us-military-race-to-make-fake-blood/",
-   "summary": "Its call sign was Morphine 1-2. In February 2007, the hulking dual-­rotor casualty evacuation helicopter had just flown three wounded soldiers to a field hospital in Balad, north of Baghdad, when another call came: an emergency mission to fly through an insurgent-controlled area in broad daylight. Typically, helicopters would be in a spot like…",
-   "published": "2026-10-14T09:00:00+00:00",
-   "source": "mittech",
-   "source_name": "MIT Technology Review",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "7ee638bdc3ea68a0",
-   "title": "पोखरा–दुबई उडानः वर्ष दिनको टिकट बुकिङ खुला",
-   "url": "https://clickmandu.com/2026/10/499965.html",
-   "summary": "काठमाडौ । फ्लाई दुबईले यही असोज ७ गतेदेखि सुरु गरेको दुबई–पोखरा–दुबई उडान सेवा नियमित र दिगो हुनेमा यहाँका पर्यटन व्यवसायी ढुक्क रहेको पाइएको छ । सुरुमा ६ महिनाका लागि टिकट बुकिङ खुला गरेको फ्लाई दुबईले सन् २०२७ अक्टोबर ३० सम्मलाई बुकिङ खुला गरेपछि उडान नियमित हुनेमा व्यवसायीलाई थप विश्वस्त तुल्याएको हो । फ्लाई नमस्ते ट्राभल्सका […]",
-   "published": "2026-10-14T08:59:05+00:00",
-   "source": "clickmandu",
-   "source_name": "Clickmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "03e19b87e0707076",
-   "title": "आउँदो शुक्रबार चन्द्रमा सबैभन्दा टाढा जाने, पृथ्वीमा कस्तो पर्ला प्रभाव ?",
-   "url": "https://insurancekhabar.com/what-will-be-the-effect-of-the-moon-on-the-earth-next-friday/",
-   "summary": "काठमाडौं । आकाशमा चम्किरहेको चन्द्रमा हरेक महिना नजिक र टाढा सर्छ। यसको कक्षा पूर्ण रुपमा गोलो छैन, बरु अन्डाकार छ। त्यसकारण कहिलेकाहीँ चन्द्रमा पृथ्वीको सबैभन्दा नजिक आउँछ। जसलाई पेरिजी भनिन्छ। कहिलेकाहीँ यो सबैभन्दा टाढा सर्छ। त्यसलाई अपोजी भनिन्छ। आउँदो शुक्रबार (असोज ३० गते) मा चन्द्रमा पृथ्वीबाट सबैभन्दा टाढाको दूरीमा पुग्नेछ। यो दूरी लगभग ४ लाख […]",
-   "published": "2026-10-14T08:56:39+00:00",
-   "source": "insurancekhabar",
-   "source_name": "Insurance Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "736f2b4ec9f4ba64",
-   "title": "सिद्धार्थ बैंकको लाभांश पाँच गुणा, २० प्रतिशत वितरण प्रस्ताव",
-   "url": "https://bankingkhabar.com/archives/169430",
-   "summary": "बैंकिङ खबर / सिद्धार्थ बैंक लिमिटेडले आर्थिक वर्ष २०८२/८३ का लागि २० प्रतिशत लाभांश वितरण गर्ने प्रस्ताव अघि सारेको छ । बैंकको लाभांश दर पछिल्ला दुई वर्षमा उल्लेख्य बढेको छ । आर्थिक वर्ष २०८०/८१ मा ४ प्रतिशतमा सीमित लाभांश आर्थिक वर्ष २०८१/८२ मा १०.५३ प्रतिशत पुगेको थियो । बैंकको सञ्चालक समितिले साधारण सेयरधनीका लागि १० प्रतिशत […] The post सिद्धार्थ बैंकको लाभांश पाँच गुणा, २० प्रतिशत वितरण प्रस्",
-   "published": "2026-10-14T08:43:09+00:00",
-   "source": "bankingkhabar",
-   "source_name": "Banking Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "43ac885f9cc6a82d",
-   "title": "दुई महिनामा बैंकले कमाए साढे १९ अर्ब नाफा: नबिल शीर्ष, आठ बैंक अर्ब क्लबमा",
-   "url": "https://clickmandu.com/2026/10/499951.html",
-   "summary": "काठमाडौं । सुस्त कर्जा प्रवाह, उच्च तरलता र खराब कर्जा व्यवस्थापनको चर्को दबाबबीच पनि बैंक तथा वित्तीय संस्थाहरूको चालुआर्थिक वर्ष २०८३/८४ को सुरुवाती दुई महिनामा नाफामा सुधार भएको छ । नेपाल राष्ट्र बैंकले सार्वजनिक पछिल्लो भदौ मसान्तसम्मको तथ्यांकले साउन र भदौ महिनामा बैंक तथा वित्तीय संस्थाहरूको समग्र खुद नाफामा ६ प्रतिशतभन्दा बढीले वृद्धि देखिएको छ […]",
-   "published": "2026-10-14T08:41:21+00:00",
-   "source": "clickmandu",
-   "source_name": "Clickmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "e6a3745ed9c42729",
-   "title": "वाइडबडीको सीचेकले यात्रु घट्दासमेत निगमको आम्दानी साढे ७ प्रतिशतले बढ्यो, साढे २ अर्बको व्यापार",
-   "url": "https://clickmandu.com/2026/10/499930.html",
-   "summary": "काठमाडौं । नेपाल वायुसेवा निगमको वाइडबडी विमान सम्पूर्ण मर्मत अर्थात सीचेकका लागि पठाइएका कारण उडान र यात्रु संख्या प्रभावित भए पनि निगमको आम्दानीमा भने उल्लेख्य सुधार देखिएको छ। चालु आर्थिक वर्ष २०८३/८४ को पहिलो दुई महिना (साउन र भदौ) मा निगमले अघिल्लो वर्षको सोही अवधिको तुलनामा यात्रु संख्या घटे पनि आम्दानी भने ७.५४ प्रतिशतले बढाउन […]",
-   "published": "2026-10-14T08:17:19+00:00",
-   "source": "clickmandu",
-   "source_name": "Clickmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "9b6110de843fd1cb",
-   "title": "फर्स्ट माइक्रोफाइनान्सको १४ करोड ८६ लाख लाभांश प्रस्ताव, बोनस सेयर नदिने",
-   "url": "https://bankingkhabar.com/archives/169423",
-   "summary": "बैंकिङ खबर / फर्स्ट माइक्रोफाइनान्स लघुवित्त वित्तीय संस्था लिमिटेडले आर्थिक वर्ष २०८२/८३ को नाफाबाट सेयरधनीलाई ११.०५२६ प्रतिशत नगद लाभांश वितरण गर्ने प्रस्ताव गरेको छ । संस्थाले यस वर्ष बोनस सेयर वितरण नगर्ने निर्णय गरेको छ । संस्थाको सञ्चालक समितिको असोज २७ गते बसेको २५९औँ बैठकले उक्त लाभांश प्रस्ताव गरेको हो । प्रस्तावअनुसार हाल कायम चुक्ता […] The post फर्स्ट माइक्रोफाइनान्सको १४ करोड ८६ लाख ल",
-   "published": "2026-10-14T08:14:45+00:00",
-   "source": "bankingkhabar",
-   "source_name": "Banking Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "a560c1c75b041130",
-   "title": "चाडपर्व लक्षित सुरक्षाः सादा पोसाकका प्रहरीदेखि तालिमप्राप्त कुकुरसम्म परिचालन",
-   "url": "https://arthasarokar.com/2026/10/security-from-plainclothes-police-to-trained-dogs-mobilized.html",
-   "summary": "काठमाडौँ । दशैँ, तिहार तथा छठलगायतका प्रमुख चाडपर्वलाई लक्षित गरी काठमाडौँ उपत्यकामा तीन हजार ५०६ जना प्रहरी परिचालन गरिएको छ । चाडपर्वका समयमा हुनसक्ने आपराधिक गतिविधि नियन्त्रण गरी नागरिकलाई सुरक्षित र निधक्कसँग पर्व मनाउने वातावरण बनाउन प्रहरीले विशेष सुरक्षा योजना लागू गरेको हो । जिल्ला प्रहरी परिसर काठमाडौँका अनुसार चाडपर्वको समयमा बजार, सार्वजनिकस्थल, यातायात तथा Continue reading \"चाडपर्व लक",
-   "published": "2026-10-14T07:58:04+00:00",
-   "source": "arthasarokar",
-   "source_name": "Artha Sarokar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "a046f3156080aa0d",
-   "title": "हिमालयन रिइन्स्योरेन्सको रकम दुरुपयोगको आरोप, दीपक भट्टसहितविरुद्ध ४५ करोडको दाबी",
-   "url": "https://bankingkhabar.com/archives/169420",
-   "summary": "बैंकिङ खबर / हिमालयन रिइन्स्योरेन्स लिमिटेडको रकम कथित रूपमा दुरुपयोग गरी सम्पत्ति शुद्धीकरण गरेको आरोपमा व्यवसायी दीपक भट्टसहित विभिन्न व्यक्ति तथा संस्थाविरुद्ध काठमाडौं जिल्ला अदालतमा मुद्दा दायर भएको छ । सरकारी पक्षले बीमा कोषको रकम अपचलन र त्यसलाई विभिन्न कारोबारमार्फत वैध देखाउने प्रयास भएको दाबी गर्दै करिब ४५ करोड रुपैयाँको बिगो दाबी गरेको छ । २०८३ […] The post हिमालयन रिइन्स्योरेन्सको रकम ",
-   "published": "2026-10-14T07:46:58+00:00",
-   "source": "bankingkhabar",
-   "source_name": "Banking Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "0164077999859211",
-   "title": "दशैँ अवधिभर काभ्रेमा टिपर सञ्चालनमा रोक",
-   "url": "https://arthasarokar.com/2026/10/tipper-service-banned-in-kavre-for-dashain.html",
-   "summary": "काठमाडौँ । नेपालीहरूको महान चाड बडादशैँका अवसरमा काभ्रेपलाञ्चोक जिल्लाभर असोज ३१ देखि कात्तिक ९ गतेसम्म टिपर सञ्चालनमा रोक लगाइएको छ । जिल्ला प्रशासन कार्यालयले एक सूचना जारी गर्दै फूलपातीदेखि पूर्णिमासम्म जिल्लाभित्र टिपर सञ्चालनमा पूर्ण रोक लगाइएको जनाएको छ । जिल्ला सुरक्षा समितिको असोज २७ गते बसेको बैठकको निर्णयअनुसार असोज ३१ देखि कात्तिक ९ गतेसम्म जिल्लाभित्र Continue reading \"दशैँ अवधिभर काभ्",
-   "published": "2026-10-14T07:22:57+00:00",
-   "source": "arthasarokar",
-   "source_name": "Artha Sarokar",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "c542f7b7fae2158a",
-   "title": "अस्ट्रेलियाको क्वान्टास एयरलाइन्समा ‘उडुस आतंक’, सामानभरी उडुस देखिएपछि उडान नै रद्द !",
-   "url": "https://arthasarokar.com/2026/10/australian-qantas-airlines-cancels-flight-after-flight-load-of-bugs.html",
-   "summary": "काठमाडौँ । उडुसको आतंकका कारण अस्ट्रेलियाको राष्ट्रिय ध्वजावाहक क्वान्टास एयरलाइन्सको उडान नै रद्द गरिएको छ । रोमबाट पर्थका लागि तय गरिएको उडान उडुस आतंकका कारण रद्द गरिएको हो । अन्तराष्ट्रिय सञ्चार माध्यमका अनुसार अक्टोबर ९ मा पर्थबाट रोम गएको क्यूएफ ५ उडानमा उडुस भेटिएको थियो । उक्त उडानमा उडुस भेटेपछि इकोनोमी क्लासका यात्रुले गुनासो गरेका Continue reading \"अस्ट्रेलियाको क्वान्टास एयरलाइन्समा ‘उ",
-   "published": "2026-10-14T07:09:11+00:00",
-   "source": "arthasarokar",
-   "source_name": "Artha Sarokar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "26565c5023f16d3b",
-   "title": "सुनको मूल्य २ हजार ७ सय रुपैयाँले घट्यो, चाँदी पनि एक सयले घट्यो",
-   "url": "https://arthasarokar.com/2026/10/gold-price-down-by-rs-2700-per-tola-3.html",
-   "summary": "काठमाडौँ । साताको कारोबारको चौथो दिन बुधबार सुनको मूल्य घटेको छ । कारोबारको अघिल्लो दिनको तुलनामा आज सुनको मूल्य प्रतितोला २ हजार ७ सय रुपैयाँले घटेको हो । कारोबारको अघिल्लो दिन प्रतितोला दुई लाख ९२ हजार २ सय रुपैयाँमा कारोबार भईरहेको छापावाला सुन, आज प्रतितोला २ हजार ७ सय रुपैयाँले घटेर दुई लाख ८९ हजार Continue reading \"सुनको मूल्य २ हजार ७ सय रुपैयाँले घट्यो, चाँदी पनि एक सयले घट्यो\"",
-   "published": "2026-10-14T05:34:43+00:00",
-   "source": "arthasarokar",
-   "source_name": "Artha Sarokar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "87b335fec10262da",
-   "title": "दशैँमा महँगियो मासुः खसीको मासुको मूल्य ह्वात्तै बढ्यो, व्यवसायी मालामाल, उपभोक्ता मारमा !",
-   "url": "https://arthasarokar.com/2026/10/meat-prices-hiked-in-dashain-goat-meat-prices-soared-businessmen-wealthy-consumers-hit-hard.html",
-   "summary": "काठमाडौँ । यस वर्षको दशैँमा खसीको मासुको मूल्य ह्वात्तै बढेको छ । बाढीपहिरो, सडक अवरोध र ढुवानीमा समस्या देखाउँदै व्यवसायीले मासुको मूल्य बढाएका हुन् । काठमाडौँमा अहिले खसीको मासु प्रतिकिलो १ हजार ६०० देखि १ हजार ७०० रुपैयाँसम्म बिक्री भइरहेको छ । गत वर्षको दशैँमा यही मासुको मूल्य प्रतिकिलो १ हजार ३०० देखि १ हजार Continue reading \"दशैँमा महँगियो मासुः खसीको मासुको मूल्य ह्वात्तै बढ्यो, व्यवसायी मा",
-   "published": "2026-10-14T03:44:43+00:00",
-   "source": "arthasarokar",
-   "source_name": "Artha Sarokar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "11c20dd3988ada84",
-   "title": "बजेट खर्चलाई मात्र प्रगतिको आधार नबनाउन निर्देशन",
-   "url": "https://arthasarokar.com/2026/10/govt-directs-people-not-to-make-budget-expenditure-only-the-basis-of-progress.html",
-   "summary": "हेटौँडा । बागमती प्रदेश सरकारले बजेट खर्चलाई मात्र प्रगतिको आधार नबनाउन मन्त्रालयका सचिवहरूलाई निर्देशन दिएको छ । साथै नागरिकले प्रत्यक्ष अनुभूति गर्नेगरी सेवा प्रवाह र विकास निर्माणका कामलाई परिणाममुखी बनाउन पनि सरकारले आग्रह गरेको छ । प्रदेशका प्रमुख सचिव कमलप्रसाद भट्टराईको अध्यक्षतामा मंगलबार बसेको सचिवहरूको बैठकले प्रशासनिक कार्यशैली सुधार, सेवा प्रवाहमा प्रभावकारिता र विकास आयोजनाको Continue",
-   "published": "2026-10-14T03:01:12+00:00",
-   "source": "arthasarokar",
-   "source_name": "Artha Sarokar",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "d043bb123b7e5641",
-   "title": "दसैंको अवसरमा जेटुर नेपालले खुलायो टी१ र टी२ एसयूभीको प्रि-बुकिङ",
-   "url": "https://bizmandu.com/content/20261014075151.html",
-   "summary": "काठमाडौं। दसैंको अवसरमा जेटुर नेपालले थापाथलीस्थित आफ्नो शोरुममा विशेष पूजापाठ गर्दै जेटुर टी१ र टी२ एसयूभीको प्रि-बुकिङ खुलाएको छ। कम्पनीले यी दुई मोडलका विभिन्न भेरियन्ट सार्वजनिक गर्दै मूल्यसमेत निर्धारण गरेको हो। कम्पनीका अनुसार जेटुर टी१ प्लग-इन हाइब्रिड (पीएचइभी) भेरियन्टमा उपलब्ध हुनेछ। यसको मूल्य एक करोड ४२ लाख ९६ हजार रुपैयाँ तोकिएको छ। त्यस्तै, जेटुर टी२ […] The post दसैंको अवसरमा जेटुर ",
-   "published": "2026-10-14T02:06:51+00:00",
-   "source": "bizmandu",
-   "source_name": "Bizmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "a38f2de6b7fe6ebe",
-   "title": "१५ मिनेटको व्यवस्था ब्युँताउन खोज्दै नेप्से, सर्किट ब्रेकरको सीमा पनि पुनरावलोकन गर्ने तयारी !",
-   "url": "https://arthasarokar.com/2026/10/nepse-is-trying-to-revive-the-15-minute-system-preparing-to-review-the-limit-of-circuit-breaker.html",
-   "summary": "काठमाडौँ । नेपाल स्टक एक्सचेञ्ज (नेप्से)ले फेरि अन्तिम १५ मिनेटको भारित औसत मूल्यका आधारमा सूचकाङ्क गणना गर्ने प्रणाली फेरि लागू गर्ने तयारी गरेको छ । त्यसका लागि नेप्सेले आफ्नो सिस्टम पूर्ण रुपमा तयार रहेको जनाएको छ । यसो त लगानीकर्ताले व्यापक विरोध गरेपछि १५ मिनेटको व्यवस्था हटाइएको थियो । तर, नेपाल धितोपत्र बोर्डले अन्तिम १५ Continue reading \"१५ मिनेटको व्यवस्था ब्युँताउन खोज्दै नेप्से, सर्किट ",
-   "published": "2026-10-14T02:01:36+00:00",
-   "source": "arthasarokar",
-   "source_name": "Artha Sarokar",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "58f4f64b8984a9d5",
-   "title": "विदेशी मुद्राको आजको विनिमय दर : घट्यो अमेरिकी डलर, युरो र पाउण्डको भाउ",
-   "url": "https://bizmandu.com/content/20261014073201.html",
-   "summary": "काठमाडौं। बुधबार अमेरिकी डलर, युरोपियन युरो र बेलायती पाउण्ड स्टर्लिङको भाउ घटेको छ। नेपाल राष्ट्र बैंकले सार्वजनिक गरेको विनिमय दरअनुसार आज १ अमेरिकी डलरको खरिददर १५२.१६ रुपैयाँ र बिक्रीदर १५२.७६ रुपैयाँ छ। मंगलबार यसको खरिददर १५२.९४ रुपैयाँ र बिक्रीदर १५३.५४ रुपैयाँ थियो। यस्तै, १ युरोपियन युरोको खरिददर आज १७०.१३ रुपैयाँ र बिक्रीदर १७०.८० रुपैयाँ कायम […] The post विदेशी मुद्राको आजको विनिमय दर ",
-   "published": "2026-10-14T01:47:01+00:00",
-   "source": "bizmandu",
-   "source_name": "Bizmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "f498997be1793d07",
-   "title": "Justice Department says North Koreans have infiltrated dozens of U.S. companies",
-   "url": "https://techcrunch.com/2026/10/13/justice-department-says-north-koreans-have-infiltrated-dozens-of-u-s-companies/",
-   "summary": "U.S. authorities warn that sanctioned hackers are increasingly targeting Americans to act as facilitators between breached U.S. companies and Pyongyang.",
-   "published": "2026-10-14T01:30:42+00:00",
-   "source": "techcrunch",
-   "source_name": "TechCrunch",
-   "category": "technology",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "52594f166664c57e",
-   "title": "‘गाडी बेच्नुभन्दा ठूलो चुनौती बिक्रीपछिको सेवा, जीडब्लूएमले स्पेयर पार्ट्स र सर्भिस अभाव हुन दिँदैन’",
-   "url": "https://bizmandu.com/content/20261014071533.html",
-   "summary": "नेपाली अटोमोबाइल बजारमा चिनियाँ ब्रान्डको उपस्थिति विस्तार भएसँगै मूल्य, रेन्ज, प्रविधि, फिचर र सुरक्षाका विषयमा प्रतिस्पर्धा ठूलो छ। तर, गाडी बिक्री गर्नु मात्रै पर्याप्त छैन। बिक्रीपछि ग्राहकलाई आवश्यक सेवा दिनु, स्पेयर पार्ट्स उपलब्ध गराउनु र दक्ष जनशक्ति तयार गर्नु अहिले अटोमोबाइल व्यापारका प्रमुख चुनौती बनेका छन्। यही प्रतिस्पर्धाबीच ग्रेट वाल मोटर्स (जीडब्लूएम)ले नेपालमा एग्रेसिभ उपस्थिति […",
-   "published": "2026-10-14T01:30:33+00:00",
-   "source": "bizmandu",
-   "source_name": "Bizmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "9fd3f125f56f0374",
-   "title": "करदाताको विश्वास जित्न निष्पक्ष, पारदर्शी र सेवामुखी कर प्रशासन आवश्यक",
-   "url": "https://clickmandu.com/2026/10/499700.html",
-   "summary": "परम्परागत रूपमा कर प्रशासनलाई केवल राजस्व संकलन गर्ने संयन्त्र र कठोर कानुनी अधिकार प्रयोग गर्ने निकायका रूपमा हेरिने गरिन्थ्यो । तर, द्रुत गतिमा बदलिँदो विश्व परिवेश, प्रविधिको तीव्र विकास र अन्तर्राष्ट्रिय आर्थिक अन्तरसम्बन्धले यो पुरानो परिभाषालाई पूर्णतः उल्ट्याइदिएको छ । आधुनिक कर प्रशासन भनेको केवल कानुनको कठोर कार्यान्वयन मात्र होइन । यो प्रभावकारी सार्वजनिक सेवा […]",
-   "published": "2026-10-14T01:27:40+00:00",
-   "source": "clickmandu",
-   "source_name": "Clickmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "d3bf575009e0a445",
-   "title": "कृषि यान्त्रीकरणमैत्री नीति बनाउन माग गर्दै कृषि मन्त्रीलाई नामियाकाे १५ बुँदे ज्ञापनपत्र",
-   "url": "https://insurancekhabar.com/nami-submits-15-point-memorandum-to-agriculture-minister-demanding-to-formulate-mechanization-friendly-policy/",
-   "summary": "काठमाडौँ । नेपाल कृषि मेशिनरी व्यवसायी संघ (नामिया) ले कृषि क्षेत्रको आधुनिकीकरण, उत्पादन वृद्धि र व्यावसायीकरणका लागि कृषि यान्त्रीकरणमैत्री नीति कार्यान्वयन गर्न सरकारसँग माग गरेको छ। संघका अध्यक्ष कृष्ण शर्माको नेतृत्वमा गएको प्रतिनिधिमण्डलले कृषि, वन तथा पर्यावरणमन्त्री गीता चौधरीलाई भेट गरी १५ बुँदे ज्ञापनपत्र बुझाउँदै कृषि यन्त्र तथा प्रविधिको पहुँच विस्तार र स्वदेशी उद्योगको प्रवर्द्धनका […",
-   "published": "2026-10-14T01:18:24+00:00",
-   "source": "insurancekhabar",
-   "source_name": "Insurance Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "4cca166e4cd1e95a",
-   "title": "सचिवहरूलाई बागमती सरकारको निर्देशन- बजेट खर्चलाई मात्र प्रगतिको आधार नबनाउनू",
-   "url": "https://www.onlinekhabar.com/2026/10/2038844/bagmati-governments-instructions-to-secretaries-dont-base-progress-solely-on-budget-expenditure",
-   "summary": "बागमती प्रदेश सरकारले बजेट खर्चलाई मात्र प्रगतिको आधार नबनाउन मन्त्रालयका सचिवहरूलाई निर्देशन दिएको छ ।",
-   "published": "2026-10-14T01:17:58+00:00",
-   "source": "onlinekhabar",
-   "source_name": "Online Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "0a3788b685c23dd8",
-   "title": "विन्ध्यबासिनी हाइड्रोपावरको लाभांश घोषणा, १००% हकप्रद पनि ल्याउने, बोलायो एजीएम",
-   "url": "https://insurancekhabar.com/bindhyabasini-hydropower-declares-dividend-to-bring-100-right-shares-convenes-agm/",
-   "summary": "काठमाडौं । विन्ध्यबासिनी हाइड्रोपावर डेभलपमेन्ट कम्पनी लिमिटेडले गत आर्थिक वर्षको मुनाफाबाट आफ्ना शेयरधनीहरुलाई वितरण गर्ने लाभांश घोषणा गरेको छ । कम्पनीले साधारण सभा पनि डाकेको छ । कम्पनीले हाल कायम चुक्ता पूँजीको ५ प्रतिशतका दरले बोनश शेयर वितरण गर्ने घोषणा गरेको हो। उक्त प्रस्ताव पारित गर्न कम्पनीले कात्तिक १८ गते, बुधबार, अनमोल बेन्क्वीट, शंखमुल, काठमाडौंमा […]",
-   "published": "2026-10-14T01:14:22+00:00",
-   "source": "insurancekhabar",
-   "source_name": "Insurance Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "af9daca7e376488b",
-   "title": "गुराँस लघुवित्तको शेयरमूल्य समायोजन",
-   "url": "https://insurancekhabar.com/gurans-laghubitta-bittiya-sanstha-adjusts-share-price/",
-   "summary": "काठमाडौं । नेपाल स्टक एक्सचेञ्जमा गुराँस लघुवित्त वित्तीय संस्थाको शेयरमूल्य समायोजन भएको छ। संस्थाले साधारण सभा तथा लाभांश वितरण प्रयोजनार्थका लागि बुकक्लोज गरेसँगै नेप्सेले मूल्य समायोजन गरी नयाँ मूल्य निर्धारण गरेको हो। नेप्सेले गुराँस लघुवित्तको ९.५ प्रतिशत बोनश शेयर समायोजन गरेको हो। समायोजनपश्चात लघुवित्तको शेयरमूल्य १ हजार ४९७ रुपैयाँ ७२ पैसा कायम भएको छ। नेप्सेले […]",
-   "published": "2026-10-14T01:07:09+00:00",
-   "source": "insurancekhabar",
-   "source_name": "Insurance Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "f4b05174a248747f",
-   "title": "रेशमी मार्गको विरासत धानेको च्यांग्रा व्यापार",
-   "url": "https://clickmandu.com/2026/10/499796.html",
-   "summary": "मुस्ताङ । प्राचीन रेशमी मार्गसँग जोडिएको मुस्ताङको च्यांग्रा व्यापारले पुस्र्तौंदेखि निरन्तरता पाउँदै आएको छ । कुनै बेला हिमालपारिको व्यापारमा ऊन र नुनको कारोबार गर्ने मार्गको विरासत दसैँका बेला हिमाली च्यांग्रा बजार झार्ने परम्पराले धानेको छ । मुस्ताङको घरपझोङ गाउँपालिका–५ ठिनीका च्याङग्रा व्यापारी निरज थकालीले प्राचीन रेशमी मार्ग, मुस्ताङी च्यांग्रा र पोखरा क्षेत्रको दसैँको हजाराँ वर्ष […]",
-   "published": "2026-10-14T01:06:20+00:00",
-   "source": "clickmandu",
-   "source_name": "Clickmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "e1c3ae959a5eff2f",
-   "title": "साउदीको तेल कम्पनी अरामकोको प्रशासनिक भवनमा मिसाइल आक्रमण",
-   "url": "https://clickmandu.com/2026/10/499789.html",
-   "summary": "एजेन्सी । साउदी अरब र यमनका इरानसमर्थित हुथी विद्रोहीबीचको संघर्ष थप चर्किएको छ । मंगलबार राति साउदी अरबको पूर्वी सहर धहरानस्थित विश्वकै ठूला तेल कम्पनीमध्ये एक साउदी अरामकोको प्रशासनिक परिसरमा ब्यालिस्टिक मिसाइल आक्रमण भएको छ । साउदी सरकारी समाचार संस्था एसपीएका अनुसार ऊर्जा मन्त्रालयका एक अधिकारीले आक्रमणपछि भवनमा आगलागी भएको जानकारी दिएका छन् । घटनामा […]",
-   "published": "2026-10-14T00:51:26+00:00",
-   "source": "clickmandu",
-   "source_name": "Clickmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "15b5f29e88cd45b8",
-   "title": "एक डलरको १५३.७६ रुपैयाँ, कति छ अन्य विदेशी मुद्राको विनिमयदर ?",
-   "url": "https://clickmandu.com/2026/10/499783.html",
-   "summary": "काठमाडौं । नेपाल राष्ट्र बैंकले आजका लागि विदेशी मुद्राको विनिमयदर निर्धारण गरेको छ । राष्ट्र बैंकका अनुसार अमेरिकी डलर एकको खरिददर १५२ रुपैयाँ १६ पैसा र बिक्रीदर १५३ रुपैयाँ ७६ पैसा निर्धारण गरिएको छ । युरोपियन युरो एकको खरिददर १७० रुपैयाँ १३ पैसा र बिक्रीदर १७० रुपैयाँ ८० पैसा, युके पाउन्ड स्ट्रलिङ एकको खरिददर २०१ […]",
-   "published": "2026-10-14T00:32:31+00:00",
-   "source": "clickmandu",
-   "source_name": "Clickmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "aa6c998c70408fba",
-   "title": "साउदीको तेल कम्पनी अरामकोको प्रशासनिक भवनमा मिसाइल आक्रमण",
-   "url": "https://www.onlinekhabar.com/2026/10/2038833/missile-attack-on-saudi-aramco-oil-companys-administrative-building",
-   "summary": "हुथी विद्रोहीले साउदी अरबको पूर्वी सहर धहरानस्थित विश्वकै ठूला तेल कम्पनीमध्ये एक अरामकोको प्रशासनिक परिसरमा ब्यालिस्टिक मिसाइल आक्रमण गरेका छन् ।",
-   "published": "2026-10-13T23:55:52+00:00",
-   "source": "onlinekhabar",
-   "source_name": "Online Khabar",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "7678bd47b8bb0a6c",
-   "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
-   "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
-   "summary": "Max Hodak, the former president and co-founder of Neuralink, detailed onstage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
-   "published": "2026-10-13T23:13:31+00:00",
-   "source": "techcrunch",
-   "source_name": "TechCrunch",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "22f92b261e6cb662",
-   "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
-   "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
-   "summary": "Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
-   "published": "2026-10-13T23:05:34+00:00",
-   "source": "techcrunch",
-   "source_name": "TechCrunch",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "261288247039c9e5",
-   "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
-   "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
-   "summary": "Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.",
-   "published": "2026-10-13T23:00:00+00:00",
-   "source": "techcrunch",
-   "source_name": "TechCrunch",
-   "category": "technology",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "1847283fd1889c89",
-   "title": "Martin Shkreli livestreamed himself violating lifetime pharma ban, FTC says",
-   "url": "https://arstechnica.com/health/2026/10/martin-shkreli-livestreamed-himself-violating-lifetime-pharma-ban-ftc-says/",
-   "summary": "\"I can always find a couple of biotech stocks to smoke,\" Shkreli said in a livestream.",
-   "published": "2026-10-13T22:48:12+00:00",
-   "source": "arstechnica",
-   "source_name": "Ars Technica",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "7d45794748d7428d",
-   "title": "Cerebras CEO pushes back on AI doomsday warnings",
-   "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
-   "summary": "Cerebras CEO Andrew Feldman has a message for AI leaders spreading doomsday warnings: Maybe stop talking? At TechCrunch Disrupt, he argued that the industry's focus on AI's risks is drowning out its potential benefits.",
-   "published": "2026-10-13T22:36:59+00:00",
-   "source": "techcrunch",
-   "source_name": "TechCrunch",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "5e19f79730f1ea4a",
-   "title": "Apple’s HomeView ad is confusing to everyone except parents",
-   "url": "https://www.theverge.com/tech/1010561/apple-homeview-commercial-reaction",
-   "summary": "Apple's ad introducing its new HomeView smart display is a little unusual. It's fast-paced and unruly, depicting a family of five as they rush through the morning routine. There's yelling and mess, misplaced keys and discarded eggshells. Apple's typical vibe is clean, simple, orderly; this commercial is chaos. But the spot has parents - those […]",
-   "published": "2026-10-13T22:10:00+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "d70a2078112dafab",
-   "title": "ESA targets Anbernic emulation handhelds as \"superfake\" piracy enablers",
-   "url": "https://arstechnica.com/gaming/2026/10/esa-targets-anbernic-emulation-handhelds-as-superfake-piracy-enablers/",
-   "summary": "But third-party sellers, not Anbernic, are the ones routinely selling ROM-filled SD cards.",
-   "published": "2026-10-13T21:55:49+00:00",
-   "source": "arstechnica",
-   "source_name": "Ars Technica",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "0506a353cefd773e",
-   "title": "Topgolf saved over $11.3 million after leaving VMware",
-   "url": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/",
-   "summary": "Topgolf and VMware \"ran deep\" before the migration.",
-   "published": "2026-10-13T21:33:43+00:00",
-   "source": "arstechnica",
-   "source_name": "Ars Technica",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "4f9bd1d890223bc9",
-   "title": "Helix Carbon says it can make iron cheaper by recycling blast furnace pollution",
-   "url": "https://techcrunch.com/2026/10/13/helix-carbon-makes-iron-cheaper-by-upcycling-blast-furnace-pollution-see-how-at-techcrunch-disrupt/",
-   "summary": "The steel industry is a big polluter, but Helix Carbon can upcycle pollution from blast furnaces to drive down emissions and improve margins.",
-   "published": "2026-10-13T21:15:00+00:00",
-   "source": "techcrunch",
-   "source_name": "TechCrunch",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "b4db78d454f5d133",
-   "title": "FBI arrests OpenAI employee accused of planting hidden recording device in conference room",
-   "url": "https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/",
-   "summary": "It's not clear exactly for what purpose the recording device was used, but FBI director Kash Patel said the scheme was to \"capture sensitive communications about the company’s super intelligence technology.\"",
-   "published": "2026-10-13T20:59:11+00:00",
-   "source": "techcrunch",
-   "source_name": "TechCrunch",
-   "category": "technology",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "455680e8f81ffd29",
-   "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-   "summary": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral communications, according to a press release from the Department […]",
-   "published": "2026-10-13T20:45:25+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "c91621ede834a5a0",
-   "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
-   "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
-   "summary": "A federal judge ruled that Apple can access OpenAI's interview materials involving former Apple employees, as well as private messages and testimony from key figures in the case.",
-   "published": "2026-10-13T20:36:44+00:00",
-   "source": "techcrunch",
-   "source_name": "TechCrunch",
-   "category": "technology",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "21ec7348a7417550",
-   "title": "Cambridge Heavy Industries has been quietly building a desktop fusion device",
-   "url": "https://techcrunch.com/2026/10/13/cambridge-heavy-industries-has-been-quietly-building-a-desktop-fusion-device/",
-   "summary": "Fusion power startup Cambridge Heavy Industries is building a small, laser-powered fusion device to fuel the coming wave of fusion power plants.",
-   "published": "2026-10-13T20:13:53+00:00",
-   "source": "techcrunch",
-   "source_name": "TechCrunch",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "e7d70eb572377135",
-   "title": "It looks like Apple Music is getting a new icon",
-   "url": "https://www.theverge.com/tech/1010619/apple-music-new-icon-ios-27-beta",
-   "summary": "Apple Music's iconic red app icon has reportedly been replaced with a black-and-white version in the latest iOS 27.2 beta, 9to5Mac reports. The eighth note on the icon also appears to have a slightly sharper angle than the original. A new Apple Music logo was also spotted last month on the Apple Music Hall website, […]",
-   "published": "2026-10-13T20:05:02+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "d44ecd23bbb4e71c",
-   "title": "Licube wants to be the fuel provider to the fusion power industry — see how at TechCrunch Disrupt",
-   "url": "https://techcrunch.com/2026/10/13/licube-wants-to-be-the-fuel-provider-to-the-fusion-power-industry-see-how-at-techcrunch-disrupt/",
-   "summary": "Fusion power plants will need a lot of lithium, and Licube is preparing to be a key supplier.",
-   "published": "2026-10-13T20:00:00+00:00",
-   "source": "techcrunch",
-   "source_name": "TechCrunch",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "94ff5e443b358ce5",
-   "title": "Trump commercial railing against his enemies kept airing after court blocked it",
-   "url": "https://arstechnica.com/tech-policy/2026/10/trumps-taxpayer-funded-ads-kept-airing-on-tv-the-day-after-judge-blocked-them/",
-   "summary": "US attorney apologized to court, said government has stopped running Trump ads.",
-   "published": "2026-10-13T19:50:37+00:00",
-   "source": "arstechnica",
-   "source_name": "Ars Technica",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "088e50fb8f316846",
-   "title": "Shopify opens its catalog up to more AI agents",
-   "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
-   "summary": "More AI agents will soon be able to browse and purchase from Shopify listings, marking an expansion of the company's agentic commerce ambitions. Shopify announced Tuesday it will let shoppers configure their AI agents to purchase products on their behalf, giving more agents access to over a billion listings in Shopify's catalog. (The catalog consists […]",
-   "published": "2026-10-13T19:42:42+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "4bb889dd8ca7eb40",
-   "title": "Xbox is officially embracing the chaos of AI-powered game ports",
-   "url": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
-   "summary": "Retro gaming is going through a wild time at the moment, thanks to decompilations and recompilations that are letting gamers port classic titles to new devices, or merge code from two different games into a single new experience. Microsoft has witnessed skateboarding being modded into Call of Duty and Halo being played in a web […]",
-   "published": "2026-10-13T19:00:48+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "a1ce3dd8e8318042",
-   "title": "Niobia takes the guesswork out of some of tech’s most expensive mistakes",
-   "url": "https://techcrunch.com/2026/10/13/niobia-takes-the-guesswork-out-of-some-of-techs-most-expensive-mistakes/",
-   "summary": "The San Francisco startup aims to help battery and chip manufacturers identify defects on production lines, reducing downtime and costly mistakes.",
-   "published": "2026-10-13T19:00:00+00:00",
-   "source": "techcrunch",
-   "source_name": "TechCrunch",
-   "category": "technology",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "fe4ca06d62ded4ad",
-   "title": "The Nothing Headphone A are half off for the first time",
-   "url": "https://www.theverge.com/gadgets/1010384/nothing-headphone-a-charli-xcx-deal-sale",
-   "summary": "One of the best deals we’ve seen today bundles together a great pair of headphones with a solid album. When you add the Nothing Headphone A in black or white and the CD version of the Charli XCX album Music, Fashion, Film to your Amazon cart, you’ll save 33 percent on your order, bringing the […]",
-   "published": "2026-10-13T18:33:14+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "0e08d649e4009499",
-   "title": "Russian bot farms are still trolling, even after Ukraine’s drone strikes on Yandex",
-   "url": "https://www.theverge.com/news/1010424/yandex-drone-strike-outage-disinformation-zelenskyy",
-   "summary": "Days after Ukrainian military drones took down several Russian data centers, President Volodymyr Zelenskyy claimed that the campaign had hurt Russia's disinformation efforts. \"It suddenly became a little easier to breathe on many social platforms,\" Zelenskyy said Monday. \"There was less hate, less division, and fewer provocations.\" Zelenskyy isn't the first to assert that the […]",
-   "published": "2026-10-13T18:31:31+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "35302f7aa51c0ea2",
-   "title": "Rivian’s startup Mind Robotics hires former Ford EV chief Doug Field",
-   "url": "https://techcrunch.com/2026/10/13/rivians-startup-mind-robotics-hires-former-ford-ev-chief-doug-field/",
-   "summary": "Field also worked on Apple's secretive car project and oversaw development of the Tesla Model 3.",
-   "published": "2026-10-13T18:30:03+00:00",
-   "source": "techcrunch",
-   "source_name": "TechCrunch",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "28ec4836daba1d51",
-   "title": "Rivian partner Mind Robotics hires Doug Field as president",
-   "url": "https://www.theverge.com/transportation/1010050/rivian-mind-robotics-hires-doug-field-ford-tesla-apple",
-   "summary": "Rivian CEO RJ Scaringe's startup Mind Robotics announced the appointment of Doug Field as president in a major coup for the CEO's secretive robotics project. Field was a VP of special projects at Apple, where he was the de facto head of the company's ultimately unsuccessful Project Titan effort to make an autonomous electric car. […]",
-   "published": "2026-10-13T18:30:00+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "8bc8e147cd80cf6a",
-   "title": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
-   "url": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
-   "summary": "Disney may acquire tech from one of the first chatbot makers linked to child suicide.",
-   "published": "2026-10-13T18:23:33+00:00",
-   "source": "arstechnica",
-   "source_name": "Ars Technica",
-   "category": "technology",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "77eaeeb3745bafb0",
-   "title": "Skydance’s Discovery+ prices increase by up to 20 percent",
-   "url": "https://arstechnica.com/gadgets/2026/10/skydances-discovery-prices-increase-by-up-to-20-percent/",
-   "summary": "The higher prices are said to be unrelated to the Skydance merger.",
-   "published": "2026-10-13T18:06:06+00:00",
-   "source": "arstechnica",
-   "source_name": "Ars Technica",
-   "category": "technology",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "54ca945b152bf8fa",
-   "title": "I don’t miss the camera on the Ray-Ban Meta Audio glasses",
-   "url": "https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables",
-   "summary": "The other day I whizzed past several people while running in the park, my playlist blasting at full volume. The next morning, I smiled at a barista while ordering a caramel apple-flavored matcha latte. Afterward, I sat on a park bench reading a book, called up a pal to chat about her recent trip to […]",
-   "published": "2026-10-13T18:00:00+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "49d376476de2c2f8",
-   "title": "The feds are looking into reports of Tesla’s robotaxis speeding through school zones",
-   "url": "https://www.theverge.com/transportation/1010364/tesla-robotaxi-school-zonespeeding-investigation",
-   "summary": "The National Highway Traffic Safety Administration says it's evaluating allegations that Tesla's 1,000 or so robotaxis using its automated driving system are exceeding \"posted speed limits in active school zones.\" Waymo's robotaxis have also faced similar inquiries, including for illegally passing school buses and hitting a child near a California elementary school. NHTSA: The Office […]",
-   "published": "2026-10-13T17:40:15+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "226dd41cfc8de25d",
-   "title": "The Paris Auto Show is full of interesting cars Americans can’t have",
-   "url": "https://arstechnica.com/cars/2026/10/europe-shows-a-better-alternative-to-big-suvs-at-the-paris-auto-show/",
-   "summary": "Small EVs and efficient people carriers update familiar names for the modern age.",
-   "published": "2026-10-13T17:33:20+00:00",
-   "source": "arstechnica",
-   "source_name": "Ars Technica",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "f36e11f9cdc0eeef",
-   "title": "Google wants to host your personal vibe-coded apps in the Play Store",
-   "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
-   "summary": "Google plans to help turn those personal AI-generated apps into wide releases.",
-   "published": "2026-10-13T17:00:39+00:00",
-   "source": "arstechnica",
-   "source_name": "Ars Technica",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "5e065ad585ee1f2e",
-   "title": "मुख्यमन्त्रीहरूलाई कोशीका व्यवसायीको आग्रह, ‘अन्तर प्रदेश हवाई कनेक्टिभिटी विकास होस्’",
-   "url": "https://bizmandu.com/content/20261013220125.html",
-   "summary": "विराटनगर। निजी क्षेत्रका व्यवसायीले देशभरिका मुख्यमन्त्रीसामु कोशी प्रदेशले चीन, भारत, बंगलादेश र भूटानसितको कनेक्टिभिटीसितको फाइदा उठाउँदै प्रदेशकै विशिष्ट वस्तुको निर्यातमा जोड दिएका छन्। अन्तर प्रदेश मुख्यमन्त्री सम्मेलनमा एफएनसीसीआई र सीएनआईका कोशी प्रदेश अध्यक्षले आ–आफ्नो धारणा राख्दै प्रदेशमै उत्पादित रैथाने, विशिष्ट र मौलिक वस्तुको निर्यातको पैरवी गरेका हुन्। एफएनसीसीआई कोशीका अध्यक्ष राजेन",
-   "published": "2026-10-13T16:16:25+00:00",
-   "source": "bizmandu",
-   "source_name": "Bizmandu",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "cf7032753f31126c",
-   "title": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
-   "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
-   "summary": "Developers will get 50 percent discounted API rates through November.",
-   "published": "2026-10-13T16:00:02+00:00",
-   "source": "arstechnica",
-   "source_name": "Ars Technica",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "93e906e6d305f764",
-   "title": "Apple’s first smart display is the 7-inch HomeView for $299",
-   "url": "https://arstechnica.com/apple/2026/10/apple-homeview-smart-home-hub-opens-for-preorders-at-299/",
-   "summary": "It can recognize up to six users with its camera.",
-   "published": "2026-10-13T15:29:17+00:00",
-   "source": "arstechnica",
-   "source_name": "Ars Technica",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "f016bc43472cb9b7",
-   "title": "They war-gamed dimming the Sun. It went even worse than you think.",
-   "url": "https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
-   "summary": "Solar geoengineering simulation shows what happens when geopolitics takes over.",
-   "published": "2026-10-13T15:17:59+00:00",
-   "source": "arstechnica",
-   "source_name": "Ars Technica",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "e9cf9baf38e13e6c",
-   "title": "What it would take to build a city on the moon",
-   "url": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/",
-   "summary": "Welcome to the second space race. You can be forgiven for experiencing déjà vu. Last time, it was the Soviet Union and the United States vying to be the first to plant some flags. Now it’s a sprint to the lunar surface between America and China—alongside a host of varyingly friendly and rival nations—plus a…",
-   "published": "2026-10-12T09:37:02+00:00",
-   "source": "mittech",
-   "source_name": "MIT Technology Review",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "5035cc4505f8c49a",
-   "title": "बोनस घोषणा सहित विन्ध्यबासिनी हाइड्रोपावरले बोलायो साधारण सभा",
-   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131834",
-   "summary": "",
-   "published": null,
-   "source": "merolagani",
-   "source_name": "Merolagani",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "f47e61520a513aa7",
-   "title": "गुराँस लघुवित्तको शेयरमूल्य समायोजन",
-   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131833",
-   "summary": "",
-   "published": null,
-   "source": "merolagani",
-   "source_name": "Merolagani",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "d975b9f8be2518b0",
-   "title": "विस्तारै बढ्दै लगानीकर्ताको आत्मविश्वास",
-   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131827",
-   "summary": "",
-   "published": null,
-   "source": "merolagani",
-   "source_name": "Merolagani",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "0ba978785383ccdf",
-   "title": "अन्तिम १५ मिनेटको व्यवस्था ब्युँताउन नेप्सेको सिस्टम रेडि, सर्किट ब्रेकर पुनरावलोकन गर्न सकिने भन्दै सेबोनलाई नेप्सेको पत्र",
-   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131824",
-   "summary": "",
-   "published": null,
-   "source": "merolagani",
-   "source_name": "Merolagani",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "53c0cb6521439418",
-   "title": "नवरात्रको चौथो दिन आज कुष्माण्डा देवीको विधिपूर्वक पूजा आराधना गरिँदै",
-   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131821",
-   "summary": "",
-   "published": null,
-   "source": "merolagani",
-   "source_name": "Merolagani",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "3e69afef628a0bec",
-   "title": "बैंक/बिमा/स्टक एनएमबी बैंक र र्‍यापिड टेकबीच सम्झौता",
-   "url": "https://www.setopati.com/kinmel/banking/400770",
-   "summary": "",
-   "published": null,
-   "source": "setopati",
-   "source_name": "Setopati",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "fd5e30f2dfb17ca8",
-   "title": "बैंक/बिमा/स्टक नेप्सेसँगै बढ्यो कारोबार रकम",
-   "url": "https://www.setopati.com/kinmel/banking/400745",
-   "summary": "",
-   "published": null,
-   "source": "setopati",
-   "source_name": "Setopati",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "9ec3eb4040aaeac6",
-   "title": "बैंक/बिमा/स्टक कर प्रणालीलाई सरल, पारदर्शी र प्रविधिमैत्री बनाउनुपर्नेमा भुसालको जोड",
-   "url": "https://www.setopati.com/kinmel/banking/400732",
-   "summary": "",
-   "published": null,
-   "source": "setopati",
-   "source_name": "Setopati",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "555f2ba16578b4bb",
-   "title": "बैंक/बिमा/स्टक माउन्टेन इनर्जीले २० प्रतिशत बोनस दिने, साधारण सभा कहिले?",
-   "url": "https://www.setopati.com/kinmel/banking/400721",
-   "summary": "",
-   "published": null,
-   "source": "setopati",
-   "source_name": "Setopati",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "2bf45605bef7e103",
-   "title": "bleepingcomputer.com",
-   "url": "https://news.ycombinator.com/from?site=bleepingcomputer.com",
-   "summary": "",
-   "published": null,
-   "source": "hackernews",
-   "source_name": "Hacker News",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "51c5e91b8b020c47",
-   "title": "alpha-nist.github.io",
-   "url": "https://news.ycombinator.com/from?site=alpha-nist.github.io",
-   "summary": "",
-   "published": null,
-   "source": "hackernews",
-   "source_name": "Hacker News",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "c144bf810520832b",
-   "title": "6% RBBL Debenture 2089",
-   "url": "https://www.sebon.gov.np/prospectus/6-rbbl-debenture-2089",
-   "summary": "",
-   "published": null,
-   "source": "sebon",
-   "source_name": "SEBON",
-   "category": "regulatory",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "419be1a2bc8e47b2",
-   "title": "Press Release (2082-08-11)",
-   "url": "https://nia.gov.np/uploads/information-center/20251201030627.pdf",
-   "summary": "",
-   "published": null,
-   "source": "nia",
-   "source_name": "Nepal Insurance Authority",
-   "category": "regulatory",
-   "is_document": true,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "68234f2773d64726",
-   "title": "गतवर्ष आर्थिक वृद्धि ३.८५ प्रतिशत, पुँजीगत खर्च पाँच वर्षकै न्यून",
-   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131886",
-   "summary": "",
-   "published": null,
-   "source": "merolagani",
-   "source_name": "Merolagani",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "39213717b1c45a86",
-   "title": "धेरै विद्युत खपत गर्नेलाई महशुल कम लाग्ने संयन्त्रको विकास गर्दैछौँः मन्त्री श्रेष्ठ",
-   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131888",
-   "summary": "",
-   "published": null,
-   "source": "merolagani",
-   "source_name": "Merolagani",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "7dd027a97500c7a4",
-   "title": "नेपालको आर्थिक वृद्धिदर ४ प्रतिशत, विद्युत् र वित्तीय क्षेत्रको योगदान उच्च",
-   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131885",
-   "summary": "",
-   "published": null,
-   "source": "merolagani",
-   "source_name": "Merolagani",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "3874e8f1b9e7d3c2",
-   "title": "२१ बुँदे निर्देशनको पहिलो ‘डेडलाइन’ असोज मसान्त, एनआरएनलाई दोस्रो बजारको विषयमा बोर्ड पन्छियो, सरकारले प्रक्रिया नै थालेन",
-   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131883",
-   "summary": "",
-   "published": null,
-   "source": "merolagani",
-   "source_name": "Merolagani",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "62b2a16d31a043fb",
-   "title": "२१ अंकले नेप्से बढ्दा वाणिज्य बैंकको मात्रै योगदान १० अंकभन्दा बढी",
-   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131881",
-   "summary": "",
-   "published": null,
-   "source": "merolagani",
-   "source_name": "Merolagani",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "c40e6d065843e831",
-   "title": "कुमारी बैंकको २६ औं वार्षिक साधारण सभा सम्पन्न, २.१ प्रतिशत लाभांश पारित",
-   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131884",
-   "summary": "",
-   "published": null,
-   "source": "merolagani",
-   "source_name": "Merolagani",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "ed3b496b6e959968",
-   "title": "विद्युत् व्यापारमा निजी क्षेत्रलाई प्रवेश गराउने अन्तिम तयारीमा छौंः ऊर्जामन्त्री",
-   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131882",
-   "summary": "",
-   "published": null,
-   "source": "merolagani",
-   "source_name": "Merolagani",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "fef9cca106528736",
-   "title": "मनसुन बाहिरियो, अब ढुक्क भएर दशैं मनाउनुहाेस्",
-   "url": "https://merolagani.com/NewsDetail.aspx?newsID=131876",
-   "summary": "",
-   "published": null,
-   "source": "merolagani",
-   "source_name": "Merolagani",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "a47165d137999e53",
-   "title": "बैंक/बिमा/स्टक दोहोरो अंकले बढ्यो नेप्से, कारोबार रकम भने घट्यो",
-   "url": "https://www.setopati.com/kinmel/banking/400832",
-   "summary": "",
-   "published": null,
-   "source": "setopati",
-   "source_name": "Setopati",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "9625b826cdf2bfd9",
-   "title": "बैंक/बिमा/स्टक लक्ष्मी सनराइज बैंकको सिइओमा सुमेद भट्टराई नियुक्त",
-   "url": "https://www.setopati.com/kinmel/banking/400819",
-   "summary": "",
-   "published": null,
-   "source": "setopati",
-   "source_name": "Setopati",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "acc1a47674e7d9c7",
-   "title": "बैंक/बिमा/स्टक विन्ध्यबासिनी हाइड्रोपावरको बोनस घोषणा, साधारण सभा कहिले?",
-   "url": "https://www.setopati.com/kinmel/banking/400801",
-   "summary": "",
-   "published": null,
-   "source": "setopati",
-   "source_name": "Setopati",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "ba08bb6f0e2564fb",
-   "title": "बैंक/बिमा/स्टक फर्स्ट माइक्रोफाइनान्सले गऱ्यो लाभांश घोषणा",
-   "url": "https://www.setopati.com/kinmel/banking/400800",
-   "summary": "",
-   "published": null,
-   "source": "setopati",
-   "source_name": "Setopati",
-   "category": "market",
-   "is_document": false,
-   "priority": true,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "38932ce0b249969f",
-   "title": "बैंक/बिमा/स्टक के अब उधारोमा सेयर किन्न नपाइने हो?",
-   "url": "https://www.setopati.com/kinmel/banking/400775",
-   "summary": "",
-   "published": null,
-   "source": "setopati",
-   "source_name": "Setopati",
-   "category": "market",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "44163fba5ba666d8",
-   "title": "aaronsonoracle.com",
-   "url": "https://news.ycombinator.com/from?site=aaronsonoracle.com",
-   "summary": "",
-   "published": null,
-   "source": "hackernews",
-   "source_name": "Hacker News",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "57f587331fb3384c",
-   "title": "red-green-blue.com",
-   "url": "https://news.ycombinator.com/from?site=red-green-blue.com",
-   "summary": "",
-   "published": null,
-   "source": "hackernews",
-   "source_name": "Hacker News",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "cae8727857d93d69",
-   "title": "felixrieseberg.com",
-   "url": "https://news.ycombinator.com/from?site=felixrieseberg.com",
-   "summary": "",
-   "published": null,
-   "source": "hackernews",
-   "source_name": "Hacker News",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "4d8214b01080fc6b",
-   "title": "robotsinplainenglish.com",
-   "url": "https://news.ycombinator.com/from?site=robotsinplainenglish.com",
-   "summary": "",
-   "published": null,
-   "source": "hackernews",
-   "source_name": "Hacker News",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
-   "is_new": false
-  },
-  {
-   "id": "91aeef8079d10753",
-   "title": "zetter-zeroday.com",
-   "url": "https://news.ycombinator.com/from?site=zetter-zeroday.com",
-   "summary": "",
-   "published": null,
-   "source": "hackernews",
-   "source_name": "Hacker News",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-10-14",
    "is_new": false
   }
  ]
