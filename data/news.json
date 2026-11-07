@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-06T22:01:10.816034+05:45",
- "generated_date": "2026-11-06",
- "new_today": 156,
- "added_this_run": 101,
- "total_items": 1870,
+ "generated_at": "2026-11-07T08:58:20.889286+05:45",
+ "generated_date": "2026-11-07",
+ "new_today": 47,
+ "added_this_run": 54,
+ "total_items": 1917,
  "sources_working": 25,
  "sources_total": 35,
  "sources": [
@@ -13,7 +13,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 32.5,
+   "seconds": 29.5,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -23,7 +23,7 @@
    "ok": true,
    "count": 4,
    "method": "page scrape",
-   "seconds": 10.3,
+   "seconds": 8.8,
    "error": null,
    "discovered_rss": null
   },
@@ -33,7 +33,7 @@
    "ok": true,
    "count": 4,
    "method": "page scrape",
-   "seconds": 7.8,
+   "seconds": 8.7,
    "error": null,
    "discovered_rss": null
   },
@@ -43,7 +43,7 @@
    "ok": true,
    "count": 4,
    "method": "page scrape",
-   "seconds": 8.2,
+   "seconds": 9.0,
    "error": null,
    "discovered_rss": null
   },
@@ -53,7 +53,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 8.7,
+   "seconds": 9.0,
    "error": null,
    "discovered_rss": null
   },
@@ -63,7 +63,7 @@
    "ok": true,
    "count": 5,
    "method": "configured feed",
-   "seconds": 2.4,
+   "seconds": 2.5,
    "error": null,
    "discovered_rss": null
   },
@@ -73,7 +73,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 8.9,
+   "seconds": 8.3,
    "error": null,
    "discovered_rss": null
   },
@@ -83,7 +83,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 9.5,
+   "seconds": 9.4,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -93,7 +93,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 223.7,
+   "seconds": 222.5,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -103,7 +103,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 29.9,
+   "seconds": 29.0,
    "error": null,
    "discovered_rss": null
   },
@@ -113,7 +113,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 21.5,
+   "seconds": 20.8,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -123,7 +123,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 38.5,
+   "seconds": 37.9,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -133,7 +133,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 8.5,
+   "seconds": 8.9,
    "error": null,
    "discovered_rss": null
   },
@@ -143,7 +143,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 10.1,
+   "seconds": 10.0,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -153,7 +153,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 16.2,
+   "seconds": 17.8,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -163,7 +163,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 2.4,
+   "seconds": 2.3,
    "error": null,
    "discovered_rss": null
   },
@@ -173,7 +173,7 @@
    "ok": true,
    "count": 10,
    "method": "page scrape",
-   "seconds": 16.7,
+   "seconds": 19.3,
    "error": null,
    "discovered_rss": null
   },
@@ -183,7 +183,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 0.9,
+   "seconds": 0.4,
    "error": null,
    "discovered_rss": null
   },
@@ -193,7 +193,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 1.1,
+   "seconds": 1.3,
    "error": null,
    "discovered_rss": null
   },
@@ -203,7 +203,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 0.9,
+   "seconds": 1.8,
    "error": null,
    "discovered_rss": null
   },
@@ -211,9 +211,9 @@
    "id": "clickmandu",
    "name": "Clickmandu",
    "ok": true,
-   "count": 5,
+   "count": 6,
    "method": "configured feed",
-   "seconds": 0.4,
+   "seconds": 0.5,
    "error": null,
    "discovered_rss": null
   },
@@ -223,7 +223,7 @@
    "ok": true,
    "count": 10,
    "method": "configured feed",
-   "seconds": 1.1,
+   "seconds": 1.0,
    "error": null,
    "discovered_rss": null
   },
@@ -233,7 +233,7 @@
    "ok": true,
    "count": 10,
    "method": "configured feed",
-   "seconds": 0.9,
+   "seconds": 1.0,
    "error": null,
    "discovered_rss": null
   },
@@ -243,7 +243,7 @@
    "ok": true,
    "count": 2,
    "method": "page scrape",
-   "seconds": 10.8,
+   "seconds": 9.8,
    "error": null,
    "discovered_rss": null
   },
@@ -251,7 +251,7 @@
    "id": "onlinekhabar",
    "name": "Online Khabar",
    "ok": true,
-   "count": 4,
+   "count": 2,
    "method": "configured feed",
    "seconds": 0.1,
    "error": null,
@@ -261,9 +261,9 @@
    "id": "ratopati",
    "name": "Ratopati",
    "ok": true,
-   "count": 3,
+   "count": 1,
    "method": "configured feed",
-   "seconds": 0.4,
+   "seconds": 0.1,
    "error": null,
    "discovered_rss": null
   },
@@ -271,9 +271,9 @@
    "id": "setopati",
    "name": "Setopati",
    "ok": true,
-   "count": 12,
-   "method": "page scrape",
-   "seconds": 3.3,
+   "count": 2,
+   "method": "configured feed",
+   "seconds": 0.6,
    "error": null,
    "discovered_rss": null
   },
@@ -283,7 +283,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 14.4,
+   "seconds": 14.5,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -293,7 +293,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 14.4,
+   "seconds": 14.7,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -303,7 +303,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 6.0,
+   "seconds": 6.1,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -313,7 +313,7 @@
    "ok": true,
    "count": 5,
    "method": "page scrape",
-   "seconds": 11.0,
+   "seconds": 11.1,
    "error": null,
    "discovered_rss": null
   },
@@ -333,7 +333,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 0.2,
+   "seconds": 0.1,
    "error": null,
    "discovered_rss": null
   },
@@ -343,7 +343,7 @@
    "ok": true,
    "count": 10,
    "method": "configured feed",
-   "seconds": 0.1,
+   "seconds": 0.2,
    "error": null,
    "discovered_rss": null
   },
@@ -361,604 +361,721 @@
  "securities": [
   {
    "type": "Development Bond",
-   "tenor": "15 years",
-   "tenor_days": 5475,
-   "auction_date": "2026-08-05",
-   "issue_date": "2026-08-06",
-   "bs_date": "2083-04-21",
-   "bs_auction": "2083-04-20",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "4 years",
-   "tenor_days": 1460,
-   "auction_date": "2026-08-12",
-   "issue_date": "2026-08-13",
-   "bs_date": "2083-04-28",
-   "bs_auction": "2083-04-27",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "7 years",
-   "tenor_days": 2555,
-   "auction_date": "2026-08-19",
-   "issue_date": "2026-08-20",
-   "bs_date": "2083-05-04",
-   "bs_auction": "2083-05-03",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "14 years",
-   "tenor_days": 5110,
-   "auction_date": "2026-09-02",
-   "issue_date": "2026-09-03",
-   "bs_date": "2083-05-18",
-   "bs_auction": "2083-05-17",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "5 years",
-   "tenor_days": 1825,
-   "auction_date": "2026-09-09",
-   "issue_date": "2026-09-10",
-   "bs_date": "2083-05-25",
-   "bs_auction": "2083-05-24",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "11 years",
-   "tenor_days": 4015,
-   "auction_date": "2026-09-23",
-   "issue_date": "2026-09-24",
-   "bs_date": "2083-06-08",
-   "bs_auction": "2083-06-07",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "7 years",
-   "tenor_days": 2555,
-   "auction_date": "2026-09-30",
-   "issue_date": "2026-10-01",
-   "bs_date": "2083-06-15",
-   "bs_auction": "2083-06-14",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "13 years",
-   "tenor_days": 4745,
-   "auction_date": "2026-10-07",
-   "issue_date": "2026-10-08",
-   "bs_date": "2083-06-22",
-   "bs_auction": "2083-06-21",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "9 years",
-   "tenor_days": 3285,
-   "auction_date": "2026-10-14",
-   "issue_date": "2026-10-15",
-   "bs_date": "2083-06-29",
-   "bs_auction": "2083-06-28",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "91 days",
-   "tenor_days": 91,
-   "auction_date": "2026-10-25",
-   "issue_date": "2026-10-26",
-   "bs_date": "2083-07-10",
-   "bs_auction": "2083-07-09",
-   "amount": "Rs 500 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "6 years",
-   "tenor_days": 2190,
    "auction_date": "2026-10-27",
-   "issue_date": "2026-10-28",
-   "bs_date": "2083-07-12",
+   "issue_date": "2026-10-27",
    "bs_auction": "2083-07-11",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
+   "bs_date": "2083-07-11",
+   "tenor": null,
+   "tenor_days": null,
    "isin": "NPDB06102089",
-   "confirmed": true,
+   "title": "मिति २०८३.०७.११ गते हुने विकास ऋणपत्र -२०८९ (NPDB06102089) ६ (वर्षे) को बोलकबोलको सूचना !",
    "url": "https://pdmo.gov.np/content/363/notice-of-development-bond-dated-2083-07-11-2089--npdb06102089-/                            ",
-   "title": "मिति २०८३.०७.११ गते हुने विकास ऋणपत्र -२०८९ (NPDB06102089) ६ (वर्षे) को बोलकबोलको सूचना !"
+   "confirmed": true,
+   "planned": false
   },
   {
    "type": "Treasury Bill",
-   "tenor": "364 days",
-   "tenor_days": 364,
    "auction_date": "2026-11-01",
-   "issue_date": "2026-11-02",
-   "bs_date": "2083-07-17",
+   "issue_date": "2026-11-01",
    "bs_auction": "2083-07-16",
-   "amount": "Rs 500 crore",
-   "planned": true,
+   "bs_date": "2083-07-16",
+   "tenor": null,
+   "tenor_days": null,
    "isin": null,
-   "confirmed": true,
+   "title": "मिति २०८३।०७।१६ गते हुने TBills को बोलकबोलको सूचना !",
    "url": "https://pdmo.gov.np/content/364/dated-2083-07-16-notification-of-tbills-/                            ",
-   "title": "मिति २०८३।०७।१६ गते हुने TBills को बोलकबोलको सूचना !"
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "8 years",
-   "tenor_days": 2920,
-   "auction_date": "2026-11-03",
-   "issue_date": "2026-11-04",
-   "bs_date": "2083-07-19",
-   "bs_auction": "2083-07-18",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": "NPDB08052091",
    "confirmed": true,
+   "planned": false
+  },
+  {
+   "type": "Development Bond",
+   "auction_date": "2026-11-03",
+   "issue_date": "2026-11-03",
+   "bs_auction": "2083-07-18",
+   "bs_date": "2083-07-18",
+   "tenor": "8 years",
+   "tenor_days": 2920,
+   "isin": "NPDB08052091",
+   "title": "मिति २०८३.०७.१८ गते हुने विकास ऋणपत्र -२०९१ (NPDB08052091)(८ वर्षे)को बोलकबोलको सूचना !",
    "url": "https://pdmo.gov.np/content/365/notice-of-development-bond-dated-2083-07-18-2091--npdb08052091-/                            ",
-   "title": "मिति २०८३.०७.१८ गते हुने विकास ऋणपत्र -२०९१ (NPDB08052091)(८ वर्षे)को बोलकबोलको सूचना !"
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "12 years",
-   "tenor_days": 4380,
-   "auction_date": "2026-11-17",
-   "issue_date": "2026-11-18",
-   "bs_date": "2083-08-03",
-   "bs_auction": "2083-08-02",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "6 years",
-   "tenor_days": 2190,
-   "auction_date": "2026-11-24",
-   "issue_date": "2026-11-25",
-   "bs_date": "2083-08-10",
-   "bs_auction": "2083-08-09",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "13 years",
-   "tenor_days": 4745,
-   "auction_date": "2026-12-01",
-   "issue_date": "2026-12-02",
-   "bs_date": "2083-08-17",
-   "bs_auction": "2083-08-16",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "8 years",
-   "tenor_days": 2920,
-   "auction_date": "2026-12-08",
-   "issue_date": "2026-12-09",
-   "bs_date": "2083-08-24",
-   "bs_auction": "2083-08-23",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "5 years",
-   "tenor_days": 1825,
-   "auction_date": "2026-12-16",
-   "issue_date": "2026-12-17",
-   "bs_date": "2083-09-02",
-   "bs_auction": "2083-09-01",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "6 years",
-   "tenor_days": 2190,
-   "auction_date": "2027-01-06",
-   "issue_date": "2027-01-07",
-   "bs_date": "2083-09-23",
-   "bs_auction": "2083-09-22",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "6 years",
-   "tenor_days": 2190,
-   "auction_date": "2027-01-19",
-   "issue_date": "2027-01-20",
-   "bs_date": "2083-10-07",
-   "bs_auction": "2083-10-06",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "10 years",
-   "tenor_days": 3650,
-   "auction_date": "2027-01-26",
-   "issue_date": "2027-01-27",
-   "bs_date": "2083-10-14",
-   "bs_auction": "2083-10-13",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "91 days",
-   "tenor_days": 91,
-   "auction_date": "2027-01-31",
-   "issue_date": "2027-02-01",
-   "bs_date": "2083-10-19",
-   "bs_auction": "2083-10-18",
-   "amount": "Rs 500 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "182 days",
-   "tenor_days": 182,
-   "auction_date": "2027-02-07",
-   "issue_date": "2027-02-08",
-   "bs_date": "2083-10-26",
-   "bs_auction": "2083-10-25",
-   "amount": "Rs 500 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "5 years",
-   "tenor_days": 1825,
-   "auction_date": "2027-02-09",
-   "issue_date": "2027-02-10",
-   "bs_date": "2083-10-28",
-   "bs_auction": "2083-10-27",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "11 years",
-   "tenor_days": 4015,
-   "auction_date": "2027-02-17",
-   "issue_date": "2027-02-18",
-   "bs_date": "2083-11-06",
-   "bs_auction": "2083-11-05",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "91 days",
-   "tenor_days": 91,
-   "auction_date": "2027-02-22",
-   "issue_date": "2027-02-23",
-   "bs_date": "2083-11-11",
-   "bs_auction": "2083-11-10",
-   "amount": "Rs 500 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "364 days",
-   "tenor_days": 364,
-   "auction_date": "2027-03-01",
-   "issue_date": "2027-03-02",
-   "bs_date": "2083-11-18",
-   "bs_auction": "2083-11-17",
-   "amount": "Rs 500 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "4 years",
-   "tenor_days": 1460,
-   "auction_date": "2027-03-03",
-   "issue_date": "2027-03-04",
-   "bs_date": "2083-11-20",
-   "bs_auction": "2083-11-19",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "15 years",
-   "tenor_days": 5475,
-   "auction_date": "2027-03-10",
-   "issue_date": "2027-03-11",
-   "bs_date": "2083-11-27",
-   "bs_auction": "2083-11-26",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "91 days",
-   "tenor_days": 91,
-   "auction_date": "2027-03-14",
-   "issue_date": "2027-03-15",
-   "bs_date": "2083-12-02",
-   "bs_auction": "2083-12-01",
-   "amount": "Rs 500 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "9 years",
-   "tenor_days": 3285,
-   "auction_date": "2027-03-23",
-   "issue_date": "2027-03-24",
-   "bs_date": "2083-12-11",
-   "bs_auction": "2083-12-10",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "12 years",
-   "tenor_days": 4380,
-   "auction_date": "2027-03-30",
-   "issue_date": "2027-03-31",
-   "bs_date": "2083-12-18",
-   "bs_auction": "2083-12-17",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "10 years",
-   "tenor_days": 3650,
-   "auction_date": "2027-04-06",
-   "issue_date": "2027-04-07",
-   "bs_date": "2083-12-25",
-   "bs_auction": "2083-12-24",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "28 days",
-   "tenor_days": 28,
-   "auction_date": "2027-04-11",
-   "issue_date": "2027-04-12",
-   "bs_date": "2083-12-30",
-   "bs_auction": "2083-12-29",
-   "amount": "Rs 500 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "91 days",
-   "tenor_days": 91,
-   "auction_date": "2027-04-19",
-   "issue_date": "2027-04-20",
-   "bs_date": "2084-01-07",
-   "bs_auction": "2084-01-06",
-   "amount": "Rs 500 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "7 years",
-   "tenor_days": 2555,
-   "auction_date": "2027-04-21",
-   "issue_date": "2027-04-22",
-   "bs_date": "2084-01-09",
-   "bs_auction": "2084-01-08",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "182 days",
-   "tenor_days": 182,
-   "auction_date": "2027-04-26",
-   "issue_date": "2027-04-27",
-   "bs_date": "2084-01-14",
-   "bs_auction": "2084-01-13",
-   "amount": "Rs 500 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "364 days",
-   "tenor_days": 364,
-   "auction_date": "2027-05-03",
-   "issue_date": "2027-05-04",
-   "bs_date": "2084-01-21",
-   "bs_auction": "2084-01-20",
-   "amount": "Rs 500 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "91 days",
-   "tenor_days": 91,
-   "auction_date": "2027-05-10",
-   "issue_date": "2027-05-11",
-   "bs_date": "2084-01-28",
-   "bs_auction": "2084-01-27",
-   "amount": "Rs 500 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "364 days",
-   "tenor_days": 364,
-   "auction_date": "2027-05-17",
-   "issue_date": "2027-05-18",
-   "bs_date": "2084-02-04",
-   "bs_auction": "2084-02-03",
-   "amount": "Rs 400 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "8 years",
-   "tenor_days": 2920,
-   "auction_date": "2027-05-19",
-   "issue_date": "2027-05-20",
-   "bs_date": "2084-02-06",
-   "bs_auction": "2084-02-05",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "91 days",
-   "tenor_days": 91,
-   "auction_date": "2027-05-24",
-   "issue_date": "2027-05-25",
-   "bs_date": "2084-02-11",
-   "bs_auction": "2084-02-10",
-   "amount": "Rs 500 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "9 years",
-   "tenor_days": 3285,
-   "auction_date": "2027-05-26",
-   "issue_date": "2027-05-27",
-   "bs_date": "2084-02-13",
-   "bs_auction": "2084-02-12",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "182 days",
-   "tenor_days": 182,
-   "auction_date": "2027-05-31",
-   "issue_date": "2027-06-01",
-   "bs_date": "2084-02-18",
-   "bs_auction": "2084-02-17",
-   "amount": "Rs 500 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Development Bond",
-   "tenor": "11 years",
-   "tenor_days": 4015,
-   "auction_date": "2027-06-09",
-   "issue_date": "2027-06-10",
-   "bs_date": "2084-02-27",
-   "bs_auction": "2084-02-26",
-   "amount": "Rs 1,000 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "91 days",
-   "tenor_days": 91,
-   "auction_date": "2027-06-21",
-   "issue_date": "2027-06-22",
-   "bs_date": "2084-03-08",
-   "bs_auction": "2084-03-07",
-   "amount": "Rs 500 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "182 days",
-   "tenor_days": 182,
-   "auction_date": "2027-06-28",
-   "issue_date": "2027-06-29",
-   "bs_date": "2084-03-15",
-   "bs_auction": "2084-03-14",
-   "amount": "Rs 500 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "364 days",
-   "tenor_days": 364,
-   "auction_date": "2027-07-05",
-   "issue_date": "2027-07-06",
-   "bs_date": "2084-03-22",
-   "bs_auction": "2084-03-21",
-   "amount": "Rs 500 crore",
-   "planned": true,
-   "isin": null
-  },
-  {
-   "type": "Treasury Bill",
-   "tenor": "28 days",
-   "tenor_days": 28,
-   "auction_date": "2027-07-12",
-   "issue_date": "2027-07-13",
-   "bs_date": "2084-03-29",
-   "bs_auction": "2084-03-28",
-   "amount": "Rs 500 crore",
-   "planned": true,
-   "isin": null
+   "confirmed": true,
+   "planned": false
   }
  ],
- "plan_title": "आन्तरिक ऋण निष्कासन तथा बोलकबोल तालिका (आ.व.२०८३/८४)",
+ "plan_title": null,
  "items": [
+  {
+   "id": "987fc3dfba5f8481",
+   "title": "प्रभु महालक्ष्मी लाइफको ३०%ले बढ्यो व्यापार, जीवन बीमा कोष पौने २० अर्ब नजिक",
+   "url": "https://insurancekhabar.com/prabhu-mahalaxmi-life-insurance-expands-30-to-close-to-rs-20-75-billion/",
+   "summary": "काठमाडौं । प्रभु महालक्ष्मी लाइफ इन्स्योरेन्स कम्पनीले चालु आर्थिक वर्ष २०८३।८४ को पहिलो त्रैमास (साउन–असोज)सम्मको अपरिष्कृत वित्तीय विवरण सार्वजनिक गरेको छ। वित्तीय विवरणअनुसार चालु आर्थिक वर्षको असोजसम्म कम्पनीले ९ करोड ३० लाख रुपैयाँ नाफा आर्जन गर्न सफल भएको छ। अघिल्लो आर्थिक वर्ष २०८२।८३ को असोजसम्म कम्पनीले ६ करोड ७३ लाख रुपैयाँ नाफा आर्जन गरेको थियो। […]",
+   "published": "2026-11-07T03:14:01+00:00",
+   "source": "insurancekhabar",
+   "source_name": "Insurance Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "a84bef3add36284a",
+   "title": "विदेशमा रहेका नेपालीको लगानीको संयुक्त ऊर्जा लिमिटेडले नगद लाभांश दिने",
+   "url": "https://www.setopati.com/kinmel/banking/402222",
+   "summary": "गैरआवासीय नेपालीहरूको मुख्य लगानी रहेको संयुक्त ऊर्जा लिमिटेडले नगद लाभांश दिने भएको छ।",
+   "published": "2026-11-07T03:04:56+00:00",
+   "source": "setopati",
+   "source_name": "Setopati",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "107935bb4bc58e80",
+   "title": "बारामा एक युवक मृ*त फेला",
+   "url": "https://www.onlinekhabar.com/2026/11/2053139/a-young-man-was-found-dead-in-bara",
+   "summary": "२१ कात्तिक, बारा । बाराको जीतपुरसिमरा उपमहानगरपालिका १५ डुमरवानामा एक युवक मृ*त भेटिएका छन् । स्थानीय ३० वर्षीय बिरेन्द्र माझीको शव जीतपुरसिमरा १५ स्थित विशेष आर्थिक क्षेत्र (सेज) को खेतमा रहेको कुलोमा फेला परेको इलाका प्रहरी कार्यालय सिमराका प्रहरी निरीक्षक दिवस कुँवरले जानकारी दिए । शनिबार बिहान खेतमा काम गर्न गएका स्थानीयले माझीको शव देखेपछि प्रहरीलाई […]",
+   "published": "2026-11-07T03:04:49+00:00",
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "2cae03bc9f36aea4",
+   "title": "तिहारमा मिठाईको व्यापार २५ गुणासम्म बढ्यो, चिनी र दूधको हाहाकारले मूल्य २०% सम्म महँगो",
+   "url": "https://clickmandu.com/2026/11/504375.html",
+   "summary": "काठमाडौं । तिहार नजिकिएसँगै मिठाई पसलहरूमा उपभोक्ताको भीड बढेको छ । पसलमा मिठाई किन्नेको चाप यति धेरै छ कि व्यवसायीलाई ग्राहकसँग कुरा गर्नेदेखि बिक्री भएको रकम गन्नेसम्म फुर्सद छैन । वर्षभरि विभिन्न चाडपर्वमा मिठाईको कारोबार हुने गरे पनि सबैभन्दा धेरै मिठाई खपत हुने पर्व तिहार हो । तर, यो वर्ष तिहारमा मिठाईको माग अत्यधिक बढिरहेका […]",
+   "published": "2026-11-07T02:41:57+00:00",
+   "source": "clickmandu",
+   "source_name": "Clickmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "9a0951200b53dbc2",
+   "title": "‘द टिरनी अफ द प्रेजेन्ट’ समीक्षा : आधुनिक लोकतन्त्र किन क्षणिक वर्तमानको बन्दी बनेको छ ?",
+   "url": "https://clickmandu.com/2026/11/504276.html",
+   "summary": "समकालीन विश्वमा लोकतन्त्र गम्भीर संरचनात्मक विरोधाभासको भुमरीमा फसेको छ । राज्य प्रणाली तात्कालिक चुनावी लाभ, बजारको गति र क्षणिक लोकप्रियताको बन्दी बन्न पुगेको छ । यस प्रवृत्तिका कारण जलवायु संकट, स्रोतसाधनको अनियन्त्रित दोहन र भावी पुस्ताप्रतिको दायित्व जस्ता गम्भीर दीर्घकालीन सवालहरू निरन्तर उपेक्षित भइरहेका छन् । विगतमा राज्यले लादेको कठोर प्राविधिक नियन्त्रणले नागरिकको दैनिक जीवन […]",
+   "published": "2026-11-07T02:27:30+00:00",
+   "source": "clickmandu",
+   "source_name": "Clickmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "7fd4a09ddee202a2",
+   "title": "आज कुन देशको मुद्राको विनिमयदर कति छ?",
+   "url": "https://www.setopati.com/kinmel/banking/402219",
+   "summary": "वाणिज्य बैङ्कले तोक्ने विनिमयदर भने फरक हुनसक्ने र अद्यावधिक विनिमयदर केन्द्रीय बैङ्कको ‘वेबसाइट’मा उपलब्ध हुने जनाइएको छ ।",
+   "published": "2026-11-07T02:10:00+00:00",
+   "source": "setopati",
+   "source_name": "Setopati",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "01d8e63f4c704d7a",
+   "title": "डलर, युरो र पाउण्डसँगै घट्यो सुनको कारोबार मूल्य, यस्तो छ आजको विनिमय दर",
+   "url": "https://bizmandu.com/content/20261107075209.html",
+   "summary": "काठमाडौं। अमेरिकी डलरसँगै युरोपियन युरो र पाउण्ड स्टर्लिङको खरिदबिक्री दर अघिल्लो दिनका तुलनामा घटेको छ। सँगै विश्वबजारमा सुनको कारोबार मूल्य पनि कमजोर बनेको छ। एकै दिनमा सुन ३७.३५ डलर घट्दै प्रति औंस ४०४६.९७ डलरमा आएको छ। सामान्य गिरावटसँगै चाँदी पनि प्रति औंस ५१.९५ डलर भएको छ। नेपाली बजारमा सुन तोलाको २ लाख ८३ हजार रुपैयाँ […] The post डलर, युरो र पाउण्डसँगै घट्यो सुनको कारोबार मूल्य, यस्तो छ आज",
+   "published": "2026-11-07T02:07:09+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "54086665367b4931",
+   "title": "बैंकको बचत अपचलन आरोपमा पाराग्वेका राष्ट्रपति पदमुक्त, घरमै नजरबन्दमा",
+   "url": "https://www.onlinekhabar.com/2026/11/2053116/paraguays-president-removed-from-office-placed-under-house-arrest-over-bank-savings-embezzlement-charges",
+   "summary": "पेनालाई पदमुक्त गरेपछि उपराष्ट्रपति पेद्रो आलियानाले नयाँ राष्ट्रपतिका रूपमा कार्यभार सम्हालेका छन् ।",
+   "published": "2026-11-07T02:01:16+00:00",
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "c5cd2568e06cc512",
+   "title": "तिहारका लागि पोखरा आइपुगे भेँडाच्याङ्ग्रा",
+   "url": "https://www.ratopati.com/story/603864/bhendachangra-arrives-in-pokhara-for-tihar",
+   "summary": "पोखरा । तिहारका लागि मुस्ताङ, डोल्पा, मुगुलगायत हिमाली भेगबाट भेँडाच्याङ्ग्रा लिएर व्यापारी पोखरा झरेका छन् । बिक्रीका लागि पोखरा महानगरपालिका–१ सिमपानीमा भेँडाच्याङ्ग्रा राखिएको छ । दसैँको तुलनामा तिहारमा कम सङ्ख्यामा भेँडाच्याङ्ग्रा ल्याउने गरिन्छ । मुस्ताङको जोमसोमका",
+   "published": "2026-11-07T01:52:03+00:00",
+   "source": "ratopati",
+   "source_name": "Ratopati",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "542c23b0fddedd4d",
+   "title": "Crusoe sells troubled Wyoming data center project to Google",
+   "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+   "summary": "The deal highlights the challenges of developing massive AI data centers.",
+   "published": "2026-11-07T01:40:28+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "5a30a7874310f492",
+   "title": "२० वटा निर्माण कम्पनी कालोसूचीमा, बढीमा दुई वर्ष सार्वजनिक खरिदमा रोक",
+   "url": "https://bizmandu.com/content/20261107064039.html",
+   "summary": "काठमाडौं। ठेक्का सम्झौताका सर्तअनुसार काम नगर्दा २० वटा निर्माण कम्पनी एवम् आपूर्तिकर्ता फर्मलाई सार्वजनिक खरिद अनुगमन कार्यालयले कालोसूचीमा राखेको छ। कार्यालयको शुक्रबारको निर्णयअनुसार सार्वजनिक खरिद ऐन, २०६३ को दफा ६३ को उपदफा (१) बमोजिम एक वर्षदेखि दुई वर्षसम्मको लागि कालोसूचीमा राखिएको हो। सामाजिक विकास कार्यालय धुलिखेलको सिफारिसमा कागेश्वरी मनोहराको बुदे पोखरी कन्स्ट्रक्सन प्रालि १ वर्ष […] T",
+   "published": "2026-11-07T00:55:39+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "6da9e25779f261f2",
+   "title": "डिजिटल धुनको भीडमा हराएको छैन मादलको ताल, तिहारसँगै बढ्यो बिक्री",
+   "url": "https://bizmandu.com/content/20261107061333.html",
+   "summary": "सुनसरी। तिहार आएसँगै मादलको बिक्री बढ्न थालेको छ। देउसीभैलो खेल्ने समूहले मादल किन्ने भएकाले यसको माग बढ्ने गरेको व्यापारी बताउँछन्। आधुनिक प्रविधिको वाद्यवादन प्रयोग बढे पनि देउसीभैलोमा मादलको आकर्षण घटेको छैन। धरान-२ छाताचोकस्थित साल्सा म्युजिक स्टोरका सञ्चालक सुमन चौधरीले तिहारमा मादलको बिक्री बढी हुने गरेको बताए। विगत २० वर्षदेखि मादल, गितारलगायत विभिन्न बाजाको व्यापार गर्दै […] The post डिजिट",
+   "published": "2026-11-07T00:28:33+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "7b09b2b96ad486b0",
+   "title": "दुई सयका भाँडादेखि ५० हजारका कलात्मक सामग्रीसम्म, तिहारमा हस्तकलाको बजार विस्तार",
+   "url": "https://bizmandu.com/content/20261107060051.html",
+   "summary": "काठमाडौं। सुनचाँदीको मूल्य महँगिँदै जाँदा तिहारमा परम्परागत हस्तकलाका सामानको माग बढ्न थालेको छ। धनतेरसदेखि लक्ष्मीपूजासम्म सुनचाँदीसँगै तामाका दियो, पानस, घण्टी, करुवा, मूर्ति र चरेसका थालजस्ता नेपाली मौलिक हस्तकलाका सामग्रीले बजार पाउन थालेका छन्। पहिले धनतेरसका दिन मात्रै यस्ता सामग्री खरिद गर्ने उपभोक्ता पछिल्लो समय घरको सजावट र उपहारका लागि समेत हस्तकलाका सामान रोज्न थालेका छन्। […] The post ",
+   "published": "2026-11-07T00:15:51+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "de41e529393b7d11",
+   "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+   "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal […]",
+   "published": "2026-11-06T23:46:18+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "c0a2faeced6871fb",
+   "title": "Doctors pull knife from man's eye that went through his brain—and he's fine now",
+   "url": "https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain/",
+   "summary": "It's the exact path, not the apparent severity that matters most, doctors say.",
+   "published": "2026-11-06T23:09:45+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "b323d717347fed52",
+   "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+   "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+   "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed […]",
+   "published": "2026-11-06T23:00:44+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "d38b620898a5fd10",
+   "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+   "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+   "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+   "published": "2026-11-06T22:53:46+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "60e3e6ef531c84eb",
+   "title": "Starlink Mobile: All the news on SpaceX’s major mobile carrier ambitions",
+   "url": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
+   "summary": "SpaceX has declared that it’s going to make Starlink Mobile a “major” mobile carrier. The Elon Musk-owned company has already deployed thousands of direct-to-cell satellites, but its next big challenge is building out its 5G network here on Earth. As part of its plans to rival AT&T, Verizon, and T-Mobile, SpaceX has inked a deal […]",
+   "published": "2026-11-06T22:45:43+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "e17b5049474dfe14",
+   "title": "Ships loiter near subsea cables amid Iran's warnings to Trump",
+   "url": "https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/",
+   "summary": "Iran threatened to attack subsea cables if US escalates military strikes again.",
+   "published": "2026-11-06T22:41:37+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "7ea6a843e9c1f5b1",
+   "title": "Re-releases of Wing Commander, Ultima titles hit Steam and GOG",
+   "url": "https://arstechnica.com/gaming/2026/11/ea-producer-tells-the-inside-story-behind-new-wing-commander-remasters/",
+   "summary": "It's mostly bad news from EA lately, but preservation efforts are nice to see.",
+   "published": "2026-11-06T22:08:47+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "49b9eb255e1c6c18",
+   "title": "The Duo apps are coming, says Apple",
+   "url": "https://techcrunch.com/2026/11/06/the-duo-apps-are-coming-says-apple/",
+   "summary": "There are now 100,000 Duo-optimized apps, says Apple, and thousands more arrive daily.",
+   "published": "2026-11-06T21:38:05+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "bd76a80f247c576b",
+   "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+   "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+   "summary": "Company said a \"multifront cyberattack\" included AI agents and an on-path data snatch.",
+   "published": "2026-11-06T20:56:41+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "d3c7c25111075272",
+   "title": "Earth's churning mantle may have created the Great Unconformity",
+   "url": "https://arstechnica.com/science/2026/11/earths-churning-mantle-may-have-created-the-great-unconformity/",
+   "summary": "Explaining the Great Unconformity, where Cambrian deposits sit on top of older rocks.",
+   "published": "2026-11-06T20:24:20+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "dc9e3936fbaea0a9",
+   "title": "Nvidia hardware worth $11.4M vanished between Oakland and Texas",
+   "url": "https://arstechnica.com/gadgets/2026/11/nvidia-hardware-worth-11-4m-vanished-between-oakland-and-texas/",
+   "summary": "6 pallets of hardware vanished en route to Texas, with no arrests 2 months later.",
+   "published": "2026-11-06T20:05:30+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "557f5a61a175159b",
+   "title": "All the latest updates on AI data centers",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+   "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data centers were a major bipartisan issue ahead […]",
+   "published": "2026-11-06T20:02:22+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "dbeba81409f62f1a",
+   "title": "Developer ends lucrative screensaver deal with Roku because Fox bought it",
+   "url": "https://arstechnica.com/gadgets/2026/11/artist-pulls-popular-screensaver-from-roku-os-because-of-fox-acquisition/",
+   "summary": "Developer: “I can’t be part of the Fox world.”",
+   "published": "2026-11-06T19:50:18+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "55553348cf7e2ae3",
+   "title": "Shure’s popular podcasting and streaming mic is almost $50 off",
+   "url": "https://www.theverge.com/gadgets/1028846/shure-mv7-plus-podcasting-streaming-mic-deal-sale",
+   "summary": "While the Shure Mv7 Plus is popular with streamers and podcasters, it’s equally good at impressing your friends and coworkers on meetings and Discord calls. It’s currently marked down to $255 at various retailers, including Amazon, Guitar Center, and directly from Shure. That’s almost $50 lower than its usual price, and just a few dollars […]",
+   "published": "2026-11-06T19:47:02+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "1dcb10eda3af0353",
+   "title": "FAA to finally ditch floppy disks in what it calls \"historic\" tech upgrade",
+   "url": "https://arstechnica.com/tech-policy/2026/11/faa-to-finally-ditch-floppy-disks-in-what-it-calls-historic-tech-upgrade/",
+   "summary": "FAA information display systems to be floppy-free at 435 sites by end of 2028.",
+   "published": "2026-11-06T19:12:28+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "844000902583a780",
+   "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+   "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+   "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+   "published": "2026-11-06T18:44:38+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "9b38cc280c1e8c2a",
+   "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+   "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+   "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
+   "published": "2026-11-06T18:44:20+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "549429cf4dbc8cc6",
+   "title": "Lame-duck Congress might actually do something: speed up energy projects",
+   "url": "https://www.theverge.com/policy/1028228/energy-infrastructure-permitting-reform-bill-congress-vote",
+   "summary": "A massive permitting bill that could help energy projects come online much quicker and potentially lower utility bills for Americans is advancing with bipartisan support. And while it could be a catalyst for lots of clean energy, it could also speed up polluting projects and limit oversight of new data centers. With data centers demanding […]",
+   "published": "2026-11-06T18:42:30+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "1ce11bc9dcc56116",
+   "title": "The folks behind John Wick are back with Karōshi trailer",
+   "url": "https://arstechnica.com/culture/2026/11/the-folks-behind-john-wick-are-back-with-karoshi-trailer/",
+   "summary": "Stuntman/director Chad Stahelski and 87Eleven bring us an action-packed dystopian, futuristic thriller.",
+   "published": "2026-11-06T18:30:19+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "5d794819a8abe59b",
+   "title": "You know the launch market is tough when satellite companies start building rockets",
+   "url": "https://arstechnica.com/space/2026/11/ast-spacemobile-is-so-desperate-for-launch-theyre-building-their-own-rocket/",
+   "summary": "\"The Blacklift rocket is the springboard to significantly expand our total addressable market.\"",
+   "published": "2026-11-06T18:20:47+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "bd6af519ee19c950",
+   "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+   "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+   "summary": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by […]",
+   "published": "2026-11-06T18:10:10+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "91a1ed89e764e59b",
+   "title": "Amazon is now making a Melania Trump TV series",
+   "url": "https://www.theverge.com/tech/1028854/amazon-melania-the-series-mgm-studios-prime-video",
+   "summary": "Following the Melania documentary movie that premiered earlier this year, Amazon is now planning to release a two-part Prime Video series focusing on the first lady. The show, Melania: The Series, is set to debut on November 20th. \"MELANIA, The Series reveals never-before-told stories, offering unprecedented insight into Melania Trump's life, including the extraordinary days […]",
+   "published": "2026-11-06T17:56:58+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "d0028ae49d42f56b",
+   "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+   "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+   "summary": "Meta won't force Facebook page owners to allow AI training on linked content.",
+   "published": "2026-11-06T17:43:02+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "1f15210e4e83b90e",
+   "title": "Just about anyone can rent access to White House IP addresses",
+   "url": "https://www.theverge.com/tech/1028835/white-house-residential-proxy",
+   "summary": "Someone at the White House appears to be running software that could enable outsiders to rent access on the presidential network for just \"a few dollars,\" as reported by Krebs on Security and The Register. That's according to findings from the security firms Layer3 Intel and Synthient, which discovered residential proxy activity on the White […]",
+   "published": "2026-11-06T17:40:06+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "0ce6df6f00be3691",
+   "title": "After the midterms, is the AI industry in for a rough two years?",
+   "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+   "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a […]",
+   "published": "2026-11-06T17:23:52+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "d249fd22649d4e09",
+   "title": "Wisconsin reports measles death of a baby, first death in over 35 years",
+   "url": "https://arstechnica.com/health/2026/11/wisconsin-reports-measles-death-of-a-baby-first-death-in-over-35-years/",
+   "summary": "Next week, experts will determine if the US has lost its measles elimination status.",
+   "published": "2026-11-06T17:06:32+00:00",
+   "source": "arstechnica",
+   "source_name": "Ars Technica",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "e67cb212000cce0d",
+   "title": "Pentagon offers battery startup 6K $250M loan to build US factory",
+   "url": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/",
+   "summary": "The Pentagon has conditionally approved a $250 million loan to help 6K scale up its microwave-plasma battery material manufacturing process.",
+   "published": "2026-11-06T16:50:01+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "21bd3aff51d8d4aa",
+   "title": "तिहारमा अटोमोबाइल कम्पनीका आकर्षक अफरः १२ लाखसम्म छुटदेखि गोल्ड क्वाइन र बाइक जित्ने अवसर",
+   "url": "https://merolagani.com/NewsDetail.aspx?newsID=132392",
+   "summary": "",
+   "published": null,
+   "source": "merolagani",
+   "source_name": "Merolagani",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "a9f1796b9d6c738d",
+   "title": "आजदेखि तिहार सुरु, काग तिहार मनाइँदै",
+   "url": "https://merolagani.com/NewsDetail.aspx?newsID=132324",
+   "summary": "",
+   "published": null,
+   "source": "merolagani",
+   "source_name": "Merolagani",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "0e7de9c13a0e42ef",
+   "title": "तिहारमा झिलिमिली बत्ती महँगिने, असोजसम्म साढे ६४ करोडको आयात",
+   "url": "https://merolagani.com/NewsDetail.aspx?newsID=132247",
+   "summary": "",
+   "published": null,
+   "source": "merolagani",
+   "source_name": "Merolagani",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "14e7120a46636f23",
+   "title": "multifamilydive.com",
+   "url": "https://news.ycombinator.com/from?site=multifamilydive.com",
+   "summary": "",
+   "published": null,
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "59e3e480318615ef",
+   "title": "planned-obsolescence.org",
+   "url": "https://news.ycombinator.com/from?site=planned-obsolescence.org",
+   "summary": "",
+   "published": null,
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "f3b1b6f9107de819",
+   "title": "community.openai.com",
+   "url": "https://news.ycombinator.com/from?site=community.openai.com",
+   "summary": "",
+   "published": null,
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "e6081714ca59fa84",
+   "title": "developers.openai.com",
+   "url": "https://news.ycombinator.com/from?site=developers.openai.com",
+   "summary": "",
+   "published": null,
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-07",
+   "is_new": true
+  },
+  {
+   "id": "44aac495dbc0db12",
+   "title": "KPop Demon Hunters on 4K Blu-ray costs less than a month of Netflix Premium",
+   "url": "https://www.theverge.com/gadgets/1028640/kpop-demon-hunters-4k-criterion-bluray-deal-sale",
+   "summary": "Buying the 4K Blu-ray disc version of KPop Demon Hunters was already going to be a wise idea for some people, especially those who primarily keep their $26.99 Netflix Premium subscription just to watch the hit animated flick in 4K. But at just $24.99 from Barnes and Noble and Amazon instead of its original $49.95 […]",
+   "published": "2026-11-06T21:50:32+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-06",
+   "is_new": false
+  },
   {
    "id": "1fede78d25c51fd1",
    "title": "Fox completes its $22B acquisition of Roku",
@@ -971,7 +1088,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f37a6fb80cb12a21",
@@ -985,7 +1102,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "df1513e3aeaf15ee",
@@ -999,7 +1116,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0a81d26b311825b3",
@@ -1013,7 +1130,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4f39a19358801ae1",
@@ -1027,7 +1144,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1da61a1d3841000d",
@@ -1041,7 +1158,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "09b088d8d366beab",
@@ -1055,7 +1172,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "487fb67db1862638",
@@ -1069,7 +1186,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f2aee7174bc3d8cf",
@@ -1083,7 +1200,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "91c4f14e64ac7315",
@@ -1097,7 +1214,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "030ee3aa34931667",
@@ -1111,21 +1228,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
-  },
-  {
-   "id": "44aac495dbc0db12",
-   "title": "KPop Demon Hunters on 4K Blu-ray costs less than a month of Netflix Premium",
-   "url": "https://www.theverge.com/gadgets/1028640/kpop-demon-hunters-4k-criterion-bluray-deal-sale",
-   "summary": "Buying the 4K Blu-ray disc version of KPop Demon Hunters was already going to be a wise idea for some people, especially those who primarily keep their $26.99 Netflix Premium subscription just to watch the hit animated flick in 4K. But at just $24.99 from Barnes and Noble instead of its original $49.95 price, it’s […]",
-   "published": "2026-11-06T15:27:09+00:00",
-   "source": "theverge",
-   "source_name": "The Verge",
-   "category": "technology",
-   "is_document": false,
-   "priority": false,
-   "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b447c7a022464594",
@@ -1139,7 +1242,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b9a75cf7acb36951",
@@ -1153,7 +1256,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "961f81d367b1a1dc",
@@ -1167,7 +1270,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e5c1f07592d2c7b3",
@@ -1181,7 +1284,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5a911cd134262792",
@@ -1195,7 +1298,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ebe31621fd3dd10b",
@@ -1209,7 +1312,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4e1acec6d9a1ade2",
@@ -1223,7 +1326,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d2acd3e67c670f1c",
@@ -1237,7 +1340,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "16f1d24a7680cdb5",
@@ -1251,7 +1354,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b711736cf9973988",
@@ -1265,7 +1368,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4e7d42b7efc69b3b",
@@ -1279,7 +1382,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e12da453ed2ec992",
@@ -1293,7 +1396,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5df2fd9d4607c6d2",
@@ -1307,7 +1410,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "929c72fa709a7daa",
@@ -1321,7 +1424,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6a3cab1810fc65b2",
@@ -1335,7 +1438,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ae61bff79761cad4",
@@ -1349,7 +1452,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c989438730757db3",
@@ -1363,7 +1466,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "475ae042ad2162ca",
@@ -1377,7 +1480,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "49d384be20abcc3a",
@@ -1391,7 +1494,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "23177dcb2d254ef0",
@@ -1405,7 +1508,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "98bcb26d3d2b05c2",
@@ -1419,7 +1522,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8e177e17501ba5f3",
@@ -1433,7 +1536,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "aa83f5803ca26c1b",
@@ -1447,7 +1550,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "35c35322ed174bbe",
@@ -1461,7 +1564,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9ebad3c0a5b91e7a",
@@ -1475,7 +1578,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "51bb2f362ff1eb3a",
@@ -1489,7 +1592,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1e380a0ebbbc4b77",
@@ -1503,7 +1606,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "429c55aae0b6d232",
@@ -1517,7 +1620,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "64152283b394448a",
@@ -1531,7 +1634,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1b2839b80e0b4056",
@@ -1545,7 +1648,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0dfac01f31d98267",
@@ -1559,7 +1662,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "35694ac9f68a7835",
@@ -1573,7 +1676,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9a5e8108e2a2c61b",
@@ -1587,7 +1690,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d9340e6574ec64a4",
@@ -1601,7 +1704,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e6de0cee00bc4ffe",
@@ -1615,7 +1718,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3ab9cee023ca82b2",
@@ -1629,7 +1732,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "73ff849525a11edb",
@@ -1643,7 +1746,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a9a4d24cf5967749",
@@ -1657,7 +1760,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8ec0bb9cabab1391",
@@ -1671,7 +1774,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "af24142fcb0938e1",
@@ -1685,7 +1788,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "cc3d1d393ac37d51",
@@ -1699,7 +1802,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e941f2408239db69",
@@ -1713,7 +1816,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "060fc8a922e748e5",
@@ -1727,7 +1830,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f439cc8c3d0c4504",
@@ -1741,7 +1844,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bb9356d23d7d019f",
@@ -1755,7 +1858,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b5b41eec0ea3e5cc",
@@ -1769,7 +1872,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4b14a44d6044cab7",
@@ -1783,7 +1886,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5219a7b8809fefeb",
@@ -1797,7 +1900,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c374b986769b1c86",
@@ -1811,7 +1914,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0e3c44ddd32c4217",
@@ -1825,7 +1928,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d0b33908a4ee9ac6",
@@ -1839,7 +1942,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "27753b943bc1aee4",
@@ -1853,7 +1956,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d10aa9cb12607854",
@@ -1867,7 +1970,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d146e9dc8edf5592",
@@ -1881,7 +1984,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5f05162b67a80827",
@@ -1895,7 +1998,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "81444825ebe6890a",
@@ -1909,7 +2012,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "591c745c93b52405",
@@ -1923,7 +2026,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bf7b76d7f0f490d9",
@@ -1937,7 +2040,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "757fcfe4b7b6fad6",
@@ -1951,7 +2054,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "01ca6bd8b1e38488",
@@ -1965,7 +2068,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "32189e73f6a2747a",
@@ -1979,7 +2082,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "29ef4b8d4c7d40b2",
@@ -1993,7 +2096,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d997d7aae7a3314c",
@@ -2007,7 +2110,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6efe575028347671",
@@ -2021,7 +2124,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "831bb9331929c905",
@@ -2035,7 +2138,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ee0e74d0c0732fed",
@@ -2049,7 +2152,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "cf2674ae7aa61d5c",
@@ -2063,7 +2166,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "fbdf0dcf1b868260",
@@ -2077,7 +2180,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a280cc44ef3c231c",
@@ -2091,7 +2194,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "fceba91f45264630",
@@ -2105,7 +2208,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "101628b4a37efde4",
@@ -2119,7 +2222,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "915374d38591fc54",
@@ -2133,7 +2236,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "708f94303d25e55d",
@@ -2147,7 +2250,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4f30700fc8be3291",
@@ -2161,7 +2264,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "cb4b25bc4e808398",
@@ -2175,7 +2278,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7bfad609c4c0cbb8",
@@ -2189,7 +2292,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dd545657a7443d8f",
@@ -2203,7 +2306,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "874d6c7ad22ab428",
@@ -2217,7 +2320,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a0a3e3985e5c99e3",
@@ -2231,7 +2334,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8e4b994b2dbdca1f",
@@ -2245,7 +2348,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0c8c0b17ee785167",
@@ -2259,7 +2362,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8956cfab74119a31",
@@ -2273,7 +2376,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "049d2847d142242b",
@@ -2287,7 +2390,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c77571887ce32fa3",
@@ -2301,7 +2404,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5515d46057840d1a",
@@ -2315,7 +2418,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6b5a727f1b54786e",
@@ -2329,7 +2432,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "379934e546cffb99",
@@ -2343,7 +2446,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8e25a11a04a59c0f",
@@ -2357,7 +2460,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "18f09d7fdd1a6bb7",
@@ -2371,7 +2474,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7dbfce9c568e0033",
@@ -2385,7 +2488,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "53b94906c33637b2",
@@ -2399,7 +2502,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ab1c761f9a13426d",
@@ -2413,7 +2516,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f6cf65a6fdfd1829",
@@ -2427,7 +2530,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6b333aa86143d8bf",
@@ -2441,7 +2544,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5a61f577a005a3fc",
@@ -2455,7 +2558,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "baf35929e8c39c6e",
@@ -2469,7 +2572,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bdcd838274947e98",
@@ -2483,7 +2586,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2902190f086c7c1a",
@@ -2497,7 +2600,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2a68b33e9171408d",
@@ -2511,7 +2614,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "06b8e301f62a2039",
@@ -2525,7 +2628,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c6e5825d498a254c",
@@ -2539,7 +2642,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "64b5dff9b8f06ff9",
@@ -2553,7 +2656,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c2f87777501f0b43",
@@ -2567,7 +2670,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "231397eecfe085c8",
@@ -2581,7 +2684,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "652194d628ad901f",
@@ -2595,7 +2698,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d4389379ad95368c",
@@ -2609,7 +2712,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "beec8115be1e4cf8",
@@ -2623,7 +2726,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "068e502293adb697",
@@ -2637,7 +2740,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d6a48f8dd1e9cad3",
@@ -2651,7 +2754,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "61e8f80c4a03335a",
@@ -2665,7 +2768,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ee372a44bc118220",
@@ -2679,7 +2782,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9a9901e5d9a8753c",
@@ -2693,7 +2796,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d6e417735b6f759f",
@@ -2707,7 +2810,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "cc86b309661be320",
@@ -2721,7 +2824,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "94140df0bd2a386d",
@@ -2735,7 +2838,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bdfb998388f743d3",
@@ -2749,7 +2852,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "db1d213cb858d614",
@@ -2763,7 +2866,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "75764d45140dfb0c",
@@ -2777,7 +2880,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "196cc2f3b48d7d86",
@@ -2791,7 +2894,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f78d9f6f5df89910",
@@ -2805,7 +2908,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8f537080fadc6388",
@@ -2819,7 +2922,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "adc328fd4d793aff",
@@ -2833,7 +2936,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3f31b326082411fa",
@@ -2847,7 +2950,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a8b78b0ccde974b3",
@@ -2861,7 +2964,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "10d33f811a0a94af",
@@ -2875,7 +2978,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2b337dac466194ba",
@@ -2889,7 +2992,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3f28f1aaa9644559",
@@ -2903,7 +3006,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dc12308e255d04f5",
@@ -2917,7 +3020,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9b9c6790766ca6e6",
@@ -2931,7 +3034,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "681b36de5c62d04a",
@@ -2945,7 +3048,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "acda3d3b111c4011",
@@ -2959,7 +3062,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9ebda89339608e39",
@@ -2973,7 +3076,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2c85fa5e4f0ef5bf",
@@ -2987,7 +3090,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "882de4f6017fe5bd",
@@ -3001,7 +3104,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7bb5461d27442e5c",
@@ -3015,7 +3118,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "727065719915496f",
@@ -3029,7 +3132,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "117b8e5b7a600b83",
@@ -3043,7 +3146,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1189aebc3b463acc",
@@ -3057,7 +3160,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "48501b117ffdfbcb",
@@ -3071,7 +3174,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "03107faf89a611fc",
@@ -3085,7 +3188,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "969b988816b76336",
@@ -3099,7 +3202,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "85b71e1eb41dfff1",
@@ -3113,7 +3216,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8b8f48b4b3cc6077",
@@ -3127,7 +3230,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0621261ee4315eac",
@@ -3141,7 +3244,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-06",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4150f3933344b0b4",
