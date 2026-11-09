@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-08T21:19:22.116879+05:45",
- "generated_date": "2026-11-08",
- "new_today": 77,
- "added_this_run": 54,
- "total_items": 2046,
+ "generated_at": "2026-11-09T08:44:28.532907+05:45",
+ "generated_date": "2026-11-09",
+ "new_today": 46,
+ "added_this_run": 52,
+ "total_items": 2092,
  "sources_working": 25,
  "sources_total": 35,
  "sources": [
@@ -13,7 +13,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 26.3,
+   "seconds": 28.6,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -23,7 +23,7 @@
    "ok": true,
    "count": 4,
    "method": "page scrape",
-   "seconds": 9.8,
+   "seconds": 8.6,
    "error": null,
    "discovered_rss": null
   },
@@ -33,7 +33,7 @@
    "ok": true,
    "count": 4,
    "method": "page scrape",
-   "seconds": 7.6,
+   "seconds": 7.4,
    "error": null,
    "discovered_rss": null
   },
@@ -43,7 +43,7 @@
    "ok": true,
    "count": 4,
    "method": "page scrape",
-   "seconds": 9.5,
+   "seconds": 6.1,
    "error": null,
    "discovered_rss": null
   },
@@ -53,7 +53,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 8.9,
+   "seconds": 8.6,
    "error": null,
    "discovered_rss": null
   },
@@ -63,7 +63,7 @@
    "ok": true,
    "count": 5,
    "method": "configured feed",
-   "seconds": 2.6,
+   "seconds": 2.5,
    "error": null,
    "discovered_rss": null
   },
@@ -83,7 +83,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 9.7,
+   "seconds": 9.6,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -93,7 +93,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 222.8,
+   "seconds": 222.6,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -103,7 +103,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 28.3,
+   "seconds": 28.8,
    "error": null,
    "discovered_rss": null
   },
@@ -113,7 +113,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 21.3,
+   "seconds": 20.8,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -123,7 +123,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 39.8,
+   "seconds": 36.4,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -133,7 +133,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 9.2,
+   "seconds": 9.0,
    "error": null,
    "discovered_rss": null
   },
@@ -143,7 +143,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 9.8,
+   "seconds": 10.3,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -153,7 +153,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 16.3,
+   "seconds": 16.0,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -163,7 +163,7 @@
    "ok": true,
    "count": 12,
    "method": "page scrape",
-   "seconds": 7.3,
+   "seconds": 7.9,
    "error": null,
    "discovered_rss": null
   },
@@ -173,7 +173,7 @@
    "ok": true,
    "count": 10,
    "method": "page scrape",
-   "seconds": 19.6,
+   "seconds": 18.9,
    "error": null,
    "discovered_rss": null
   },
@@ -183,7 +183,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 1.0,
+   "seconds": 0.9,
    "error": null,
    "discovered_rss": null
   },
@@ -193,7 +193,7 @@
    "ok": true,
    "count": 12,
    "method": "configured feed",
-   "seconds": 1.3,
+   "seconds": 1.2,
    "error": null,
    "discovered_rss": null
   },
@@ -211,9 +211,9 @@
    "id": "clickmandu",
    "name": "Clickmandu",
    "ok": true,
-   "count": 6,
+   "count": 4,
    "method": "configured feed",
-   "seconds": 0.4,
+   "seconds": 1.5,
    "error": null,
    "discovered_rss": null
   },
@@ -223,7 +223,7 @@
    "ok": true,
    "count": 10,
    "method": "configured feed",
-   "seconds": 0.9,
+   "seconds": 0.8,
    "error": null,
    "discovered_rss": null
   },
@@ -233,7 +233,7 @@
    "ok": true,
    "count": 10,
    "method": "configured feed",
-   "seconds": 3.2,
+   "seconds": 0.7,
    "error": null,
    "discovered_rss": null
   },
@@ -243,7 +243,7 @@
    "ok": true,
    "count": 2,
    "method": "page scrape",
-   "seconds": 6.8,
+   "seconds": 11.3,
    "error": null,
    "discovered_rss": null
   },
@@ -251,9 +251,9 @@
    "id": "onlinekhabar",
    "name": "Online Khabar",
    "ok": true,
-   "count": 2,
-   "method": "configured feed",
-   "seconds": 1.0,
+   "count": 12,
+   "method": "page scrape",
+   "seconds": 2.0,
    "error": null,
    "discovered_rss": null
   },
@@ -261,7 +261,7 @@
    "id": "ratopati",
    "name": "Ratopati",
    "ok": true,
-   "count": 3,
+   "count": 4,
    "method": "configured feed",
    "seconds": 0.3,
    "error": null,
@@ -271,9 +271,9 @@
    "id": "setopati",
    "name": "Setopati",
    "ok": true,
-   "count": 12,
-   "method": "page scrape",
-   "seconds": 1.9,
+   "count": 2,
+   "method": "configured feed",
+   "seconds": 0.4,
    "error": null,
    "discovered_rss": null
   },
@@ -283,7 +283,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 14.3,
+   "seconds": 14.7,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -293,7 +293,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 14.2,
+   "seconds": 14.7,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -303,7 +303,7 @@
    "ok": false,
    "count": 0,
    "method": null,
-   "seconds": 6.9,
+   "seconds": 7.0,
    "error": "No items found. Site may block automated access, load content with JavaScript, or need a CSS selector set in sources.json.",
    "discovered_rss": null
   },
@@ -311,9 +311,9 @@
    "id": "hackernews",
    "name": "Hacker News",
    "ok": true,
-   "count": 2,
+   "count": 6,
    "method": "page scrape",
-   "seconds": 9.7,
+   "seconds": 10.3,
    "error": null,
    "discovered_rss": null
   },
@@ -353,7 +353,7 @@
    "ok": true,
    "count": 10,
    "method": "configured feed",
-   "seconds": 0.1,
+   "seconds": 0.2,
    "error": null,
    "discovered_rss": null
   }
@@ -960,6 +960,650 @@
  "plan_title": "आन्तरिक ऋण निष्कासन तथा बोलकबोल तालिका (आ.व.२०८३/८४)",
  "items": [
   {
+   "id": "1fe1838562fddd4c",
+   "title": "एनपिएलमा आज कर्णालीले पोखरा र काठमाडौंले चितवनसँग भिड्दै",
+   "url": "https://www.setopati.com/sports/npl/402315",
+   "summary": "सिद्धार्थ बैंक नेपाल प्रिमियर लिग (एनिपएल)मा आज दुई खेल हुँदैछ।",
+   "published": "2026-11-09T02:47:46+00:00",
+   "source": "setopati",
+   "source_name": "Setopati",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "5c781b71da6c5007",
+   "title": "आधा शताब्दीपछि चन्द्रमामा मानव बस्ती विस्तार गर्ने नासाको तयारी, नयाँ अन्तरिक्ष यात्री खोज्दै",
+   "url": "https://bizmandu.com/content/20261109082921.html",
+   "summary": "केप क्यानाभेरल, फ्लोरिडा। चन्द्रमामा पुग्ने, त्यहाँ अनुसन्धान गर्ने र भविष्यमा बन्ने मानव बस्तीको हिस्सा बन्ने अवसरको चाहना गर्नेका लागि एउटा आकर्षक अफर छ। यो सपना पूरा गर्न चाहनेका लागि अमेरिकी अन्तरिक्ष निकाय नासाले नयाँ ढोका खोलेको छ। चन्द्रमामा मानव उपस्थितिलाई स्थायी बनाउने महत्त्वाकांक्षी अभियानका लागि नासाले नयाँ अन्तरिक्ष यात्री छनोट गर्दैछ। इच्छुक अमेरिकी नागरिकले डिसेम्बर […] The post आध",
+   "published": "2026-11-09T02:44:21+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "2e3cfab74119edd2",
+   "title": "डलर स्थिर रहँदा युरो र पाउण्ड कमजोर, अन्तर्राष्ट्रिय बजारमा सुनचाँदीको मूल्य बढ्यो",
+   "url": "https://bizmandu.com/content/20261109080639.html",
+   "summary": "काठमाडौं। अमेरिकी डलर स्थिर रहँदा युरोपियन युरो र पाउण्ड स्टर्लिङको मूल्यमा गिरावट छ। विश्वबजारमा सुनचाँदीको कारोबार मूल्य भने बढेको छ। नेपाल राष्ट्र बैंकका अनुसार सोमबार १ अमेरिकी डलरको खरिद दर १४९ रुपैयाँ ९६ पैसा र बिक्री दर १५० रुपैयाँ ५६ पैसामा स्थिर रहेको हो। गत शनिबार कायम यो मूल्य अघिल्लो दिनका तुलनामा घटेर कायम भएको […] The post डलर स्थिर रहँदा युरो र पाउण्ड कमजोर, अन्तर्राष्ट्रिय बजारमा स",
+   "published": "2026-11-09T02:21:39+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "ea5178506f7d022b",
+   "title": "रिजाल जग्गा प्रकरण: सरकारी जग्गामा जग्गा कारोबारीदेखि उद्योगीको रजगज, कहिले के भयो ?",
+   "url": "https://clickmandu.com/2026/11/504607.html",
+   "summary": "विराटनगर । फलफूल उद्योग सञ्चालनका लागि सरकारबाट हदबन्दी छुट पाएको विराटनगर–२ सोमबारे हाटको बहुमूल्य जग्गामा जग्गा कारोबारीसँग मिलेर यहाँका केही औद्योगिक घरानाले समेत रजगज गरेको पाइएको छ । साबिक विराटनगर उपमहानगरपालिका वडा नं. ३ (हाल विराटनगर महानगरपालिका–२ सोमबारे) स्थित कित्ता नम्बर ४८ (३ बिघा ३ कट्ठा १ धुर १ कनवा) र कित्ता नम्बर ७१ (१ […]",
+   "published": "2026-11-09T02:12:14+00:00",
+   "source": "clickmandu",
+   "source_name": "Clickmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "464d4b1c48484557",
+   "title": "उज्यालो फड्कोभित्र हिउँदे अँध्यारोको संशय",
+   "url": "https://www.ratopati.com/story/604175",
+   "summary": "काठमाडौँ । कुनै पनि देशको आर्थिक समृद्धि त्यहाँ उपलब्ध प्राकृतिक तथा मानवीय स्रोतको उच्चतम सदुपयोगमा निर्भर हुन्छ । नेपालको सन्दर्भमा जलस्रोत आर्थिक, प्राविधिक र व्यावसायिक रूपले मुलुकलाई समृद्ध बनाउने सबैभन्दा बलियो जग मान्न सकिन्छ । नेपालमा",
+   "published": "2026-11-09T02:01:30+00:00",
+   "source": "ratopati",
+   "source_name": "Ratopati",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "7ce4aae9be623609",
+   "title": "कार्यकारी ढोकामा पुगेर रोकिन्छ नेपालको बीमा क्षेत्रमा महिलाका लागि अवसर final",
+   "url": "https://insurancekhabar.com/opportunities-for-women-in-nepals-insurance-sector-are-finalized-at-the-executive-door/",
+   "summary": "काठमाडौं । नेपाली बीमा क्षेत्रमा काम गर्ने महिला कर्मचारीहरू मध्यम व्यवस्थापन तहसम्म सहजै पुगे पनि उच्च कार्यकारी तहमा पुग्ने बेला भने उनीहरूको बढुवा रोकिने गरेको पाइएको छ। नेपाल बीमा प्राधिकरणको बढुवा सम्बन्धी तथ्याङ्कले यो विडम्बनापूर्ण चित्र देखाएको हो। नेपाल बीमा प्राधिकरणको “इन्स्योरेन्स थ्रु अ जेण्डर लेन्सः अ फेमा मिटर एसेसमेण्ट इन नेपाल” विषयक अध्ययन प्रतिवेदनले कम्पनीहरूको […]",
+   "published": "2026-11-09T01:46:42+00:00",
+   "source": "insurancekhabar",
+   "source_name": "Insurance Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "dd9ebdcb6e45cb67",
+   "title": "रुसलाई एक्ल्याउने अमेरिकी नीतिमा उलटफेर, रुसी डिजेल बोकेको ट्यांकर अमेरिकी बजारतर्फ",
+   "url": "https://www.ratopati.com/story/604174",
+   "summary": "काठमाडौँ । रुसले युक्रेनमाथि पूर्णस्तरको आक्रमण सुरु गरेपछि मस्कोलाई अन्तर्राष्ट्रिय रूपमा एक्ल्याउन र उसको युद्ध खर्च जुटाउने आर्थिक स्रोत कमजोर पार्न अमेरिकाले उल्लेख्य कदम चालेको थियो । अमेरिकाले रुसी तेल तथा अन्य वस्तुको आयातमा प्रतिबन्ध लगाएको",
+   "published": "2026-11-09T01:31:02+00:00",
+   "source": "ratopati",
+   "source_name": "Ratopati",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "bfe8dc1d9e69d741",
+   "title": "चिनियाँ जासुससँग विवाहेतर सम्बन्धको आरोपपछि एनभिडियाद्वारा आफ्नै प्रमुखमाथि अनुसन्धान",
+   "url": "https://www.ratopati.com/story/604170/news",
+   "summary": "विश्वकै मूल्यवान् प्रविधि कम्पनीमध्ये एक एनभिडियाले आफ्ना प्रमुख कार्यकारी अधिकृत (सीईओ) जेन्सन हुआङमाथि स्वतन्त्र अनुसन्धान सुरु गरेको छ । चिनियाँ जासुस भएको आशंका गरिएकी व्यवसायी महिला एलिस हुआङसँग उनको सम्बन्ध रहेको समाचार सार्वजनिक भएपछि कम्पनीले",
+   "published": "2026-11-09T01:07:21+00:00",
+   "source": "ratopati",
+   "source_name": "Ratopati",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "5d2fb18021e539c8",
+   "title": "इजरायलविरुद्ध एम्स्टर्डममा प्रदर्शन, दुई लाखभन्दा बढी सडकमा",
+   "url": "https://www.ratopati.com/story/604168",
+   "summary": "नेदरल्याण्ड । नेदरल्यान्ड्सको राजधानी एम्स्टर्डममा गाजामाथि इजरायलले गरिरहेको सैन्य आक्रमणको विरोधमा दुई लाखभन्दा बढी मानिस सडकमा उत्रिएका छन् । आइतबार आयोजित ‘रेड लाइन’ नाम दिइएको प्रदर्शनमा सहभागीहरूले इजरायलसँगको व्यापारिक सम्बन्धमा कडाइ गर्न, हतियार बिक्री पूर्ण रूपमा",
+   "published": "2026-11-09T00:52:19+00:00",
+   "source": "ratopati",
+   "source_name": "Ratopati",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "20e515c14522fbca",
+   "title": "‘स्कच ह्विस्की’को भौगोलिक संकेत मान्य, सर्वोच्चको फैसलामा इलामको चियादेखि मुस्ताङको स्याउसम्म",
+   "url": "https://bizmandu.com/content/20261109063717.html",
+   "summary": "काठमाडौं। स्कटल्याण्डमा उत्पादन हुने स्कच ह्विस्कीको नाम र पहिचान अब नेपालमा पनि कानुनी रूपमा संरक्षित हुने भएको छ। भौगोलिक संकेत (जियोग्राफिकल इन्डिकेसन–जीआई) संरक्षणका लागि छुट्टै कानुनसमेत नबनेको अवस्थामा सर्वोच्च अदालतले अन्तर्राष्ट्रिय सन्धि र प्रचलित कानुनका आधारमा यस्तो संरक्षणको नजिर स्थापित गरेको हो। सर्वोच्चको यो फैसला हालै सार्वजनिक पूर्णपाठसँगै सम्बद्ध क्षेत्रमा चर्चामा छ। यसले विदेशी ",
+   "published": "2026-11-09T00:52:17+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "7ca42a2fc18cb909",
+   "title": "तनहुँमा दुई लाख ६१ हजार पशुपन्छीको बीमा, ६९ करोडको जोखिम बीमाको दायरामा",
+   "url": "https://bizmandu.com/content/20261109061839.html",
+   "summary": "दमौली। तनहुँमा पशुधनको जोखिम न्यूनीकरण तथा पशुपालक किसानलाई सम्भावित आर्थिक क्षतिबाट जोगाउने उद्देश्यले पशु बीमा कार्यक्रम सञ्चालन हुँदै आएको छ। भेटेरिनरी अस्पताल तथा पशु सेवा कार्यालय तनहुँका अनुसार जिल्लामा गाई, भैँसी, बाख्रा, बङ्गुर, कुखुरा, माछा तथा घोडा–खच्चर गरी दुई लाख ६१ हजारभन्दा बढी पशुपन्छी तथा जलचरको बीमा गरिएको छ । कार्यालयका पशु स्वास्थ्य प्राविधिक रुद्रसिंह […] The post तनहुँमा दुई ",
+   "published": "2026-11-09T00:33:39+00:00",
+   "source": "bizmandu",
+   "source_name": "Bizmandu",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "32f41f2e1108f52a",
+   "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+   "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my […]",
+   "published": "2026-11-08T22:54:50+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "91f3f713a4ee3bdd",
+   "title": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
+   "url": "https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review",
+   "summary": "Soul Glo has a new record called NA I'M GON GRAB ALLAT coming out in January, and I, for one, can not wait. While two singles have dropped, it's not enough to truly tide me over, so I've been revisiting Songs to Yeet at the Sun and my favorite album of 2022 - Diaspora Problems. […]",
+   "published": "2026-11-08T22:37:22+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "a6cf5a9fbd16c9a8",
+   "title": "Apps to distract you from the endless cycle of doomscrolling",
+   "url": "https://techcrunch.com/2026/11/08/apps-to-distract-you-from-the-endless-cycle-of-doomscrolling/",
+   "summary": "It's hard to break the cycle of doomscrolling, but there are plenty of apps that can help you spend more time on content that’s engaging and productive.",
+   "published": "2026-11-08T22:00:00+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "52128cd3b9550393",
+   "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+   "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+   "summary": "In a memo to the company, Huang admitted that he had an affair.",
+   "published": "2026-11-08T21:00:11+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "3d1986b1e1006ee5",
+   "title": "If Snap’s Specs are still ridiculously expensive, they’re also a lot more comfortable than they used to be",
+   "url": "https://techcrunch.com/2026/11/08/if-snaps-specs-are-still-ridiculously-expensive-theyre-also-a-lot-more-comfortable-than-they-used-to-be/",
+   "summary": "Snap's Specs, which have been in development for many years now, are going to market this fall. Will they be a hit with users?",
+   "published": "2026-11-08T21:00:00+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "af2b45c97f905d9b",
+   "title": "Epic Games Launcher is coming to SteamOS",
+   "url": "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos",
+   "summary": "In October, Epic Games said that it was \"investigating\" making Fortnite compatible with Valve's Linux-based SteamOS. At the time, Epic Games Launcher was in preview, but SteamOS was not specifically listed as a supported distro. Now, Communications Director Jake Jones has confirmed SteamOS compatibility, along with a handful of other distros, to GamingOnLinux. In response […]",
+   "published": "2026-11-08T20:52:05+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "640933bd19773e44",
+   "title": "Coordinated disturbances haunt grids worldwide. Here’s how researchers solved the mystery.",
+   "url": "https://techcrunch.com/2026/11/08/coordinated-disturbances-haunt-grids-worldwide-heres-how-researchers-solved-the-mystery/",
+   "summary": "Mystery solved: Coordinated power drops have been haunting power grid worldwide, but a team of researchers in Germany found the culprit.",
+   "published": "2026-11-08T20:30:00+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "4968c109b68cf641",
+   "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+   "summary": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light […]",
+   "published": "2026-11-08T20:22:39+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "4c8293dbab43e685",
+   "title": "Sequoia partners reportedly blindsided when Roelof Botha joined SpaceX board",
+   "url": "https://techcrunch.com/2026/11/08/sequoia-partners-reportedly-blindsided-when-roelof-botha-joined-spacex-board/",
+   "summary": "A new report claims Sequoia's recent changes undo the legacy of the firm's former steward.",
+   "published": "2026-11-08T19:51:30+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "21dcb9cb513ef229",
+   "title": "Apple is racing to make Siri more agentic",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+   "summary": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the company has no illusions that it's […]",
+   "published": "2026-11-08T19:18:19+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "a0248964c8fef824",
+   "title": "SNL has a new impression of Elon Musk, ‘the worst thing South Africa has ever done’",
+   "url": "https://techcrunch.com/2026/11/08/snl-has-a-new-impression-of-elon-musk-the-worst-thing-south-africa-has-ever-done/",
+   "summary": "SNL seems to have its knives out for tech executives.",
+   "published": "2026-11-08T18:00:04+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "998829a4397c6027",
+   "title": "He arrested a hacker, then spent 18 months clearing his own name. Now he’s a cybersecurity VC.",
+   "url": "https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
+   "summary": "Stephen Ward, a former Secret Service agent and Home Depot CISO, is preparing a second fund of roughly $250 million for Brightmind Partners.",
+   "published": "2026-11-08T17:30:00+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "0d3e11b06e8682cc",
+   "title": "Elvis and Eminem rights holders are suing Suno",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+   "summary": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's […]",
+   "published": "2026-11-08T17:23:19+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "6cbed819063013a3",
+   "title": "TechCrunch Mobility: The Cybertruck experiment is over",
+   "url": "https://techcrunch.com/2026/11/08/techcrunch-mobility-the-cybertruck-experiment-is-over/",
+   "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+   "published": "2026-11-08T17:02:00+00:00",
+   "source": "techcrunch",
+   "source_name": "TechCrunch",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "f543a1c8e8f90781",
+   "title": "Apple’s M5 MacBook Air is down to its lowest price since July",
+   "url": "https://www.theverge.com/gadgets/1029019/apple-macbook-air-13-15-inch-m5-deal-sale",
+   "summary": "The latest 13-inch MacBook Air is currently available for $1,099.99, marking the second time we’ve seen this $200 discount following the company’s hefty price increases over the summer. Although the base model — which features Apple’s M5 processor, 16GB of RAM, and 512GB of storage — often sold for around $950 to $1,000 shortly after […]",
+   "published": "2026-11-08T16:00:00+00:00",
+   "source": "theverge",
+   "source_name": "The Verge",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "bc2f08da3efa951a",
+   "title": "नेपाली युवाले जीवन बीमामा सुरक्षा मात्र होइन, समग्र वित्तीय मूल्य खोज्न थालेका छन्ः अध्ययन",
+   "url": "https://insurancekhabar.com/nepali-youths-are-looking-for-not-only-protection-but-also-overall-financial-value-in-life-insurance-study/",
+   "summary": "काठमाडौं । नेपालमा परम्परागत रूपमा जीवन बीमालाई केवल मृत्यु-जोखिम हस्तान्तरण गर्ने साधनका रूपमा हेरिने गरिएकामा पछिल्लो समय युवा पुस्ताको दृष्टिकोणमा व्यापक परिवर्तन आएको एक अध्ययनले देखाएको छ। आधुनिक बजारमा जीवन बीमा योजनामा दीर्घकालीन बचत, परिपक्वता बोनश र कर छुटजस्ता सुविधाहरू समावेश भएसँगै १८ देखि ४० वर्ष उमेर समूहका नेपाली युवाहरूले यसलाई समग्र ‘वित्तीय मूल्य’ को […]",
+   "published": "2026-11-08T15:43:22+00:00",
+   "source": "insurancekhabar",
+   "source_name": "Insurance Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "ae18d2f5fe1f1a4e",
+   "title": "तिहारको झिलिमिलीमा रेमिट्यान्सको उज्यालो : परदेशीको पसिना, घरदेशको खुसी",
+   "url": "https://merolagani.com/NewsDetail.aspx?newsID=132416",
+   "summary": "",
+   "published": null,
+   "source": "merolagani",
+   "source_name": "Merolagani",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "fb6bebe00937d210",
+   "title": "आज गाई पूजा : किन गरिन्छ गाईको पूजा ? यस्तो छ कारण",
+   "url": "https://merolagani.com/NewsDetail.aspx?newsID=132326",
+   "summary": "",
+   "published": null,
+   "source": "merolagani",
+   "source_name": "Merolagani",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "ad1551b2a8801f90",
+   "title": "यस्तो छ आजकाे विदेशी मुद्रा विनिमयदर",
+   "url": "https://www.onlinekhabar.com/2026/11/2054209/this-is-the-foreign-currency-exchange-rate-for-today-33",
+   "summary": "",
+   "published": null,
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "5c3ffd7502323745",
+   "title": "लक्ष्मीपूजाको साँझ १८ सय १३ मेगावाट विद्युत् खपत, ५८७ मेगावाट भारत र बंगलादेश निर्यात २०८३ कात्तिक २२ गते १९:२२ अगाडि",
+   "url": "https://www.onlinekhabar.com/2026/11/2054114/1813-mw-of-electricity-consumed-on-the-evening-of-lakshmi-puja-587-mw-exported-to-india-and-bangladesh",
+   "summary": "",
+   "published": null,
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "50f080366f836473",
+   "title": "रसुवा बाढी प्रभावित वित्तीय क्षेत्र पुनर्स्थापना गर्न ६५ अर्ब लाग्ने २०८३ कात्तिक २२ गते १८:५३ अगाडि",
+   "url": "https://www.onlinekhabar.com/2026/11/2054063/it-will-cost-rs-65-billion-to-restore-the-financial-sector-affected-by-the-rasuwa-flood",
+   "summary": "",
+   "published": null,
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "cb9817d1847a5bc4",
+   "title": "नेपालमा नगद कारोबार सीमा : कहिले र किन ? २०८३ कात्तिक २२ गते १६:४१ अगाडि",
+   "url": "https://www.onlinekhabar.com/2026/11/2053933/cash-transaction-limit-in-nepal-when-and-why",
+   "summary": "",
+   "published": null,
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "e37af0e6f00f0048",
+   "title": "मंसिर मसान्तभित्र ८ कम्पनीका सेयरमा लकइन अवधि सकिने २०८३ कात्तिक २२ गते १४:५६ अगाडि",
+   "url": "https://www.onlinekhabar.com/2026/11/2053946/lock-in-period-for-shares-of-8-companies-to-end-by-mid-mansir",
+   "summary": "",
+   "published": null,
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "f413a8b27bc38927",
+   "title": "तिहारपछि सेयर किन्दा लाभांश पाइने यी हुन् १७ कम्पनी २०८३ कात्तिक २२ गते १४:११ अगाडि",
+   "url": "https://www.onlinekhabar.com/2026/11/2053914/these-are-the-17-companies-that-will-give-you-dividends-if-you-buy-shares-after-tihar",
+   "summary": "",
+   "published": null,
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": true,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "33577e01c48a0133",
+   "title": "विदेशी मुद्राको विनिमयदर स्थिर २०८३ कात्तिक २२ गते ५:०० अगाडि",
+   "url": "https://www.onlinekhabar.com/2026/11/2053646/foreign-exchange-rate-stable-2",
+   "summary": "",
+   "published": null,
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "a05cec0d86a7aa99",
+   "title": "चितवनमा उत्पादित सयपत्री र मखमली फूलको माला बेलायत, हङकङ र दुबई निर्यात २०८३ कात्तिक २१ गते २०:३२ अगाडि",
+   "url": "https://www.onlinekhabar.com/2026/11/2053619/garlands-of-centaury-and-velvet-flowers-produced-in-chitwan-exported-to-britain-hong-kong-and-dubai",
+   "summary": "",
+   "published": null,
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "c3853f67d6fd684b",
+   "title": "डलरसहित विदेशी मुद्राको भाउ आज पनि घट्यो २०८३ कात्तिक २१ गते ५:०० अगाडि",
+   "url": "https://www.onlinekhabar.com/2026/11/2053074/foreign-currency-prices-including-the-dollar-fell-again-today",
+   "summary": "",
+   "published": null,
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "08d88335f9026422",
+   "title": "‘बैंकको मुद्दतीभन्दा जीवन बीमाको प्रतिफल बढी छ’ २०८३ कात्तिक २० गते २१:२९ अगाडि",
+   "url": "https://www.onlinekhabar.com/2026/11/2052805/life-insurance-yields-higher-returns-than-bank-term-deposits",
+   "summary": "",
+   "published": null,
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "f6179e430cb16477",
+   "title": "रसुवा बाढी : अर्थतन्त्रमा पौने ५ खर्ब क्षति, पुनरुत्थानमा ७ खर्ब आवश्यक २०८३ कात्तिक २० गते २१:२८ अगाडि",
+   "url": "https://www.onlinekhabar.com/2026/11/2053002/rasuwa-flood-500-million-rupees-damage-to-economy-700-million-rupees-needed-for-reconstruction",
+   "summary": "",
+   "published": null,
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "20e1c3c30dc5539d",
+   "title": "तिहार बिदामा भन्सार नाकास्थित बैंक शाखा खुल्ने २०८३ कात्तिक २० गते १८:५० अगाडि",
+   "url": "https://www.onlinekhabar.com/2026/11/2052966/bank-branches-at-customs-checkpoints-to-open-during-tihar-holidays",
+   "summary": "",
+   "published": null,
+   "source": "onlinekhabar",
+   "source_name": "Online Khabar",
+   "category": "market",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "98dcc410b7d2802d",
+   "title": "ketchup3d.github.io",
+   "url": "https://news.ycombinator.com/from?site=ketchup3d.github.io",
+   "summary": "",
+   "published": null,
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "a32f0e0b03a8438f",
+   "title": "chimera-vocal-synth.vercel.app",
+   "url": "https://news.ycombinator.com/from?site=chimera-vocal-synth.vercel.app",
+   "summary": "",
+   "published": null,
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "a7620e6e0809f33a",
+   "title": "declarative-dragging.github.io",
+   "url": "https://news.ycombinator.com/from?site=declarative-dragging.github.io",
+   "summary": "",
+   "published": null,
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "9418e9fdb213d4c5",
+   "title": "Ask HN: What are you working on? (November 2026)",
+   "url": "https://news.ycombinator.com/item?id=50417407",
+   "summary": "",
+   "published": null,
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
+   "id": "5f81e6fd26800a73",
+   "title": "tensor-compiler.org",
+   "url": "https://news.ycombinator.com/from?site=tensor-compiler.org",
+   "summary": "",
+   "published": null,
+   "source": "hackernews",
+   "source_name": "Hacker News",
+   "category": "technology",
+   "is_document": false,
+   "priority": false,
+   "first_seen": "2026-11-09",
+   "is_new": true
+  },
+  {
    "id": "37d330c1bfe90d48",
    "title": "फूल उत्पादन गर्ने किसानका दुःख",
    "url": "https://www.ratopati.com/story/604132/the-suffering-of-flower-farmers",
@@ -971,7 +1615,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2b53a880e551bb53",
@@ -985,7 +1629,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2136638d0bfbdfb2",
@@ -999,7 +1643,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b2ca94dd17a54b7f",
@@ -1013,7 +1657,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "226dd49b7cc45a18",
@@ -1027,7 +1671,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "01a81384cad8ed78",
@@ -1041,7 +1685,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7f98fab9c86831f8",
@@ -1055,7 +1699,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9bf907fe1a5aa804",
@@ -1069,7 +1713,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7ed384536ba9e516",
@@ -1083,7 +1727,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "26a06e31f926ecee",
@@ -1097,7 +1741,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c5d766db021061d2",
@@ -1111,7 +1755,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "72d20ff6c8dbe46b",
@@ -1125,7 +1769,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5a9528f554a2ff18",
@@ -1139,7 +1783,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "65015ca4f74129ec",
@@ -1153,7 +1797,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9fd7ceac5a6755f8",
@@ -1167,7 +1811,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "13e818adefd58812",
@@ -1181,7 +1825,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2116d3b5f3f5f25d",
@@ -1195,7 +1839,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3f4cd46264c7a13e",
@@ -1209,7 +1853,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8fb2cda5e3da7108",
@@ -1223,7 +1867,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bd832cc93592af55",
@@ -1237,7 +1881,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ee46aca14b18b3ad",
@@ -1251,7 +1895,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a93c6b90f0540e98",
@@ -1265,7 +1909,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6a1438c06dcf9940",
@@ -1279,7 +1923,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e38296b5d9d2c2d1",
@@ -1293,7 +1937,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b3805985d8d8bf39",
@@ -1307,7 +1951,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c5843cd7810f83a9",
@@ -1321,7 +1965,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b49477de3beed3ef",
@@ -1335,7 +1979,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a21c0c5345626900",
@@ -1349,7 +1993,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "762f1c2839d03137",
@@ -1363,7 +2007,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bacf372b2b6d237c",
@@ -1377,7 +2021,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "131e035ad598e157",
@@ -1391,7 +2035,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5f2bddca6f3b0a1d",
@@ -1405,7 +2049,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "11c77cc66fa0c717",
@@ -1419,7 +2063,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9a05d70c50e2f25a",
@@ -1433,7 +2077,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ca806c1597e45ee4",
@@ -1447,7 +2091,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b6d5e17a5e4a22f8",
@@ -1461,7 +2105,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f1c5b745be25dfb2",
@@ -1475,7 +2119,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "87db83dd0afcf24d",
@@ -1489,7 +2133,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4a15176764f8b4c9",
@@ -1503,7 +2147,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6fba5735c5eea9c2",
@@ -1517,7 +2161,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dd033970c895e367",
@@ -1531,7 +2175,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "14a5b68d85d91e9b",
@@ -1545,7 +2189,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "25000380609a9c8f",
@@ -1559,7 +2203,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1f9af40e4f6fa334",
@@ -1573,7 +2217,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7c5a97ca0f222bc8",
@@ -1587,7 +2231,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ea386acfbc9c1061",
@@ -1601,7 +2245,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bf8da45c24eceff4",
@@ -1615,7 +2259,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5145a4d759cee4be",
@@ -1629,7 +2273,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5931972a4685ff0b",
@@ -1643,7 +2287,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a44f606d150014e9",
@@ -1657,7 +2301,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "dcbedd8b307afa47",
@@ -1671,7 +2315,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "264db961425c0e6e",
@@ -1685,7 +2329,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d5d248e9f49149ca",
@@ -1699,7 +2343,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "057f3ab4d67131d2",
@@ -1713,7 +2357,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "17f8ae1f5d9b3358",
@@ -1727,7 +2371,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "10f49337997b72a8",
@@ -1741,7 +2385,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7d5d9c2e22a778b3",
@@ -1755,7 +2399,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7c504a780141bf35",
@@ -1769,7 +2413,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4e27fd7661d8c4cb",
@@ -1783,7 +2427,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "851fab10a7227108",
@@ -1797,7 +2441,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "88085a8747343a85",
@@ -1811,7 +2455,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8500326cbee683d0",
@@ -1825,7 +2469,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "94984ae30571dd70",
@@ -1839,7 +2483,7 @@
    "is_document": false,
    "priority": true,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6971b000ddff5bfc",
@@ -1853,7 +2497,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d360d19146aa4cd2",
@@ -1867,7 +2511,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f426f0c82fc8e2fa",
@@ -1881,7 +2525,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "4c9d61f94a14f1bb",
@@ -1895,7 +2539,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "112152b4f407d92b",
@@ -1909,7 +2553,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7ed363eceba77f3e",
@@ -1923,7 +2567,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c232d0295fccf451",
@@ -1937,7 +2581,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e7dd6f16acfd1314",
@@ -1951,7 +2595,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "898b4fe78ca437cf",
@@ -1965,7 +2609,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "299a4433b712a4fc",
@@ -1979,7 +2623,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "589590bd158e71d6",
@@ -1993,7 +2637,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "507cf59b20bd598a",
@@ -2007,7 +2651,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "01bde2dc17dc9adc",
@@ -2021,7 +2665,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "58dfcf4e0d934d58",
@@ -2035,7 +2679,7 @@
    "is_document": false,
    "priority": false,
    "first_seen": "2026-11-08",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e191e7a71d613aa7",
